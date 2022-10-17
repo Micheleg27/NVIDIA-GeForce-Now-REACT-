@@ -1,0 +1,25 @@
+@import 'fonts';
+@import 'colors';
+
+@mixin flex($display: flex, $just, $align) {
+    display: $display;
+    justify-content: $just;
+    align-items: $align;
+}
+
+@mixin button-verde {
+    background-color: $primary-color;
+    color: white;
+    font-family: "DINpro light";
+    text-align: center; 
+}
+
+@mixin button-nero {
+    background-color: black;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    font-family: "DINpro light";
+    text-align: center;
+}
+
+
