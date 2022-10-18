@@ -3,6 +3,7 @@ import Alert from '../Components/Alert';
 import Fortnite from '../Components/Fortnite';
 import Joystick from '../Components/Joystick';
 import Lingua from '../Components/Lingua';
+import Log from '../Components/LogAbb';
 
 
 export function Home() {
@@ -12,6 +13,7 @@ export function Home() {
 			{/* <Alert /> */}
 			<Fortnite />
 			<Joystick />
+			{/* <Log /> */}
 		</React.Fragment>
 	);
 }
