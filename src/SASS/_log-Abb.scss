@@ -31,16 +31,18 @@
 				border: 1px solid #333333;
 				box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px -3px;
 				padding: 0 15px;
-				color: white;
-				// #output {
-				// 	display: flex;
-				// 	align-items: center;
-				// 	font-size: 14px;
-				// }
+				input {
+					background-color: #2b2b2b;
+					border: none;
+					outline: none;
+					color: white;
+				}
+				::placeholder{
+					color: white;
+				}
 				.btn {
 					color: $primary-color;
 					border: none;
-					margin-top: 5px;
 				}
 			}
 

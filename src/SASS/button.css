@@ -1,0 +1,56 @@
+:root {
+	--primary-color: #76b900;
+	--primary-hover: #6aa700;
+	--secondary-hover: #76d900;
+	--black-color: black;
+	--grey-color: #1a1a1a;
+}
+
+.BTN {
+	font-family: "DINpro light";
+	text-align: center;
+	cursor: pointer;
+	height: 44px;
+}
+
+/* button style  */
+
+.BTN--primary--green {
+	background-color: var(--primary-color);
+	color: white;
+	border: none;
+}
+
+.BTN--secondary--outline {
+	background-color: var(--grey-color);
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	font-family: "DINpro light";
+	text-align: center;
+}
+
+.BTN--primary--green:hover {
+	background-color: var(--secondary-hover);
+}
+
+/* .BTN--secondary--outline:hover {
+
+} */
+
+
+/* button size  */
+
+.BTN--small {
+	width: 65px;
+	height: 44px;
+}
+
+.BTN--medium {
+	width: 97px;
+	height: 44px;
+}
+
+.BTN--large {
+	width: 230px;
+	height: 44px;
+}

@@ -1,11 +1,13 @@
 import React from 'react';
+import { Button } from './Button';
+import '../SASS/button.css';
 
 function Joystick() {
 	return (
 		<React.Fragment>
 			<div className="container">
-                <hr className="mb-4 text-light" />
-                </div>
+				<hr className="mb-4 text-light" />
+			</div>
 			<section id="MG-sec-porta-esperienza">
 				<div id="MG-container-esperienza">
 					{/* <img src="./Source/M.G.Src/banner-joystick.jpeg" alt="banner-joystick" id="MG-bg-joystick-img"> */}
@@ -15,11 +17,11 @@ function Joystick() {
 							Abbiamo collaborato con i migliori produttori per offrirti una raccolta di gamepad,
 							tastiere, mouse e router perfetti per completare la tua esperienza con GeForce NOW.
 						</p>
-						<div id="MG-div-btn">
-							<a href="https://www.nvidia.com/it-it/geforce-now/recommended/" id="MG-link-div-btn">
-								<p id="MG-p-inner-btn">Raccomandati da GeForce Now</p>
+						<Button type="button" buttonSize="BTN--large" buttonStyle="BTN--primary--green">
+							<a href="https://www.nvidia.com/it-it/geforce-now/games/" target="_blank">
+								Raccomandati da GeForce Now
 							</a>
-						</div>
+						</Button>
 					</div>
 				</div>
 			</section>

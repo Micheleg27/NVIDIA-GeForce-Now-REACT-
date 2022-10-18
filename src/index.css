@@ -62,38 +62,6 @@
   font-family: "DINpro regular";
   src: url(./fonts/DINPro-Regular.ttf);
 }
-@font-face {
-  font-family: "Geforce bold";
-  src: url(./fonts/Geforce\ Bold.ttf);
-}
-@font-face {
-  font-family: "Geforce light";
-  src: url(./fonts/Geforce\ Light.ttf);
-}
-@font-face {
-  font-family: "Trebuchet bold italic";
-  src: url(./fonts/Trebuchet\ Bold\ Italic.ttf);
-}
-@font-face {
-  font-family: "Trebuchet bold";
-  src: url(./fonts/Trebuchet\ Bold.ttf);
-}
-@font-face {
-  font-family: "Trebuchet italic";
-  src: url(./fonts/Trebuchet\ Italic.ttf);
-}
-@font-face {
-  font-family: "Trebuchet";
-  src: url(./fonts/Trebuchet.ttf);
-}
-@font-face {
-  font-family: "DINpro light";
-  src: url(./fonts/DINPro-Light.ttf);
-}
-@font-face {
-  font-family: "DINpro regular";
-  src: url(./fonts/DINPro-Regular.ttf);
-}
 .rpFortniteSection {
   background-image: url("./Source/assetsFortnite/FortniteBackground.jpg");
   background-size: cover;
@@ -125,27 +93,6 @@
   font-size: 16px;
   font-family: "DINpro light";
 }
-.rpFortniteSection .rpContentContainer .rpContentButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #76B900;
-  color: white;
-  font-family: "DINpro light";
-  text-align: center;
-  border: 1px solid #76b900;
-  width: 160px;
-}
-.rpFortniteSection .rpContentContainer .rpContentButton a {
-  font-size: 22px;
-  color: white;
-  font-family: "DINpro regular";
-  text-decoration: none;
-  font-weight: bold;
-}
-.rpFortniteSection .rpContentContainer .rpContentButton:hover {
-  background-color: #76D900;
-}
 
 @media screen and (min-width: 0px) and (max-width: 999.99px) {
   .rpFortniteSection {
@@ -161,8 +108,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -183,28 +128,6 @@
     font-size: 12px;
     font-family: "DINpro light";
     text-align: center;
-  }
-  .rpFortniteSection .rpContentContainer .rpContentButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #76B900;
-    color: white;
-    font-family: "DINpro light";
-    text-align: center;
-    border: 1px solid #76b900;
-    width: 160px;
-  }
-  .rpFortniteSection .rpContentContainer .rpContentButton a {
-    font-size: 15px;
-    color: white;
-    font-family: "DINpro regular";
-    text-decoration: none;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .rpFortniteSection .rpContentContainer .rpContentButton:hover {
-    background-color: #76D900;
   }
 }
 @media screen and (min-width: 999.99px) and (max-width: 1300.99px) {
@@ -237,38 +160,6 @@
     background-repeat: no-repeat;
     height: 600px;
   }
-}
-@font-face {
-  font-family: "Geforce bold";
-  src: url(./fonts/Geforce\ Bold.ttf);
-}
-@font-face {
-  font-family: "Geforce light";
-  src: url(./fonts/Geforce\ Light.ttf);
-}
-@font-face {
-  font-family: "Trebuchet bold italic";
-  src: url(./fonts/Trebuchet\ Bold\ Italic.ttf);
-}
-@font-face {
-  font-family: "Trebuchet bold";
-  src: url(./fonts/Trebuchet\ Bold.ttf);
-}
-@font-face {
-  font-family: "Trebuchet italic";
-  src: url(./fonts/Trebuchet\ Italic.ttf);
-}
-@font-face {
-  font-family: "Trebuchet";
-  src: url(./fonts/Trebuchet.ttf);
-}
-@font-face {
-  font-family: "DINpro light";
-  src: url(./fonts/DINPro-Light.ttf);
-}
-@font-face {
-  font-family: "DINpro regular";
-  src: url(./fonts/DINPro-Regular.ttf);
 }
 .alert-warning {
   box-shadow: 0 0 4px #888;
@@ -340,27 +231,6 @@
     margin: 30px;
     padding: 20px;
   }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn {
-    height: 38px;
-    width: 238px;
-    background-color: #76B900;
-    color: white;
-    font-family: "DINpro light";
-    text-align: center;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn:hover {
-    background-color: #6AA700;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn #MG-link-div-btn {
-    text-decoration: none;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn #MG-link-div-btn #MG-p-inner-btn {
-    color: white;
-    font-family: "Geforce light";
-    font-size: 18px;
-    text-align: center;
-    line-height: 38px;
-  }
   #MG-sec-porta-esperienza #MG-container-esperienza #MG-h1-porta-esperienza {
     font-size: 44px;
     color: white;
@@ -399,27 +269,6 @@
     width: 45%;
     height: 75%;
     margin: 10px;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn {
-    height: 38px;
-    width: 238px;
-    background-color: #76B900;
-    color: white;
-    font-family: "DINpro light";
-    text-align: center;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn:hover {
-    background-color: #6AA700;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn #MG-link-div-btn {
-    text-decoration: none;
-  }
-  #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par #MG-div-btn #MG-link-div-btn #MG-p-inner-btn {
-    color: white;
-    font-family: "Geforce light";
-    font-size: 18px;
-    text-align: center;
-    line-height: 38px;
   }
   #MG-sec-porta-esperienza #MG-container-esperienza #MG-h1-porta-esperienza {
     font-size: 44px;
@@ -552,12 +401,19 @@
   border: 1px solid #333333;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px -3px;
   padding: 0 15px;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage input {
+  background-color: #2b2b2b;
+  border: none;
+  outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage .btn {
   color: #76B900;
   border: none;
-  margin-top: 5px;
 }
 .ad-container-one .ad-container .ad-wf-content .btn:hover {
   border: none;
@@ -635,4 +491,11 @@ body {
   font-family: "Geforce light";
   list-style-type: none;
   text-decoration: none;
-}/*# sourceMappingURL=index.css.map */
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+/*# sourceMappingURL=index.css.map */

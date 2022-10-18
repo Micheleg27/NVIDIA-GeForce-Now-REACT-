@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Log() {
 	const [ username, setUsername ] = useState('');
@@ -6,6 +6,11 @@ function Log() {
 	const handleStorage = () => {
 		localStorage.setItem('Username', username);
 	};
+
+	useEffect(() => {
+		setUsername(localStorage.getItem('Username'));
+		console.log(localStorage);
+	}, []);
 
 	return (
 		<div style={{ backgroundColor: '#1a1a1a' }}>
@@ -25,21 +30,16 @@ function Log() {
 						<p className="text-light text-center fs-6">Scegli un account per continuare</p>
 					</div>
 					<div className="ad-wf-content">
-						{/* <div class="ad-storage">
-							<div id="output" />
-							<button class="btn">continua</button>
-						</div> */}
 						<div className="ad-storage">
-							<input  placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
+							<input
+								placeholder="Username"
+								value={username}
+								onChange={(e) => setUsername(e.target.value)}
+							/>
 							<button className="btn" onClick={handleStorage}>
-								Done
+								Invia
 							</button>
 						</div>
-						{localStorage.getItem('Name') && (
-							<div>
-								<p className='text-light'>{localStorage.getItem('Username')}</p>
-							</div>
-						)}
 						<div className="ad-link">
 							<a className="text-light" href="#" target="_blank">
 								Gestisci account
