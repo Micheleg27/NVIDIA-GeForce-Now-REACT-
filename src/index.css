@@ -528,6 +528,9 @@
 }
 .navbar-dark .container-fluid .navbar-toggler {
   border: none;
+}
+
+.rpArticleNuovaGen {
   display: flex;
   flex-direction: column;
   align-items: center;

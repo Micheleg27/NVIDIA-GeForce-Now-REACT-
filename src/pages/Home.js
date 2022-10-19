@@ -16,15 +16,15 @@ import { GreenBanner } from '../Components/greenBannerNav';
 export function Home() {
 	return (
 		<React.Fragment>
-			<NavNera />
 			<GreenBanner />
+			<NavNera />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
 			<NewGeneration />
 			<Fortnite />
 			<GetIn />
 			<Joystick />
-			<FollowSocial />
+			<FollowSocial /> 
 			<FooterBianco />
 		</React.Fragment>
 	);
