@@ -21,8 +21,8 @@ export function Home() {
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
 			<NewGeneration />
-			<GetIn />
 			<Fortnite />
+			<GetIn />
 			<Joystick />
 			<FollowSocial />
 			<FooterBianco />
