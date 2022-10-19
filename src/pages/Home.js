@@ -8,17 +8,21 @@ import { NewGeneration } from '../Components/NewGeneration';
 import { GetIn } from '../Components/GetIn';
 import  SystemRequired  from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
+import { FollowSocial } from '../Components/FollowSocial';
+import { GreenBanner } from '../Components/greenBannerNav';
 
 
 export function Home() {
 	return (
 		<React.Fragment>
+			<GreenBanner />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
 			<NewGeneration />
 			<GetIn />
 			<Fortnite />
 			<Joystick />
+			<FollowSocial />
 			{/* <Log /> */}
 			<FooterBianco />
 		</React.Fragment>

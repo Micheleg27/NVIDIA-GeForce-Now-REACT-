@@ -607,6 +607,7 @@
   color: white;
   font-size: 40px;
   font-family: "Geforce bold";
+  margin-top: 50px;
   padding-bottom: 20px;
 }
 .rpArticleGetIn .rpDescriptionGetIn {
@@ -1012,6 +1013,48 @@
     justify-content: center !important;
   }
 }
+.mg-follow-social {
+  width: 100%;
+  height: 130px;
+  background-color: #302d2d;
+  display: flex;
+  flex-direction: column;
+}
+
+.mg-h1-social {
+  font-size: 32px;
+  color: white;
+  font-family: "Geforce bold";
+  margin: 10px auto;
+}
+
+.mg-container-socialIcons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: 200px;
+}
+
+.mg-social-icons {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.sv-alert-warning {
+  background-color: #76b900 !important;
+  border: none;
+  border-radius: 0 !important;
+  color: black !important;
+  display: flex;
+  justify-content: center;
+}
+.sv-alert-warning #sv-banner {
+  color: black;
+  text-decoration: underline;
+}
+
 * {
   padding: 0;
   margin: 0;
