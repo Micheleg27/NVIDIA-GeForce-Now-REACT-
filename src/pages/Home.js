@@ -6,17 +6,21 @@ import Lingua from '../Components/Lingua';
 import Log from '../Components/LogAbb';
 import { NewGeneration } from '../Components/NewGeneration';
 import { GetIn } from '../Components/GetIn';
+import { FollowSocial } from '../Components/FollowSocial';
+import { GreenBanner } from '../Components/greenBannerNav';
 
 
 export function Home() {
 	return (
 		<React.Fragment>
+			<GreenBanner />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
 			<NewGeneration />
 			<GetIn />
 			<Fortnite />
 			<Joystick />
+			<FollowSocial />
 			{/* <Log /> */}
 		</React.Fragment>
 	);

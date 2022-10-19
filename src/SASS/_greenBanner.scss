@@ -1,0 +1,13 @@
+.sv-alert-warning {
+	background-color: #76b900 !important;
+	border: none;
+	border-radius: 0 !important;
+	color: black !important;
+	display: flex;
+	justify-content: center;
+
+	#sv-banner {
+		color: black;
+		text-decoration: underline;
+	}
+}
