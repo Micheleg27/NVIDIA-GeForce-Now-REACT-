@@ -1,0 +1,21 @@
+@import "./colors";
+
+.ad-flex {
+	display: flex !important;
+	align-items: center;
+}
+
+#a-due {
+	color: $primary-color;
+	text-decoration: none;
+}
+
+img {
+	margin-right: 15px;
+}
+
+@media all and (max-width: 1570px) {
+	.ad-position {
+		margin-left: 85px;
+	}
+}

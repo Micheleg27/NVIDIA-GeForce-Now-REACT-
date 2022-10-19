@@ -6,6 +6,8 @@ import Lingua from '../Components/Lingua';
 import Log from '../Components/LogAbb';
 import { NewGeneration } from '../Components/NewGeneration';
 import { GetIn } from '../Components/GetIn';
+import  SystemRequired  from '../Components/SystemRequired';
+import FooterBianco from '../Components/FooterBianco';
 
 
 export function Home() {
@@ -18,6 +20,7 @@ export function Home() {
 			<Fortnite />
 			<Joystick />
 			{/* <Log /> */}
+			<FooterBianco />
 		</React.Fragment>
 	);
 }
