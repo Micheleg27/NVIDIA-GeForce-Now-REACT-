@@ -22,7 +22,7 @@
 }
 
 .BTN--secondary--outline {
-	background-color: var(--grey-color);
+	background-color: var(--black-color);
 	color: var(--primary-color);
 	border: 1px solid var(--primary-color);
 	font-family: "DINpro light";
@@ -42,15 +42,14 @@
 
 .BTN--small {
 	width: 65px;
-	height: 44px;
+	/* font-size: 14px; */
 }
 
 .BTN--medium {
 	width: 97px;
-	height: 44px;
+	font-size: 14px;
 }
 
 .BTN--large {
 	width: 230px;
-	height: 44px;
 }

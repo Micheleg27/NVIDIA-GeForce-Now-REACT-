@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './Button';
 import '../SASS/button.css';
+import bannerJoystick from '../Source/M.G.Src/bannerJoystick.jpeg';
 
 function Joystick() {
 	return (
@@ -10,7 +11,7 @@ function Joystick() {
 			</div>
 			<section id="MG-sec-porta-esperienza">
 				<div id="MG-container-esperienza">
-					{/* <img src="./Source/M.G.Src/banner-joystick.jpeg" alt="banner-joystick" id="MG-bg-joystick-img"> */}
+					<img src={bannerJoystick} alt="banner-joystick" id="MG-bg-joystick-img" />
 					<div id="MG-esperienza-par">
 						<h1 id="MG-h1-porta-esperienza">PORTA LA TUA ESPERIENZA DI CLOUD GAMING SU UN ALTRO LIVELLO</h1>
 						<p id="MG-p-porta-esperienza">

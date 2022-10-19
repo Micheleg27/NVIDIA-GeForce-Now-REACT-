@@ -1,13 +1,17 @@
-import List from './list';
+import { Button } from './Button';
+import '../SASS/button.css';
 
 function Lingua() {
 	return (
 		<div className="container-country-region">
 			<div className="header-container-lingua">
 				<p>Are you looking for your local GeForce Now page ?</p>
-				<button className="button-region" onclick="showWindows(windowLinguage)">
+				{/* <button className="button-region" onclick="showWindows(windowLinguage)">
 					ITALIA
-				</button>
+				</button> */}
+				<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green">
+                ITALIA
+                </Button>
 			</div>
 
 			<hr className="mb-4 text-light" />

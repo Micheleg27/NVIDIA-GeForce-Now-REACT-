@@ -1,16 +1,15 @@
-// @import "~bootstrap/scss/bootstrap";
-
 .alert-warning {
 	box-shadow: 0 0 4px #888;
 	position: fixed;
-	left: 900px;
-	bottom: 300px;
+	margin: auto;
+	// left: 800px;
+	// bottom: 300px;
 	z-index: 2147483647;
 	width: 400px;
 	height: 170px;
 	background-color: white !important;
 	border: none;
-	border-radius: 0;
+	border-radius: 0 !important;
 
 	.ad-alert-content {
 		gap: 15px;
