@@ -25,6 +25,7 @@ export function Home() {
 			<GetIn />
 			<Joystick />
 			<FollowSocial /> 
+			<SystemRequired />
 			<FooterBianco />
 		</React.Fragment>
 	);

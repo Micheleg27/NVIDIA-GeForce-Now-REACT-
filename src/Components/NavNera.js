@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, Link} from 'react-router-dom';
 import { Home } from '../pages/Home';
 import { Button } from './Button';
 import '../SASS/button.css';
@@ -8,11 +8,12 @@ export function NavNera() {
 	return (
 		<div>
 			<Routes>
-				<Route path="/Home" element={<Home />} />
+				<Route path='/'  />
+				<Route path='*' element={<h1>ERORR !</h1>} />
 			</Routes>
 			<nav className="navbar navbar-dark navbar-expand-lg">
 				<div className="container-fluid">
-					<Link className="navbar-brand" to="/Home">
+					<Link className="navbar-brand" to='/'>
 						GeForce NOW
 					</Link>
 					<div
