@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Home } from './pages/Home';
+import Home  from './pages/Home';
 // import $ from 'jquery'
 // import Popper from 'popper.js'
 import 'bootstrap/dist/js/bootstrap.bundle.min'

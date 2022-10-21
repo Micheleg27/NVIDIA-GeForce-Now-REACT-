@@ -4,6 +4,7 @@
 
 footer {
 	width: 78%;
+	margin: auto;
 	font-family: "DINpro regular";
 
 	#hr {
@@ -12,11 +13,7 @@ footer {
 
 	a {
 		text-decoration: none;
-		color: $primary-color;
-	}
-
-	a:hover {
-		color: $primary-color;
+		color: $primary-color !important;
 	}
 
 	.ad-subscribe {

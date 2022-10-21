@@ -12,16 +12,17 @@ import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
 import { GreenBanner } from '../Components/greenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
+import {Route, Routes} from 'react-router-dom';
 
 
-export function Home() {
+function Home() {
 	return (
 		<React.Fragment>
 			<GreenBanner />
 			<NavNera />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
-			{/* <NewGeneration /> */}
+			<NewGeneration />
 			<Fortnite />
 			<GetIn />
 			<Joystick />
@@ -32,3 +33,5 @@ export function Home() {
 		</React.Fragment>
 	);
 }
+
+export default Home;

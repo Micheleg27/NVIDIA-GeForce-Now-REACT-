@@ -108,6 +108,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -405,6 +407,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1101,6 +1109,7 @@
 
 footer {
   width: 78%;
+  margin: auto;
   font-family: "DINpro regular";
 }
 footer #hr {
@@ -1108,10 +1117,7 @@ footer #hr {
 }
 footer a {
   text-decoration: none;
-  color: #76B900;
-}
-footer a:hover {
-  color: #76B900;
+  color: #76B900 !important;
 }
 footer .ad-subscribe {
   display: flex;
@@ -1249,6 +1255,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

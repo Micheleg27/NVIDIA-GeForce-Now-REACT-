@@ -1,10 +1,16 @@
+const List = ({ Links, title }) => {
+	return (
+		<ul>
+			<h4 className="text-light">{title}</h4>
+			{Links.map((link) => (
+				<li className="list-group-item" key={link.id}>
+					<a href={link.link}>
+                        {link.id}
+                    </a>
+				</li>
+			))}
+		</ul>
+	);
+};
 
-
-const List = ({links, title}) => {
-    return (<ul>
-        <h3>{title}</h3>
-        {links.map((link) => (<li key={link.id}><a href={link.link} >link.id</a></li>))}
-    </ul>)
-}
-
-export default List
+export default List;
