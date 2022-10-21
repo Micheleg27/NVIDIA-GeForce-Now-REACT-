@@ -108,8 +108,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -407,12 +405,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1103,6 +1095,144 @@
   text-decoration: underline;
 }
 
+.ad-padding {
+  padding: 60px 0;
+}
+
+footer {
+  width: 78%;
+  font-family: "DINpro regular";
+}
+footer #hr {
+  max-width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #76B900;
+}
+footer a:hover {
+  color: #76B900;
+}
+footer .ad-subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+footer .ad-subscribe .ad-subscribe-content {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  margin-left: 220px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
+  width: 994px;
+  height: 375px;
+  padding: 60px 0;
+  background-color: #1a1a1a;
+  position: relative;
+  z-index: 9999;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content {
+  margin: 0 80px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  background-color: #666;
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content h2 {
+  font-size: 40px;
+  color: #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content p {
+  font-size: 16px;
+  color: white;
+  padding: 0 0 22px 0;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
+  width: 798px;
+  height: 82px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
+  width: 830px;
+  height: 52px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 15px;
+  background-color: #1a1a1a;
+  color: white;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content input:hover {
+  border: 2px solid #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
+  display: flex;
+  justify-content: space-between;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
+  padding: 10px 0;
+  color: #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
+  width: 75px;
+  height: 45px;
+  border: 1px solid #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
+  background-color: #6AA700;
+  cursor: pointer;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .overlay {
+  z-index: 9998;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+}
+footer .ad-subscribe button {
+  width: 129px;
+  height: 48px;
+  font-size: 18px;
+  background-color: #76B900;
+  border: 1px solid #76B900;
+  color: white;
+}
+footer .ad-subscribe .ad-registrati:hover {
+  cursor: pointer;
+  background-color: #76D900;
+}
+footer .ad-subscribe .ad-social {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  gap: 1rem;
+  width: 80px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -1119,4 +1249,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

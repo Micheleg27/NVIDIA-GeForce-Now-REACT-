@@ -1,4 +1,4 @@
-import { Button } from './Button';
+import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 
 function Fortnite() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, Link} from 'react-router-dom';
 import { Home } from '../pages/Home';
-import { Button } from './Button';
+import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 
 export function NavNera() {
@@ -18,7 +18,7 @@ export function NavNera() {
 					</Link>
 					<div
 						className="offcanvas offcanvas-end"
-						tabindex="-1"
+						tabIndex="-1"
 						id="offcanvasNavbar"
 						aria-labelledby="offcanvasNavbarLabel"
 					>

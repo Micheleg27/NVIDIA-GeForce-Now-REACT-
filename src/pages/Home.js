@@ -11,6 +11,7 @@ import  SystemRequired  from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
 import { GreenBanner } from '../Components/greenBannerNav';
+import { FooterNero } from '../Components/FooterNero';
 
 
 export function Home() {
@@ -20,12 +21,13 @@ export function Home() {
 			<NavNera />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
-			<NewGeneration />
+			{/* <NewGeneration /> */}
 			<Fortnite />
 			<GetIn />
 			<Joystick />
 			<FollowSocial /> 
 			<SystemRequired />
+			<FooterNero />
 			<FooterBianco />
 		</React.Fragment>
 	);

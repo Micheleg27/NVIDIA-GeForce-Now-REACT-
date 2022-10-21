@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from './Button';
+import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 import bannerJoystick from '../Source/M.G.Src/bannerJoystick.jpeg';
 
