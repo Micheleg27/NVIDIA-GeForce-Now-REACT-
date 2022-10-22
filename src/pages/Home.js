@@ -10,15 +10,18 @@ import { GetIn } from '../Components/GetIn';
 import  SystemRequired  from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
-import { GreenBanner } from '../Components/greenBannerNav';
+import { greenBannerNav } from '../Components/greenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
 import {Route, Routes} from 'react-router-dom';
+import { SoloGeforce } from '../Components/SoloGeforce';
+import { MicroCard } from '../Components/BasicComponents/MicroCard';
+
 
 
 function Home() {
 	return (
 		<React.Fragment>
-			<GreenBanner />
+			<greenBannerNav />
 			<NavNera />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
@@ -26,6 +29,7 @@ function Home() {
 			<Fortnite />
 			<GetIn />
 			<Joystick />
+			<SoloGeforce />
 			<FollowSocial /> 
 			<SystemRequired />
 			<FooterNero />

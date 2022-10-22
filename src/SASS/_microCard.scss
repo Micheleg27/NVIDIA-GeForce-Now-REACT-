@@ -1,0 +1,311 @@
+/* Media query MOBILE (due mq molto simili) */
+
+@media screen and (max-width: 639.99px) {
+
+
+    .mg-div-microcard{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+	#AD-h2-title {
+		text-align: center;
+		font-size: 24px;
+		font-family: "Geforce bold";
+		color: white;
+		margin-bottom: 25px;
+	}
+
+	#AD-container-sologeforce {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+
+		.AD-card-sologeforce {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			margin-bottom: 45px;
+
+			.AD-cart,
+			.AD-wifi,
+			.AD-joypad {
+				margin-left: auto;
+				margin-right: auto;
+				width: 80px;
+				height: 60px;
+			}
+
+			.AD-h3 {
+				justify-content: center;
+				color: $primary-color;
+				font-family: "Geforce bold";
+				font-size: 14px;
+			}
+
+			.AD-p-sologeforce {
+				text-align: center;
+				color: white;
+				width: 80vw;
+				height: auto;
+				font-size: 16px;
+				padding: 10px 0;
+				line-height: 24px;
+				font-family: "Geforce light";
+			}
+
+			.AD-button-sologeforce {
+				margin-right: auto;
+				margin-left: auto;
+				width: 138px;
+				height: 42px;
+				cursor: pointer;
+				background-color: $primary-color;
+				font-family: "Geforce bold";
+
+				&:hover {
+					background-color: $primary-hover;
+					cursor: pointer;
+				}
+
+				.AD-link-sologeforce {
+					position: relative;
+					top: 10px;
+					left: 10px;
+					color: white;
+					text-decoration: none;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023.99px) {
+
+    .mg-div-microcard{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+
+	#AD-section-sologeforce {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 20px;
+		padding: 50px;
+	}
+
+	#AD-h2-title {
+		text-align: center;
+		font-size: 32px;
+		font-family: "Geforce bold";
+		color: white;
+	}
+
+	#AD-container-sologeforce {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 85vw;
+
+		.AD-card-sologeforce {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			margin-bottom: 45px;
+
+			.AD-cart,
+			.AD-wifi,
+			.AD-joypad {
+				margin-left: auto;
+				margin-right: auto;
+				width: 80px;
+				height: 60px;
+			}
+
+			.AD-h3 {
+				justify-content: center;
+				color: $primary-color;
+				font-family: "Geforce bold";
+				font-size: 20px;
+			}
+
+			.AD-p-sologeforce {
+				text-align: center;
+				color: white;
+				width: 90vw;
+				height: auto;
+				font-size: 22px;
+				padding: 10px 0;
+				line-height: 24px;
+				font-family: "Geforce light";
+			}
+
+			#AD-p-three {
+				width: auto;
+				height: 110px;
+				color: white;
+				text-align: center;
+				font-family: "Geforce light";
+				padding: 20px 0;
+				font-size: 22px;
+				line-height: 25px;
+			}
+
+			.AD-button-sologeforce {
+				margin-right: auto;
+				margin-left: auto;
+				width: 138px;
+				height: 42px;
+				cursor: pointer;
+				background-color: $primary-color;
+				font-family: "Geforce bold";
+
+				.AD-link-sologeforce {
+					position: relative;
+					top: 10px;
+					left: 10px;
+					color: white;
+					text-decoration: none;
+					font-size: 18px;
+				}
+
+				.AD-link-sologeforce:hover {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+// Media query TABLET (visualizzazione card più centrata, diverse righe di testo nei P)
+
+@media screen and (min-width: 1024px) {
+
+    .mg-div-microcard{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: center;
+        gap: 140px;
+        width: 85vw;
+    }
+
+	#AD-section-sologeforce {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+		padding: 90px;
+        width: 95vw;
+	}
+
+	#AD-h2-title {
+		text-align: center;
+		font-size: 40px;
+		font-family: "Geforce bold";
+		color: white;
+	}
+
+	#AD-container-sologeforce {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		width: 90vw;
+		gap: 40px;
+		margin-top: 40px;
+		// width: 65vw;
+		justify-content: center;
+
+		.AD-card-sologeforce {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 30vw;
+
+			.AD-cart,
+			.AD-wifi,
+			.AD-joypad {
+				width: 60px;
+				height: 62px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.AD-h3 {
+				display: flex;
+				justify-content: center;
+				color: $primary-color;
+				font-family: "Geforce bold";
+				font-size: 30px;
+			}
+
+			.AD-p-sologeforce {
+				color: white;
+				font-size: 22px;
+				padding: 10px 0;
+				line-height: 24px;
+				text-align: center;
+				font-family: "Geforce light";
+			}
+
+			#AD-p-three {
+				width: auto;
+				// height: 150px;
+				color: white;
+				text-align: center;
+				font-family: "Geforce light";
+				// padding: 20px 0;
+				font-size: 22px;
+				line-height: 25px;
+			}
+
+		}
+	}
+}
+
+.AD-card-sologeforce{
+            display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 5px;
+			margin-bottom: 45px;
+}
+
+.AD-cart{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 60px;
+}
+
+.AD-h3 {
+    justify-content: center;
+    color: $white-color;
+    font-family: "Geforce bold";
+    font-size: 14px;
+}
+
+.AD-p-sologeforce{
+    text-align: center;
+    color: white;
+    width: 16rem;
+    height: auto;
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 24px;
+    font-family: "Geforce light";
+}
