@@ -3,7 +3,6 @@ import Alert from '../Components/Alert';
 import Fortnite from '../Components/Fortnite';
 import Joystick from '../Components/Joystick';
 import Lingua from '../Components/Lingua';
-import Log from '../Components/LogAbb';
 import {NavNera} from '../Components/NavNera';
 import { NewGeneration } from '../Components/NewGeneration';
 import { GetIn } from '../Components/GetIn';
@@ -12,24 +11,27 @@ import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
 import { greenBannerNav } from '../Components/greenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
-import {Route, Routes} from 'react-router-dom';
 import { SoloGeforce } from '../Components/SoloGeforce';
 import { MicroCard } from '../Components/BasicComponents/MicroCard';
+import Citazioni from '../Components/Citazioni';
+import CaroselloHome from '../Components/CaroselloHome';
 
 
 
 function Home() {
 	return (
 		<React.Fragment>
-			<greenBannerNav />
-			<NavNera />
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
+			<greenBannerNav />
+			<NavNera />
+			<CaroselloHome />
 			<NewGeneration />
 			<Fortnite />
 			<GetIn />
 			<Joystick />
 			<SoloGeforce />
+			<Citazioni />
 			<FollowSocial /> 
 			<SystemRequired />
 			<FooterNero />

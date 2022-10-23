@@ -1,0 +1,191 @@
+@media screen and (max-width: 1024px) {
+	#carousel-id-new {
+		width: 100%;
+	}
+
+	.position-absolute {
+		top: 130px;
+		left: 70px;
+	}
+
+	.sv-text {
+		color: white;
+		width: 285px;
+
+		// height: 700px;
+		h3 {
+			font-size: 38px;
+		}
+
+		span {
+			font-size: 26px;
+		}
+	}
+
+	.sv-scopri-button {
+		width: 144.5px;
+		height: 57px;
+		@include flex(flex, center, center);
+		// @include button-verde;
+		font-size: 1.4rem;
+
+		a {
+			color: white;
+			font-size: 18px;
+			text-decoration: none;
+		}
+	}
+
+	#fortnite-banner {
+		background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 570px;
+	}
+
+	#video-header {
+		height: 570px;
+		width: 100%;
+
+		#video-dimension {
+			height: 670px;
+			width: 1560px;
+		}
+	}
+
+	#button {
+		border-radius: 50%;
+		width: 10px !important;
+		height: 10px !important;
+		background-color: #76b900 !important;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1329.99px) {
+	#carousel-id-new {
+		width: 100%;
+	}
+
+	.position-absolute {
+		top: 130px;
+		left: 120px;
+	}
+
+	.sv-text {
+		color: white;
+		width: 475px;
+
+		// height: 700px;
+		h3 {
+			font-size: 42px;
+		}
+
+		span {
+			font-size: 30px;
+		}
+	}
+
+	.sv-scopri-button {
+		width: 144.5px;
+		height: 57px;
+		@include flex(flex, center, center);
+		// @include button-verde;
+		font-size: 1.4rem;
+
+		a {
+			color: white;
+			font-size: 18px;
+			text-decoration: none;
+		}
+	}
+
+	#fortnite-banner {
+		background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 670px;
+	}
+
+	#video-header {
+		height: 670px;
+		width: 100%;
+
+		#video-dimension {
+			height: 100%;
+			// width: 100%;
+		}
+	}
+
+	#button {
+		border-radius: 50%;
+		width: 10px !important;
+		height: 10px !important;
+		background-color: #76b900 !important;
+	}
+}
+
+@media screen and (min-width: 1330px) {
+	#carousel-id-new {
+		width: 100%;
+	}
+
+	.position-absolute {
+		top: 140px;
+		left: 90px;
+	}
+
+	.sv-text {
+		color: white;
+		width: 675px;
+
+		// height: 700px;
+		h3 {
+			font-size: 48px;
+		}
+
+		span {
+			font-size: 36px;
+		}
+	}
+
+	.sv-scopri-button {
+		width: 144.5px;
+		height: 57px;
+		// @include button-verde;
+		@include flex(flex, center, center);
+		font-size: 1.4rem;
+
+		a {
+			color: white;
+			font-size: 18px;
+			text-decoration: none;
+		}
+	}
+
+	#fortnite-banner {
+		background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 770px;
+	}
+
+	#video-header {
+		height: 770px;
+		width: 100%;
+
+		#video-dimension {
+			height: 100%;
+			// width: 100%;
+		}
+	}
+
+	#button {
+		border-radius: 50%;
+		width: 10px !important;
+		height: 10px !important;
+		background-color: #76b900 !important;
+	}
+}

@@ -1,0 +1,27 @@
+.sv-citazioni {
+	height: 285px;
+	background-color: #1a1a1a;
+    color: white;
+	position: relative;
+
+	.sv-text-container {
+		margin-top: 50px;
+
+		.sv-text {
+			width: 90%;
+			font-size: 28px;
+            margin: auto;
+		}
+	}
+
+    a{
+        color: $primary-color !important;
+    }
+
+    #button {
+        border-radius: 50%;
+        height: 10px !important;
+        width: 10px !important;
+        background-color: $primary-color  !important;
+      }
+}
