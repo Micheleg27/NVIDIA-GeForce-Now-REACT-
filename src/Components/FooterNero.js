@@ -6,12 +6,12 @@ import FooterForm from './FooterForm';
 
 export function FooterNero() {
 	return (
-		<footer className="pt-5 bg-black ad-padding">
+		<footer className="bg-black ad-padding">
 			<hr id="hr" className="mb-4 text-light" />
 
 			<ListFooter />
 
-			<div className="ad-subscribe">
+			<div className="ad-subscribe ml-0">
 				<div className="ad-subscribe-content">
 					<div>
 						<HiOutlineMail size="70px" color="#76B900" />
@@ -20,7 +20,8 @@ export function FooterNero() {
 						<span>Iscriviti per ricevere le novità di GeForce NOW</span>
 					</div>
 
-					<FooterForm />
+					{/* bottone registrati */}
+					<FooterForm /> 
 				</div>
 
 				<div className="ad-social">
