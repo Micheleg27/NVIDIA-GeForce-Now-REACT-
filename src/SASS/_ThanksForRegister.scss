@@ -1,0 +1,27 @@
+.TFR-cointainer {
+    flex-direction: column;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.TFR-title {
+    color: $primary-color;
+    margin-bottom: 15px;
+}
+
+.TFR-background {
+    background-color: #2a2a2a;
+    height: 100vh;
+    
+    padding-top: 200px;
+}
+
+// body {
+//     display: flex;
+//     align-items: center;
+//     align-content: center;
+// }

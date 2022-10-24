@@ -1,0 +1,40 @@
+.offcanvas-body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* top: 50px; */
+}
+
+.offcanvas.offcanvas-start {
+	top: 60px !important;
+}
+
+.navbar-toggler {
+	border: none !important;
+}
+
+#a{
+	color: black;
+}
+
+@media all and (max-width: 995px) {
+	.offcanvas-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: initial;
+		align-items: initial;
+	}
+
+	#lente2{
+		display: none;
+	}
+}
+
+
+@media all and (min-width: 995px) {
+
+	#lente1{
+		display: none;
+	}
+}
+
