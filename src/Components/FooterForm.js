@@ -1,28 +1,19 @@
-import { useState } from 'react';
+import useShow from './BasicComponents/useShow';
 
 function FooterForm() {
-	const [ show, setShow ] = useState(false);
-
-	const X = show;
-
-	// const handleForm = (event) => {
-	// 	event.preventDefault();
-
-	// 	const email = event.target.elements.email.value;
-	// 	console.log(email);
-	// };
+	const { show, setShow } = useShow(false);
 
 	return (
 		<div>
-			<button onClick={() => setShow(!show)}>Registrati</button>
-			{X && (
+			<button type='button' onClick={() => setShow(!show)}>Registrati</button>
+			{show && (
 				<div className="ad-window-form">
-					<div className="overlay" />
+					{/* <div className="overlay" /> */}
 					<div className="ad-wf-container">
 						<div className="ad-wf-content">
-							<a href="index.html" id="ad-box-close">
+							<button id="ad-box-close" onClick={() => setShow(!show)}>
 								x
-							</a>
+							</button>
 							<h2>SCOPRI LE ULTIME NOVITÀ DI GEFORCE NOW</h2>
 							<p>
 								Iscriviti per ricevere offerte, annunci e altro su giochi e intrattenimento da NVIDIA.
@@ -36,14 +27,14 @@ function FooterForm() {
 										placeholder="Email"
 										required
 									/>
-									<label for="floatingInput">Email</label>
+									<label htmlFor="floatingInput">Email</label>
 									<div className="invalid-feedback">l'indirizzo Email è obbligatorio.</div>
 								</div>
 								<div className="ad-a-btn">
 									<a href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/" target="_blank">
 										Informativa sulla privacy NVIDIA
 									</a>
-									<button type="submit">INVIA</button>
+									<button type="submit" onClick={() => setShow(!show)}>INVIA</button>
 								</div>
 							</form>
 						</div>

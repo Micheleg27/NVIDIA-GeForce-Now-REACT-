@@ -1133,17 +1133,16 @@ footer .ad-subscribe .ad-subscribe-content {
   width: 600px;
   margin-left: 220px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form {
-  display: none;
+footer .ad-subscribe .ad-window-form {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 250px;
+  left: 500px;
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
+footer .ad-subscribe .ad-window-form .ad-wf-container {
   width: 994px;
   height: 375px;
   padding: 60px 0;
@@ -1151,10 +1150,10 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
   position: relative;
   z-index: 9999;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content {
   margin: 0 80px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1167,20 +1166,20 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-
   width: 25px;
   height: 25px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content h2 {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content h2 {
   font-size: 40px;
   color: #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content p {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content p {
   font-size: 16px;
   color: white;
   padding: 0 0 22px 0;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
   width: 798px;
   height: 82px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
   width: 830px;
   height: 52px;
   outline: none;
@@ -1189,35 +1188,25 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-
   background-color: #1a1a1a;
   color: white;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content input:hover {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content input:hover {
   border: 2px solid #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
   display: flex;
   justify-content: space-between;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
   padding: 10px 0;
   color: #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
   width: 75px;
   height: 45px;
   border: 1px solid #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
   background-color: #6AA700;
   cursor: pointer;
-}
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .overlay {
-  z-index: 9998;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  top: 0;
-  left: 0;
-  display: none;
-  position: absolute;
 }
 footer .ad-subscribe button {
   width: 129px;
@@ -1688,6 +1677,41 @@ footer .ad-subscribe .ad-social {
     width: 10px !important;
     height: 10px !important;
     background-color: #76b900 !important;
+  }
+}
+.offcanvas-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 50px; */
+}
+
+.offcanvas.offcanvas-start {
+  top: 60px !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+#a {
+  color: black;
+}
+
+@media all and (max-width: 995px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+  }
+  #lente2 {
+    display: none;
+  }
+}
+@media all and (min-width: 995px) {
+  #lente1 {
+    display: none;
   }
 }
 * {
