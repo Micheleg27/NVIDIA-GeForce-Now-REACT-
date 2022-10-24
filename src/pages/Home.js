@@ -18,13 +18,13 @@ import CaroselloHome from '../Components/CaroselloHome';
 import NavBianca from '../Components/NavBianca';
 
 
-
 function Home() {
 	return (
 		<React.Fragment>
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
 			<NavBianca />
+			<greenBannerNav />
 			<greenBannerNav />
 			<NavNera />
 			<CaroselloHome />
