@@ -1,0 +1,157 @@
+.ad-padding {
+	padding: 60px 0;
+}
+
+footer {
+	width: 78%;
+	margin: auto;
+	font-family: "DINpro regular";
+
+	#hr {
+		max-width: 100%;
+	}
+
+	a {
+		text-decoration: none;
+		color: $primary-color !important;
+	}
+
+	.ad-subscribe {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+
+		.ad-subscribe-content {
+			position: relative;
+			display: flex;
+			color: white;
+			justify-content: space-evenly;
+			align-items: center;
+			width: 600px;
+			margin-left: 220px;
+
+			.ad-window-form {
+				display: none;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				// display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.ad-wf-container {
+					width: 994px;
+					height: 375px;
+					padding: 60px 0;
+					background-color: $grey-color;
+					position: relative;
+					z-index: 9999;
+
+					.ad-wf-content {
+						margin: 0 80px;
+
+						#ad-box-close {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							position: absolute;
+							top: -10px;
+							right: -10px;
+							border-radius: 50%;
+							background-color: #666;
+							color: white;
+							width: 25px;
+							height: 25px;
+						}
+
+						h2 {
+							font-size: 40px;
+							color: $primary-color;
+						}
+
+						p {
+							font-size: 16px;
+							color: white;
+							padding: 0 0 22px 0;
+						}
+
+						.ad-mail {
+							width: 798px;
+							height: 82px;
+
+							input {
+								width: 830px;
+								height: 52px;
+								outline: none;
+								border: 1px solid grey;
+								padding: 0 15px;
+								background-color: $grey-color;
+								color: white;
+							}
+						}
+
+						input:hover {
+							border: 2px solid $primary-color;
+						}
+
+						.ad-a-btn {
+							display: flex;
+							justify-content: space-between;
+
+							a {
+								padding: 10px 0;
+								color: $primary-color;
+							}
+
+							button {
+								width: 75px;
+								height: 45px;
+								border: 1px solid $primary-color;
+							}
+
+							button:hover {
+								background-color: $primary-hover;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+
+				.overlay {
+					z-index: 9998;
+					width: 100vw;
+					height: 100vh;
+					background-color: rgba(0, 0, 0, 0.85);
+					top: 0;
+					left: 0;
+					display: none;
+					position: absolute;
+				}
+			}
+		}
+
+		button {
+			width: 129px;
+			height: 48px;
+			font-size: 18px;
+			background-color: $primary-color;
+			border: 1px solid $primary-color;
+			color: white;
+		}
+
+		.ad-registrati:hover {
+			cursor: pointer;
+			background-color: $secondary-hover;
+		}
+
+		.ad-social {
+			display: flex;
+			justify-content: flex-end;
+			margin-right: 80px;
+			gap: 1rem;
+			width: 80px;
+		}
+	}
+}

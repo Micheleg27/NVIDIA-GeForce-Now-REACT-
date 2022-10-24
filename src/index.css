@@ -164,14 +164,13 @@
 .alert-warning {
   box-shadow: 0 0 4px #888;
   position: fixed;
-  left: 900px;
-  bottom: 300px;
+  margin: auto;
   z-index: 2147483647;
   width: 400px;
   height: 170px;
   background-color: white !important;
   border: none;
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 .alert-warning .ad-alert-content {
   gap: 15px;
@@ -331,7 +330,7 @@
 }
 .container-country-region a {
   margin: 10px;
-  color: rgb(118, 185, 0);
+  color: rgb(118, 185, 0) !important;
   text-decoration: none;
   font-family: "Geforce bold";
 }
@@ -480,6 +479,1209 @@
     justify-content: center;
   }
 }
+.navbar-dark {
+  background-color: black !important;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-dark .container-fluid {
+  width: 1400px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-dark .container-fluid .navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+}
+.navbar-dark .container-fluid .offcanvas-end {
+  top: 70px;
+}
+.navbar-dark .container-fluid .offcanvas-body {
+  width: 250px;
+}
+.navbar-dark .container-fluid .nav-link {
+  color: grey !important;
+  text-decoration: none;
+  font-size: 22px;
+}
+.navbar-dark .container-fluid .nav-link:hover {
+  color: #76B900 !important;
+}
+.navbar-dark .container-fluid .offcanvas {
+  background-color: black;
+}
+.navbar-dark .container-fluid .offcanvas .btn-close {
+  color: white;
+  font-size: 25px;
+}
+.navbar-dark .container-fluid .navbar-toggler {
+  border: none;
+}
+
+.rpArticleNuovaGen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 800px;
+}
+.rpArticleNuovaGen .rpTitleNuovaGen {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+.rpArticleNuovaGen .rpTitleNuovaGen .rpH2NuovaGen {
+  font-size: 52px;
+  font-family: "Geforce bold";
+  color: white;
+  margin: 0px;
+}
+.rpArticleNuovaGen .rpTitleNuovaGen .rpPNuovaGen {
+  font-size: 28px;
+  color: white;
+  font-family: "DINpro light";
+  margin-top: 20px;
+}
+.rpArticleNuovaGen .rpBgContainerNuovaGen {
+  width: 100%;
+  height: 800px;
+  background-image: url("./Source/assetsNuovaGen/geforce-now-platform-2560x580-d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 1023.99px) {
+  .rpArticleNuovaGen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 700px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0px 15px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen .rpH2NuovaGen {
+    font-size: 42px;
+    font-family: "Geforce bold";
+    color: white;
+    margin: 0px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen .rpPNuovaGen {
+    font-size: 18px;
+    color: white;
+    font-family: "DINpro light";
+    margin-top: 15px;
+  }
+  .rpArticleNuovaGen .rpBgContainerNuovaGen {
+    width: 100%;
+    height: 800px;
+    background-image: url("./Source/assetsNuovaGen/geforce-now-platform-1024x440-t@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 639.99px) {
+  .rpArticleNuovaGen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 600px;
+    padding: 0px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen .rpH2NuovaGen {
+    font-size: 32px;
+    font-family: "Geforce bold";
+    color: white;
+    margin: 0px;
+  }
+  .rpArticleNuovaGen .rpTitleNuovaGen .rpPNuovaGen {
+    font-size: 12px;
+    color: white;
+    font-family: "DINpro light";
+    margin-top: 12px;
+  }
+  .rpArticleNuovaGen .rpBgContainerNuovaGen {
+    width: 100%;
+    height: 800px;
+    background-image: url("./Source/assetsNuovaGen/geforce-now-platform-767x440-p@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.rpArticleGetIn {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rpArticleGetIn .rpTitleGetIn {
+  margin-bottom: 50px;
+  margin-left: -80px;
+  color: 0;
+}
+.rpArticleGetIn .rpH2GetIn {
+  color: white;
+  font-size: 40px;
+  font-family: "Geforce bold";
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.rpArticleGetIn .rpDescriptionGetIn {
+  color: #76B900 !important;
+  font-size: 14px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn img {
+  margin: 0;
+  width: 95px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(odd) {
+  color: #76B900;
+  padding: 5px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "DINpro light";
+  margin-top: -10px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(even) {
+  color: white;
+  font-family: "Geforce bold";
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn img {
+  margin: 0;
+  width: 95px;
+  margin: auto;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(odd) {
+  color: #76B900;
+  padding: 5px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "DINpro light";
+  margin-top: -10px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(even) {
+  color: white;
+  font-family: "Geforce bold";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn img {
+  margin: 0;
+  width: 95px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(odd) {
+  color: #76B900;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DINpro light";
+  margin-top: -10px;
+}
+.rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(even) {
+  color: white;
+  text-align: center;
+  font-family: "Geforce bold";
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 1023.99px) {
+  .rpArticleGetIn {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rpArticleGetIn .rpTitleGetIn {
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  .rpArticleGetIn .rpH2GetIn {
+    color: white;
+    font-size: 40px;
+    font-family: "Geforce bold";
+    padding-bottom: 20px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn img {
+    margin: 0;
+    width: 95px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(even) {
+    color: white;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn img {
+    margin: 0;
+    width: 95px;
+    margin: auto;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(even) {
+    color: white;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn img {
+    margin: 0;
+    width: 95px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(even) {
+    color: white;
+    text-align: center;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 639.99px) {
+  .rpArticleGetIn {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rpArticleGetIn .rpTitleGetIn {
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  .rpArticleGetIn .rpH2GetIn {
+    color: white;
+    font-size: 40px;
+    font-family: "Geforce bold";
+    padding-bottom: 20px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn img {
+    margin: 0;
+    width: 95px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn p:nth-child(even) {
+    color: white;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn img {
+    margin: 0;
+    width: 95px;
+    margin: auto;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn p:nth-child(even) {
+    color: white;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn img {
+    margin: 0;
+    width: 95px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(odd) {
+    color: #76B900;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "DINpro light";
+    margin-top: -10px;
+  }
+  .rpArticleGetIn .rpImagesContainerGetIn .rpTHirdLogoGetIn p:nth-child(even) {
+    color: white;
+    text-align: center;
+    font-family: "Geforce bold";
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+}
+#a,
+#ad-span {
+  color: #666666 !important;
+  text-decoration: none;
+}
+
+.AD-content {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+}
+.AD-content .ad-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.AD-content .ad-logo .ad-nvidia-logo {
+  width: 110px;
+  height: 20px;
+  margin: 15px;
+}
+.AD-content .ad-logo .ad-global-footer-region .ad-global-footer__region__label {
+  width: 780px;
+  height: 20px;
+  text-align: center;
+  color: #888;
+  text-decoration: none;
+  margin: 20px;
+}
+.AD-content .ad-logo .ad-copyright {
+  margin: 0 auto;
+  padding-top: 1rem;
+  position: relative;
+  right: 193px;
+}
+
+@media all and (max-width: 1350px) {
+  .ad-footer-content {
+    height: auto;
+  }
+  .ad-subscribe {
+    flex-direction: column;
+  }
+  .ad-subscribe .ad-social {
+    margin-left: 430px;
+  }
+  .ad-global-footer-region .ad-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ad-global-footer-region .ad-logo .ad-nvidia-logo {
+    right: 0;
+  }
+  .ad-global-footer-region .ad-global-footer__region__label {
+    left: 0;
+    font-weight: bold;
+    color: #888;
+  }
+}
+@media all and (max-width: 1024px) {
+  .ad-subscribe {
+    flex-direction: column;
+  }
+  .ad-subscribe .ad-subscribe-content {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 30px;
+  }
+  .ad-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ad-logo .ad-nvidia-logo {
+    right: 0;
+  }
+  .ad-logo .ad-global-footer__region__label {
+    font-weight: bold;
+    color: #888;
+  }
+  .ad-logo .ad-copyright {
+    margin: 0 auto;
+  }
+  li {
+    display: inline-block;
+  }
+}
+@media all and (max-width: 874px) {
+  .ad-subscribe .ad-subscribe-content {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ad-subscribe .ad-social {
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+.mg-follow-social {
+  width: 100%;
+  height: 215px;
+  background-color: #302d2d;
+  display: flex;
+  flex-direction: column;
+}
+
+.mg-h1-social {
+  margin-top: 50px !important;
+  font-size: 32px;
+  color: white;
+  font-family: "Geforce bold";
+  margin: 10px auto;
+}
+
+.mg-container-socialIcons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: 200px;
+}
+
+.mg-social-icons {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.sv-alert-warning {
+  background-color: #76b900 !important;
+  border: none;
+  border-radius: 0 !important;
+  color: black !important;
+  display: flex;
+  justify-content: center;
+}
+.sv-alert-warning #sv-banner {
+  color: black;
+  text-decoration: underline;
+}
+
+.ad-padding {
+  padding: 60px 0;
+}
+
+footer {
+  width: 78%;
+  margin: auto;
+  font-family: "DINpro regular";
+}
+footer #hr {
+  max-width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #76B900 !important;
+}
+footer .ad-subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+footer .ad-subscribe .ad-subscribe-content {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  margin-left: 220px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
+  width: 994px;
+  height: 375px;
+  padding: 60px 0;
+  background-color: #1a1a1a;
+  position: relative;
+  z-index: 9999;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content {
+  margin: 0 80px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  background-color: #666;
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content h2 {
+  font-size: 40px;
+  color: #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content p {
+  font-size: 16px;
+  color: white;
+  padding: 0 0 22px 0;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
+  width: 798px;
+  height: 82px;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
+  width: 830px;
+  height: 52px;
+  outline: none;
+  border: 1px solid grey;
+  padding: 0 15px;
+  background-color: #1a1a1a;
+  color: white;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content input:hover {
+  border: 2px solid #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
+  display: flex;
+  justify-content: space-between;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
+  padding: 10px 0;
+  color: #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
+  width: 75px;
+  height: 45px;
+  border: 1px solid #76B900;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
+  background-color: #6AA700;
+  cursor: pointer;
+}
+footer .ad-subscribe .ad-subscribe-content .ad-window-form .overlay {
+  z-index: 9998;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  top: 0;
+  left: 0;
+  display: none;
+  position: absolute;
+}
+footer .ad-subscribe button {
+  width: 129px;
+  height: 48px;
+  font-size: 18px;
+  background-color: #76B900;
+  border: 1px solid #76B900;
+  color: white;
+}
+footer .ad-subscribe .ad-registrati:hover {
+  cursor: pointer;
+  background-color: #76D900;
+}
+footer .ad-subscribe .ad-social {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 80px;
+  gap: 1rem;
+  width: 80px;
+}
+
+/* Media query MOBILE (due mq molto simili) */
+@media screen and (max-width: 639.99px) {
+  .mg-div-microcard {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+  #AD-h2-title {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Geforce bold";
+    color: white;
+    margin-bottom: 25px;
+  }
+  #AD-container-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 45px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-cart,
+#AD-container-sologeforce .AD-card-sologeforce .AD-wifi,
+#AD-container-sologeforce .AD-card-sologeforce .AD-joypad {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 60px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-h3 {
+    justify-content: center;
+    color: #76B900;
+    font-family: "Geforce bold";
+    font-size: 14px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-p-sologeforce {
+    text-align: center;
+    color: white;
+    width: 80vw;
+    height: auto;
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 24px;
+    font-family: "Geforce light";
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce {
+    margin-right: auto;
+    margin-left: auto;
+    width: 138px;
+    height: 42px;
+    cursor: pointer;
+    background-color: #76B900;
+    font-family: "Geforce bold";
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce:hover {
+    background-color: #6AA700;
+    cursor: pointer;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce .AD-link-sologeforce {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 1023.99px) {
+  .mg-div-microcard {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+  #AD-section-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 50px;
+  }
+  #AD-h2-title {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Geforce bold";
+    color: white;
+  }
+  #AD-container-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 45px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-cart,
+#AD-container-sologeforce .AD-card-sologeforce .AD-wifi,
+#AD-container-sologeforce .AD-card-sologeforce .AD-joypad {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 60px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-h3 {
+    justify-content: center;
+    color: #76B900;
+    font-family: "Geforce bold";
+    font-size: 20px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-p-sologeforce {
+    text-align: center;
+    color: white;
+    width: 90vw;
+    height: auto;
+    font-size: 22px;
+    padding: 10px 0;
+    line-height: 24px;
+    font-family: "Geforce light";
+  }
+  #AD-container-sologeforce .AD-card-sologeforce #AD-p-three {
+    width: auto;
+    height: 110px;
+    color: white;
+    text-align: center;
+    font-family: "Geforce light";
+    padding: 20px 0;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce {
+    margin-right: auto;
+    margin-left: auto;
+    width: 138px;
+    height: 42px;
+    cursor: pointer;
+    background-color: #76B900;
+    font-family: "Geforce bold";
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce .AD-link-sologeforce {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-button-sologeforce .AD-link-sologeforce:hover {
+    color: white;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .mg-div-microcard {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: center;
+    gap: 140px;
+    width: 85vw;
+  }
+  #AD-section-sologeforce {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 90px;
+    width: 95vw;
+  }
+  #AD-h2-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Geforce bold";
+    color: white;
+  }
+  #AD-container-sologeforce {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 90vw;
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-cart,
+#AD-container-sologeforce .AD-card-sologeforce .AD-wifi,
+#AD-container-sologeforce .AD-card-sologeforce .AD-joypad {
+    width: 60px;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-h3 {
+    display: flex;
+    justify-content: center;
+    color: #76B900;
+    font-family: "Geforce bold";
+    font-size: 30px;
+  }
+  #AD-container-sologeforce .AD-card-sologeforce .AD-p-sologeforce {
+    color: white;
+    font-size: 22px;
+    padding: 10px 0;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Geforce light";
+  }
+  #AD-container-sologeforce .AD-card-sologeforce #AD-p-three {
+    width: auto;
+    color: white;
+    text-align: center;
+    font-family: "Geforce light";
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+.AD-card-sologeforce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 45px;
+}
+
+.AD-cart {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 60px;
+}
+
+.AD-h3 {
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Geforce bold";
+  font-size: 14px;
+}
+
+.AD-p-sologeforce {
+  text-align: center;
+  color: white;
+  width: 16rem;
+  height: auto;
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 24px;
+  font-family: "Geforce light";
+}
+
+.sv-citazioni {
+  height: 285px;
+  background-color: #1a1a1a;
+  color: white;
+  position: relative;
+}
+.sv-citazioni .sv-text-container {
+  margin-top: 50px;
+}
+.sv-citazioni .sv-text-container .sv-text {
+  width: 90%;
+  font-size: 28px;
+  margin: auto;
+}
+.sv-citazioni a {
+  color: #76B900 !important;
+}
+.sv-citazioni #button {
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #76B900 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  #carousel-id-new {
+    width: 100%;
+  }
+  .position-absolute {
+    top: 130px;
+    left: 70px;
+  }
+  .sv-text {
+    color: white;
+    width: 285px;
+  }
+  .sv-text h3 {
+    font-size: 38px;
+  }
+  .sv-text span {
+    font-size: 26px;
+  }
+  .sv-scopri-button {
+    width: 144.5px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .sv-scopri-button a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  #fortnite-banner {
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 570px;
+  }
+  #video-header {
+    height: 570px;
+    width: 100%;
+  }
+  #video-header #video-dimension {
+    height: 670px;
+    width: 1560px;
+  }
+  #button {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #76b900 !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1329.99px) {
+  #carousel-id-new {
+    width: 100%;
+  }
+  .position-absolute {
+    top: 130px;
+    left: 120px;
+  }
+  .sv-text {
+    color: white;
+    width: 475px;
+  }
+  .sv-text h3 {
+    font-size: 42px;
+  }
+  .sv-text span {
+    font-size: 30px;
+  }
+  .sv-scopri-button {
+    width: 144.5px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .sv-scopri-button a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  #fortnite-banner {
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 670px;
+  }
+  #video-header {
+    height: 670px;
+    width: 100%;
+  }
+  #video-header #video-dimension {
+    height: 100%;
+  }
+  #button {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #76b900 !important;
+  }
+}
+@media screen and (min-width: 1330px) {
+  #carousel-id-new {
+    width: 100%;
+  }
+  .position-absolute {
+    top: 140px;
+    left: 90px;
+  }
+  .sv-text {
+    color: white;
+    width: 675px;
+  }
+  .sv-text h3 {
+    font-size: 48px;
+  }
+  .sv-text span {
+    font-size: 36px;
+  }
+  .sv-scopri-button {
+    width: 144.5px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+  .sv-scopri-button a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  #fortnite-banner {
+    background-image: url("https://www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/fortnite-mobile-beta/gfn-fortnite-mobile-mfg-2560-d@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 770px;
+  }
+  #video-header {
+    height: 770px;
+    width: 100%;
+  }
+  #video-header #video-dimension {
+    height: 100%;
+  }
+  #button {
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #76b900 !important;
+  }
+}
 .rpGiocanoArticle {
   background-image: url(https://images.nvidia.com/aem-dam/Solutions/gfn/webassets/overview/geforce-now-video-1350-770-l@2x.jpg);
   background-size: cover;
@@ -540,6 +1742,160 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 767.99px) {
+  .cl-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-container #cl-logo-container {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    margin-top: 100px;
+  }
+  .cl-container #cl-logo-container #cl-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cl-container .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+}
+@media all and (max-width: 1350px) {
+  .cl-img-container-home {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+  }
+  .cl-img-container-home .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 770px;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-container #cl-container-mobile {
+    justify-content: space-between;
+    width: 80%;
+  }
+  .cl-container #h2-cl-container {
+    font-size: 36px;
+    font-family: "Geforce bold";
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #cl-logo-container {
+    width: 90vw;
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .cl-container #lc-pc-windows {
+    height: 56px;
+    width: 150px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .cl-btn:hover {
+    background-color: #76D900;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .cl-img-container-home {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+  }
+  .cl-img-container-home .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container {
+    width: 100%;
+    height: 770px;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-container #h2-cl-container {
+    font-size: 46px;
+    font-family: "Geforce bold";
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 26px;
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #cl-logo-container {
+    width: 90vw;
+    padding: 60px;
+  }
+  .cl-container #lc-pc-windows {
+    height: 56px;
+    width: 150px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .cl-btn:hover {
+    background-color: #76D900;
+  }
+}
 * {
   padding: 0;
   margin: 0;

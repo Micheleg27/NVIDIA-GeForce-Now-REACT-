@@ -33,25 +33,6 @@
 			font-size: 16px;
 			font-family: "DINpro light";
 		}
-
-		// .rpContentButton {
-		// 	@include flex(flex, center, center);
-		// 	@include button-verde;
-		// 	border: 1px solid #76b900;
-		// 	width: 160px;
-
-		// 	a {
-		// 		font-size: 22px;
-		// 		color: white;
-		// 		font-family: "DINpro regular";
-		// 		text-decoration: none;
-		// 		font-weight: bold;
-		// 	}
-
-		// 	&:hover {
-		// 		background-color: colors.$secondary-hover;
-		// 	}
-		// }
 	}
 }
 
@@ -92,27 +73,6 @@
 				font-family: "DINpro light";
 				text-align: center;
 			}
-
-			// .rpContentButton {
-			// 	@include flex(flex, center, center);
-			// 	@include button-verde;
-			// 	border: 1px solid #76b900;
-			// 	width: 160px;
-			// 	// height: 40px;
-
-			// 	a {
-			// 		font-size: 15px;
-			// 		color: white;
-			// 		font-family: "DINpro regular";
-			// 		text-decoration: none;
-			// 		font-weight: bold;
-			// 		margin-bottom: 10px;
-			// 	}
-
-			// 	&:hover {
-			// 		background-color: colors.$secondary-hover;
-			// 	}
-			// }
 		}
 	}
 }

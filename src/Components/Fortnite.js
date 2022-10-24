@@ -1,9 +1,9 @@
-import { Button } from './Button';
+import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 
 function Fortnite() {
 	return (
-		<section className="rpFortniteSection">
+		<div className="rpFortniteSection">
 			<div className="rpFortniteCenter" />
 			<div className="rpContentContainer">
 				<h2 className="rpContentTitle text-dark">
@@ -19,7 +19,7 @@ function Fortnite() {
 					</a>
 				</Button>
 			</div>
-		</section>
+		</div>
 	);
 }
 
