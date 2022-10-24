@@ -15,7 +15,7 @@ import { SoloGeforce } from '../Components/SoloGeforce';
 import { MicroCard } from '../Components/BasicComponents/MicroCard';
 import Citazioni from '../Components/Citazioni';
 import CaroselloHome from '../Components/CaroselloHome';
-
+import ThanksForRegister from '../Components/ThanksForRegister'
 
 
 function Home() {
@@ -23,7 +23,7 @@ function Home() {
 		<React.Fragment>
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
-			<greenBannerNav />
+			{/* <greenBannerNav />
 			<NavNera />
 			<CaroselloHome />
 			<NewGeneration />
@@ -35,7 +35,8 @@ function Home() {
 			<FollowSocial /> 
 			<SystemRequired />
 			<FooterNero />
-			<FooterBianco />
+			<FooterBianco /> */}
+			<ThanksForRegister/>
 		</React.Fragment>
 	);
 }
