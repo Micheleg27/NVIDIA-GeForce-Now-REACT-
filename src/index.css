@@ -1125,17 +1125,16 @@ footer .ad-subscribe .ad-subscribe-content {
   width: 600px;
   margin-left: 220px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form {
-  display: none;
+footer .ad-subscribe .ad-window-form {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 250px;
+  left: 500px;
   width: 100%;
   height: 100%;
   justify-content: center;
   align-items: center;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
+footer .ad-subscribe .ad-window-form .ad-wf-container {
   width: 994px;
   height: 375px;
   padding: 60px 0;
@@ -1143,10 +1142,10 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container {
   position: relative;
   z-index: 9999;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content {
   margin: 0 80px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1159,20 +1158,20 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-
   width: 25px;
   height: 25px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content h2 {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content h2 {
   font-size: 40px;
   color: #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content p {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content p {
   font-size: 16px;
   color: white;
   padding: 0 0 22px 0;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
   width: 798px;
   height: 82px;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
   width: 830px;
   height: 52px;
   outline: none;
@@ -1181,35 +1180,25 @@ footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-
   background-color: #1a1a1a;
   color: white;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content input:hover {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content input:hover {
   border: 2px solid #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
   display: flex;
   justify-content: space-between;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
   padding: 10px 0;
   color: #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
   width: 75px;
   height: 45px;
   border: 1px solid #76B900;
 }
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
+footer .ad-subscribe .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
   background-color: #6AA700;
   cursor: pointer;
-}
-footer .ad-subscribe .ad-subscribe-content .ad-window-form .overlay {
-  z-index: 9998;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
-  top: 0;
-  left: 0;
-  display: none;
-  position: absolute;
 }
 footer .ad-subscribe button {
   width: 129px;
@@ -1682,64 +1671,60 @@ footer .ad-subscribe .ad-social {
     background-color: #76b900 !important;
   }
 }
-.rpGiocanoArticle {
-  background-image: url(https://images.nvidia.com/aem-dam/Solutions/gfn/webassets/overview/geforce-now-video-1350-770-l@2x.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 10px;
+.offcanvas-body {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 50px; */
+}
+
+.offcanvas.offcanvas-start {
+  top: 60px !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+#a {
+  color: black;
+}
+
+@media all and (max-width: 995px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+  }
+  #lente2 {
+    display: none;
+  }
+}
+@media all and (min-width: 995px) {
+  #lente1 {
+    display: none;
+  }
+}
+.TFR-cointainer {
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.rpGiocanoArticle .rpGiocanoH2 {
-  color: white;
-  font-family: "Geforce bold";
-  font-size: 40px;
-  margin: 20px 0px 0px 0px;
-}
-.rpGiocanoArticle .rpGiocanoP {
-  color: white;
-  font-family: "DINPro light";
-  text-align: center;
-  font-size: 16px;
-  padding: 10px 0px;
-  margin: 0px;
-}
-.rpGiocanoArticle .rpGiocanoSection {
-  padding: 15px 0px;
-  max-width: 800px;
-  position: relative;
-}
-.rpGiocanoArticle .rpGiocanoSection .rpGiocanoVideo {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.rpGiocanoArticle .rpGiocanoSection .rpButton {
-  border: solid 3px whitesmoke;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  background-color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 1;
-  background-color: transparent;
+  width: 500px;
+  height: 500px;
 }
-.rpGiocanoArticle .rpGiocanoSection .rpButton .rpPlay {
-  color: whitesmoke;
-  width: 100%;
-  height: 100%;
-  margin-left: 4px;
-  z-index: 1;
+
+.TFR-title {
+  color: #76B900;
+  margin-bottom: 15px;
+}
+
+.TFR-background {
+  background-color: #2a2a2a;
+  height: 100vh;
+  padding-top: 200px;
 }
 
 @media screen and (max-width: 767.99px) {
@@ -1896,6 +1881,66 @@ footer .ad-subscribe .ad-social {
     background-color: #76D900;
   }
 }
+.rpGiocanoArticle {
+  background-image: url(https://images.nvidia.com/aem-dam/Solutions/gfn/webassets/overview/geforce-now-video-1350-770-l@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rpGiocanoArticle .rpGiocanoH2 {
+  color: white;
+  font-family: "Geforce bold";
+  font-size: 40px;
+  margin: 20px 0px 0px 0px;
+}
+.rpGiocanoArticle .rpGiocanoP {
+  color: white;
+  font-family: "DINPro light";
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.rpGiocanoArticle .rpGiocanoSection {
+  padding: 15px 0px;
+  max-width: 800px;
+  position: relative;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpGiocanoVideo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpButton {
+  border: solid 3px whitesmoke;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: transparent;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpButton .rpPlay {
+  color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  margin-left: 4px;
+  z-index: 1;
+}
+
 * {
   padding: 0;
   margin: 0;

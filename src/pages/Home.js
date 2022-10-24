@@ -18,6 +18,7 @@ import CaroselloHome from '../Components/CaroselloHome';
 import { TuttiGiocano } from '../Components/TuttiGiocano';
 import { CloudGaming } from '../Components/CloudGaming';
 
+import NavBianca from '../Components/NavBianca';
 
 
 function Home() {
@@ -25,6 +26,8 @@ function Home() {
 		<React.Fragment>
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
+			<NavBianca />
+			<greenBannerNav />
 			<greenBannerNav />
 			<NavNera />
 			<CaroselloHome />

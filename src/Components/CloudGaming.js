@@ -83,12 +83,7 @@ export function CloudGaming() {
                     </Button>
                 </div>
 
-                {/* <div className="cl-btn-container">
-                    <button className="cl-btn">Gioca ora</button>
-                </div> */}
-                {/* <Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green">
-                    Gioca ora
-                </Button> */}
+
             </div>
         </section>
 

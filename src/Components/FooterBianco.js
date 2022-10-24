@@ -1,4 +1,5 @@
 import React from 'react';
+// import { ListFooterBianco } from './BasicComponents/ListContainer';
 
 export default function FooterBianco() {
 	return (
@@ -53,6 +54,9 @@ export default function FooterBianco() {
 						</a>
 					</li>
 				</ul>
+
+				{/* <ListFooterBianco /> */}
+				
 				<div className="ad-copyright text-dark">
 					<p>Copyright © 2022 NVIDIA Corporation</p>
 				</div>
