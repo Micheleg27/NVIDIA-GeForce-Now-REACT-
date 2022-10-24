@@ -1,5 +1,5 @@
 import List from './List';
-import { INFORMAZIONI, RISORSE, SUPPORTO } from './Data';
+import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B } from './Data';
 
 export const ListFooter = () => {
 	return (
@@ -15,6 +15,14 @@ export const ListFooter = () => {
 					<List Links={SUPPORTO} title="SUPPORTO" />
 				</div>
 			</div>
+		</div>
+	);
+};
+
+export const ListFooterBianco = () => {
+	return (
+		<div>
+			<List Links={LISTA_F_B} />
 		</div>
 	);
 };
