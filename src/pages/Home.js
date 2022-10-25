@@ -15,8 +15,11 @@ import { SoloGeforce } from '../Components/SoloGeforce';
 import { MicroCard } from '../Components/BasicComponents/MicroCard';
 import Citazioni from '../Components/Citazioni';
 import CaroselloHome from '../Components/CaroselloHome';
+import { TuttiGiocano } from '../Components/TuttiGiocano';
+import { CloudGaming } from '../Components/CloudGaming';
+import { OltreMille } from '../Components/OltreMille';
 import NavBianca from '../Components/NavBianca';
-import ThanksForRegister from '../Components/ThanksForRegister';
+import { NuoviGiochi } from '../Components/NuoviGiochi';
 
 
 function Home() {
@@ -29,8 +32,12 @@ function Home() {
 			<NavNera />
 			<CaroselloHome />
 			<NewGeneration />
+			<OltreMille />
 			<Fortnite />
+			<NuoviGiochi/>
+			<CloudGaming />
 			<GetIn />
+			<TuttiGiocano />
 			<Joystick />
 			<SoloGeforce />
 			<Citazioni />

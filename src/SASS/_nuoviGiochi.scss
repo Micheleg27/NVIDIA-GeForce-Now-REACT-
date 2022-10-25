@@ -1,0 +1,113 @@
+#MG-container-nuovi-giochi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+
+    #MG-paragraph-nuovi-giochi {
+        font-size: 40px;
+        width: 450px;
+        color: $white-color;
+        height: 65px;
+        font-family: "Geforce bold";
+        line-height: 0.9;
+    }
+
+    .MG-cards-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        width: 1200px;
+    }
+
+    .MG-card-nuovi-giochi {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 3%;
+    }
+
+    .MG-card-image {
+        width: 408px;
+        height: 230px;
+        object-fit: contain;
+    }
+
+    
+
+    
+
+   
+
+    #MG-btn:hover {
+        background-color: colors.$secondary-hover;
+        cursor: pointer;
+    }
+
+    .MG-latest-news {
+        color: $primary-color !important;
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .MG-info-card {
+        color: $primary-color !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .MG-info-card:hover {
+        cursor: pointer;
+        color: $primary-color !important;
+    }
+
+    .MG-date-card {
+        color: colors.$white-color;
+        font-size: 18px;
+        line-height: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .MG-description-card {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: colors.$white-color;
+        line-height: 30px;
+    }
+}
+
+
+/* Flexbox generale con titolo e descrizione */
+
+#MG-section-nuovi-giochi {
+padding-top: 120px;
+display: flex;
+justify-content: center;
+}
+
+#MG-container-nuovi-giochi {
+display: flex;
+flex-direction: column;
+width: auto;
+height: 70%;
+margin-bottom: 100px;
+
+#MG-title-nuovi-giochi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#MG-paragraph-title {
+    font-weight: normal;
+    font-size: 20px;
+    color: colors.$white-color;
+    margin-top: 20px;
+}
+}

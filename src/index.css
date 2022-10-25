@@ -321,11 +321,6 @@
   color: white;
   border: none;
 }
-.container-country-region hr {
-  width: 80%;
-  margin: 30px;
-  border: 0.5px solid rgba(160, 158, 158, 0.616);
-}
 .container-country-region .list-region {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -639,6 +634,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .rpArticleGetIn .rpTitleGetIn {
   margin-bottom: 50px;
@@ -1122,7 +1119,7 @@ footer a {
 footer .ad-subscribe {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 footer .ad-subscribe .ad-subscribe-content {
   position: relative;
@@ -1131,7 +1128,6 @@ footer .ad-subscribe .ad-subscribe-content {
   justify-content: space-evenly;
   align-items: center;
   width: 600px;
-  margin-left: 220px;
 }
 footer .ad-subscribe .ad-window-form {
   position: fixed;
@@ -1228,6 +1224,11 @@ footer .ad-subscribe .ad-social {
   width: 80px;
 }
 
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .margin-left {
+    margin-left: 35px;
+  }
+}
 /* Media query MOBILE (due mq molto simili) */
 @media screen and (max-width: 639.99px) {
   .mg-div-microcard {
@@ -1739,6 +1740,418 @@ footer .ad-subscribe .ad-social {
 .ad-logo-Nvidia {
   width: 364px;
   height: 30px;
+}
+ 
+@media screen and (max-width: 767.99px) {
+  .cl-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-container #cl-logo-container {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    margin-top: 100px;
+  }
+  .cl-container #cl-logo-container #cl-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cl-container .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+}
+@media all and (max-width: 1350px) {
+  .cl-img-container-home {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+  }
+  .cl-img-container-home .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 770px;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .cl-container #cl-container-mobile {
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+  }
+  .cl-container #h2-cl-container {
+    font-size: 36px;
+    font-family: "Geforce bold";
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #cl-logo-container {
+    width: 90vw;
+    padding: 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .cl-container #lc-pc-windows {
+    height: 56px;
+    width: 150px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .cl-btn:hover {
+    background-color: #76D900;
+  }
+}
+@media screen and (min-width: 1350px) {
+  #cl-container-mobile {
+    justify-content: space-between;
+    width: 80%;
+  }
+  .cl-img-container-home {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    text-align: center;
+  }
+  .cl-img-container-home .cl-h2-logo {
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container {
+    width: 80%;
+    height: 770px;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex !important;
+    flex-direction: column;
+  }
+  .cl-container #h2-cl-container {
+    font-size: 46px;
+    font-family: "Geforce bold";
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 26px;
+    text-align: center;
+    padding: 8px;
+  }
+  .cl-container #cl-logo-container {
+    width: 90%;
+    padding: 6%;
+    flex-direction: column;
+    display: flex !important;
+    align-items: center;
+  }
+  .cl-container #lc-pc-windows {
+    height: 56px;
+    width: 150px;
+  }
+  .cl-p-logo {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  .cl-btn:hover {
+    background-color: #76D900;
+  }
+}
+.rpGiocanoArticle {
+  background-image: url(https://images.nvidia.com/aem-dam/Solutions/gfn/webassets/overview/geforce-now-video-1350-770-l@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rpGiocanoArticle .rpGiocanoH2 {
+  color: white;
+  font-family: "Geforce bold";
+  font-size: 40px;
+  margin: 20px 0px 0px 0px;
+}
+.rpGiocanoArticle .rpGiocanoP {
+  color: white;
+  font-family: "DINPro light";
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.rpGiocanoArticle .rpGiocanoSection {
+  padding: 15px 0px;
+  max-width: 800px;
+  position: relative;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpGiocanoVideo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpButton {
+  border: solid 3px whitesmoke;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: transparent;
+}
+.rpGiocanoArticle .rpGiocanoSection .rpButton .rpPlay {
+  color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  margin-left: 4px;
+  z-index: 1;
+}
+
+#MG-container-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+#MG-container-nuovi-giochi #MG-paragraph-nuovi-giochi {
+  font-size: 40px;
+  width: 450px;
+  color: #ffffff;
+  height: 65px;
+  font-family: "Geforce bold";
+  line-height: 0.9;
+}
+#MG-container-nuovi-giochi .MG-cards-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 1200px;
+}
+#MG-container-nuovi-giochi .MG-card-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 3%;
+}
+#MG-container-nuovi-giochi .MG-card-image {
+  width: 408px;
+  height: 230px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#MG-container-nuovi-giochi #MG-btn:hover {
+  background-color: #76D900;
+  cursor: pointer;
+}
+#MG-container-nuovi-giochi .MG-latest-news {
+  color: #76B900 !important;
+  font-size: 22px;
+  font-weight: 800;
+}
+#MG-container-nuovi-giochi .MG-info-card {
+  color: #76B900 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+#MG-container-nuovi-giochi .MG-info-card:hover {
+  cursor: pointer;
+  color: #76B900 !important;
+}
+#MG-container-nuovi-giochi .MG-date-card {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#MG-container-nuovi-giochi .MG-description-card {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+/* Flexbox generale con titolo e descrizione */
+#MG-section-nuovi-giochi {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+#MG-container-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 70%;
+  margin-bottom: 100px;
+}
+#MG-container-nuovi-giochi #MG-title-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#MG-container-nuovi-giochi #MG-paragraph-title {
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#div-oltre-mille {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Stile paragrafo oltre mille giochi */
+}
+#div-oltre-mille #title-oltre-mille {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  text-align: center;
+}
+#div-oltre-mille #paragraph-oltre-mille {
+  font-weight: bolder;
+  font-size: 44px;
+  color: black;
+  height: auto;
+  font-family: "Geforce bold";
+  line-height: 0.9;
+}
+#div-oltre-mille #paragraph-title {
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  line-height: 1.8;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mgSliderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 100px;
+  margin-top: 35px;
+}
+.mgSliderContainer .mgSlider {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+}
+.mgSliderContainer .mgSlide-track {
+  display: flex;
+  width: 100%;
+}
+.mgSliderContainer .mgAnimation1 {
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
+}
+.mgSliderContainer .mgAnimation2 {
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
+}
+.mgSliderContainer .mgAnimation3 {
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
+}
+.mgSliderContainer .mgSlide {
+  width: 5120px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+.mgSliderContainer .mgImg {
+  width: 5120px;
+  height: 175px;
+  transition: transform 1s;
+  margin: 5px;
 }
 
 * {
