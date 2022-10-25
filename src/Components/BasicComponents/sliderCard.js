@@ -1,7 +1,7 @@
-export function SliderCard(imageslider) {
+export function SliderCard({imageslider,animations}) {
     return (
                 <div className="mgSlider">
-                    <div className="mgSlide-track mgAnimation1">
+                    <div className={animations}>
                         <div className="mgSlide">
                             <img className="mgImg" src={imageslider} alt="banner1" />
                             <img className="mgImg" src={imageslider} alt="banner1" />
