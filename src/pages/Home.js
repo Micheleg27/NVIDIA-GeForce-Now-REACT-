@@ -9,7 +9,7 @@ import { GetIn } from '../Components/GetIn';
 import  SystemRequired  from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
-import { GreenBannerNav, greenBannerNav } from '../Components/greenBannerNav';
+import { GreenBannerNav} from '../Components/greenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
 import { SoloGeforce } from '../Components/SoloGeforce';
 import { MicroCard } from '../Components/BasicComponents/MicroCard';
@@ -20,6 +20,7 @@ import { CloudGaming } from '../Components/CloudGaming';
 import { OltreMille } from '../Components/OltreMille';
 import NavBianca from '../Components/NavBianca';
 import { NuoviGiochi } from '../Components/NuoviGiochi';
+import CardAbbonamento from '../Components/CardAbbonamento';
 
 
 function Home() {
@@ -38,6 +39,7 @@ function Home() {
 			<CloudGaming />
 			<GetIn />
 			<TuttiGiocano />
+			<CardAbbonamento />
 			<Joystick />
 			<SoloGeforce />
 			<Citazioni />

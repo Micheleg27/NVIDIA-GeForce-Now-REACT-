@@ -1,5 +1,5 @@
 import List from './List';
-import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B } from './Data';
+import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX } from './Data';
 
 export const ListFooter = () => {
 	return (
@@ -26,3 +26,30 @@ export const ListFooterBianco = () => {
 		</div>
 	);
 };
+
+export const FreeCard = () => {
+	return (
+		<div>
+			<List Links={FREE}  />
+		</div>
+	);
+};
+
+export const PriorityCard = () => {
+	return (
+		<div>
+			<List Links={PRIORITY}  />
+		</div>
+	);
+};
+
+export const RTXCard = () => {
+	return (
+		<div>
+			<List Links={RTX}  />
+		</div>
+	);
+};
+
+
+

@@ -1,0 +1,254 @@
+.container {
+	padding: 90px 0;
+
+	h2 {
+		font-size: 36px;
+		text-align: center;
+		padding: 8px;
+	}
+
+	.row {
+		flex-wrap: wrap-reverse;
+
+		.card {
+			background-color: #292929;
+			border-radius: 0;
+			height: 735px;
+
+			.ad-price-option {
+				display: flex;
+				padding: 30px 30px 0 30px;
+				width: 100%;
+				height: 140px;
+
+				.ad-1mese {
+					background-color: $primary-color;
+				}
+
+				.ad-6mesi {
+					background-color: #545454;
+				}
+
+				.ad-1mese,
+				.ad-6mesi {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 100%;
+					height: 27px;
+					text-align: center;
+					color: white;
+					box-shadow: rgb(0 0 0 / 10%) 0px 5px 5px -3px, rgb(0 0 0 / 15%) 0px 5px 10px 0px;
+				}
+			}
+
+			.tabcontent,
+			.tabContent {
+				display: none;
+				// padding: 20px 30px;
+				text-align: center;
+			}
+
+			.tablinks,
+			.tabLinks {
+				cursor: pointer;
+			}
+
+			.ad-price {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				// height: 68px;
+				margin-bottom: 60px;
+				color: white;
+
+				.AD-text {
+					//   height: 53px;
+					color: $primary-color !important;
+					font-size: 18px;
+					font-weight: bold;
+					// line-height: 0;
+					margin-bottom: 10px;
+				}
+
+				h3 {
+					font-size: 14px;
+				}
+			}
+
+			hr {
+				margin: 0 30px;
+				max-width: 100%;
+				border-width: 1px 0px 0px;
+			}
+
+			.ad-card-header {
+				// width: 380px;
+				height: 77px;
+				background-color: #1a1a1a;
+				color: white;
+				text-align: center;
+				font-family: "Geforce bold";
+			}
+
+			.ad-card-header-two {
+				// width: 380px;
+				height: 77px;
+				background-color: $primary-color;
+				color: white;
+				text-align: center;
+				font-family: "Geforce bold";
+			}
+
+			.ad-card-header-three {
+				// width: 380px;
+				height: 77px;
+				background-image: url(https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/subscriptions/gfn-tier-bg-3080.png);
+				color: white;
+				text-align: center;
+				font-family: "Geforce bold";
+			}
+
+			.ad-h2 {
+				color: white;
+				text-align: center;
+				font-size: 40px;
+				padding: 8px 0;
+			}
+
+			h3 {
+				position: relative;
+				top: 15px;
+				color: white;
+				font-size: 32px;
+			}
+
+			.ad-price > p {
+				font-size: 40px;
+			}
+
+			sup {
+				font-size: 18px;
+			}
+
+			ul {
+				height: 261px;
+
+				li {
+					padding-right: 30px;
+					//   line-height: 2.5;
+					margin-bottom: 15px;
+					list-style: none;
+					max-width: 370px;
+					padding-left: 30px;
+				}
+			}
+
+			li > img {
+				max-width: 18px;
+				margin-right: 10px;
+			}
+
+			span {
+				color: white;
+
+				#line {
+					color: $primary-color;
+				}
+			}
+
+			#ad-F-span {
+				color: #999999;
+			}
+
+			.ad-card-btn {
+				height: 78px;
+				display: flex;
+				justify-content: center;
+			}
+
+			// button {
+			// 	width: 230px;
+			// 	height: 38px;
+            //     background-color: #1a1a1a;
+			// 	border: 3px solid $primary-color;
+			// }
+
+			// button:hover {
+			// 	background-color: #313825;
+			// 	cursor: pointer;
+			// }
+
+			// .ad-btn-two,
+			// .ad-btn-three {
+			// 	// @include button-verde;
+			// 	color: white;
+			// }
+
+			// 	.ad-btn-two:hover {
+			// 		background-color: $primary-hover;
+			// 		cursor: pointer;
+			// 	}
+
+			// 	.ad-btn-three:hover {
+			// 		background-color: $primary-hover;
+			// 		cursor: pointer;
+			// 	}
+			// }
+		}
+	}
+}
+
+// FOOTER
+
+footer {
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 1230px;
+
+	p {
+		color: grey;
+		font-size: 12px;
+		line-height: 1.4;
+		padding: 10px 0;
+		margin: 0;
+		text-align: justify;
+
+		a {
+			color: $primary-color;
+			text-decoration: none;
+		}
+	}
+}
+
+@media all and (max-width: 991px) {
+	#card-3080 {
+		width: 720px;
+	}
+
+	#ad-ul-one,
+	#ad-ul-two {
+		padding: 0;
+	}
+
+	#ad-ul-three {
+		margin-left: 150px;
+	}
+
+	#li {
+		display: block;
+	}
+}
+
+@media all and (max-width: 768px) {
+	#card-3080 {
+		width: 540px;
+	}
+
+	#ad-ul-one,
+	#ad-ul-two,
+	#ad-ul-three {
+		margin-left: 90px;
+	}
+}
