@@ -79,6 +79,7 @@
 
 		#cl-container-mobile {
 			justify-content: space-between;
+			flex-direction: column;
             width: 80%;
 		}
 
@@ -122,6 +123,12 @@
 }
 
 @media screen and (min-width: 1350px) {
+	#cl-container-mobile {
+		justify-content: space-between;
+		flex-direction: column;
+		width: 80%;
+	}
+	
 	.cl-img-container-home {
 		width: 25%;
 		display: flex;

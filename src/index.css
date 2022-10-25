@@ -1795,6 +1795,7 @@ footer .ad-subscribe .ad-social {
   }
   .cl-container #cl-container-mobile {
     justify-content: space-between;
+    flex-direction: column;
     width: 80%;
   }
   .cl-container #h2-cl-container {
@@ -1830,6 +1831,11 @@ footer .ad-subscribe .ad-social {
   }
 }
 @media screen and (min-width: 1350px) {
+  #cl-container-mobile {
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+  }
   .cl-img-container-home {
     width: 25%;
     display: flex;
@@ -1939,6 +1945,107 @@ footer .ad-subscribe .ad-social {
   height: 100%;
   margin-left: 4px;
   z-index: 1;
+}
+
+#MG-container-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+#MG-container-nuovi-giochi #MG-paragraph-nuovi-giochi {
+  font-size: 40px;
+  width: 450px;
+  color: #ffffff;
+  height: 65px;
+  font-family: "Geforce bold";
+  line-height: 0.9;
+}
+#MG-container-nuovi-giochi .MG-cards-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+#MG-container-nuovi-giochi .MG-card-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 80px;
+}
+#MG-container-nuovi-giochi .MG-card-image {
+  width: 408px;
+  height: 230px;
+  object-fit: contain;
+}
+#MG-container-nuovi-giochi #MG-btn:hover {
+  background-color: #76D900;
+  cursor: pointer;
+}
+#MG-container-nuovi-giochi .MG-latest-news {
+  color: #76B900;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+#MG-container-nuovi-giochi .MG-info-card {
+  color: #76B900;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  text-decoration: none;
+}
+#MG-container-nuovi-giochi .MG-info-card:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #76B900;
+}
+#MG-container-nuovi-giochi .MG-date-card {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#MG-container-nuovi-giochi .MG-description-card {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+/* Flexbox generale con titolo e descrizione */
+#MG-section-nuovi-giochi {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+#MG-container-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 70%;
+}
+#MG-container-nuovi-giochi #MG-title-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#MG-container-nuovi-giochi #MG-paragraph-title {
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
 }
 
 * {

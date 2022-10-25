@@ -19,6 +19,7 @@ import { TuttiGiocano } from '../Components/TuttiGiocano';
 import { CloudGaming } from '../Components/CloudGaming';
 
 import NavBianca from '../Components/NavBianca';
+import { NuoviGiochi } from '../Components/NuoviGiochi';
 
 
 function Home() {
@@ -33,8 +34,9 @@ function Home() {
 			<CaroselloHome />
 			<NewGeneration />
 			<Fortnite />
-			<GetIn />
+			<NuoviGiochi/>
 			<CloudGaming />
+			<GetIn />
 			<TuttiGiocano />
 			<Joystick />
 			<SoloGeforce />
