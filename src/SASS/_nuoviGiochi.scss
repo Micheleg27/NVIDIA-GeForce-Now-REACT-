@@ -17,21 +17,15 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         width: 1200px;
-        // height: 580px;
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 20px;
     }
 
     .MG-card-nuovi-giochi {
         display: flex;
         flex-direction: column;
-        width: 30%;
-        // height: 500px;
-        margin: 80px;
+        width: 60%;
+        margin: 3%;
     }
 
     .MG-card-image {
@@ -52,25 +46,21 @@
     }
 
     .MG-latest-news {
-        color: colors.$primary-color;
-        text-decoration: none;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 32px;
+        color: $primary-color !important;
+        font-size: 22px;
+        font-weight: 800;
     }
 
     .MG-info-card {
-        color: colors.$primary-color;
+        color: $primary-color !important;
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 22px;
-        text-decoration: none;
     }
 
     .MG-info-card:hover {
-        text-decoration: none;
         cursor: pointer;
-        color: colors.$primary-color;
+        color: $primary-color !important;
     }
 
     .MG-date-card {
@@ -104,6 +94,7 @@ display: flex;
 flex-direction: column;
 width: auto;
 height: 70%;
+margin-bottom: 100px;
 
 #MG-title-nuovi-giochi {
     display: flex;

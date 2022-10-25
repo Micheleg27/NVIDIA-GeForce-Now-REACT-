@@ -125,7 +125,6 @@
 @media screen and (min-width: 1350px) {
 	#cl-container-mobile {
 		justify-content: space-between;
-		flex-direction: column;
 		width: 80%;
 	}
 	
@@ -147,13 +146,13 @@
 	
 
 	.cl-container {
-		width: 100%;
+		width: 80%;
 		height: 770px;
 		background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
 		background-size: cover;
 		background-position: center center;
 		align-items: center;
-		display: flex;
+		display: flex !important;
 		flex-direction: column;
 
 		#h2-cl-container {
@@ -170,8 +169,11 @@
 		}
 
 		#cl-logo-container {
-			width: 90vw;
-			padding: 60px;
+			width: 90%;
+			padding: 6%;
+			flex-direction: column;
+			display: flex !important;
+			align-items: center;
 		}
 
 		#lc-pc-windows {
