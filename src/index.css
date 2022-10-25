@@ -319,11 +319,6 @@
   color: white;
   border: none;
 }
-.container-country-region hr {
-  width: 80%;
-  margin: 30px;
-  border: 0.5px solid rgba(160, 158, 158, 0.616);
-}
 .container-country-region .list-region {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1114,7 +1109,7 @@ footer a {
 footer .ad-subscribe {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 footer .ad-subscribe .ad-subscribe-content {
   position: relative;
@@ -1123,7 +1118,6 @@ footer .ad-subscribe .ad-subscribe-content {
   justify-content: space-evenly;
   align-items: center;
   width: 600px;
-  margin-left: 220px;
 }
 footer .ad-subscribe .ad-window-form {
   position: fixed;
@@ -1220,6 +1214,11 @@ footer .ad-subscribe .ad-social {
   width: 80px;
 }
 
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .margin-left {
+    margin-left: 35px;
+  }
+}
 /* Media query MOBILE (due mq molto simili) */
 @media screen and (max-width: 639.99px) {
   .mg-div-microcard {

@@ -13,19 +13,19 @@ export function GetIn() {
 
             <div className="rpImagesContainerGetIn">
                 <div className="rpFirstLogoGetIn">
-                    <img src={Svg1Logo} alt="" />
+                    <img src={Svg2Logo} alt="" />
                     <p className="rpNumbersGetIn">1</p>
                     <p className='pGetInColor'><a className="rpDescriptionGetIn" href="https://www.nvidia.com/it-it/geforce-now/memberships/">Crea il tuo account</a></p>
                 </div>
 
                 <div className="rpSecondLogoGetIn">
-                    <img src={Svg2Logo} alt="" />
+                    <img src={Svg3Logo} alt="" />
                     <p className="rpNumbersGetIn">2</p>
                     <p className='pGetInColor'><a className="rpDescriptionGetIn" href="https://www.nvidia.com/it-it/geforce-now/download/">Scarica l'app</a></p>
                 </div>
 
                 <div className="rpTHirdLogoGetIn">
-                    <img src={Svg3Logo} alt="" />
+                    <img src={Svg1Logo} alt="" />
                     <p className="rpNumbersGetIn">3</p>
                     <p ><a className="rpDescriptionGetIn" href="https://www.nvidia.com/it-it/geforce-now/games/">Collega il tuo catalogo di giochi</a></p>
                 </div>
