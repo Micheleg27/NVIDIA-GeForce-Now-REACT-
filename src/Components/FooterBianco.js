@@ -1,5 +1,5 @@
 import React from 'react';
-// import { ListFooterBianco } from './BasicComponents/ListContainer';
+import { ListFooterBianco } from './BasicComponents/ListContainer';
 
 export default function FooterBianco() {
 	return (

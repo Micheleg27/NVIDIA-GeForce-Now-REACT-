@@ -1,16 +1,11 @@
 import React from 'react';
-import { Route, Routes, Link } from 'react-router-dom';
-import Home from '../pages/Home';
+import { Link } from 'react-router-dom';
 import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 
 export function NavNera() {
 	return (
 		<div>
-			<Routes>
-				<Route path="/"  />
-				<Route path="*" element={<h1>ERORR !</h1>} />
-			</Routes>
 			<nav className="navbar navbar-dark navbar-expand-lg">
 				<div className="container-fluid">
 					<Link className="navbar-brand" to="/">

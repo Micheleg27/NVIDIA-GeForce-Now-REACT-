@@ -22,10 +22,10 @@ export const SUPPORTO = [
 
 
 export const LISTA_F_B = [
-	{ id: 'Privacy Notice', link: '#' },
-	{ id: 'Gestisci la privacy', link: '#' },
-	{ id: 'Legali', link: '#' },
-    { id: 'Accessibilità', link: '#' },
-    { id: 'Sicurezza dei Prodotti', link: '#' },
-	{ id: 'Contatti', link: '#' }
+	{ id: 'Privacy Notice ', link: '#' },
+	{ id: '| Gestisci la privacy', link: '#' },
+	{ id: '| Legali', link: '#' },
+    { id: '| Accessibilità', link: '#' },
+    { id: '| Sicurezza dei Prodotti', link: '#' },
+	{ id: '| Contatti', link: '#' }
 ];

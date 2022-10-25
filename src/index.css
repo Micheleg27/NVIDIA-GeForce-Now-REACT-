@@ -1714,7 +1714,7 @@ footer .ad-subscribe .ad-social {
     display: none;
   }
 }
-.TFR-cointainer {
+.TFR-container {
   flex-direction: column;
   background-color: #333;
   display: flex;
@@ -1726,13 +1726,19 @@ footer .ad-subscribe .ad-social {
 
 .TFR-title {
   color: #76B900;
-  margin-bottom: 15px;
+  margin: 25px;
+  text-align: center;
 }
 
 .TFR-background {
   background-color: #2a2a2a;
   height: 100vh;
   padding-top: 200px;
+}
+
+.ad-logo-Nvidia {
+  width: 364px;
+  height: 30px;
 }
 
 * {

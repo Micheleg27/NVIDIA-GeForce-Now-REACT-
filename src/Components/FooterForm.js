@@ -1,11 +1,15 @@
+import { useNavigate} from 'react-router-dom';
 import useShow from './BasicComponents/useShow';
+
 
 function FooterForm() {
 	const { show, setShow } = useShow(false);
-
+	const navigate = useNavigate();
 	return (
 		<div>
-			<button type='button' onClick={() => setShow(!show)}>Registrati</button>
+			<button type="button" onClick={() => setShow(!show)}>
+				Registrati
+			</button>
 			{show && (
 				<div className="ad-window-form">
 					{/* <div className="overlay" /> */}
@@ -34,7 +38,9 @@ function FooterForm() {
 									<a href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/" target="_blank">
 										Informativa sulla privacy NVIDIA
 									</a>
-									<button type="submit" onClick={() => setShow(!show)}>INVIA</button>
+									<button type="submit" onClick={() => navigate('/thanks')}>
+										INVIA
+									</button>
 								</div>
 							</form>
 						</div>

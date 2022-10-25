@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../SASS/button.css'
+import '../../SASS/button.css';
 
 const STYLE = [ ' BTN--primary--green', 'BTN--secondary--outline' ];
 

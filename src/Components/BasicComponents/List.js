@@ -5,8 +5,8 @@ const List = ({ Links, title }) => {
 			{Links.map((link) => (
 				<li className="list-group-item" key={link.id}>
 					<a href={link.link}>
-                        {link.id}
-                    </a>
+						{link.id}
+					</a>
 				</li>
 			))}
 		</ul>
