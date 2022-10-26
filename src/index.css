@@ -108,6 +108,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -400,6 +402,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1986,7 +1994,8 @@ footer .ad-subscribe .ad-social {
 #MG-container-nuovi-giochi .MG-card-image {
   width: 408px;
   height: 230px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #MG-container-nuovi-giochi #MG-btn:hover {
   background-color: #76D900;
@@ -2105,13 +2114,24 @@ footer .ad-subscribe .ad-social {
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2182,6 +2202,12 @@ footer .ad-subscribe .ad-social {
 .container .row .card .tablinks,
 .container .row .card .tabLinks {
   cursor: pointer;
+}
+.container .row .card .marginUnMese {
+  margin: 15px !important;
+}
+.container .row .card .marginSeiMesi {
+  margin: 0 !important;
 }
 .container .row .card .ad-price {
   display: flex;
@@ -2332,6 +2358,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
