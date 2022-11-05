@@ -4,12 +4,11 @@ import { FreeCard } from './BasicComponents/ListContainer';
 import { PriorityCard } from './BasicComponents/ListContainer';
 import { RTXCard } from './BasicComponents/ListContainer';
 import { Priority } from './Priority';
-import {RTX}  from './RTX';
-
-
+import { RTX } from './RTX';
+import { useNavigate } from 'react-router-dom';
 
 function CardAbbonamento() {
-
+	const navigate = useNavigate();
 	return (
 		<section className="container">
 			<h2 className="text-light">SCEGLI UN PIANO ABBONAMENTO</h2>
@@ -29,7 +28,7 @@ function CardAbbonamento() {
 						<FreeCard />
 
 						<div className="ad-card-btn">
-							<Button buttonSize="BTN--large" buttonStyle="BTN--secondary--outline">
+							<Button buttonSize="BTN--large" buttonStyle="BTN--secondary--outline" onClick={()=> navigate('/LogAbb')}>
 								PARTECIPA
 							</Button>
 						</div>
@@ -42,13 +41,12 @@ function CardAbbonamento() {
 							<h3>PRIORITY</h3>
 						</div>
 
-					   <Priority />
-					
+						<Priority />
 
 						<PriorityCard />
 
 						<div className="ad-card-btn">
-							<Button buttonSize="BTN--large" buttonStyle="BTN--primary--green">
+							<Button buttonSize="BTN--large" buttonStyle="BTN--primary--green" onClick={()=> navigate('/LogAbb')}>
 								PARTECIPA
 							</Button>
 						</div>
@@ -62,11 +60,11 @@ function CardAbbonamento() {
 						</div>
 
 						<RTX />
-						
+
 						<RTXCard />
 
 						<div className="ad-card-btn">
-							<Button buttonSize="BTN--large" buttonStyle="BTN--primary--green">
+							<Button buttonSize="BTN--large" buttonStyle="BTN--primary--green" onClick={()=> navigate('/LogAbb')}>
 								PARTECIPA
 							</Button>
 						</div>

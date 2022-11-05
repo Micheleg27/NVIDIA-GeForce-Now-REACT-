@@ -41,7 +41,7 @@ function Log() {
 							</button>
 						</div>
 						<div className="ad-link">
-							<a className="text-light" href="#" target="_blank">
+							<a id="ad-a-green" href="#" target="_blank">
 								Gestisci account
 							</a>
 							<a
@@ -56,7 +56,7 @@ function Log() {
 				</div>
 			</div>
 
-			<footer>
+			<footer style={{width:'100%'}}>
 				<div>
 					<div className="container ad-block-one">
 						<select>
