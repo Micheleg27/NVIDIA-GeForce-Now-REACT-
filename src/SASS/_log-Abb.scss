@@ -6,10 +6,13 @@
 	flex-direction: column;
 	align-items: center;
 	margin: 30px auto 0;
+	#ad-a-green{
+		color: $primary-color !important;
+	}
 	.ad-container {
 		background-color: #2b2b2b;
 		width: 648px;
-		height: 467px;
+		height: 423px;
 		.ad-text-content {
 			margin-top: 40px;
 		}
@@ -37,7 +40,7 @@
 					outline: none;
 					color: white;
 				}
-				::placeholder{
+				::placeholder {
 					color: white;
 				}
 				.btn {
@@ -93,26 +96,54 @@
 	}
 }
 
-@media all and (max-width: 648px) {
-	// body{
-	//     background-color: #2b2b2b;
-	// }
+@media all and (max-width: 1100px) {
 	.ad-container {
 		max-width: 100%;
-		max-height: 100%;
-		background-color: transparent !important;
 	}
 
 	.ad-block-one {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		max-width: 100% !important;
 		select {
-			margin-left: 230px;
+			margin: auto;
 			width: 80px;
 		}
 		#ad-footer-link {
-			margin-left: 60px;
+			margin: auto;
+		}
+	}
+
+	.ad-block-tow {
+		span {
+			display: flex;
+			justify-content: center;
+			margin: auto;
+		}
+	}
+}
+
+@media all and (max-width: 648px) {
+	.ad-container {
+		max-width: 100%;
+		background-color: transparent !important;
+		input {
+			background-color: transparent !important;
+		}
+	}
+
+	.ad-block-one {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		max-width: 100% !important;
+		select {
+			margin: auto;
+			width: 80px;
+		}
+		#ad-footer-link {
+			margin: auto;
 		}
 	}
 
