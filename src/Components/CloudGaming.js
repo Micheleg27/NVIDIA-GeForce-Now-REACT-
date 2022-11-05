@@ -1,4 +1,5 @@
 import { Button } from './BasicComponents/Button';
+import { Title } from './Title';
 
 
 export function CloudGaming() {
@@ -6,12 +7,7 @@ export function CloudGaming() {
         <section>
             <div className="container cl-container">
 
-                <h2 className="text-light" id="h2-cl-container">Cloud Gaming Su Tutti I Tuoi Dispositivi</h2>
-
-                <p className="text-light" id="p-cl-container">GeForce NOW trasforma subito quasi ogni sistema laptop, desktop Mac,
-                    SHIELD TV, dispositivo Android, iPhone o iPad nel potente PC di gioco che hai sempre sognato. Gioca con i titoli
-                    per PC più esigenti facilmente su tutti i tuoi
-                </p>
+                <Title titlecolor='title-color-white' h1title={'Cloud Gaming Su Tutti I Tuoi Dispositivi'} h3title={'GeForce NOW trasforma subito quasi ogni sistema laptop, desktop Mac, SHIELD TV, dispositivo Android, iPhone o iPad nel potente PC di gioco che hai sempre sognato. Gioca con i titoli per PC più esigenti facilmente su tutti i tuoi'}/>
 
                 <div className="d-flex justify-content-center" id="cl-logo-container">
                     <div className="d-flex" id="cl-container-mobile">

@@ -82,6 +82,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  align-items: center;
 }
 .rpFortniteSection .rpContentContainer .rpContentTitle {
   font-size: 40px;
@@ -108,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -270,6 +269,7 @@
     width: 45%;
     height: 75%;
     margin: 10px;
+    align-items: center;
   }
   #MG-sec-porta-esperienza #MG-container-esperienza #MG-h1-porta-esperienza {
     font-size: 44px;
@@ -405,12 +405,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1514,7 +1508,14 @@ footer .ad-subscribe .ad-social {
   justify-content: center;
   color: #ffffff;
   font-family: "Geforce bold";
-  font-size: 14px;
+  font-size: 22px;
+}
+
+.AD-h4 {
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Geforce bold";
+  font-size: 16px;
 }
 
 .AD-p-sologeforce {
@@ -2018,8 +2019,7 @@ footer .ad-subscribe .ad-social {
 #MG-container-nuovi-giochi .MG-card-image {
   width: 408px;
   height: 230px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 #MG-container-nuovi-giochi #MG-btn:hover {
   background-color: #76D900;
@@ -2138,24 +2138,13 @@ footer .ad-subscribe .ad-social {
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2366,6 +2355,37 @@ footer p a {
     margin-left: 90px;
   }
 }
+.container-title-header {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+}
+
+.title-color-white {
+  color: white;
+}
+
+.title-color-black {
+  color: black;
+}
+
+.title-header-one {
+  font-size: 38px;
+  font-family: "Geforce bold";
+  text-align: center;
+}
+
+.title-header-two {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 100;
+  font-family: "Geforce light";
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -2382,4 +2402,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

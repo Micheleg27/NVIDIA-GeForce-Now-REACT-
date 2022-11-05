@@ -1,3 +1,5 @@
+import { Title } from "./Title";
+
 export function TuttiGiocano() {
 
     function playVid() {
@@ -8,11 +10,9 @@ export function TuttiGiocano() {
 
     return (
         <article className="rpGiocanoArticle">
-            <h2 className="rpGiocanoH2"><strong>TUTTI GIOCANO</strong></h2>
-            <p className="rpGiocanoP">
-                Guarda i tuoi streamer e YouTuber preferiti giocare ai migliori giochi
-                per PC del mondo, in streaming dal cloud
-            </p>
+
+            <Title titlecolor='title-color-white' h1title={'TUTTI GIOCANO'} h3title={'Guarda i tuoi streamer e YouTuber preferiti giocare ai migliori giochi per PC del mondo, in streaming dal cloud'}/>
+
             <section className="rpGiocanoSection">
                 <video className="rpGiocanoVideo" id="myVideo"
                     src="https://images.nvidia.com/geforce-now/webassets/overview/gfn-3080-product-video-final.mp4" type="video/mp4"

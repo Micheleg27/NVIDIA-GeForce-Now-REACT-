@@ -11,7 +11,7 @@ export function MicroCard({img, title, paragraph, description, link}) {
             <p className="AD-p-sologeforce">{paragraph}</p>
             <Button type="button" buttonSize="BTN--large" buttonStyle="btn--primary--green">
                 <a href={link}>
-                    <h3 className="AD-h3">{description}</h3>
+                    <h3 className="AD-h4">{description}</h3>
                 </a>
             </Button>
         </div>
