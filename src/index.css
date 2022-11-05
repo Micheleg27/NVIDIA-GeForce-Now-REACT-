@@ -82,6 +82,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  align-items: center;
 }
 .rpFortniteSection .rpContentContainer .rpContentTitle {
   font-size: 40px;
@@ -268,6 +269,7 @@
     width: 45%;
     height: 75%;
     margin: 10px;
+    align-items: center;
   }
   #MG-sec-porta-esperienza #MG-container-esperienza #MG-h1-porta-esperienza {
     font-size: 44px;
@@ -1506,7 +1508,14 @@ footer .ad-subscribe .ad-social {
   justify-content: center;
   color: #ffffff;
   font-family: "Geforce bold";
-  font-size: 14px;
+  font-size: 22px;
+}
+
+.AD-h4 {
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Geforce bold";
+  font-size: 16px;
 }
 
 .AD-p-sologeforce {
