@@ -32,10 +32,9 @@ function CaroselloHome() {
 							<h3>Fornite: Pronti Per La Battaglia</h3>
 							<span>Prestazioni GeForce Reali</span>
 							<div class="sv-scopri-button">
-								<a href="#">SCOPRI DI PIU</a>
 							</div>
 							<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green" >
-                                scopri di Più
+                                Scopri di più
                             </Button>
 						</div>
 					</div>

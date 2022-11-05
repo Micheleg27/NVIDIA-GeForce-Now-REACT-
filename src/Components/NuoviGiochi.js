@@ -1,19 +1,14 @@
 import { Card } from "./BasicComponents/Card"
 import { Button } from "./BasicComponents/Button"
+import { Title } from "./Title"
 
 
 export function NuoviGiochi() {
     return (
         <section id="MG-section-nuovi-giochi">
             <div id="MG-container-nuovi-giochi">
-                <div id="MG-title-nuovi-giochi">
-                    <h2 id="MG-paragraph-title">NUOVI GIOCHI AGGIUNTI OGNI GIOVEDÌ</h2>
-                    <p id="MG-paragraph-nuovi-giochi">
-                        Sintonizzati ogni settimana per il GFN Thursday: annunci settimanali
-                        per i nuovi giochi, le funzionalità e le notizie più recenti, in
-                        streaming dal cloud a te.
-                    </p>
-                </div>
+
+                <Title titlecolor='title-color-white' h1title={'NUOVI GIOCHI AGGIUNTI OGNI GIOVEDÌ'} h3title={'Sintonizzati ogni settimana per il GFN Thursday: annunci settimanaliper i nuovi giochi, le funzionalità e le notizie più recenti, in streaming dal cloud a te.'}/>
 
                 <div className="MG-cards-box">
                     <Card img={'https://blogs.nvidia.com/wp-content/uploads/2022/10/gfn-thursday-10-20-nv-blog-1280x680-no-cta.jpg'} title={'on Repeat: GFN Thursday Brings Loopmancer With RTX ON tothe Cloud'} date={'October 20, 2022'} description={'Investigate the ultimate truth this GFN Thursday with Loopmancer, now streaming to all members on GeForce NOW. Stuck in a death loop, RTX 3080 and Priority members can search for the truth with ...'} />

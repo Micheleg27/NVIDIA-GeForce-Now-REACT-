@@ -82,6 +82,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
+  align-items: center;
 }
 .rpFortniteSection .rpContentContainer .rpContentTitle {
   font-size: 40px;
@@ -268,6 +269,7 @@
     width: 45%;
     height: 75%;
     margin: 10px;
+    align-items: center;
   }
   #MG-sec-porta-esperienza #MG-container-esperienza #MG-h1-porta-esperienza {
     font-size: 44px;
@@ -368,10 +370,13 @@
   align-items: center;
   margin: 30px auto 0;
 }
+.ad-container-one #ad-a-green {
+  color: #76B900 !important;
+}
 .ad-container-one .ad-container {
   background-color: #2b2b2b;
   width: 648px;
-  height: 467px;
+  height: 423px;
 }
 .ad-container-one .ad-container .ad-text-content {
   margin-top: 40px;
@@ -451,23 +456,49 @@
   font-size: 12px;
 }
 
+@media all and (max-width: 1100px) {
+  .ad-container {
+    max-width: 100%;
+  }
+  .ad-block-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100% !important;
+  }
+  .ad-block-one select {
+    margin: auto;
+    width: 80px;
+  }
+  .ad-block-one #ad-footer-link {
+    margin: auto;
+  }
+  .ad-block-tow span {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
 @media all and (max-width: 648px) {
   .ad-container {
     max-width: 100%;
-    max-height: 100%;
+    background-color: transparent !important;
+  }
+  .ad-container input {
     background-color: transparent !important;
   }
   .ad-block-one {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 100% !important;
   }
   .ad-block-one select {
-    margin-left: 230px;
+    margin: auto;
     width: 80px;
   }
   .ad-block-one #ad-footer-link {
-    margin-left: 60px;
+    margin: auto;
   }
   .ad-block-tow span {
     display: flex;
@@ -1465,7 +1496,14 @@ footer .ad-subscribe .ad-social {
   justify-content: center;
   color: #ffffff;
   font-family: "Geforce bold";
-  font-size: 14px;
+  font-size: 22px;
+}
+
+.AD-h4 {
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Geforce bold";
+  font-size: 16px;
 }
 
 .AD-p-sologeforce {
@@ -1722,114 +1760,67 @@ footer .ad-subscribe .ad-social {
   height: 30px;
 }
 
-@media screen and (max-width: 767.99px) {
-  .cl-container {
-    margin-top: 150px;
-    width: 100%;
-    height: 100%;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .cl-container #cl-logo-container {
-    display: flex;
-    flex-direction: column;
-    height: 125vh;
-    margin-top: 100px;
-  }
-  .cl-container #cl-logo-container #cl-container-mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .cl-container .cl-h2-logo {
-    color: white;
-    font-size: 26px;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  .cl-container #p-cl-container {
-    font-size: 22px;
-    text-align: center;
-    padding: 40px;
-  }
-  .cl-p-logo {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-  }
+#cl-container-mobile {
+  justify-content: space-between;
 }
-@media all and (max-width: 1350px) {
-  .cl-img-container-home {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    text-align: center;
-  }
-  .cl-img-container-home .cl-h2-logo {
-    color: white;
-    font-size: 26px;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  .cl-container {
-    margin-top: 120px;
-    margin-bottom: 40px;
-    width: 100%;
-    height: 770px;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .cl-container #cl-container-mobile {
-    justify-content: space-between;
-    flex-direction: column;
-    width: 80%;
-  }
-  .cl-container #h2-cl-container {
-    font-size: 36px;
-    font-family: "Geforce bold";
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #p-cl-container {
-    font-size: 20px;
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #cl-logo-container {
-    width: 90vw;
-    padding: 100px 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-  .cl-container #lc-pc-windows {
-    height: 56px;
-    width: 150px;
-  }
-  .cl-p-logo {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-  }
-  .cl-btn:hover {
-    background-color: #76D900;
-  }
+
+.cl-img-container-home {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  text-align: center;
 }
-@media screen and (min-width: 1350px) {
-  #cl-container-mobile {
-    justify-content: space-between;
-    width: 80%;
-  }
+.cl-img-container-home .cl-h2-logo {
+  color: white;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.cl-container {
+  width: 80%;
+  height: 770px;
+  background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  display: flex !important;
+  flex-direction: column;
+}
+.cl-container #h2-cl-container {
+  font-size: 46px;
+  font-family: "Geforce bold";
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #p-cl-container {
+  font-size: 26px;
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #cl-logo-container {
+  width: 90%;
+  flex-direction: column;
+  display: flex !important;
+  align-items: center;
+}
+.cl-container #lc-pc-windows {
+  height: 56px;
+  width: 150px;
+}
+
+.cl-p-logo {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.cl-btn:hover {
+  background-color: #76D900;
+}
+
+@media all and (max-width: 768px) {
   .cl-img-container-home {
     width: 25%;
     display: flex;
@@ -1863,10 +1854,10 @@ footer .ad-subscribe .ad-social {
     font-size: 26px;
     text-align: center;
     padding: 8px;
+    margin: 0;
   }
   .cl-container #cl-logo-container {
     width: 90%;
-    padding: 6%;
     flex-direction: column;
     display: flex !important;
     align-items: center;
@@ -1882,6 +1873,48 @@ footer .ad-subscribe .ad-social {
   }
   .cl-btn:hover {
     background-color: #76D900;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cl-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+  }
+  .cl-container #cl-logo-container {
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+  }
+  .cl-container #cl-logo-container #cl-container-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cl-container .cl-h2-logo {
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .cl-container #p-cl-container {
+    font-size: 22px;
+    text-align: center;
+    padding: 40px;
+  }
+  .cl-container #cl-container-mobile {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .cl-p-logo {
+    font-size: 15px;
+    color: white;
+    text-align: center;
   }
 }
 .rpGiocanoArticle {
@@ -2299,6 +2332,70 @@ footer p a {
     margin-left: 90px;
   }
 }
+.container-title-header {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+}
+
+.title-color-white {
+  color: white;
+}
+
+.title-color-black {
+  color: black;
+}
+
+.title-header-one {
+  font-size: 38px;
+  font-family: "Geforce bold";
+  text-align: center;
+}
+
+.title-header-two {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 100;
+  font-family: "Geforce light";
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.error-logo-container {
+  padding: 15px 0;
+  width: 80%;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-logo-Nvidia {
+  width: 364px;
+  height: 30px;
+}
+
+.error-button {
+  background-color: #76b900;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 280px;
+  height: 44px;
+  width: 230px;
+}
+
 * {
   padding: 0;
   margin: 0;
