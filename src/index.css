@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -405,6 +407,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -2019,7 +2027,8 @@ footer .ad-subscribe .ad-social {
 #MG-container-nuovi-giochi .MG-card-image {
   width: 408px;
   height: 230px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #MG-container-nuovi-giochi #MG-btn:hover {
   background-color: #76D900;
@@ -2138,13 +2147,24 @@ footer .ad-subscribe .ad-social {
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2386,6 +2406,39 @@ footer p a {
   margin-top: 15px;
 }
 
+.error-logo-container {
+  padding: 15px 0;
+  width: 80%;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-logo-Nvidia {
+  width: 364px;
+  height: 30px;
+}
+
+.error-button {
+  background-color: #76b900;
+  color: white;
+  border: none;
+  position: absolute;
+  bottom: 280px;
+  height: 44px;
+  width: 230px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -2402,6 +2455,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

@@ -16,7 +16,6 @@ function ThanksForRegister() {
 				</div>
 				<h3 className="TFR-title">Grazie per esserti iscritto/a alla nostra Newsletter!</h3>
 				<Button
-					className="TFR-button"
 					buttonSize="BTN--large"
 					buttonStyle="btn--primary--green"
 					onClick={() => navigate(-1)}
