@@ -1,3 +1,5 @@
+import { Button } from 'react-bootstrap';
+import '../SASS/button.css';
 import { useNavigate} from 'react-router-dom';
 import useShow from './BasicComponents/useShow';
 
@@ -7,9 +9,9 @@ function FooterForm() {
 	const navigate = useNavigate();
 	return (
 		<div>
-			<button type="button" onClick={() => setShow(!show)}>
+			<Button buttonSize="BTN--medium" buttonStyle="btn--primary--green" type="button" onClick={() => setShow(!show)}>
 				Registrati
-			</button>
+			</Button>
 			{show && (
 				<div className="ad-window-form">
 					{/* <div className="overlay" /> */}

@@ -3,15 +3,15 @@ import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX } from 
 
 export const ListFooter = () => {
 	return (
-		<div className="row text-md-left">
+		<div className="text-md-left m-3">
 			<div className="row">
-				<div className="col-xmd-6 col-md-5 col-xl-4 mx-auto mt-3">
+				<div className="col-md-4 col-lg-4 col-xl-4 mt-3 ad-flex">
 					<List Links={INFORMAZIONI} title="INFORMAZIONI" />
 				</div>
-				<div className="col-xmd-6 col-md-5 col-xl-4 mx-auto mt-3">
+				<div className="col-md-4 col-lg-4 col-xl-3 mt-3 ad-flex">
 					<List Links={RISORSE} title="RISORSE" />
 				</div>
-				<div className="col-xmd-6 col-md-5 col-xl-4 mt-3 margin-left">
+				<div className="col-xmd-4 col-lg-4 col-xl-3 mt-3 ad-flex">
 					<List Links={SUPPORTO} title="SUPPORTO" />
 				</div>
 			</div>

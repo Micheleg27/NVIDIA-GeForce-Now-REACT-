@@ -7,10 +7,8 @@ export function NuoviGiochi() {
         <section id="MG-section-nuovi-giochi">
             <div id="MG-container-nuovi-giochi">
                 <div id="MG-title-nuovi-giochi">
-                    <h2 id="MG-paragraph-nuovi-giochi">
-                        <p>NUOVI GIOCHI AGGIUNTI OGNI GIOVEDÌ</p>
-                    </h2>
-                    <p id="MG-paragraph-title">
+                    <h2 id="MG-paragraph-title">NUOVI GIOCHI AGGIUNTI OGNI GIOVEDÌ</h2>
+                    <p id="MG-paragraph-nuovi-giochi">
                         Sintonizzati ogni settimana per il GFN Thursday: annunci settimanali
                         per i nuovi giochi, le funzionalità e le notizie più recenti, in
                         streaming dal cloud a te.

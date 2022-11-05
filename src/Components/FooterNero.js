@@ -7,7 +7,6 @@ import FooterForm from './FooterForm';
 export function FooterNero() {
 	return (
 		<footer className="bg-black ad-padding">
-			<hr id="hr" className="mb-4 text-light" />
 
 			<ListFooter />
 

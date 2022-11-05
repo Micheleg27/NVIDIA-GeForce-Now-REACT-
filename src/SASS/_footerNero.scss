@@ -3,14 +3,9 @@
 }
 
 footer {
-	width: 78%;
+	width: 78%!important;
 	margin: auto;
 	font-family: "DINpro regular";
-
-	#hr {
-		max-width: 100%;
-	}
-
 	a {
 		text-decoration: none;
 		color: $primary-color !important;
@@ -129,15 +124,6 @@ footer {
 				// }
 			}
 
-		button {
-			width: 129px;
-			height: 48px;
-			font-size: 18px;
-			background-color: $primary-color;
-			border: 1px solid $primary-color;
-			color: white;
-		}
-
 		.ad-registrati:hover {
 			cursor: pointer;
 			background-color: $secondary-hover;
@@ -146,7 +132,6 @@ footer {
 		.ad-social {
 			display: flex;
 			justify-content: flex-end;
-			margin-right: 80px;
 			gap: 1rem;
 			width: 80px;
 		}
