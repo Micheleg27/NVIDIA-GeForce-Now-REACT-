@@ -10,7 +10,7 @@ export function FooterNero() {
 
 			<ListFooter />
 
-			<div className="ad-subscribe ml-0">
+			<div className="ad-subscrib">
 				<div className="ad-subscribe-content">
 					<div>
 						<HiOutlineMail size="70px" color="#76B900" />

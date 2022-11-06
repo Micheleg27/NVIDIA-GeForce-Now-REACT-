@@ -53,7 +53,7 @@ function CardAbbonamento() {
 					</div>
 				</div>
 
-				<div className="col-12 col-md-6 col-lg-4">
+				<div className="col-12 col-md-12 col-lg-4">
 					<div id="card-3080" className="card">
 						<div className="ad-card-header-three">
 							<h3>RTX 3080</h3>

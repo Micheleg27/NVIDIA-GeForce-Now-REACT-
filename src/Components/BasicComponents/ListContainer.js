@@ -1,5 +1,6 @@
 import List from './List';
 import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX } from './Data';
+import { findByLabelText } from '@testing-library/react';
 
 export const ListFooter = () => {
 	return (
@@ -29,7 +30,7 @@ export const ListFooterBianco = () => {
 
 export const FreeCard = () => {
 	return (
-		<div>
+		<div style={{display:'flex', alignItems:'center', justifyContent:'center' }}>
 			<List Links={FREE}  />
 		</div>
 	);
@@ -37,7 +38,7 @@ export const FreeCard = () => {
 
 export const PriorityCard = () => {
 	return (
-		<div>
+		<div style={{display:'flex', alignItems:'center', justifyContent:'center' }}>
 			<List Links={PRIORITY}  />
 		</div>
 	);
@@ -45,7 +46,7 @@ export const PriorityCard = () => {
 
 export const RTXCard = () => {
 	return (
-		<div>
+		<div style={{display:'flex', alignItems:'center', justifyContent:'center' }}>
 			<List Links={RTX}  />
 		</div>
 	);

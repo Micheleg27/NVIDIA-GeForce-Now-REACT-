@@ -11,7 +11,7 @@ footer {
 		color: $primary-color !important;
 	}
 
-	.ad-subscribe {
+	.ad-subscrib {
 		display: flex;
 		justify-content: space-between;
 		margin-top: 50px;
@@ -20,9 +20,8 @@ footer {
 			position: relative;
 			display: flex;
 			color: white;
-			justify-content: space-evenly;
 			align-items: center;
-			width: 600px;
+			gap:25px;
 		}
 
 		.ad-window-form {
@@ -131,14 +130,26 @@ footer {
 
 		.ad-social {
 			display: flex;
-			justify-content: flex-end;
 			gap: 1rem;
-			width: 80px;
 		}
 	}
 }
-@media (min-width: 768px) and (max-width: 1199.98px){
-	.margin-left{
-		margin-left:35px;
+// @media (min-width: 768px) and (max-width: 1199.98px){
+// 	.margin-left{
+// 		margin-left:35px;
+// 	}
+// }
+
+@media (max-width: 991px) {
+	.ad-subscrib {
+		flex-direction: column!important;
+		align-items: center;
+		.ad-subscribe-content {
+			position: relative;
+			flex-direction: column;
+		}
+		.ad-social{
+			margin-top: 20px;
+		}
 	}
 }
