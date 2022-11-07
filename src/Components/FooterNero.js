@@ -6,6 +6,9 @@ import FooterForm from './FooterForm';
 
 export function FooterNero() {
 	return (
+		<div>
+			<hr className='text-light mb-4 resw'></hr>
+		
 		<footer className="bg-black ad-padding">
 
 			<ListFooter />
@@ -38,5 +41,6 @@ export function FooterNero() {
 				</div>
 			</div>
 		</footer>
+		</div>
 	);
 }
