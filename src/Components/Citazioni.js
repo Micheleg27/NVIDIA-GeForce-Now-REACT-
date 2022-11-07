@@ -14,7 +14,7 @@ function Citazioni() {
           </div>
           <div className="carousel-inner">
             <div className="sv-text-container carousel-item active">
-              <p className="sv-text">
+              <p className="sv-text" style={{fontSize:'25px'}}>
                 "GEFORCE NOW’s 3080 tier seems to be the new gold standard for cloud gaming tech"
                 <span class="d-flex justify-content-center">
                   <a id="a-due" href="#">- 9to5 Google</a>
@@ -22,7 +22,7 @@ function Citazioni() {
               </p>
             </div>
             <div className="sv-text-container carousel-item">
-              <p className="sv-text">
+              <p className="sv-text" style={{fontSize:'25px'}}>
                 "I felt like I was playing a brand-new AAA video game natively on my phone"
                 <span className="d-flex justify-content-center">
                   <a id="a-due" href="#">- Digital Trends</a>
@@ -30,7 +30,7 @@ function Citazioni() {
               </p>
             </div>
             <div className="sv-text-container carousel-item">
-              <p className="sv-text">
+              <p className="sv-text" style={{fontSize:'25px'}}>
                 "NVIDIA is quite literally taking its cloud game streaming service, GEFORCE NOW, to the next level."
                 <span className="d-flex justify-content-center">
                   <a id="a-due" href="#">- Hot Hardware</a>
@@ -38,7 +38,7 @@ function Citazioni() {
               </p>
             </div>
             <div className="sv-text-container carousel-item">
-              <p className="sv-text">
+              <p className="sv-text" style={{fontSize:'25px'}}>
                 "On my 4K TV, with a gamepad in hand, the 2160p/60 FPS gaming sensation was absolutely incredible."
                 <br />
                 <span>

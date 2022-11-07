@@ -1,6 +1,5 @@
 import List from './List';
 import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX } from './Data';
-import { findByLabelText } from '@testing-library/react';
 
 export const ListFooter = () => {
 	return (

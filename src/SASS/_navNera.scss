@@ -47,3 +47,20 @@
 		}
 	}
 }
+
+@media all and (max-width: 913px) {
+	.navbar-dark {
+		.container-fluid {
+			.navbar-brand {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+
+@media all and (max-width: 448px) {
+	.bnt-hidden{
+		display: none;
+	}
+}

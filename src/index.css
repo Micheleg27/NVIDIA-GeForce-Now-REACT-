@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -383,6 +385,12 @@
   outline: none;
   color: white;
 }
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
+  color: white;
+}
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
   color: white;
 }
@@ -524,6 +532,16 @@
   border: none;
 }
 
+@media all and (max-width: 913px) {
+  .navbar-dark .container-fluid .navbar-brand {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 448px) {
+  .bnt-hidden {
+    display: none;
+  }
+}
 .rpArticleNuovaGen {
   display: flex;
   flex-direction: column;
@@ -638,8 +656,7 @@
 }
 .rpArticleGetIn .rpTitleGetIn {
   margin-bottom: 50px;
-  margin-left: -80px;
-  color: 0;
+  margin-left: 12px;
 }
 .rpArticleGetIn .rpH2GetIn {
   color: white;
@@ -656,8 +673,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 200px;
+  justify-content: space-between;
+  width: 30%;
 }
 .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn {
   display: flex;
@@ -665,6 +682,7 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  width: 190px;
 }
 .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn img {
   margin: 0;
@@ -691,6 +709,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 190px;
   gap: 15px;
 }
 .rpArticleGetIn .rpImagesContainerGetIn .rpSecondLogoGetIn img {
@@ -1045,15 +1064,24 @@
     display: inline-block;
   }
 }
-@media all and (max-width: 874px) {
-  .ad-subscribe .ad-subscribe-content {
+@media all and (max-width: 913px) {
+  .AD-content {
+    width: 90%;
+  }
+  .AD-content .ad-subscribe .ad-subscribe-content {
     width: auto;
     margin-left: 0;
     margin-right: 0;
   }
-  .ad-subscribe .ad-social {
+  .AD-content .ad-subscribe .ad-social {
     margin: 0 auto;
     justify-content: center;
+  }
+  .AD-content .ad-copyright {
+    text-align: center !important;
+  }
+  .AD-content .ul-align {
+    text-align: center !important;
   }
 }
 .mg-follow-social {
@@ -1221,7 +1249,6 @@ footer .ad-subscrib .ad-social {
     margin-top: 20px;
   }
 }
-/* Media query MOBILE (due mq molto simili) */
 #AD-section-sologeforce {
   width: 100vw;
   display: flex;
@@ -1318,7 +1345,8 @@ footer .ad-subscrib .ad-social {
   }
 }
 .sv-citazioni {
-  height: 285px;
+  height: 280px;
+  font-size: 20px !important;
   background-color: #1a1a1a;
   color: white;
   position: relative;
@@ -1918,13 +1946,24 @@ footer .ad-subscrib .ad-social {
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2192,6 +2231,25 @@ footer p a {
   width: 230px;
 }
 
+.ad-flex {
+  display: flex !important;
+  align-items: center;
+}
+
+#a-due {
+  color: #76B900;
+  text-decoration: none;
+}
+
+img {
+  margin-right: 15px;
+}
+
+@media all and (max-width: 768px) {
+  .ad-position {
+    margin-left: 50px !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -2208,6 +2266,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

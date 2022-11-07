@@ -1,9 +1,15 @@
-import SvgSocialFB from '../Source/assets_socialIcons/fblogo.svg'
-import SvgSocialTw from '../Source/assets_socialIcons/twlogo.svg'
+import { TfiFacebook } from 'react-icons/tfi';
+import { FaTwitter } from 'react-icons/fa';
 
 export function SocialIcons() {
-    return <div className="mg-container-socialIcons">
-                <a href='http://www.facebook.com/nvidiageforcenow'><img className='mg-social-icons' src={SvgSocialFB} alt='fb-logo' /></a>
-                <a href='http://www.twitter.com/nvidiagfn'><img className='mg-social-icons' src={SvgSocialTw} alt='tw-logo' /></a>
-    </div>
+	return (
+		<div className="mg-container-socialIcons">
+			<a href="https://www.facebook.com/NVIDIAGeforceNow" target="_blank">
+				<TfiFacebook size="40px" color="grey" />
+			</a>
+			<a href="https://twitter.com/NvidiaGFN" target="_blank">
+				<FaTwitter size="40px" color="grey" />
+			</a>
+		</div>
+	);
 }

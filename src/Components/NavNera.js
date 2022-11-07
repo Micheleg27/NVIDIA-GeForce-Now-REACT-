@@ -45,12 +45,12 @@ export function NavNera() {
 
 					<div className="bho">
 						<div className="btn-doppio">
-							<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green">
+							<button type="button"  className='bnt-hidden BTN--primary--green BTN--medium BTN'>
 								Gioca Ora
-							</Button>
-							<Button type="button" buttonSize="BTN--medium" buttonStyle="BTN--secondary--outline">
+							</button>
+							<button type="button" className='bnt-hidden BTN--secondary--outline BTN--medium BTN'>
 								Carte Regalo
-							</Button>
+							</button>
 							<button
 								className="navbar-toggler"
 								type="button"

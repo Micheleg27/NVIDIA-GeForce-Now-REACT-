@@ -22,7 +22,7 @@ export default function FooterBianco() {
 					</div>
 				</div>
 
-				<ul className="list-unstyled list-inline">
+				<ul className="list-unstyled list-inline ul-align">
 					<li className="list-inline-item">
 						<a id="a" href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/">
 							Privacy Notice <span id="ad-span">|</span>
