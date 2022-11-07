@@ -7,7 +7,8 @@
 .AD-content {
 	display: flex;
 	flex-direction: column;
-	width: 1300px;
+	max-width: 1300px;
+	width:90%;
 	.ad-logo {
 		display: flex;
 		justify-content: space-between;
@@ -72,62 +73,28 @@
 }
 
 @media all and (max-width: 1024px) {
-	.ad-subscribe {
-		flex-direction: column;
-
-		.ad-subscribe-content {
-			flex-direction: column;
-			gap: 1rem;
-			margin: 30px;
-		}
-	}
-
-	.ad-logo {
-		flex-direction: column;
-		align-items: center;
-
-		.ad-nvidia-logo {
-			right: 0;
-		}
-
-		.ad-global-footer__region__label {
-			font-weight: bold;
-			color: #888;
-		}
-
-		.ad-copyright {
-			margin: 0 auto;
-		}
-	}
-
-	li {
-		display: inline-block;
-	}
-}
-
-@media all and (max-width: 913px) {
 	.AD-content {
 		width: 90%;
-		.ad-subscribe {
-			.ad-subscribe-content {
-				width: auto;
-				margin-left: 0;
-				margin-right: 0;
+		.ad-logo {
+			flex-direction: column;
+			align-items: center;
+			.ad-nvidia-logo {
+				right: 0;
 			}
-
-			.ad-social {
-				margin: 0 auto;
-				justify-content: center;
+			.ad-global-footer__region__label {
+				font-weight: bold;
+				color: #888;
 			}
-
-           
 		}
-        .ad-copyright{
+		.ul-align{
             text-align: center !important;
+			li {
+				display: inline-block;
+			}
         }
-
-        .ul-align{
+		.ad-copyright{
             text-align: center !important;
+			margin: 0 auto;
         }
 	}
 }

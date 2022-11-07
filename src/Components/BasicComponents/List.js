@@ -6,9 +6,9 @@ const List = ({ Links, title }) => {
 		<ul>
 			<h4 className="text-light">{title}</h4>
 			{Links.map((link) => (
-				<li className="list-group-item" key={link.id}>
+				<li className="styletype" key={link.id}>
 					<a href={link.link}>
-					<img style={{width: '20px'}} src={link.img} /> {link.id}
+					<img id='img-none' style={{width: '20px'}} src={link.img} /> {link.id}
 					</a>
 				</li>
 			))}

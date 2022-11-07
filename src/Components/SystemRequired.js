@@ -3,7 +3,7 @@ import React from 'react';
 function SystemRequired() {
 	return (
 		<section>
-			<div className="container ad-position">
+			<div className="ad-position">
 				<div>
 					<div className="row text-md-left ">
 						<div className="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3 ad-flex">

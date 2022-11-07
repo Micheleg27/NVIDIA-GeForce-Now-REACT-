@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -383,12 +381,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -986,7 +978,8 @@
 .AD-content {
   display: flex;
   flex-direction: column;
-  width: 1300px;
+  max-width: 1300px;
+  width: 90%;
 }
 .AD-content .ad-logo {
   display: flex;
@@ -1038,50 +1031,29 @@
   }
 }
 @media all and (max-width: 1024px) {
-  .ad-subscribe {
-    flex-direction: column;
-  }
-  .ad-subscribe .ad-subscribe-content {
-    flex-direction: column;
-    gap: 1rem;
-    margin: 30px;
-  }
-  .ad-logo {
-    flex-direction: column;
-    align-items: center;
-  }
-  .ad-logo .ad-nvidia-logo {
-    right: 0;
-  }
-  .ad-logo .ad-global-footer__region__label {
-    font-weight: bold;
-    color: #888;
-  }
-  .ad-logo .ad-copyright {
-    margin: 0 auto;
-  }
-  li {
-    display: inline-block;
-  }
-}
-@media all and (max-width: 913px) {
   .AD-content {
     width: 90%;
   }
-  .AD-content .ad-subscribe .ad-subscribe-content {
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
+  .AD-content .ad-logo {
+    flex-direction: column;
+    align-items: center;
   }
-  .AD-content .ad-subscribe .ad-social {
-    margin: 0 auto;
-    justify-content: center;
+  .AD-content .ad-logo .ad-nvidia-logo {
+    right: 0;
   }
-  .AD-content .ad-copyright {
-    text-align: center !important;
+  .AD-content .ad-logo .ad-global-footer__region__label {
+    font-weight: bold;
+    color: #888;
   }
   .AD-content .ul-align {
     text-align: center !important;
+  }
+  .AD-content .ul-align li {
+    display: inline-block;
+  }
+  .AD-content .ad-copyright {
+    text-align: center !important;
+    margin: 0 auto;
   }
 }
 .mg-follow-social {
@@ -1097,7 +1069,7 @@
   font-size: 32px;
   color: white;
   font-family: "Geforce bold";
-  margin: 10px auto;
+  margin: 30px auto;
 }
 
 .mg-container-socialIcons {
@@ -1130,32 +1102,41 @@
   color: black !important;
 }
 
-.ad-padding {
-  padding: 60px 0;
+.resw {
+  width: 70%;
+  margin: auto;
 }
 
-footer {
-  width: 78% !important;
-  margin: auto;
+.ad-padding {
+  max-width: 1300px;
+  width: 90%;
   font-family: "DINpro regular";
 }
-footer a {
+.ad-padding .styletype {
+  list-style-type: none;
+}
+.ad-padding .styletype a {
   text-decoration: none;
   color: #76B900 !important;
 }
-footer .ad-subscrib {
+.ad-padding .styletype #img-none {
+  display: none;
+}
+.ad-padding .ad-subscrib {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
-footer .ad-subscrib .ad-subscribe-content {
+.ad-padding .ad-subscrib .ad-subscribe-content {
   position: relative;
   display: flex;
   color: white;
   align-items: center;
   gap: 25px;
 }
-footer .ad-subscrib .ad-window-form {
+.ad-padding .ad-subscrib .ad-window-form {
   position: fixed;
   top: 250px;
   left: 500px;
@@ -1164,7 +1145,7 @@ footer .ad-subscrib .ad-window-form {
   justify-content: center;
   align-items: center;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container {
   width: 994px;
   height: 375px;
   padding: 60px 0;
@@ -1172,10 +1153,10 @@ footer .ad-subscrib .ad-window-form .ad-wf-container {
   position: relative;
   z-index: 9999;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content {
   margin: 0 80px;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content #ad-box-close {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1188,20 +1169,20 @@ footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content #ad-box-clos
   width: 25px;
   height: 25px;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content h2 {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content h2 {
   font-size: 40px;
   color: #76B900;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content p {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content p {
   font-size: 16px;
   color: white;
   padding: 0 0 22px 0;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-mail {
   width: 798px;
   height: 82px;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-mail input {
   width: 830px;
   height: 52px;
   outline: none;
@@ -1210,31 +1191,31 @@ footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-mail inp
   background-color: #1a1a1a;
   color: white;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content input:hover {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content input:hover {
   border: 2px solid #76B900;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn {
   display: flex;
   justify-content: space-between;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn a {
   padding: 10px 0;
   color: #76B900;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button {
   width: 75px;
   height: 45px;
   border: 1px solid #76B900;
 }
-footer .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
+.ad-padding .ad-subscrib .ad-window-form .ad-wf-container .ad-wf-content .ad-a-btn button:hover {
   background-color: #6AA700;
   cursor: pointer;
 }
-footer .ad-subscrib .ad-registrati:hover {
+.ad-padding .ad-subscrib .ad-registrati:hover {
   cursor: pointer;
   background-color: #76D900;
 }
-footer .ad-subscrib .ad-social {
+.ad-padding .ad-subscrib .ad-social {
   display: flex;
   gap: 1rem;
 }
@@ -1910,24 +1891,13 @@ footer .ad-subscrib .ad-social {
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2230,4 +2200,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
