@@ -31,11 +31,11 @@ function CaroselloHome() {
 						<div class="sv-text position-absolute">
 							<h3>Fornite: Pronti Per La Battaglia</h3>
 							<span>Prestazioni GeForce Reali</span>
-							<div class="sv-scopri-button">
-							</div>
+							<div style={{marginTop:'20px'}}>
 							<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green" >
                                 Scopri di più
                             </Button>
+							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -54,12 +54,11 @@ function CaroselloHome() {
 						<div class="sv-text position-absolute">
 							<h3>Il futuro è ora</h3>
 							<span>Potenza Classe GeForce RTX 3080</span>
-							<div class="sv-scopri-button">
-								<a href="#">SCOPRI DI PIU</a>
-							</div>
-                            <Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green" >
+							<div  style={{marginTop:'20px'}}>
+							<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green" >
                                 Registrati Ora
                             </Button>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -1,11 +1,11 @@
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1290px) {
 	#carousel-id-new {
 		width: 100%;
 	}
 
 	.position-absolute {
 		top: 130px;
-		left: 70px;
+		left: 30px;
 	}
 
 	.sv-text {
@@ -19,20 +19,6 @@
 
 		span {
 			font-size: 26px;
-		}
-	}
-
-	.sv-scopri-button {
-		width: 144.5px;
-		height: 57px;
-		@include flex(flex, center, center);
-		// @include button-verde;
-		font-size: 1.4rem;
-
-		a {
-			color: white;
-			font-size: 18px;
-			text-decoration: none;
 		}
 	}
 
@@ -62,41 +48,26 @@
 	}
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1329.99px) {
+@media screen and (min-width: 1290px) and (max-width: 1630px) {
 	#carousel-id-new {
 		width: 100%;
 	}
 
 	.position-absolute {
 		top: 130px;
-		left: 120px;
+		left: 100px;
 	}
 
 	.sv-text {
 		color: white;
 		width: 475px;
 
-		// height: 700px;
 		h3 {
 			font-size: 42px;
 		}
 
 		span {
 			font-size: 30px;
-		}
-	}
-
-	.sv-scopri-button {
-		width: 144.5px;
-		height: 57px;
-		@include flex(flex, center, center);
-		// @include button-verde;
-		font-size: 1.4rem;
-
-		a {
-			color: white;
-			font-size: 18px;
-			text-decoration: none;
 		}
 	}
 
@@ -126,19 +97,19 @@
 	}
 }
 
-@media screen and (min-width: 1330px) {
+@media screen and (min-width: 1630px) {
 	#carousel-id-new {
 		width: 100%;
 	}
 
 	.position-absolute {
 		top: 140px;
-		left: 90px;
+		left: 220px;
 	}
 
 	.sv-text {
 		color: white;
-		width: 675px;
+		width: 600px;
 
 		// height: 700px;
 		h3 {
@@ -147,20 +118,6 @@
 
 		span {
 			font-size: 36px;
-		}
-	}
-
-	.sv-scopri-button {
-		width: 144.5px;
-		height: 57px;
-		// @include button-verde;
-		@include flex(flex, center, center);
-		font-size: 1.4rem;
-
-		a {
-			color: white;
-			font-size: 18px;
-			text-decoration: none;
 		}
 	}
 
