@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: row;
 	padding:0 30px;
+		margin-bottom: 70px;
 
 	#MG-container-esperienza {
 		width: 100%;
@@ -16,7 +17,6 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
 			width: 45%;
 			.textLeft{
 				text-align:left;
@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 992px) {
 	#MG-sec-porta-esperienza {
-		margin-bottom: 80px;
+		// margin-bottom: 80px;
 
 		#MG-container-esperienza {
 			flex-direction: column;

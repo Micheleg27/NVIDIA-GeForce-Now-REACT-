@@ -63,7 +63,7 @@
   src: url(./fonts/DINPro-Regular.ttf);
 }
 .rpFortniteSection {
-  background-image: url("./Source/assetsFortnite/FortniteBackground.jpg");
+  background-image: url("./Source/assetsFortnite/FortniteBackgroundBig2.jpg");
   background-size: cover;
   background-position: center center;
   height: 600px;
@@ -83,6 +83,7 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
+  padding-bottom: 20px;
 }
 .rpFortniteSection .rpContentContainer .rpContentTitle {
   font-size: 40px;
@@ -109,6 +110,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -116,7 +119,6 @@
     align-items: center;
     margin: 0;
     gap: 5px;
-    padding: 15px;
   }
   .rpFortniteSection .rpContentContainer .rpContentTitle {
     text-align: center;
@@ -131,7 +133,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 999.99px) and (max-width: 1300.99px) {
+@media screen and (max-width: 992px) {
   .rpFortniteSection {
     display: flex;
     flex-direction: column;
@@ -151,15 +153,6 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-  }
-}
-@media screen and (min-width: 1439.99px) {
-  .rpFortniteSection {
-    background-image: url("./Source/assetsFortnite/FortniteBackgroundBig2.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 600px;
   }
 }
 .alert-warning {
@@ -208,6 +201,7 @@
   display: flex;
   flex-direction: row;
   padding: 0 30px;
+  margin-bottom: 70px;
 }
 #MG-sec-porta-esperienza #MG-container-esperienza {
   width: 100%;
@@ -223,7 +217,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 45%;
 }
 #MG-sec-porta-esperienza #MG-container-esperienza #MG-esperienza-par .textLeft {
@@ -249,9 +242,6 @@
 }
 
 @media screen and (max-width: 992px) {
-  #MG-sec-porta-esperienza {
-    margin-bottom: 80px;
-  }
   #MG-sec-porta-esperienza #MG-container-esperienza {
     flex-direction: column;
   }
@@ -381,6 +371,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -643,7 +639,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
   margin-bottom: 100px;
 }
 .rpArticleGetIn .rpTitleGetIn {
@@ -666,7 +661,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 30%;
+  width: 40%;
 }
 .rpArticleGetIn .rpImagesContainerGetIn .rpFirstLogoGetIn {
   display: flex;
@@ -1510,18 +1505,11 @@
   }
 }
 .cart {
-  flex-direction: column;
-  position: absolute;
-  left: 1000px;
-  top: 90px;
-  z-index: 2147483647;
-  width: 515px;
-  height: 172px;
-  background-color: white;
+  position: relative;
 }
 .cart .triangle {
   position: absolute;
-  left: 465px;
+  left: 448px;
   top: -30px;
   z-index: 2147483647;
   width: 0;
@@ -1533,15 +1521,13 @@
 .cart .cart-content {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
-  height: 32px;
+  padding: 15px;
 }
 .cart .cart-content h2 {
   color: #76B900;
   margin-right: 250px;
 }
 .cart .cart-text {
-  width: 455px;
   height: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1550,6 +1536,13 @@
 .cart .cart-text p {
   color: black;
   font-size: 18px;
+}
+
+.dropdown-menu {
+  width: 500px;
+  margin-top: 60px !important;
+  margin-right: -45px !important;
+  border-radius: 0 !important;
 }
 
 .TFR-container {
@@ -1937,13 +1930,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2244,6 +2248,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

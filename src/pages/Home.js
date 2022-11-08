@@ -38,12 +38,12 @@ function Home() {
 			<Fortnite />
 			<NuoviGiochi/>
 			<CloudGaming />
-			<GetIn />
 			<TuttiGiocano />
-			<CardAbbonamento />
-			<Joystick />
 			<SoloGeforce />
 			<Citazioni />
+			<CardAbbonamento />
+			<GetIn />
+			<Joystick />
 			<FollowSocial /> 
 			<SystemRequired />
 			<FooterNero />
