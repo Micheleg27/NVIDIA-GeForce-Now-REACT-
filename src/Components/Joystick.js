@@ -7,9 +7,7 @@ import { Title } from './Title';
 function Joystick() {
 	return (
 		<React.Fragment>
-			<div className="container">
-				<hr className="mb-4 text-light" />
-			</div>
+			<hr className="mb-4 text-light resw" />
 			<section id="MG-sec-porta-esperienza">
 				<div id="MG-container-esperienza">
 					<img src={bannerJoystick} alt="banner-joystick" id="MG-bg-joystick-img" />

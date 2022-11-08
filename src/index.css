@@ -1314,6 +1314,9 @@
   #AD-section-sologeforce #AD-container-title #AD-h2-title {
     font-size: 24px;
   }
+  #AD-section-sologeforce .mg-div-microcard .AD-card-sologeforce {
+    margin-bottom: 0;
+  }
   #AD-section-sologeforce .mg-div-microcard .AD-card-sologeforce .AD-cart {
     width: 60px;
     height: 62px;
@@ -2142,6 +2145,7 @@ footer p a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
 }
 
 .title-color-white {
@@ -2215,11 +2219,6 @@ img {
   margin-right: 15px;
 }
 
-@media all and (max-width: 768px) {
-  .ad-position {
-    margin-left: 50px !important;
-  }
-}
 * {
   padding: 0;
   margin: 0;

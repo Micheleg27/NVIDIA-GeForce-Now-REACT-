@@ -3,9 +3,9 @@ import React from 'react';
 function SystemRequired() {
 	return (
 		<section>
-			<div className="ad-position">
+			<div className="container ad-position">
 				<div>
-					<div className="row text-md-left ">
+					<div className="row text-md-left align-items-center">
 						<div className="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3 ad-flex">
 							<img
 								src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-sys-req.svg"
