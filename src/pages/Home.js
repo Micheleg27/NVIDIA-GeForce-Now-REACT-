@@ -9,7 +9,7 @@ import { GetIn } from '../Components/GetIn';
 import  SystemRequired  from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
-import { GreenBannerNav} from '../Components/greenBannerNav';
+import GreenBannerNav from '../Components/GreenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
 import { SoloGeforce } from '../Components/SoloGeforce';
 import { MicroCard } from '../Components/BasicComponents/MicroCard';

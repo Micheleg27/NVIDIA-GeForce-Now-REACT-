@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
+import { Error } from './Components/Error';
 import ThanksForRegister from './Components/ThanksForRegister';
 import Home from './pages/Home';
 import LogAbb from './Components/LogAbb';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Error } from './Components/Error';
+import Scarica from './pages/Scarica';
+
 // import $ from 'jquery'
 // import Popper from 'popper.js'
 
@@ -20,6 +22,7 @@ root.render(
 				<Route path="/thanks" element={<ThanksForRegister />} />
 				<Route path="*" element={<Error/>} />
 				<Route path="/LogAbb" element={<LogAbb />}/>
+				<Route path='/Scarica' element={<Scarica />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

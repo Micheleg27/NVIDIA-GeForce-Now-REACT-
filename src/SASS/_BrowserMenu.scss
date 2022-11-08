@@ -1,0 +1,72 @@
+.sv-browser {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	margin: 90px 0;
+
+	.sv-browser-text {
+		text-align: center;
+	}
+
+	.sv-browser-icon {
+		// width: 1000px;
+		display: flex;
+		justify-content: space-between;
+		gap: 70px;
+
+		.cl-img-container {
+			width: 230px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.sv-img-icon {
+				//flex-grow: 2;
+				width: 50%;
+			}
+
+			.cl-h2-logo {
+				//flex-grow: 1;
+				// width: 35%;
+				text-align: center;
+				color: white;
+				font-size: 26px;
+				margin-top: 5px;
+				margin-left: 5px;
+			}
+
+			.cl-p-logo {
+				// width: 25%;
+				//flex-grow: 1;
+
+				font-size: 20px;
+				color: white;
+				text-align: center;
+			}
+
+			.sv-btn-container {
+				//flex-grow: 1;
+
+				display: flex;
+				justify-content: center;
+
+				.sv-btn-avvia {
+					width: 98px;
+					height: 44px;
+					background-color: $primary-color;
+					border: none;
+					color: white;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767.99px) {
+		.sv-browser-icon {
+			flex-direction: column;
+		}
+	}
+}
