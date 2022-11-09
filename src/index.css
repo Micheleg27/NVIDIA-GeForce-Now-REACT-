@@ -2260,6 +2260,74 @@ img {
   font-family: "Geforce bold";
 }
 
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cl-img-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 210px;
+}
+.cl-img-container #playstore {
+  margin-top: 20px;
+}
+.cl-img-container .cl-h2-logo {
+  color: white;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.cl-container {
+  width: 100%;
+  background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cl-container #cl-container-mobile {
+  justify-content: center;
+  gap: 50px;
+}
+.cl-container #h2-cl-container {
+  font-size: 46px;
+  font-family: "Geforce bold";
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #p-cl-container {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #cl-logo-container {
+  width: 90vw;
+  padding: 60px;
+  gap: 50px;
+}
+.cl-container #lc-pc-windows {
+  height: 56px;
+  width: 150px;
+}
+
+.cl-p-logo {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.cl-btn:hover {
+  background-color: #76D900;
+}
+
 @media screen and (max-width: 767.99px) {
   .cl-container {
     margin-top: 150px !important;
@@ -2395,81 +2463,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  .cl-container #lc-pc-windows {
-    height: 56px;
-    width: 150px;
-  }
-  .cl-p-logo {
-    font-size: 15px;
-    color: white;
-    text-align: center;
-  }
-  .cl-btn:hover {
-    background-color: #76D900;
-  }
-}
-@media screen and (min-width: 1350px) {
-  .text-container {
-    margin-top: 50px;
-    text-align: center;
-  }
-  .cl-img-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 210px;
-  }
-  .cl-img-container #playstore {
-    margin-top: 20px;
-  }
-  .cl-img-container .cl-h2-logo {
-    color: white;
-    font-size: 26px;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  .cl-btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-  }
-  .cl-btn-container .cl-btn {
-    width: 98px;
-    height: 44px;
-    background-color: #76B900;
-    border: none;
-    color: white;
-    font-size: 20px;
-  }
-  .cl-container {
-    width: 100%;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .cl-container #cl-container-mobile {
-    justify-content: center;
-    gap: 50px;
-  }
-  .cl-container #h2-cl-container {
-    font-size: 46px;
-    font-family: "Geforce bold";
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #p-cl-container {
-    font-size: 16px;
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #cl-logo-container {
-    width: 90vw;
-    padding: 60px;
-    gap: 50px;
   }
   .cl-container #lc-pc-windows {
     height: 56px;
@@ -2577,6 +2570,74 @@ img {
   margin-left: 5px;
 }
 
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cl-img-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 210px;
+}
+.cl-img-container #playstore {
+  margin-top: 20px;
+}
+.cl-img-container .cl-h2-logo {
+  color: white;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.cl-container {
+  width: 100%;
+  background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cl-container #cl-container-mobile {
+  justify-content: center;
+  gap: 50px;
+}
+.cl-container #h2-cl-container {
+  font-size: 46px;
+  font-family: "Geforce bold";
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #p-cl-container {
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+}
+.cl-container #cl-logo-container {
+  width: 90vw;
+  padding: 60px;
+  gap: 50px;
+}
+.cl-container #lc-pc-windows {
+  height: 56px;
+  width: 150px;
+}
+
+.cl-p-logo {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.cl-btn:hover {
+  background-color: #76D900;
+}
+
 @media screen and (max-width: 767.99px) {
   .cl-container {
     margin-top: 150px !important;
@@ -2712,81 +2773,6 @@ img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-  .cl-container #lc-pc-windows {
-    height: 56px;
-    width: 150px;
-  }
-  .cl-p-logo {
-    font-size: 15px;
-    color: white;
-    text-align: center;
-  }
-  .cl-btn:hover {
-    background-color: #76D900;
-  }
-}
-@media screen and (min-width: 1350px) {
-  .text-container {
-    margin-top: 50px;
-    text-align: center;
-  }
-  .cl-img-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 210px;
-  }
-  .cl-img-container #playstore {
-    margin-top: 20px;
-  }
-  .cl-img-container .cl-h2-logo {
-    color: white;
-    font-size: 26px;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  .cl-btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-  }
-  .cl-btn-container .cl-btn {
-    width: 98px;
-    height: 44px;
-    background-color: #76B900;
-    border: none;
-    color: white;
-    font-size: 20px;
-  }
-  .cl-container {
-    width: 100%;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  .cl-container #cl-container-mobile {
-    justify-content: center;
-    gap: 50px;
-  }
-  .cl-container #h2-cl-container {
-    font-size: 46px;
-    font-family: "Geforce bold";
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #p-cl-container {
-    font-size: 16px;
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #cl-logo-container {
-    width: 90vw;
-    padding: 60px;
-    gap: 50px;
   }
   .cl-container #lc-pc-windows {
     height: 56px;
