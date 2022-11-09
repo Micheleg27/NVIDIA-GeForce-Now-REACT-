@@ -1,9 +1,7 @@
 import { BiUserCircle } from 'react-icons/bi';
 import { BsCart3 } from 'react-icons/bs';
-import useShow from './BasicComponents/useShow';
 
 function NavBianca() {
-	const { show, setShow } = useShow();
 
 	return (
 		<div className="bg-light">
@@ -15,8 +13,8 @@ function NavBianca() {
 								className="navbar-toggler"
 								type="button"
 								data-bs-toggle="offcanvas"
-								data-bs-target="#offcanvasNavbar"
-								aria-controls="offcanvasNavbar"
+								data-bs-target="#offcanvasNavbarr"
+								aria-controls="offcanvasNavbarr"
 							>
 								<span className="navbar-toggler-icon" />
 							</button>
@@ -57,7 +55,7 @@ function NavBianca() {
 					<div
 						className="offcanvas offcanvas-start"
 						tabindex="-1"
-						id="offcanvasNavbar"
+						id="offcanvasNavbarr"
 						aria-labelledby="offcanvasNavbarLabel"
 					>
 						<div className="offcanvas-body">
@@ -132,18 +130,17 @@ function NavBianca() {
 								<BsCart3 size="25px" style={{ cursor: 'pointer' }} />
 							</div>
 							<ul className="dropdown-menu cart">
-              <div className="triangle" />
+								<div className="triangle" />
 								<li className="cart-content">
-								<h2>CART</h2>
-                <button
-									type="button"
-									onClick={() => setShow(false)}
-									class="btn-close"
-									aria-label="Close"
-								/>
+									<h2>CART</h2>
+									<button
+										type="button"
+										class="btn-close"
+										aria-label="Close"
+									/>
 								</li>
 								<li className='cart-text'>
-                <p>Il carrello è vuoto.</p>
+									<p>Il carrello è vuoto.</p>
 								</li>
 							</ul>
 						</div>
