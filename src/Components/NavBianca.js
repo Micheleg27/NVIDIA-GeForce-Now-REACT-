@@ -5,7 +5,7 @@ function NavBianca() {
 
 	return (
 		<div className="bg-light">
-			<nav className="navbar navbar-expand-lg">
+			<nav className="navbar navbar-expand-lg navcolor">
 				<div className="container-fluid" style={{ width: '1400px' }}>
 					<div>
 						<div className="btn-doppio">
@@ -121,12 +121,7 @@ function NavBianca() {
 						</svg>
 
 						<div class="dropstart">
-							<div
-								class=" dropdown-toggle"
-								type="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
+							<div class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 								<BsCart3 size="25px" style={{ cursor: 'pointer' }} />
 							</div>
 							<ul className="dropdown-menu cart">

@@ -1,0 +1,25 @@
+.CAR-container {
+	display: flex;
+	flex-direction: row !important;
+	gap: 40px;
+}
+
+@media all and (max-width: 1024px) {
+	.CAR-container {
+		flex-wrap: wrap;
+	}
+}
+
+.da-solo {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	// text-align: center;
+	padding: 40px 0;
+	#a-solo {
+		text-decoration: none;
+		color: $primary-color;
+		margin-left: 5px;
+	}
+}

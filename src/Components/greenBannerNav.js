@@ -1,4 +1,4 @@
-export function GreenBannerNav() {
+function GreenBannerNav() {
 	return (
 		<div className="alert sv-alert-warning alert-dismissible fade show " role="alert">
 			<strong>
@@ -11,3 +11,5 @@ export function GreenBannerNav() {
 		</div>
 	);
 }
+
+export default GreenBannerNav;
