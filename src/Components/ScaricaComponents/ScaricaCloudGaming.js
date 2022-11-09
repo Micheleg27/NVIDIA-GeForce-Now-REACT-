@@ -2,8 +2,8 @@ import { Button } from "../BasicComponents/Button";
 
 function ScaricaCloudGaming() {
 	return (
-		<div classNameNameName="cl-container">
-			<div classNameName="text-container">
+		<div className="cl-container text-light">
+			<div className="text-container">
 				<p id="p-cl-container">
 					GeForce NOW è pronto: vieni e gioca! <br />
 					Inizia a giocare direttamente dal browser supportato o scarica l'app GeForce NOW per un'esperienza
