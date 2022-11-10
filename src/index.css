@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,6 +371,12 @@
   outline: none;
   color: white;
 }
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
+  color: white;
+}
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
   color: white;
 }
@@ -486,7 +494,7 @@
   font-weight: bold;
 }
 .navbar-dark .container-fluid .offcanvas-end {
-  top: 70px;
+  top: 120px;
 }
 .navbar-dark .container-fluid .offcanvas-body {
   width: 250px;
@@ -1570,160 +1578,69 @@
   height: 30px;
 }
 
-#cl-container-mobile {
-  justify-content: space-between;
-}
-
-.cl-img-container-home {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-  text-align: center;
-}
-.cl-img-container-home .cl-h2-logo {
-  color: white;
-  font-size: 26px;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
 .cl-container {
   width: 80%;
-  height: 770px;
   background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
   background-size: cover;
   background-position: center center;
-  align-items: center;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.cl-container #h2-cl-container {
-  font-size: 46px;
-  font-family: "Geforce bold";
-  text-align: center;
-  padding: 8px;
-}
-.cl-container #p-cl-container {
-  font-size: 26px;
-  text-align: center;
-  padding: 8px;
-}
-.cl-container #cl-logo-container {
+.cl-container .cl-logo-container {
   width: 90%;
+  display: flex;
   flex-direction: column;
-  display: flex !important;
+  align-items: center;
+  gap: 20px;
+}
+.cl-container .cl-logo-container .cl-container-mobile {
+  display: flex;
+  align-items: flex-start;
+}
+.cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
-.cl-container #lc-pc-windows {
-  height: 56px;
-  width: 150px;
+.cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .img-logo {
+  width: 50%;
 }
-
-.cl-p-logo {
-  font-size: 20px;
+.cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .h2-logo {
   color: white;
-  text-align: center;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .p-logo {
+  color: white;
+  font-size: 20px;
 }
 
-.cl-btn:hover {
-  background-color: #76D900;
-}
-
-@media all and (max-width: 768px) {
-  .cl-img-container-home {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-    text-align: center;
+@media all and (max-width: 991px) {
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .img-logo {
+    width: 60%;
   }
-  .cl-img-container-home .cl-h2-logo {
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .h2-logo {
+    font-size: 22px;
+  }
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .p-logo {
     color: white;
-    font-size: 26px;
-    margin-top: 5px;
-    margin-left: 5px;
-  }
-  .cl-container {
-    width: 80%;
-    height: 770px;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex !important;
-    flex-direction: column;
-  }
-  .cl-container #h2-cl-container {
-    font-size: 46px;
-    font-family: "Geforce bold";
-    text-align: center;
-    padding: 8px;
-  }
-  .cl-container #p-cl-container {
-    font-size: 26px;
-    text-align: center;
-    padding: 8px;
-    margin: 0;
-  }
-  .cl-container #cl-logo-container {
-    width: 90%;
-    flex-direction: column;
-    display: flex !important;
-    align-items: center;
-  }
-  .cl-container #lc-pc-windows {
-    height: 56px;
-    width: 150px;
-  }
-  .cl-p-logo {
-    font-size: 20px;
-    color: white;
-    text-align: center;
-  }
-  .cl-btn:hover {
-    background-color: #76D900;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
-  .cl-container {
-    margin-top: 150px;
-    width: 100%;
-    height: 100%;
-    background-image: url(Source/assets-cloud/geforce-now-devices-2560x770-d@2x.jpg);
-    background-size: cover;
-    background-position: center center;
-    align-items: center;
-    display: flex;
-  }
-  .cl-container #cl-logo-container {
-    display: flex;
+  .cl-container .cl-logo-container .cl-container-mobile {
     flex-direction: column;
   }
-  .cl-container #cl-logo-container #cl-container-mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .img-logo {
+    width: 20%;
   }
-  .cl-container .cl-h2-logo {
-    color: white;
-    font-size: 15px;
-    margin-top: 5px;
-    margin-left: 5px;
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .h2-logo {
+    font-size: 16px;
   }
-  .cl-container #p-cl-container {
-    font-size: 22px;
-    text-align: center;
-    padding: 40px;
-  }
-  .cl-container #cl-container-mobile {
-    justify-content: space-between;
-    width: 100%;
-  }
-  .cl-p-logo {
-    font-size: 15px;
-    color: white;
-    text-align: center;
+  .cl-container .cl-logo-container .cl-container-mobile .cl-img-container-home .p-logo {
+    font-size: 10px;
   }
 }
 .rpGiocanoArticle {
@@ -1737,59 +1654,23 @@
   justify-content: center;
   align-items: center;
 }
-.rpGiocanoArticle .rpGiocanoH2 {
-  color: white;
-  font-family: "Geforce bold";
-  font-size: 40px;
-  margin: 20px 0px 0px 0px;
-}
-.rpGiocanoArticle .rpGiocanoP {
-  color: white;
-  font-family: "DINPro light";
-  text-align: center;
-  font-size: 16px;
-  padding: 10px 0px;
-  margin: 0px;
-}
-.rpGiocanoArticle .rpGiocanoSection {
-  padding: 15px 0px;
-  max-width: 800px;
-  position: relative;
-}
-.rpGiocanoArticle .rpGiocanoSection .rpGiocanoVideo {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.rpGiocanoArticle .rpGiocanoSection .rpButton {
-  border: solid 3px whitesmoke;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  z-index: 1;
-  background-color: transparent;
-}
-.rpGiocanoArticle .rpGiocanoSection .rpButton .rpPlay {
-  color: whitesmoke;
-  width: 100%;
-  height: 100%;
-  margin-left: 4px;
-  z-index: 1;
+.rpGiocanoArticle .dimensioni {
+  width: 40vw !important;
+  max-width: 550px !important;
+  height: 300px !important;
 }
 
-.rpGiocanoArticle .rpGiocanoSection .rpGiocanoVideo {
-  width: 300px !important;
+@media screen and (max-width: 991px) {
+  .rpGiocanoArticle .dimensioni {
+    width: 60vw !important;
+  }
 }
-
+@media screen and (max-width: 520px) {
+  .rpGiocanoArticle .dimensioni {
+    width: 80vw !important;
+    height: 200px !important;
+  }
+}
 #MG-section-nuovi-giochi {
   padding-top: 120px;
 }
@@ -1931,13 +1812,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2262,9 +2154,6 @@ footer p a {
   text-align: center;
   width: 210px;
 }
-.cl-container .cl-img-container #playstore {
-  margin-top: 20px;
-}
 .cl-container .cl-img-container .cl-h2-logo {
   color: white;
   font-size: 26px;
@@ -2302,7 +2191,7 @@ footer p a {
   text-align: center;
 }
 
-@media all and (max-width: 1350px) {
+@media all and (max-width: 992px) {
   .cl-container {
     margin-top: 120px;
     margin-bottom: 40px;
@@ -2322,7 +2211,7 @@ footer p a {
     text-align: center;
   }
   .cl-container .cl-img-container #playstore {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .cl-container .cl-img-container .cl-h2-logo {
     color: white;
@@ -2368,7 +2257,7 @@ footer p a {
     background-color: #76D900;
   }
 }
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 768px) {
   .cl-container {
     margin-top: 150px !important;
     width: 100% !important;
@@ -2468,16 +2357,17 @@ footer p a {
 
 .AD-container {
   display: flex;
-  align-items: center;
-  text-align: start;
   gap: 40px;
   flex-direction: row !important;
-  padding: 0 0 90px 0;
+  align-items: center;
 }
 
 @media all and (max-width: 1024px) {
-  .NG-container {
+  .AD-container {
     flex-wrap: wrap-reverse;
+  }
+  .AD-container img {
+    width: 100%;
   }
 }
 .CAR-container {
@@ -2490,12 +2380,13 @@ footer p a {
   .CAR-container {
     flex-wrap: wrap;
   }
+  .CAR-container img {
+    width: 100%;
+  }
 }
 .da-solo {
   margin: 0 auto;
   width: 80%;
-  display: flex;
-  justify-content: center;
   padding: 40px 0;
 }
 .da-solo #a-solo {
@@ -2523,9 +2414,6 @@ footer p a {
   flex-direction: column;
   text-align: center;
   width: 210px;
-}
-.cl-container .cl-img-container #playstore {
-  margin-top: 20px;
 }
 .cl-container .cl-img-container .cl-h2-logo {
   color: white;
@@ -2564,7 +2452,7 @@ footer p a {
   text-align: center;
 }
 
-@media all and (max-width: 1350px) {
+@media all and (max-width: 992px) {
   .cl-container {
     margin-top: 120px;
     margin-bottom: 40px;
@@ -2584,7 +2472,7 @@ footer p a {
     text-align: center;
   }
   .cl-container .cl-img-container #playstore {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .cl-container .cl-img-container .cl-h2-logo {
     color: white;
@@ -2630,7 +2518,7 @@ footer p a {
     background-color: #76D900;
   }
 }
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 768px) {
   .cl-container {
     margin-top: 150px !important;
     width: 100% !important;
@@ -2689,6 +2577,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

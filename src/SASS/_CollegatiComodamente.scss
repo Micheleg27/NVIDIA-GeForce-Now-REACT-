@@ -7,14 +7,17 @@
 @media all and (max-width: 1024px) {
 	.CAR-container {
 		flex-wrap: wrap;
+		img{
+			width: 100%;
+		}
 	}
 }
 
 .da-solo {
 	margin: 0 auto;
 	width: 80%;
-	display: flex;
-	justify-content: center;
+	// display: flex;
+	// justify-content: center;
 	// text-align: center;
 	padding: 40px 0;
 	#a-solo {

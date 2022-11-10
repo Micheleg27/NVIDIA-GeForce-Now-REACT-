@@ -4,7 +4,7 @@ function PortaItuoiGiochi() {
 	return (
 		<section className="container AD-container">
 			<div className="text-light">
-				<h2>Porta i tuoi giochi con te</h2>
+				<h2 style={{textAlign:'start'}}>Porta i tuoi giochi con te</h2>
 				<div>
 					<p>
 						I Chromebook ora sono in grado di usare i giochi per PC con GeForce NOW. I dispositivi veloci,

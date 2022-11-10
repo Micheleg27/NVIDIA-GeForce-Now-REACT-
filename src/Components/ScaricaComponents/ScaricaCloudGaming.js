@@ -2,7 +2,7 @@ import { Button } from "../BasicComponents/Button";
 
 function ScaricaCloudGaming() {
 	return (
-		<div className="cl-container text-light">
+		<div style={{marginBottom:'130px'}} className="cl-container text-light">
 			<div className="text-container">
 				<p id="p-cl-container">
 					GeForce NOW è pronto: vieni e gioca! <br />
@@ -13,7 +13,7 @@ function ScaricaCloudGaming() {
 				<h3>La migliore esperienza complessiva</h3>
 			</div>
 
-			<div className="d-flex justify-content-center" id="cl-logo-container">
+			<div  className="d-flex justify-content-center" id="cl-logo-container">
 				<div className="d-flex" id="cl-container-mobile">
 					<div className="cl-img-container">
 						<div>
