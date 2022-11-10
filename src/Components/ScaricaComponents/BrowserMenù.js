@@ -10,7 +10,7 @@ function BrowserMenù() {
 
 			<div className="sv-browser-icon">
 				<div className="cl-img-container">
-					<div>
+					<div style={{display:'flex' ,alignItems: 'center', flexDirection:'column'}}>
 						<img
 							className="sv-img-icon"
 							src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/geforce-now-icon-chrome-browser-190x80.svg"
@@ -26,7 +26,7 @@ function BrowserMenù() {
 				</div>
 
 				<div className="cl-img-container">
-					<div>
+					<div style={{display:'flex' ,alignItems: 'center', flexDirection:'column'}}>
 						<img
 							className="sv-img-icon"
 							src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/geforce-now-icon-safari-browser-190x80.svg"
@@ -42,7 +42,7 @@ function BrowserMenù() {
 				</div>
 
 				<div className="cl-img-container">
-					<div>
+					<div style={{display:'flex' ,alignItems: 'center', flexDirection:'column'}}>
 						<img
 							className="sv-img-icon"
 							src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/gfn-edge-icon.svg"

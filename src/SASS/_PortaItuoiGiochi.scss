@@ -1,14 +1,17 @@
 .AD-container {
 	display: flex;
-    align-items: center;
-    text-align: start;
 	gap: 40px;
 	flex-direction: row !important;
-	padding: 0 0 90px 0;
+    align-items: center;
+    // text-align: start;
+	// padding: 0 0 90px 0;
 }
 
 @media all and (max-width: 1024px) {
-	.NG-container {
+	.AD-container {
 		flex-wrap: wrap-reverse;
+		img{
+			width: 100%;
+		}
 	}
 }
