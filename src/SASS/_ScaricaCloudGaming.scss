@@ -23,9 +23,9 @@
 		text-align: center;
 		width: 210px;
 
-		#playstore {
-			margin-top: 20px;
-		}
+		// #playstore {
+		// 	// margin-top: 20px;
+		// }
 
 		.cl-h2-logo {
 			color: white;
@@ -71,9 +71,7 @@
 	text-align: center;
 }
 
-@media all and (max-width: 1350px) {
-	
-
+@media all and (max-width: 992px) {
 	.cl-container {
 		margin-top: 120px;
 		margin-bottom: 40px;
@@ -90,17 +88,17 @@
 			margin-top: 50px;
 			text-align: center;
 		}
-	
+
 		.cl-img-container {
 			width: 130px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
-	
+
 			#playstore {
-				margin-top: 50px;
+				margin-top: 20px;
 			}
-	
+
 			.cl-h2-logo {
 				color: white;
 				font-size: 26px;
@@ -156,7 +154,7 @@
 	}
 }
 
-@media screen and (max-width: 767.99px) {
+@media screen and (max-width: 768px) {
 	.cl-container {
 		margin-top: 150px !important;
 		width: 100% !important;

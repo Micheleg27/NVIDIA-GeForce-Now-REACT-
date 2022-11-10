@@ -1,8 +1,8 @@
 import { BiUserCircle } from 'react-icons/bi';
 import { BsCart3 } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function NavBianca() {
-
 	return (
 		<div className="bg-light">
 			<nav className="navbar navbar-expand-lg navcolor">
@@ -87,17 +87,17 @@ function NavBianca() {
 							<div class="d-flex">
 								<ul class="navbar-nav justify-content-end">
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" class="nav-link" href="#">
 											Aquista
 										</a>
 									</li>
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" class="nav-link" href="#">
 											Driver
 										</a>
 									</li>
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" class="nav-link" href="#">
 											Assistenza
 										</a>
 									</li>
@@ -128,19 +128,16 @@ function NavBianca() {
 								<div className="triangle" />
 								<li className="cart-content">
 									<h2>CART</h2>
-									<button
-										type="button"
-										class="btn-close"
-										aria-label="Close"
-									/>
+									<button type="button" class="btn-close" aria-label="Close" />
 								</li>
-								<li className='cart-text'>
+								<li className="cart-text">
 									<p>Il carrello è vuoto.</p>
 								</li>
 							</ul>
 						</div>
-
-						<BiUserCircle size="25px" style={{ cursor: 'pointer' }} />
+						<a href="https://login.nvgs.nvidia.com/v1/login/identifier?key=eyJhbGciOiJIUzI1NiJ9.eyJzZSI6IjZTSDEiLCJ0b2tlbklkIjoiMTA0MDI2NjQyMTc3OTc4Nzc3NiIsIm90IjoiMTA0MDI2NjQyMTc5NjU2NDk5MiIsImV4cCI6MTY2ODE3NTY0MiwiaWF0IjoxNjY4MDg5MjQyLCJqdGkiOiIzYzQzYzczYS03ZDMwLTQwYTYtYTNhZC1mOTIzMWRhMjIyNGMifQ.rqA1T57wySnWkcSnGOHnb3ifbO6C_jQdzIFGT5KJL6U&client_id=310670214980174257&prompt=select_account&context=initial&theme=Bright&preferred_nvidia=true&locale=it-IT">
+							<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
+						</a>
 					</div>
 				</div>
 			</nav>

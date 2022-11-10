@@ -9,7 +9,7 @@ function CollegatiComodamente() {
 				alt="card-immagine"
 			/>
 			<div className="text-light">
-				<h2>Collegati comodamente dal tuo divano</h2>
+				<h2 style={{textAlign:'start'}}>Collegati comodamente dal tuo divano</h2>
 				<div>
 					<p>
 						Trasforma la tua TV in un PC gaming basato su GeForce con NVIDIA SHIELD, per giocare
@@ -24,6 +24,14 @@ function CollegatiComodamente() {
 					</a>
 				</Button>
 			</div>
+			
+			<span class="da-solo">
+				Per ulteriori informazioni sui dispositivi e browser supportati e sulle versioni iOS e iPadOS richieste,
+				visita la pagina
+				<a id="a-solo" href="#">
+					Requisiti di sistema.
+				</a>
+			</span>
 		</section>
 	);
 }
