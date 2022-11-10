@@ -87,7 +87,7 @@ function NavBianca() {
 							<div class="d-flex">
 								<ul class="navbar-nav justify-content-end">
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" class="nav-link" href="https://www.nvidia.com/it-it/shop/">
 											Aquista
 										</a>
 									</li>
