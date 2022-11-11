@@ -20,7 +20,7 @@ export function Error() {
                         className="error-button"
                         // buttonSize="BTN--large"
                         // buttonStyle="btn--primary--green"
-                        onClick={() => navigate(-1)}>
+                        onClick={() => navigate('/')}>
                         Torna alla Home
                     </button>
                 </div>

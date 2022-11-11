@@ -24,14 +24,14 @@ function CollegatiComodamente() {
 					</a>
 				</Button>
 			</div>
-			
+{/* 			
 			<span class="da-solo">
 				Per ulteriori informazioni sui dispositivi e browser supportati e sulle versioni iOS e iPadOS richieste,
 				visita la pagina
 				<a id="a-solo" href="#">
 					Requisiti di sistema.
 				</a>
-			</span>
+			</span> */}
 		</section>
 	);
 }
