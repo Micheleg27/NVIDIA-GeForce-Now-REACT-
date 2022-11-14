@@ -2561,6 +2561,166 @@ footer p a {
     text-align: center !important;
   }
 }
+.container #ad-link-btn {
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (min-width: 1025px) {
+  .rtx-query {
+    display: none;
+  }
+  .ad-rtx-img {
+    width: 83%;
+    height: 580px;
+    position: absolute;
+  }
+  .text {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+  }
+  .text h2 {
+    text-align: left;
+    font-size: 52px;
+  }
+  .text h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .text p {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}
+@media all and (max-width: 1024px) {
+  .ad-rtx-img {
+    display: none;
+  }
+  .rtx-query {
+    width: 596px;
+    height: 440px;
+  }
+}
+.vantaggi-abbonamenti {
+  padding: 60px 0 90px 0;
+}
+.vantaggi-abbonamenti .container {
+  background-color: black;
+  padding: 0 110px;
+  margin: auto;
+}
+.vantaggi-abbonamenti .container h2 {
+  font-size: 40px;
+}
+.vantaggi-abbonamenti .container h3 {
+  font-size: 32px;
+  width: 100%;
+}
+.vantaggi-abbonamenti .container p {
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+}
+.vantaggi-abbonamenti .container .fps,
+.vantaggi-abbonamenti .container .accesso-veloce,
+.vantaggi-abbonamenti .container .durata-estesa {
+  padding: 90px 0;
+}
+.vantaggi-abbonamenti .container .rtx-on {
+  padding: 0 0 15px 0;
+}
+.vantaggi-abbonamenti .container .title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.vantaggi-abbonamenti .container .title p {
+  width: 100%;
+}
+.vantaggi-abbonamenti .container .fps,
+.vantaggi-abbonamenti .container .rtx-on,
+.vantaggi-abbonamenti .container .accesso-veloce,
+.vantaggi-abbonamenti .container .durata-estesa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vantaggi-abbonamenti .container .fps .fps-logo,
+.vantaggi-abbonamenti .container .fps .rtx-logo,
+.vantaggi-abbonamenti .container .fps .accesso-veloce-logo,
+.vantaggi-abbonamenti .container .fps .durata-estesa-logo,
+.vantaggi-abbonamenti .container .rtx-on .fps-logo,
+.vantaggi-abbonamenti .container .rtx-on .rtx-logo,
+.vantaggi-abbonamenti .container .rtx-on .accesso-veloce-logo,
+.vantaggi-abbonamenti .container .rtx-on .durata-estesa-logo,
+.vantaggi-abbonamenti .container .accesso-veloce .fps-logo,
+.vantaggi-abbonamenti .container .accesso-veloce .rtx-logo,
+.vantaggi-abbonamenti .container .accesso-veloce .accesso-veloce-logo,
+.vantaggi-abbonamenti .container .accesso-veloce .durata-estesa-logo,
+.vantaggi-abbonamenti .container .durata-estesa .fps-logo,
+.vantaggi-abbonamenti .container .durata-estesa .rtx-logo,
+.vantaggi-abbonamenti .container .durata-estesa .accesso-veloce-logo,
+.vantaggi-abbonamenti .container .durata-estesa .durata-estesa-logo {
+  width: 220px;
+  height: 155px;
+  margin: 0 54px;
+}
+
+@media all and (max-width: 1024px) {
+  .fps,
+.rtx-on,
+.accesso-veloce,
+.durata-estesa {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .fps {
+    flex-direction: column-reverse;
+  }
+  .rtx-on {
+    flex-direction: column-reverse;
+  }
+  .accesso-veloce {
+    flex-direction: column-reverse;
+  }
+  .durata-estesa {
+    flex-direction: column-reverse;
+  }
+}
+@media all and (min-width: 1025px) {
+  .card-query {
+    display: none;
+  }
+  .ad-card-img {
+    width: 83%;
+    height: 580px;
+    position: absolute;
+    z-index: -1;
+  }
+  .text {
+    width: 510px;
+  }
+  .text h2 {
+    text-align: left;
+    font-size: 40px;
+  }
+  .text p {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}
+@media all and (max-width: 1024px) {
+  .ad-card-img {
+    display: none;
+  }
+  .card-query {
+    width: 596px;
+    height: 440px;
+  }
+}
 * {
   padding: 0;
   margin: 0;

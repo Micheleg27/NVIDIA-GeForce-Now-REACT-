@@ -1,7 +1,7 @@
 import { BiUserCircle } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
-import { flash } from "react-animations";
-import styled, { keyframes } from "styled-components";
+// import { flash } from "react-animations";
+// import styled, { keyframes } from "styled-components";
 import useShow from "./BasicComponents/useShow";
 import { useEffect } from "react";
 

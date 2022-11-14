@@ -9,6 +9,7 @@ import LogAbb from './Components/LogAbb';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Scarica from './pages/Scarica';
+import Abbonamento from './pages/Abbonamento';
 
 // import $ from 'jquery'
 // import Popper from 'popper.js'
@@ -23,6 +24,7 @@ root.render(
 				<Route path="*" element={<Error/>} />
 				<Route path="/LogAbb" element={<LogAbb />}/>
 				<Route path='/Scarica' element={<Scarica />} />
+				<Route path='/Abbonamento' element={<Abbonamento />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>
