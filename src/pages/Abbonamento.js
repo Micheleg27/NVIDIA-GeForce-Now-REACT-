@@ -9,6 +9,7 @@ import GreenBannerNav from "../Components/GreenBannerNav";
 import NavBianca from "../Components/NavBianca";
 import { NavNera } from "../Components/NavNera";
 import NavTrasparente from "../Components/NavTrasparente";
+import ResizerApp from "../Components/ResizerComponent/ResizerApp";
 
 
 function Abbonamento() {
@@ -22,7 +23,7 @@ function Abbonamento() {
             <NuovaGenerazione />
             <VantaggiPerAbbonati />
             <CarteRegalo />
-            
+            <ResizerApp />
             <FooterNero />
             <FooterBianco />
         </React.Fragment>
