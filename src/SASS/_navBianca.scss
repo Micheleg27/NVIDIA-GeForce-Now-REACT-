@@ -21,6 +21,12 @@
 	color: black;
 }
 
+#menu-arrow{
+	vertical-align: middle;
+    color: black;
+    height: 20px;
+}
+
 @media all and (max-width: 995px) {
 	.offcanvas-body {
 		display: flex;
@@ -84,4 +90,8 @@
 
 ::before{
 	color: transparent;
+}
+
+::marker{
+	color:white;
 }

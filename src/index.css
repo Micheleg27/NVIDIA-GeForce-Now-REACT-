@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,12 +367,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1490,6 +1482,12 @@
   color: black;
 }
 
+#menu-arrow {
+  vertical-align: middle;
+  color: black;
+  height: 20px;
+}
+
 @media all and (max-width: 995px) {
   .offcanvas-body {
     display: flex;
@@ -1549,6 +1547,10 @@
 
 ::before {
   color: transparent;
+}
+
+::marker {
+  color: white;
 }
 
 .TFR-container {
@@ -1812,24 +1814,13 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2787,4 +2778,6 @@ a {
 .separator-col {
   border: 5px solid yellow;
   cursor: col-resize;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -28,7 +28,7 @@ function Home() {
 	return (
 		<React.Fragment>
 			{/* <Lingua /> */}
-			{/* <Alert /> */}
+			<Alert />
 			<NavBianca />
 			<GreenBannerNav />
 			<NavNera />

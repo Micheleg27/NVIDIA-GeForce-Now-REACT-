@@ -1,31 +1,39 @@
 import { BiUserCircle } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
-// import { flash } from "react-animations";
-// import styled, { keyframes } from "styled-components";
+import { flash, slideOutLeft, rotateInUpLeft } from "react-animations";
+import styled, { keyframes } from "styled-components";
 import useShow from "./BasicComponents/useShow";
 import { useEffect } from "react";
 
 export default function NavBianca() {
-  // const Flash = styled.ul`
-  //   animation: 0.5s ${keyframes`${flash}`};
-  // `;
-  // const Flash2 = styled.ul`
-  //   animation: 1s ${keyframes`${flash}`};
-  // `;
-  // const Flash3 = styled.ul`
-  //   animation: 1.5s ${keyframes`${flash}`};
-  // `;
-  // const Flash4 = styled.ul`
-  //   animation: 2s ${keyframes`${flash}`};
-  // `;
+  const Flash = styled.li`
+    animation: 0.5s ${keyframes`${flash}`};
+  `;
+  const Flash2 = styled.li`
+    animation: 1s ${keyframes`${flash}`};
+  `;
+  const Flash3 = styled.li`
+    animation: 1.5s ${keyframes`${flash}`};
+  `;
+  const Flash4 = styled.li`
+    animation: 2s ${keyframes`${flash}`};
+  `;
 
-  // const { show, setShow } = useShow();
+  const SlideLeft = styled.div`
+  animation: 3s ${keyframes`${slideOutLeft}`};
+  `;
 
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     setShow(true);
-  //   }, 2000);
-  // }, []);
+  const RotateIn = styled.div`
+  animation: 1s ${keyframes`${rotateInUpLeft}`};
+  `;
+
+  const { show, setShow } = useShow();
+
+  useEffect(() => {
+    setInterval(() => {
+      setShow(true);
+    }, 5000);
+  }, []);
 
   return (
     <div className="bg-light">
@@ -101,7 +109,7 @@ export default function NavBianca() {
                     </li>
 
 
-
+   
                     <li className="nav-item">
                       <a id="a" className="nav-link" href="#">
                         Soluzioni
@@ -123,7 +131,6 @@ export default function NavBianca() {
                         Per Te
                       </a>
                     </li>
-
                 </ul>
 
                 {/* <div onclick="showMenu()" class="x-close-menù">
@@ -138,22 +145,27 @@ export default function NavBianca() {
                     <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
                   </svg>
                 </div> */}
-                
+
+                {show && 
+                <SlideLeft>
+                  <RotateIn >
                   <div class="carel-right" onclick="showmenu()">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="black"
-                      class="bi bi-chevron-right"
-                      viewBox="0 0 16 16"
-                      id="menu-arrow"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                      />
-                    </svg>
-                  </div>
-                
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="black"
+                    class="bi bi-chevron-right"
+                    viewBox="0 0 16 16"
+                    id="menu-arrow"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </div>
+                </RotateIn>
+                </SlideLeft>
+                } 
 
                 {/* <span onclick="showmenu()" class="text-menù">
                   Menù
@@ -222,7 +234,10 @@ export default function NavBianca() {
             </div>
 
             <a href="https://www.nvidia.com/it-it/account/edit-profile/">
-              <BiUserCircle size="25px" style={{ cursor: "pointer", color: 'black' }} />
+              <BiUserCircle
+                size="25px"
+                style={{ cursor: "pointer", color: "black" }}
+              />
             </a>
           </div>
         </div>
