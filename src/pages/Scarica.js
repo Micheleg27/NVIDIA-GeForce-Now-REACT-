@@ -18,7 +18,7 @@ function Scarica() {
             <GreenBannerNav />
             <NavNera />
             <NavTrasparente />
-            <HeaderScarica />
+            <HeaderScarica titleHeader={'Gioca su tutti i dispositivi'}/>
             <ScaricaCloudGaming />
             <BrowserMenù />
             <PortaItuoiGiochi />
