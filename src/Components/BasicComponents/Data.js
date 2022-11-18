@@ -58,3 +58,36 @@ export const RTX = [
     { img:"https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/subscriptions/icon-check-premium.svg", id: 'Premium Rig | RTX ON ', id: 'Accesso prioritario ai server premium', id: 'Risoluzione fino a 4K*', link: '#' },
     { img:"https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/subscriptions/icon-check-premium.svg", id: 'Premium Rig | RTX ON ', id: 'Accesso prioritario ai server premium', id: 'Fino a 120 FPS', link: '#' },
 ];
+
+
+// S_T_Footer 
+
+export const InformazioniSullAzienda = [
+	{ id: 'Chi siamo', link: '#' },
+	{ id: 'Panoramica aziendale', link: '#' },
+	{ id: 'Tecnologie', link: '#' },
+    { id: "Ricerca", link: '#' },
+	{ id: "Investitori", link: '#' },
+	{ id: "Responsabilità sociale", link: '#' },
+	{ id: "NVIDIA Foundation", link: '#' }
+];
+
+export const Seguici = [
+	{ id: 'Forum', link: '#' },
+	{ id: 'Opportunità di carriera', link: '#' },
+	{ id: 'Home per sviluppatori', link: '#' },
+    { id: 'NVIDIA Partner Network', link: '#' },
+	{ id: 'NVIDIA Inception GPU Venture', link: '#' },
+	{ id: 'Formazione tecnica', link: '#' },
+	{ id: 'Servizi professionali per la scienza dei dati', link: '#' }
+];
+
+export const NotizieEdEventi = [
+	{ id: 'Sala stampa', link: '#' },
+	{ id: 'Blog NVIDIA', link: '#' },
+	{ id: 'Webinar', link: '#' },
+    { id: 'Rimani informato', link: '#' },
+    { id: 'Calendario eventi', link: '#' },
+	{ id: 'NVIDIA GTC', link: '#' },
+	{ id: 'NVIDIA On-Demand', link: '#' }
+];

@@ -1,5 +1,5 @@
 import List from './List';
-import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX } from './Data';
+import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX, InformazioniSullAzienda, Seguici, NotizieEdEventi  } from './Data';
 
 export const ListFooter = () => {
 	return (
@@ -51,5 +51,21 @@ export const RTXCard = () => {
 	);
 };
 
-
+export const ListFooter_S_T = () => {
+	return (
+		<div>
+			<div className='row text-md-left'>
+				<div className="col-md-6 col-lg-4 col-xl-4 mx-auto mt-3 ad-flex">
+					<List Links={InformazioniSullAzienda} title="InformazioniSullAzienda" />
+				</div>
+				<div className="col-md-6 col-lg-4 col-xl-3 mx-auto mt-3 ad-flex">
+					<List Links={Seguici} title="Seguici" />
+				</div>
+				<div className="col-xmd-6 col-lg-4 col-xl-3 mx-auto mt-3 ad-flex">
+					<List Links={NotizieEdEventi} title="NotizieEdEventi" />
+				</div>
+			</div>
+		</div>
+	);
+};
 
