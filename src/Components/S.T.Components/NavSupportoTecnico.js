@@ -5,7 +5,7 @@ export function NavSupportoTecnico() {
 		<div>
 			<nav className="navbar navbar-dark navbar-expand-lg">
 				<div className="container-fluid">
-					<Link className="navbar-brand" to="/">
+					<Link className="navbar-brand" to="">
 						Supporto
 					</Link>
 					<div
@@ -16,12 +16,12 @@ export function NavSupportoTecnico() {
 					>
 						<div className="offcanvas-body">
 							<ul className="navbar-nav justify-content-start flex-grow-1 pe-3">
-								<li className="nav-item">
+								<li className="nav-item" style={{width:'330px'}}>
 									<Link className="nav-link active" aria-current="page" to="">
 										assistenza ai consumatori
 									</Link>
 								</li>
-								<li className="nav-item">
+								<li className="nav-item" style={{width:'330px'}}>
 									<Link className="nav-link" to="">
 										supporto aziendale
 									</Link>

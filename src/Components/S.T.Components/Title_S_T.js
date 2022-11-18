@@ -2,7 +2,7 @@ import React from 'react';
 
 function Title_S_T() {
 	return (
-		<div style={{textAlign:'center'}} className='d-flex flex-column align-items-center bg-light'>
+		<div style={{textAlign:'center', height:'227px', paddingTop:'50px' }} className='d-flex flex-column align-items-center bg-light'>
 			<h1 style={{color:'#76B900'}}>Supporto da NVIDIA</h1>
 			<p className='text-dark'>
 				I servizi di assistenza NVIDIA sono progettati per soddisfare le esigenze dei clienti, sia consumatori

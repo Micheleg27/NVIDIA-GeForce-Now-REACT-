@@ -1,7 +1,7 @@
 function CardSupportoTecnico() {
 	return (
-		<div className="row bg-light">
-			<div className="col-sm-6">
+		<div className="d-flex justify-content-center bg-light" style={{gap:'30px', flexWrap:'wrap'}}>
+			<div className="">
 				<div className="card shadow p-3 mb-5 bg-body" style={{ borderRadius: '0' }}>
 					<div className="card-body">
 						<h5 className="card-title">assistenza ai consumatori</h5>
@@ -18,7 +18,7 @@ function CardSupportoTecnico() {
 					</div>
 				</div>
 			</div>
-			<div className="col-sm-6">
+			<div className="">
 				<div className="card shadow p-3 mb-5 bg-body" style={{ borderRadius: '0' }}>
 					<div className="card-body">
 						<h5 className="card-title">Servizi Enterprise</h5>
