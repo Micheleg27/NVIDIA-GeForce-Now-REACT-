@@ -13,7 +13,7 @@ export function Title({h1title, h3title, titlecolor}){
                 <HeaderOne className='title-header-one'>
                     {h1title}
                     <HeaderTwo className='title-header-two'>
-                        {h3title}
+                        {h3title}     
                     </HeaderTwo>  
                 </HeaderOne> 
             </div>
