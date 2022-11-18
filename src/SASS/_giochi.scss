@@ -20,6 +20,7 @@
   #sect-giochi #img-GFNThursday {
     height: 580px;
     object-fit: cover;
+    max-width: 90%;
   }
   #sect-giochi #button {
     border-radius: 50%;
@@ -106,6 +107,7 @@
   #div-bar-games {
     width: 100%;
     display: flex;
+    margin-bottom: 100px;
   }
   #div-bar-games #search-bar-games {
     margin: auto;
@@ -116,6 +118,7 @@
     font-size: 34px;
     padding: 35px;
     color: white;
+
   }
   
   .catalog {
@@ -202,7 +205,6 @@
     font-size: 40px;
     color: white;
     position: absolute;
-    left: 725px;
     top: 200px;
     z-index: 2147483647;
   }
@@ -211,7 +213,6 @@
     font-size: 32px;
     color: white;
     position: absolute;
-    left: 725px;
     top: 260px;
     z-index: 2147483647;
   }
@@ -255,27 +256,27 @@
   #img-guildwars {
     height: 580px;
     object-fit: cover;
-    width: 100vw;
+    width: 100vw; 
   }
   #img-legobrawls {
-    height: 750px;
+    height: 580px;
     object-fit: cover;
-    width: 100vw;
+    width: 100vw; 
   }
   #img-saintsrow {
-    height: 820px;
+    height: 580px;
     object-fit: cover;
-    width: 100vw;
+    width: 100vw; 
   }
   #img-genshin {
     height: 580px;
     object-fit: cover;
-    width: 100vw;
+    width: 100vw; 
   }
   #img-guildwars {
     height: 580px;
     object-fit: cover;
-    width: 100vw;
+    width: 100vw; 
   }
   #sliders-giochi {
     width: 100%;

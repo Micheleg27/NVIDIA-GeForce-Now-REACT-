@@ -1550,7 +1550,7 @@
 }
 
 ::marker {
-  color: white;
+  color: black;
 }
 
 .TFR-container {
@@ -2029,7 +2029,6 @@ footer p a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -2786,6 +2785,7 @@ footer p a {
 #sect-giochi #img-GFNThursday {
   height: 580px;
   object-fit: cover;
+  max-width: 90%;
 }
 
 #sect-giochi #button {
@@ -2883,6 +2883,7 @@ footer p a {
 #div-bar-games {
   width: 100%;
   display: flex;
+  margin-bottom: 100px;
 }
 
 #div-bar-games #search-bar-games {
@@ -2993,7 +2994,6 @@ footer p a {
   font-size: 40px;
   color: white;
   position: absolute;
-  left: 725px;
   top: 200px;
   z-index: 2147483647;
 }
@@ -3003,7 +3003,6 @@ footer p a {
   font-size: 32px;
   color: white;
   position: absolute;
-  left: 725px;
   top: 260px;
   z-index: 2147483647;
 }
@@ -3056,13 +3055,13 @@ footer p a {
 }
 
 #img-legobrawls {
-  height: 750px;
+  height: 580px;
   object-fit: cover;
   width: 100vw;
 }
 
 #img-saintsrow {
-  height: 820px;
+  height: 580px;
   object-fit: cover;
   width: 100vw;
 }
@@ -3117,6 +3116,25 @@ h5 {
   font-size: 34px;
   padding: 35px;
   color: white;
+}
+
+.container-list {
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.container-list .lista-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+}
+.container-list .lista-nuovi-giochi .li-lista-giochi {
+  font-size: 22px;
+  text-decoration: none;
+}
+.container-list .lista-nuovi-giochi .li-lista-giochi .link-giochi {
+  color: #76B900 !important;
+  font-family: "Geforce bold";
 }
 
 * {
