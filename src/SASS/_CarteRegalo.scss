@@ -1,51 +1,29 @@
-// .container {
-// 	.ad-btn-4 {
-// 		padding: 10px 50px;
-// 		@include flex(flex, center, center);
-// 		@include button-verde;
-// 		font-size: 1rem;
-// 	}
-// 	.ad-btn-4:hover {
-// 		background-color: $secondary-hover;
-// 	}
-// }
-
-@media all and (min-width: 1025px) {
-	.card-query {
-		display: none;
-	}
-	.ad-card-img {
-		width: 83%;
-		height: 580px;
-		position: absolute;
-		// right: 0px;
-		// top: 0px;
-		z-index: -1;
-	}
-	.text {
-		width: 510px;
-		// height: 460px;
-		h2 {
-			text-align: left;
-			font-size: 40px;
-		}
-		p {
-			font-size: 16px;
-			padding: 10px 0;
-		}
-	}
+.sectionWidth{
+    width:80vw;
+    margin: auto;
+}
+.carte-regalo-img{
+    width:80%;
+}
+.carte-regalo-testo{
+    width:40%;
+}
+.sfondo-carta{
+    background-color:transparent!important;
 }
 
 @media all and (max-width: 1024px) {
-	.ad-card-img {
-		display: none;
+	.sectionWidth{
+		.contenitore-query{
+			align-items: center !important;
+			.carte-regalo-img{
+				width:130%;
+			}
+			.carte-regalo-testo{
+				position:initial;
+				width:100%;
+			}
+		}
 	}
 
-	.card-query {
-		width: 596px;
-		height: 440px;
-	}
-
-	.text {
-	}
 }
