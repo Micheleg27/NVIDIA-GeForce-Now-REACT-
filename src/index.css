@@ -1219,7 +1219,6 @@
   }
 }
 #AD-section-sologeforce {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1549,10 +1548,6 @@
   color: transparent;
 }
 
-::marker {
-  color: white;
-}
-
 .TFR-container {
   flex-direction: column;
   background-color: #333;
@@ -1800,7 +1795,7 @@
   background-color: white;
   margin-bottom: 100px;
   margin-top: 35px;
-  width: 100vw;
+  width: 99vw;
 }
 .mgSliderContainer .mgSlider {
   margin: auto;
@@ -2552,46 +2547,31 @@ footer p a {
     text-align: center !important;
   }
 }
-.container #ad-link-btn {
-  color: white;
-  text-decoration: none;
+.sectionWidth .contenitore-query .carte-regalo-img-desktop {
+  width: 250%;
+  height: 100%;
+}
+.sectionWidth .contenitore-query .carte-regalo-img-query {
+  display: none;
+}
+.sectionWidth .contenitore-query .overlay-right {
+  left: 40%;
+}
+.sectionWidth .contenitore-query .carte-rtx-testo {
+  width: 53%;
 }
 
-@media all and (min-width: 1025px) {
-  .rtx-query {
+@media all and (max-width: 1025px) {
+  .sectionWidth .contenitore-query .carte-regalo-img-desktop {
     display: none;
   }
-  .ad-rtx-img {
-    width: 83%;
-    height: 580px;
-    position: absolute;
+  .sectionWidth .contenitore-query .carte-regalo-img-query {
+    display: block;
+    width: 100%;
   }
-  .text {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-  }
-  .text h2 {
-    text-align: left;
-    font-size: 52px;
-  }
-  .text h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  .text p {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-}
-@media all and (max-width: 1024px) {
-  .ad-rtx-img {
-    display: none;
-  }
-  .rtx-query {
-    width: 596px;
-    height: 440px;
+  .sectionWidth .contenitore-query .carte-rtx-testo {
+    position: initial;
+    width: 100%;
   }
 }
 .vantaggi-abbonamenti {
@@ -2681,35 +2661,33 @@ footer p a {
     flex-direction: column-reverse;
   }
 }
-@media all and (min-width: 1025px) {
-  .card-query {
-    display: none;
-  }
-  .ad-card-img {
-    width: 83%;
-    height: 580px;
-    position: absolute;
-    z-index: -1;
-  }
-  .text {
-    width: 510px;
-  }
-  .text h2 {
-    text-align: left;
-    font-size: 40px;
-  }
-  .text p {
-    font-size: 16px;
-    padding: 10px 0;
-  }
+.sectionWidth {
+  width: 80vw;
+  margin: auto;
 }
+
+.carte-regalo-img {
+  width: 80%;
+}
+
+.carte-regalo-testo {
+  width: 40%;
+}
+
+.sfondo-carta {
+  background-color: transparent !important;
+}
+
 @media all and (max-width: 1024px) {
-  .ad-card-img {
-    display: none;
+  .sectionWidth .contenitore-query {
+    align-items: center !important;
   }
-  .card-query {
-    width: 596px;
-    height: 440px;
+  .sectionWidth .contenitore-query .carte-regalo-img {
+    width: 110%;
+  }
+  .sectionWidth .contenitore-query .carte-regalo-testo {
+    position: initial;
+    width: 100%;
   }
 }
 * {
