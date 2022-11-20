@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Scarica from './pages/Scarica';
 import Abbonamento from './pages/Abbonamento';
 import { Supporto } from './pages/Supporto';
-import { Giochi } from './pages/Giochi';
+
 
 // import $ from 'jquery'
 // import Popper from 'popper.js'
@@ -28,7 +28,6 @@ root.render(
 				<Route path='/Scarica' element={<Scarica />} />
 				<Route path='/Abbonamento' element={<Abbonamento />} />
 				<Route path='/Supporto' element={<Supporto />}/>
-				<Route path='/Giochi' element={<Giochi />}/>
 			</Routes>
 		</Router>
 	</React.StrictMode>
