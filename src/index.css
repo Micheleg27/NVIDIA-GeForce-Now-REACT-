@@ -2711,56 +2711,6 @@ footer p a {
     height: 440px;
   }
 }
-.section-support {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
-}
-
-#container-due {
-  width: 75%;
-}
-
-.container-support {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.container-support-card {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-}
-
-.supporto-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-}
-
-.supporto-img {
-  width: 80px;
-}
-
-.supporto-title {
-  color: #76B900;
-  font-weight: 800;
-  font-size: 30px;
-  font-family: "Geforce bold";
-}
-
-.supporto-paragraph {
-  color: white;
-  font-size: 19px;
-  font-family: "Geforce bold";
-}
-
 .title-giochi-container {
   display: flex;
   flex-direction: column;
@@ -2972,7 +2922,7 @@ footer p a {
 .h3-sect-giochi {
   font-family: "Geforce light";
   font-size: 40px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 100px;
   top: 200px;
@@ -2982,7 +2932,7 @@ footer p a {
 .span-sect-giochi {
   font-family: "Geforce light";
   font-size: 32px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 100px;
   top: 260px;
@@ -2992,7 +2942,7 @@ footer p a {
 #h3-sect-gfn {
   font-family: "Geforce light";
   font-size: 40px;
-  color: white;
+  color: #76D900;
   position: absolute;
   top: 200px;
   z-index: 2147483647;
@@ -3001,7 +2951,7 @@ footer p a {
 #span-sect-gfn {
   font-family: "Geforce light";
   font-size: 32px;
-  color: white;
+  color: #76D900;
   position: absolute;
   top: 260px;
   z-index: 2147483647;
@@ -3010,7 +2960,7 @@ footer p a {
 #h3-sect-genshin {
   font-family: "Geforce light";
   font-size: 40px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 70px;
   top: 200px;
@@ -3020,7 +2970,7 @@ footer p a {
 #span-sect-genshin {
   font-family: "Geforce light";
   font-size: 32px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 70px;
   top: 260px;
@@ -3030,7 +2980,7 @@ footer p a {
 #h3-sect-guildwars {
   font-family: "Geforce light";
   font-size: 40px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 70px;
   top: 200px;
@@ -3041,7 +2991,7 @@ footer p a {
 #span-sect-guildwars {
   font-family: "Geforce light";
   font-size: 32px;
-  color: white;
+  color: #76D900;
   position: absolute;
   left: 70px;
   top: 320px;
