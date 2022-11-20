@@ -23,11 +23,15 @@ const SplitPane = ({ children, ...props }) => {
 			return;
 		}
 
-		setClientHeight(clientHeight + e.clientY - yDividerPos.current);
+		// setClientHeight(clientHeight + e.clientY - yDividerPos.current);
 		setClientWidth(clientWidth + e.clientX - xDividerPos.current);
 
-		yDividerPos.current = e.clientY;
+		// yDividerPos.current = e.clientY;
 		xDividerPos.current = e.clientX;
+
+        let newLeftWidth = ((clientWidth + xDividerPos) * 100) / Divider.parentNode.getBoundingClientRect().width;
+        newLeftWidth = Math.max(newLeftWidth, 0);
+        newLeftWidth = Math.min(newLeftWidth, 100);
 	};
 
 	useEffect(() => {
@@ -113,7 +117,7 @@ export const SplitPaneLeft = (props) => {
 	useEffect(
 		() => {
 			if (!clientWidth) {
-				setClientWidth(topRef.current.clientWidth / 2);
+				setClientWidth(((topRef.current.clientWidth) *100) / Divider.parentNode);
 				return;
 			}
 
@@ -127,15 +131,9 @@ export const SplitPaneLeft = (props) => {
 };
 
 export const SplitPaneRight = (props) => {
-	// const { quotes, currQuote } = useContext(QuoteContext);
-	// const quote = quotes.find((el) => el.id === currQuote);
 
 	return (
 		<div {...props} className="split-pane-right" style={{ backgroudColor: 'blue' }}>
-			{/* <div className="quote">
-          <blockquote>{quote.description}</blockquote>—{" "}
-          <span>{quote.author}</span>
-        </div> */}
 		</div>
 	);
 };
