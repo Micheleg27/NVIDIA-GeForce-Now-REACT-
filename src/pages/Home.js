@@ -22,13 +22,15 @@ import NavBianca from '../Components/NavBianca';
 import { NuoviGiochi } from '../Components/NuoviGiochi';
 import CardAbbonamento from '../Components/CardAbbonamento';
 import { Title } from '../Components/Title';
+import { ServerStatus } from './Serverstatus';
 
 
 function Home() {
 	return (
 		<React.Fragment>
+			<ServerStatus />
 			{/* <Lingua /> */}
-			<Alert />
+			{/* <Alert />
 			<NavBianca />
 			<GreenBannerNav />
 			<NavNera />
@@ -44,10 +46,10 @@ function Home() {
 			<CardAbbonamento />
 			<GetIn />
 			<Joystick />
-			<FollowSocial /> 
+			<FollowSocial />
 			<SystemRequired />
 			<FooterNero />
-			<FooterBianco />
+			<FooterBianco /> */}
 		</React.Fragment>
 	);
 }

@@ -1,0 +1,49 @@
+.nav-server{
+    width: 100vw;
+    height: 82px;
+    background-color: white;
+
+    .div-logo-server{
+        margin: 0 auto;
+    }
+}
+
+.title-server{
+    font-size: 60px;
+    color: #76B900;
+    text-align: center;
+    font-family: "Geforce light";
+    margin: 100px auto;
+}
+
+.container-server{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-issue-server{
+        width: 50vw;
+        padding: auto 50px;
+        height: 30vh;
+        border: black 4px solid;
+    }
+
+    .header-issue-server{
+        width: 100%;
+        height: 20%;
+        background-color: grey;
+
+        #a-issue-server{
+            font-size: 30px;
+            font-family: 'Geforce light';
+            padding: 30px auto;
+        }
+    }
+
+    .paragraph-issue-server{
+        border: white 1px solid;
+        height: 80%;
+    }
+
+
+}

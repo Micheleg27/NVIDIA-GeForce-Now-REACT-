@@ -2712,6 +2712,49 @@ footer p a {
     height: 440px;
   }
 }
+.nav-server {
+  width: 100vw;
+  height: 82px;
+  background-color: white;
+}
+.nav-server .div-logo-server {
+  margin: 0 auto;
+}
+
+.title-server {
+  font-size: 60px;
+  color: #76B900;
+  text-align: center;
+  font-family: "Geforce light";
+  margin: 100px auto;
+}
+
+.container-server {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-server .container-issue-server {
+  width: 50vw;
+  padding: auto 50px;
+  height: 30vh;
+  border: black 4px solid;
+}
+.container-server .header-issue-server {
+  width: 100%;
+  height: 20%;
+  background-color: grey;
+}
+.container-server .header-issue-server #a-issue-server {
+  font-size: 30px;
+  font-family: "Geforce light";
+  padding: 30px auto;
+}
+.container-server .paragraph-issue-server {
+  border: white 1px solid;
+  height: 80%;
+}
+
 * {
   padding: 0;
   margin: 0;
