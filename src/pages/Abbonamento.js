@@ -23,7 +23,7 @@ function Abbonamento() {
             <NuovaGenerazione />
             <VantaggiPerAbbonati />
             <CarteRegalo />
-            <ResizerApp />
+            {/* <ResizerApp /> */}
             <FooterNero />
             <FooterBianco />
         </React.Fragment>

@@ -27,25 +27,6 @@
     height: 20px;
 }
 
-@media all and (max-width: 995px) {
-	.offcanvas-body {
-		display: flex;
-		flex-direction: column;
-		justify-content: initial;
-		align-items: initial;
-	}
-
-	#lente2 {
-		display: none;
-	}
-}
-
-@media all and (min-width: 995px) {
-	#lente1 {
-		display: none;
-	}
-}
-
 .cart {
 	position: relative;
 	.triangle {
@@ -92,6 +73,25 @@
 	color: transparent;
 }
 
-::marker{
-	color:white;
+
+@media all and (max-width: 995px) {
+	.offcanvas-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: initial;
+		align-items: initial;
+		.ul-left-nav{
+			align-items: flex-start !important;
+		}
+	}
+
+	#lente2 {
+		display: none;
+	}
+}
+
+@media all and (min-width: 995px) {
+	#lente1 {
+		display: none;
+	}
 }

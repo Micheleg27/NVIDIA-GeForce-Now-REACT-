@@ -3,13 +3,13 @@ import { Accordion } from "react-bootstrap";
 export function AccordionItem({accordionKey ,accordionHeader, accordionBody}){
 
     return(
-            <Accordion.Item eventKey={accordionKey}>
+            <Accordion.Item eventKey={accordionKey} className="accordion-item bg-black">
                 
-                <Accordion.Header >
+                <Accordion.Header className="accordion-header">
                     {accordionHeader}
                 </Accordion.Header>
 
-                <Accordion.Body >
+                <Accordion.Body className="accordion-body">
                     {accordionBody}
                 </Accordion.Body>
 

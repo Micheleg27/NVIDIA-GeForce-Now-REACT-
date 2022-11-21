@@ -1,0 +1,21 @@
+.container-list {
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    .lista-nuovi-giochi {
+        display: flex;
+        flex-direction: column;
+
+        .li-lista-giochi {
+            font-size: 22px;
+            text-decoration: none;
+
+            .link-giochi {
+                color: $primary-color !important;
+                font-family: "Geforce bold";
+            }
+        }
+    }
+}

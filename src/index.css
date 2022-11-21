@@ -1219,7 +1219,6 @@
   }
 }
 #AD-section-sologeforce {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1488,22 +1487,6 @@
   height: 20px;
 }
 
-@media all and (max-width: 995px) {
-  .offcanvas-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: initial;
-    align-items: initial;
-  }
-  #lente2 {
-    display: none;
-  }
-}
-@media all and (min-width: 995px) {
-  #lente1 {
-    display: none;
-  }
-}
 .cart {
   position: relative;
 }
@@ -1549,10 +1532,25 @@
   color: transparent;
 }
 
-::marker {
-  color: white;
+@media all and (max-width: 995px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .offcanvas-body .ul-left-nav {
+    align-items: flex-start !important;
+  }
+  #lente2 {
+    display: none;
+  }
 }
-
+@media all and (min-width: 995px) {
+  #lente1 {
+    display: none;
+  }
+}
 .TFR-container {
   flex-direction: column;
   background-color: #333;
@@ -1800,7 +1798,7 @@
   background-color: white;
   margin-bottom: 100px;
   margin-top: 35px;
-  width: 100vw;
+  width: 99vw;
 }
 .mgSliderContainer .mgSlider {
   margin: auto;
@@ -2029,7 +2027,6 @@ footer p a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -2552,46 +2549,31 @@ footer p a {
     text-align: center !important;
   }
 }
-.container #ad-link-btn {
-  color: white;
-  text-decoration: none;
+.sectionWidth .contenitore-query .carte-regalo-img-desktop {
+  width: 250%;
+  height: 100%;
+}
+.sectionWidth .contenitore-query .carte-regalo-img-query {
+  display: none;
+}
+.sectionWidth .contenitore-query .overlay-right {
+  left: 40%;
+}
+.sectionWidth .contenitore-query .carte-rtx-testo {
+  width: 53%;
 }
 
-@media all and (min-width: 1025px) {
-  .rtx-query {
+@media all and (max-width: 1025px) {
+  .sectionWidth .contenitore-query .carte-regalo-img-desktop {
     display: none;
   }
-  .ad-rtx-img {
-    width: 83%;
-    height: 580px;
-    position: absolute;
+  .sectionWidth .contenitore-query .carte-regalo-img-query {
+    display: block;
+    width: 100%;
   }
-  .text {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-  }
-  .text h2 {
-    text-align: left;
-    font-size: 52px;
-  }
-  .text h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  .text p {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-}
-@media all and (max-width: 1024px) {
-  .ad-rtx-img {
-    display: none;
-  }
-  .rtx-query {
-    width: 596px;
-    height: 440px;
+  .sectionWidth .contenitore-query .carte-rtx-testo {
+    position: initial;
+    width: 100%;
   }
 }
 .vantaggi-abbonamenti {
@@ -2753,8 +2735,159 @@ footer p a {
   font-size: 30px;
   font-family: "Geforce bold";
 }
-.supporto-container .div-supporto-paragraph {
+/* .supporto-container .div-supporto-paragraph {
+/* .sectionWidth {
+  width: 80vw;
+  margin: auto;
+} */ */
+
+.carte-regalo-img {
+  width: 80%;
+}
+
+.carte-regalo-testo {
+  width: 40%;
+}
+
+.sfondo-carta {
+  background-color: transparent !important;
+}
+
+@media all and (max-width: 1024px) {
+  .sectionWidth .contenitore-query {
+    align-items: center !important;
+  }
+  .sectionWidth .contenitore-query .carte-regalo-img {
+    width: 110%;
+  }
+  .sectionWidth .contenitore-query .carte-regalo-testo {
+    position: initial;
+    width: 100%;
+  }
+}
+.title-giochi-container {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sect-giochi .carousel-inner {
+  width: 100%;
+  height: fit-content;
+}
+
+#sect-giochi #div-size-gfn,
+#sect-giochi #div-size-legobrawls,
+#sect-giochi #div-size-saints,
+#sect-giochi #div-size-genshin,
+#sect-giochi #div-size-guildwars {
+  height: fit-content;
+  width: 100%;
+}
+
+#sect-giochi #img-GFNThursday {
+  height: 580px;
+  object-fit: cover;
+  max-width: 90%;
+}
+
+#sect-giochi #button {
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #76B900 !important;
+}
+
+.button-giochi {
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #76B900 !important;
+}
+
+.container-giochi {
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container-text-giochi {
+  max-width: 100%;
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+}
+
+.container-text-giochi .paragraph-sect-giochi {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-text-giochi .title-giochi {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.container-text-giochi .title-giochi .h1-size {
+  font-size: 48px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .title-giochi .h2-size {
+  font-size: 36px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .second-title-giochi {
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-text-giochi .second-title-giochi #p-find-giochi {
+  font-family: "Geforce bold";
+  font-size: 26px;
+  padding-bottom: 50px;
+}
+
+.container-text-giochi .second-title-giochi #list-giochi {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+}
+
+.container-text-giochi .second-title-giochi p {
+  font-size: 22px;
+}
+
+.container-text-giochi .second-title-giochi .h4-size {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .second-title-giochi a {
+  text-decoration: none;
+  color: #76b900;
+  font-family: "Geforce bold";
+}
+
+#div-bar-games {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
 }
 .supporto-container .div-supporto-paragraph .supporto-paragraph {
   color: white;
