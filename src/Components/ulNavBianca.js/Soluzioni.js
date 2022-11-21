@@ -86,7 +86,7 @@ function Soluzioni() {
 								<a id='a' href="#">Panoramica</a>
 							</li>
 							<li>
-								<a href="#">Realtà aumenteta e virtuale</a>
+								<a id='a' href="#">Realtà aumenteta e virtuale</a>
 							</li>
 							<li>
 								<a id='a' href="#">Multi-Display</a>

@@ -8,7 +8,7 @@ function PerTe() {
 				Per Te
 			</a>
 			{show && (
-				<div style={{position:'absolute', zIndex:'999999', backgroundColor:'whiteSmoke', width:'100%', left:'0', height:'40px'}} className='d-flex align-items-center justify-content-center'>
+				<div style={{position:'absolute', zIndex:'9999', backgroundColor:'whiteSmoke', width:'100%', left:'0', height:'40px'}} className='d-flex align-items-center justify-content-center'>
 					<ul style={{display:'flex', gap:'40px', listStyleType:'none', justifyContent:'center'}}>
 						<li>
 							<a id='a' href="#">Creativi/Designer</a>

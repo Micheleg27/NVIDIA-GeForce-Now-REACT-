@@ -11,7 +11,7 @@ function Settori() {
 				<div
 					style={{
 						position: 'absolute',
-						zIndex: '999999',
+						zIndex: '9999',
 						backgroundColor: 'whiteSmoke',
 						width: '100%',
 						left: '0'

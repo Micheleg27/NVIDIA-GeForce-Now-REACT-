@@ -4,10 +4,10 @@ import { FooterNero } from "../Components/FooterNero";
 import NavBianca from "../Components/NavBianca";
 import { NavNera } from "../Components/NavNera";
 import { Title } from "../Components/Title";
-import { CarouselGiochi } from "../GiochiComponents/CarouselGiochi";
+import { CarouselGiochi } from "../Components/GiochiComponents/CarouselGiochi";
 import GreenBannerNav from "../Components/GreenBannerNav";
-import ListaNuoviGiochi from "../GiochiComponents/ListaNuoviGiochi";
-import { AccordionGiochi } from "../GiochiComponents/AccordionGiochi";
+import ListaNuoviGiochi from "../Components/GiochiComponents/ListaNuoviGiochi";
+import { AccordionGiochi } from "../Components/GiochiComponents/AccordionGiochi";
 
 export function Giochi() {
   return (

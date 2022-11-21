@@ -1,4 +1,4 @@
-import { SearchBar } from "../Components/BasicComponents/SearchBar";
+import { SearchBar } from "../../Components/BasicComponents/SearchBar";
 
 export function AccordionGiochi() {
 

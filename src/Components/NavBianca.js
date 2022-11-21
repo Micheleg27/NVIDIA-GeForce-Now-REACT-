@@ -86,8 +86,8 @@ export default function NavBianca() {
 						aria-labelledby="offcanvasNavbarLabel"
 					>
 						<div className="offcanvas-body">
-							<div className="d-flex align-items-and">
-								<ul className="navbar-nav flex-grow-1 pe-3 d-flex">
+							<div className="d-flex align-items-center">
+								<ul className="ul-left-nav navbar-nav flex-grow-1 pe-3 d-flex align-items-center">
 									<li className="nav-item">
 										<Prodotti />
 									</li>
