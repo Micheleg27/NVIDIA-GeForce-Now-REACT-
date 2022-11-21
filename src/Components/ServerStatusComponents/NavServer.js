@@ -4,6 +4,7 @@ export function NavServer() {
       <div className="div-logo-server">
         <a href="https://www.nvidia.com/">
           <svg
+            id='svg-server'
             enable-background="new 0 0 974.7 179.7"
             version="1.1"
             viewBox="0 0 974.7 179.7"

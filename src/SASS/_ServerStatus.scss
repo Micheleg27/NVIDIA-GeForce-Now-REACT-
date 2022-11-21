@@ -4,8 +4,16 @@
     background-color: white;
 
     .div-logo-server{
-        margin: 0 auto;
-    }
+        height: 100%;
+        width: 10%;
+        display: flex;
+        padding: 15px 110px;
+
+        #svg-server{
+            width:150px;
+            height: 44px;
+        }
+        }
 }
 
 .title-server{
@@ -23,27 +31,42 @@
 
     .container-issue-server{
         width: 50vw;
-        padding: auto 50px;
-        height: 30vh;
+        height: 33vh;
         border: black 4px solid;
     }
 
     .header-issue-server{
         width: 100%;
         height: 20%;
-        background-color: grey;
+        background-color: #333;
+        padding: 10px 20px;
 
         #a-issue-server{
             font-size: 30px;
-            font-family: 'Geforce light';
+            font-family: 'DINPro light';
             padding: 30px auto;
         }
     }
 
     .paragraph-issue-server{
         border: white 1px solid;
-        height: 80%;
+        border-top:none;
+        height: 50%;
+        padding: 20px 20px;
+
+        .p1-issue-server{
+            font-size: 20px;
+            font-family: 'DINPro light';
+            color:white;
+        }
+
+        .p2-issue-server{
+            font-size: 20px;
+            font-family: 'DINPro light';
+            color: #666666;
+        }
     }
 
 
 }
+
