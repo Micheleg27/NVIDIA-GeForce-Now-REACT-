@@ -11,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Scarica from './pages/Scarica';
 import Abbonamento from './pages/Abbonamento';
 import { Supporto } from './pages/Supporto';
-
 import { Giochi } from './pages/Giochi';
 
 // import $ from 'jquery'
