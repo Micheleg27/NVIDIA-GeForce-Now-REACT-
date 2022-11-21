@@ -1,10 +1,22 @@
 import { SupportoCard } from "./SupportoCard";
+import { SupportoCard2 } from "./SupportoCard2";
 
 export function SupportoCardContainer() {
   return (
     <section className="section-support">
       <div className="container-support">
         <div className="container-support-card">
+          <SupportoCard
+            link={"https://status.geforcenow.com/"}
+            img={
+              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-server.svg"
+            }
+            title={"Stato del servizio"}
+            paragraph={
+              "Visualizza lo stato del servizio e dei server GeForce NOW in tutto il mondo."
+            }
+          />
+
           <SupportoCard
             link={"https://www.nvidia.com/it-it/geforce-now/download/"}
             img={
@@ -15,7 +27,32 @@ export function SupportoCardContainer() {
               "Scarica l'ultima versione dell'App GeForce NOW per tutti i tuoi dispositivi."
             }
           />
+
           <SupportoCard
+            link={"https://www.nvidia.com/it-it/geforce-now/faq/"}
+            img={
+              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-faqs.svg"
+            }
+            title={"FAQ"}
+            paragraph={
+              "Trova le risposte alle domande più frequenti su GeForce NOW."
+            }
+          />
+        </div>
+
+        <div className="container-support-card" id="container-due">
+          <SupportoCard2
+            link={"https://www.nvidia.com/it-it/geforce-now/system-reqs/"}
+            img={
+              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-sys-req.svg"
+            }
+            title={"Requisiti di sistema"}
+            paragraph={
+              "Scopri i requisiti internet e di sistema per giocare con GeForce NOW."
+            }
+          />
+
+          <SupportoCard2
             link={
               "https://www.nvidia.com/en-us/geforce/forums/gfn-beta-updates/20/"
             }
@@ -27,7 +64,8 @@ export function SupportoCardContainer() {
               "Entra in contatto con la community per discutere degli ultimi giochi, delle novità, di consigli e soluzioni."
             }
           />
-          <SupportoCard
+
+          <SupportoCard2
             link={
               "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/geforce-geforce-now-mobile-qsg-mac-itIT.pdf"
             }
@@ -39,7 +77,8 @@ export function SupportoCardContainer() {
               "Scopri come iniziare subito a giocare con GeForce NOW su PC e Mac."
             }
           />
-          <SupportoCard
+
+          <SupportoCard2
             link={"https://www.nvidia.com/it-it/support/"}
             img={
               "https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/support/technical-support.svg"
@@ -47,39 +86,6 @@ export function SupportoCardContainer() {
             title={"Supporto Tecnico"}
             paragraph={
               "Trova le risposte alle domande e ai problemi più frequenti. La nostra knowledge base è disponibile ogni giorno a tutte le ore."
-            }
-          />
-        </div>
-
-        <div className="container-support-card" id="container-due">
-          <SupportoCard
-            link={"https://www.nvidia.com/it-it/geforce-now/system-reqs/"}
-            img={
-              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-sys-req.svg"
-            }
-            title={"Requisiti di sistema"}
-            paragraph={
-              "Scopri i requisiti internet e di sistema per giocare con GeForce NOW."
-            }
-          />
-          <SupportoCard
-            link={"https://www.nvidia.com/it-it/geforce-now/faq/"}
-            img={
-              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-faqs.svg"
-            }
-            title={"FAQ"}
-            paragraph={
-              "Trova le risposte alle domande più frequenti su GeForce NOW."
-            }
-          />
-          <SupportoCard
-            link={"https://status.geforcenow.com/"}
-            img={
-              "https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-server.svg"
-            }
-            title={"Stato del servizio"}
-            paragraph={
-              "Visualizza lo stato del servizio e dei server GeForce NOW in tutto il mondo."
             }
           />
         </div>
