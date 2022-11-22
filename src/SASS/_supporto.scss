@@ -1,0 +1,129 @@
+.section-support{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+    .container-support{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        #container-due {
+            width: 100%;
+        }
+
+        .container-support-card{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            height:40%;
+            width:100%;
+        }
+    }
+}
+
+.supporto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    gap:25px;
+
+    .supporto-img{
+        width: 80px;
+    }
+
+    .supporto-title{
+        color: $primary-color;
+        font-weight: 800;
+        font-size: 30px;
+        font-family: 'Geforce bold';
+    }
+
+    .div-supporto-paragraph{
+        display: flex;
+
+
+        .supporto-paragraph{
+            color: white;
+            font-size: 19px;
+            font-family: 'Geforce light';
+            width:25vw;
+        }
+
+        .supporto-paragraph2{
+            color: white;
+            font-size: 19px;
+            font-family: 'Geforce light';
+            width:21vw;
+        }
+    }
+}
+
+@media all and (max-width: 1400px){
+    .container-support-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        height:50%;
+        width:100%;
+    }
+
+    #container-due {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and (min-width: 640px) and (max-width: 1399px){
+
+
+    .supporto-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        gap:25px;
+
+        .div-supporto-paragraph{
+            display: flex;
+            width:40vw;
+
+        .supporto-paragraph{
+            color: white;
+            font-size: 19px;
+            font-family: 'Geforce light';
+            width:40vw;
+        }
+
+        .supporto-paragraph2{
+            color: white;
+            font-size: 19px;
+            font-family: 'Geforce light';
+            width:40vw;
+        }
+    }
+}
+
+    .container-support-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        height:50%;
+        width:100%;
+    }
+
+    #container-due {
+        width: 100%;
+        height: auto;
+    }
+}

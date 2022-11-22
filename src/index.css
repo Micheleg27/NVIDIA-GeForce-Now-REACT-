@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,12 +367,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1227,7 +1219,6 @@
   }
 }
 #AD-section-sologeforce {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1490,22 +1481,12 @@
   color: black;
 }
 
-@media all and (max-width: 995px) {
-  .offcanvas-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: initial;
-    align-items: initial;
-  }
-  #lente2 {
-    display: none;
-  }
+#menu-arrow {
+  vertical-align: middle;
+  color: black;
+  height: 20px;
 }
-@media all and (min-width: 995px) {
-  #lente1 {
-    display: none;
-  }
-}
+
 .cart {
   position: relative;
 }
@@ -1551,6 +1532,25 @@
   color: transparent;
 }
 
+@media all and (max-width: 995px) {
+  .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .offcanvas-body .ul-left-nav {
+    align-items: flex-start !important;
+  }
+  #lente2 {
+    display: none;
+  }
+}
+@media all and (min-width: 995px) {
+  #lente1 {
+    display: none;
+  }
+}
 .TFR-container {
   flex-direction: column;
   background-color: #333;
@@ -1798,7 +1798,7 @@
   background-color: white;
   margin-bottom: 100px;
   margin-top: 35px;
-  width: 100vw;
+  width: 99vw;
 }
 .mgSliderContainer .mgSlider {
   margin: auto;
@@ -1812,24 +1812,13 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2038,7 +2027,6 @@ footer p a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -2561,46 +2549,31 @@ footer p a {
     text-align: center !important;
   }
 }
-.container #ad-link-btn {
-  color: white;
-  text-decoration: none;
+.sectionWidth .contenitore-query .carte-regalo-img-desktop {
+  width: 250%;
+  height: 100%;
+}
+.sectionWidth .contenitore-query .carte-regalo-img-query {
+  display: none;
+}
+.sectionWidth .contenitore-query .overlay-right {
+  left: 40%;
+}
+.sectionWidth .contenitore-query .carte-rtx-testo {
+  width: 53%;
 }
 
-@media all and (min-width: 1025px) {
-  .rtx-query {
+@media all and (max-width: 1025px) {
+  .sectionWidth .contenitore-query .carte-regalo-img-desktop {
     display: none;
   }
-  .ad-rtx-img {
-    width: 83%;
-    height: 580px;
-    position: absolute;
+  .sectionWidth .contenitore-query .carte-regalo-img-query {
+    display: block;
+    width: 100%;
   }
-  .text {
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-  }
-  .text h2 {
-    text-align: left;
-    font-size: 52px;
-  }
-  .text h3 {
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
-  .text p {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-}
-@media all and (max-width: 1024px) {
-  .ad-rtx-img {
-    display: none;
-  }
-  .rtx-query {
-    width: 596px;
-    height: 440px;
+  .sectionWidth .contenitore-query .carte-rtx-testo {
+    position: initial;
+    width: 100%;
   }
 }
 .vantaggi-abbonamenti {
@@ -2690,37 +2663,522 @@ footer p a {
     flex-direction: column-reverse;
   }
 }
-@media all and (min-width: 1025px) {
-  .card-query {
-    display: none;
-  }
-  .ad-card-img {
-    width: 83%;
-    height: 580px;
-    position: absolute;
-    z-index: -1;
-  }
-  .text {
-    width: 510px;
-  }
-  .text h2 {
-    text-align: left;
-    font-size: 40px;
-  }
-  .text p {
-    font-size: 16px;
-    padding: 10px 0;
-  }
+.sectionWidth {
+  width: 80vw;
+  margin: auto;
 }
+
+.carte-regalo-img {
+  width: 80%;
+}
+
+.carte-regalo-testo {
+  width: 40%;
+}
+
+.sfondo-carta {
+  background-color: transparent !important;
+}
+
 @media all and (max-width: 1024px) {
-  .ad-card-img {
-    display: none;
+  .sectionWidth .contenitore-query {
+    align-items: center !important;
   }
-  .card-query {
-    width: 596px;
-    height: 440px;
+  .sectionWidth .contenitore-query .carte-regalo-img {
+    width: 110%;
+  }
+  .sectionWidth .contenitore-query .carte-regalo-testo {
+    position: initial;
+    width: 100%;
   }
 }
+.section-support {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.section-support .container-support {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.section-support .container-support #container-due {
+  width: 100%;
+}
+.section-support .container-support .container-support-card {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 40%;
+  width: 100%;
+}
+
+.supporto-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  gap: 25px;
+}
+.supporto-container .supporto-img {
+  width: 80px;
+}
+.supporto-container .supporto-title {
+  color: #76B900;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Geforce bold";
+}
+.supporto-container .div-supporto-paragraph {
+  display: flex;
+}
+.supporto-container .div-supporto-paragraph .supporto-paragraph {
+  color: white;
+  font-size: 19px;
+  font-family: "Geforce light";
+  width: 25vw;
+}
+.supporto-container .div-supporto-paragraph .supporto-paragraph2 {
+  color: white;
+  font-size: 19px;
+  font-family: "Geforce light";
+  width: 21vw;
+}
+
+@media all and (max-width: 1400px) {
+  .container-support-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+  }
+  #container-due {
+    width: 100%;
+    height: auto;
+  }
+}
+@media all and (min-width: 640px) and (max-width: 1399px) {
+  .supporto-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    gap: 25px;
+  }
+  .supporto-container .div-supporto-paragraph {
+    display: flex;
+    width: 40vw;
+  }
+  .supporto-container .div-supporto-paragraph .supporto-paragraph {
+    color: white;
+    font-size: 19px;
+    font-family: "Geforce light";
+    width: 40vw;
+  }
+  .supporto-container .div-supporto-paragraph .supporto-paragraph2 {
+    color: white;
+    font-size: 19px;
+    font-family: "Geforce light";
+    width: 40vw;
+  }
+  .container-support-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+  }
+  #container-due {
+    width: 100%;
+    height: auto;
+  }
+}
+.title-giochi-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sect-giochi .carousel-inner {
+  width: 100%;
+  height: fit-content;
+}
+
+#sect-giochi #div-size-gfn,
+#sect-giochi #div-size-legobrawls,
+#sect-giochi #div-size-saints,
+#sect-giochi #div-size-genshin,
+#sect-giochi #div-size-guildwars {
+  height: fit-content;
+  width: 100%;
+}
+
+#sect-giochi #img-GFNThursday {
+  height: 580px;
+  object-fit: cover;
+  max-width: 90%;
+}
+
+#sect-giochi #button {
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #76B900 !important;
+}
+
+.button-giochi {
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #76B900 !important;
+}
+
+.container-giochi {
+  margin-top: 150px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.container-text-giochi {
+  max-width: 100%;
+  width: 65%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 40px;
+}
+
+.container-text-giochi .paragraph-sect-giochi {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container-text-giochi .title-giochi {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.container-text-giochi .title-giochi .h1-size {
+  font-size: 48px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .title-giochi .h2-size {
+  font-size: 36px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .second-title-giochi {
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.container-text-giochi .second-title-giochi #p-find-giochi {
+  font-family: "Geforce bold";
+  font-size: 26px;
+  padding-bottom: 50px;
+}
+
+.container-text-giochi .second-title-giochi #list-giochi {
+  display: flex;
+  flex-direction: column;
+  line-height: 18px;
+}
+
+.container-text-giochi .second-title-giochi p {
+  font-size: 22px;
+}
+
+.container-text-giochi .second-title-giochi .h4-size {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Geforce bold";
+}
+
+.container-text-giochi .second-title-giochi a {
+  text-decoration: none;
+  color: #76b900;
+  font-family: "Geforce bold";
+}
+
+#div-bar-games {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+#div-bar-games #search-bar-games {
+  margin: auto;
+  width: 70%;
+  height: 50px;
+  background-color: black;
+  border: 1px solid gray;
+  font-size: 34px;
+  padding: 35px;
+  color: white;
+}
+
+.catalog {
+  padding: 15px;
+  margin: auto;
+  max-width: 1440px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.catalog .check {
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 42px;
+  font-family: "Geforce bold";
+}
+
+.catalog .accordion .accordion-item {
+  background-color: black;
+}
+
+.catalog .accordion .accordion-item .accordion-button {
+  background-color: black;
+  box-shadow: none;
+  color: white;
+  font-size: 32px;
+  border: 1.5px solid #76b900;
+}
+
+.catalog .accordion .accordion-item .collapsed {
+  border: 1.5px solid #333;
+  border-radius: 0px !important;
+}
+
+.catalog .accordion .accordion-item .accordion-collapse {
+  background-color: black;
+  color: #afafaf;
+}
+
+.catalog .accordion .accordion-item .accordion-collapse .div-accordion {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.catalog .accordion .accordion-item .accordion-collapse .div-accordion .h3-alphabetic-list {
+  color: white;
+}
+
+.catalog .accordion .accordion-item .accordion-collapse .div-accordion section {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.catalog .div-accordion-last {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.catalog .div-accordion-last section {
+  padding: 0 20px;
+}
+
+.catalog .paragraph-sect-giochi2 {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.h3-sect-giochi {
+  font-family: "Geforce light";
+  font-size: 40px;
+  color: #76D900;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  z-index: 2147483647;
+}
+
+.span-sect-giochi {
+  font-family: "Geforce light";
+  font-size: 32px;
+  color: #76D900;
+  position: absolute;
+  left: 100px;
+  top: 260px;
+  z-index: 2147483647;
+}
+
+#h3-sect-gfn {
+  font-family: "Geforce light";
+  font-size: 40px;
+  color: #76D900;
+  position: absolute;
+  top: 200px;
+  z-index: 2147483647;
+}
+
+#span-sect-gfn {
+  font-family: "Geforce light";
+  font-size: 32px;
+  color: #76D900;
+  position: absolute;
+  top: 260px;
+  z-index: 2147483647;
+}
+
+#h3-sect-genshin {
+  font-family: "Geforce light";
+  font-size: 40px;
+  color: #76D900;
+  position: absolute;
+  left: 70px;
+  top: 200px;
+  z-index: 2147483647;
+}
+
+#span-sect-genshin {
+  font-family: "Geforce light";
+  font-size: 32px;
+  color: #76D900;
+  position: absolute;
+  left: 70px;
+  top: 260px;
+  z-index: 2147483647;
+}
+
+#h3-sect-guildwars {
+  font-family: "Geforce light";
+  font-size: 40px;
+  color: #76D900;
+  position: absolute;
+  left: 70px;
+  top: 200px;
+  z-index: 2147483647;
+  width: 510px;
+}
+
+#span-sect-guildwars {
+  font-family: "Geforce light";
+  font-size: 32px;
+  color: #76D900;
+  position: absolute;
+  left: 70px;
+  top: 320px;
+  z-index: 2147483647;
+}
+
+#img-guildwars {
+  height: 580px;
+  object-fit: cover;
+  width: 100vw;
+}
+
+#img-legobrawls {
+  height: 580px;
+  object-fit: cover;
+  width: 100vw;
+}
+
+#img-saintsrow {
+  height: 580px;
+  object-fit: cover;
+  width: 100vw;
+}
+
+#img-genshin {
+  height: 580px;
+  object-fit: cover;
+  width: 100vw;
+}
+
+#img-guildwars {
+  height: 580px;
+  object-fit: cover;
+  width: 100vw;
+}
+
+#sliders-giochi {
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
+
+.d-block .w-100 {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-inner2 {
+  width: 900px;
+  height: 900px;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 250px;
+  left: 475px;
+  width: 500px;
+  height: 500px;
+}
+
+h5 {
+  color: #76B900;
+  font-size: 24px;
+}
+
+#div-bar-games #search-bar-games {
+  margin: auto;
+  width: 40%;
+  height: 50px;
+  background-color: black;
+  border: 1px solid gray;
+  font-size: 34px;
+  padding: 35px;
+  color: white;
+}
+
+.container-list {
+  color: white;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.container-list .lista-nuovi-giochi {
+  display: flex;
+  flex-direction: column;
+}
+.container-list .lista-nuovi-giochi .li-lista-giochi {
+  font-size: 22px;
+  text-decoration: none;
+}
+.container-list .lista-nuovi-giochi .li-lista-giochi .link-giochi {
+  color: #76B900 !important;
+  font-family: "Geforce bold";
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -2787,4 +3245,6 @@ a {
 .separator-col {
   border: 5px solid yellow;
   cursor: col-resize;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

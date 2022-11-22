@@ -21,23 +21,10 @@
 	color: black;
 }
 
-@media all and (max-width: 995px) {
-	.offcanvas-body {
-		display: flex;
-		flex-direction: column;
-		justify-content: initial;
-		align-items: initial;
-	}
-
-	#lente2 {
-		display: none;
-	}
-}
-
-@media all and (min-width: 995px) {
-	#lente1 {
-		display: none;
-	}
+#menu-arrow{
+	vertical-align: middle;
+    color: black;
+    height: 20px;
 }
 
 .cart {
@@ -84,4 +71,27 @@
 
 ::before{
 	color: transparent;
+}
+
+
+@media all and (max-width: 995px) {
+	.offcanvas-body {
+		display: flex;
+		flex-direction: column;
+		justify-content: initial;
+		align-items: initial;
+		.ul-left-nav{
+			align-items: flex-start !important;
+		}
+	}
+
+	#lente2 {
+		display: none;
+	}
+}
+
+@media all and (min-width: 995px) {
+	#lente1 {
+		display: none;
+	}
 }

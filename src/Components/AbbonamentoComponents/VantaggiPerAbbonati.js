@@ -1,3 +1,5 @@
+import { Title } from "../Title";
+
 function VantaggiPerAbbonati() {
 	return (
 		<section className="vantaggi-abbonamenti text-light"> 
@@ -11,6 +13,7 @@ function VantaggiPerAbbonati() {
 						includono:
 					</p>
 				</div>
+
 				<div className="fps">
 					<div>
 						<img

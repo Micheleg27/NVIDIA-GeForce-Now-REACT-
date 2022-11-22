@@ -1,49 +1,36 @@
-.container {
-	#ad-link-btn {
-		color: white;
-		text-decoration: none;
-	}
-}
-
-@media all and (min-width: 1025px) {
-	.rtx-query {
-		display: none;
-	}
-	.ad-rtx-img {
-		width: 83%;
-		height: 580px;
-		position: absolute;
-	}
-	.text {
-		position: relative;
-		left: 0px;
-		top: 0px;
-		z-index: 1;
-		h2 {
-			text-align: left;
-			font-size: 52px;
+.sectionWidth{
+	.contenitore-query{
+		.carte-regalo-img-desktop{
+			width:250%;
+			height:100%;
 		}
-		h3 {
-			font-size: 32px;
-			margin-bottom: 10px;
+		.carte-regalo-img-query{
+			display:none;
 		}
-		p {
-			font-size: 16px;
-			padding: 10px 0;
+		.overlay-right{
+			left:40%;
+		}
+		.carte-rtx-testo{
+			width:53%;
 		}
 	}
 }
-
-@media all and (max-width: 1024px) {
-	.ad-rtx-img {
-		display: none;
+@media all and (max-width: 1025px) {
+	.sectionWidth{
+		.contenitore-query{
+			.carte-regalo-img-desktop{
+				display:none;
+			}
+			.carte-regalo-img-query{
+				display:block;
+				width:100%;
+			}
+			.carte-rtx-testo{
+				position:initial;
+				width:100%;
+			}
+			
+		}
 	}
-
-	.rtx-query {
-		width: 596px;
-		height: 440px;
-	}
-
-	.text {
-	}
+	
 }

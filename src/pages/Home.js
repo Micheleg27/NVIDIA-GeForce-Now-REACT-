@@ -21,7 +21,6 @@ import { OltreMille } from '../Components/OltreMille';
 import NavBianca from '../Components/NavBianca';
 import { NuoviGiochi } from '../Components/NuoviGiochi';
 import CardAbbonamento from '../Components/CardAbbonamento';
-import { Title } from '../Components/Title';
 
 
 function Home() {
