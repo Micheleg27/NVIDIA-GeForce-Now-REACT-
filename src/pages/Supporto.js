@@ -13,8 +13,8 @@ export function Supporto(){
     return(
             <React.Fragment >
                 <NavBianca />
-                <NavNera />
                 <GreenBannerNav />
+                <NavNera />
                 <HeaderScarica titleHeader={'Supporto'}/>
                 <SupportoCardContainer />
                 <FooterNero />
