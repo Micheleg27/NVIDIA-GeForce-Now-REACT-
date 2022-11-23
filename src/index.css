@@ -2700,13 +2700,13 @@ footer p a {
 .section-support .container-support {
   display: flex;
   flex-direction: column;
-  width: 1400px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 .section-support .container-support #container-due {
-  width: 1400px;
+  width: 100%;
   margin-bottom: 50px;
 }
 .section-support .container-support .container-support-card {
@@ -2714,7 +2714,7 @@ footer p a {
   text-align: center;
   justify-content: space-around;
   height: 40%;
-  width: 1400px;
+  width: 100%;
   gap: 50px;
   margin-bottom: 50px;
 }
@@ -2753,45 +2753,40 @@ footer p a {
   width: 15vw;
 }
 
-@media all and (max-width: 1400px) {
-  .container-support-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    height: 50%;
-    width: 100%;
-  }
-  #container-due {
-    width: 100%;
-    height: auto;
-  }
-}
-@media all and (min-width: 640px) and (max-width: 1399px) {
+@media all and (max-width: 1399px) {
   .supporto-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 20%;
     gap: 25px;
+  }
+  .supporto-container .supporto-img {
+    width: 100px;
+  }
+  .supporto-container .supporto-title {
+    color: #76B900;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: "Geforce bold";
+    margin-top: 20px;
   }
   .supporto-container .div-supporto-paragraph {
     display: flex;
-    width: 40vw;
+    width: 60vw;
   }
   .supporto-container .div-supporto-paragraph .supporto-paragraph {
     color: white;
     font-size: 19px;
     font-family: "Geforce light";
-    width: 40vw;
+    width: 60vw;
   }
   .supporto-container .div-supporto-paragraph .supporto-paragraph2 {
     color: white;
     font-size: 19px;
     font-family: "Geforce light";
-    width: 40vw;
+    width: 60vw;
   }
   .container-support-card {
     display: flex;
