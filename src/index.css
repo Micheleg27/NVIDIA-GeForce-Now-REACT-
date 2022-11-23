@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,12 +367,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1820,24 +1812,13 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2837,8 +2818,6 @@ footer p a {
 
 #sect-giochi .carousel-inner {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -2847,16 +2826,13 @@ footer p a {
 #sect-giochi #div-size-saints,
 #sect-giochi #div-size-genshin,
 #sect-giochi #div-size-guildwars {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   width: 100%;
 }
 
 #sect-giochi #img-GFNThursday {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 90%;
 }
 
@@ -3122,36 +3098,31 @@ footer p a {
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-legobrawls {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-saintsrow {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-genshin {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
@@ -3220,8 +3191,7 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   pointer-events: none;
 }
 
@@ -3246,8 +3216,7 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .handle {
@@ -3362,6 +3331,38 @@ img {
     margin-top: 70px;
   }
 }
+.container-accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 50px;
+  margin-top: 75px;
+  margin-bottom: 15px;
+  width: 60vw;
+}
+
+.accordion-button {
+  font-size: 32px !important;
+  font-family: "DINPro light";
+  width: 60vw !important;
+  background-color: black !important;
+  color: #ffffff !important;
+}
+
+.accordion-body-faq {
+  width: 60vw;
+  background-color: black;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "DINPro light";
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -3378,4 +3379,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

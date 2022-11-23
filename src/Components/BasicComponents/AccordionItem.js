@@ -9,7 +9,7 @@ export default function AccordionItem({accordionKey ,accordionHeader, accordionB
                     {accordionHeader}
                 </Accordion.Header>
 
-                <Accordion.Body className="accordion-body">
+                <Accordion.Body className="accordion-body accordion-body-faq">
                     {accordionBody}
                 </Accordion.Body>
 

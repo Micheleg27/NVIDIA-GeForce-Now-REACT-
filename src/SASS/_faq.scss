@@ -1,0 +1,33 @@
+.container-accordion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    width: 60vw;
+}
+
+.accordion-button{
+    font-size:32px !important;
+    font-family: 'DINPro light';
+    width: 60vw !important;
+    background-color: black !important;
+    color: $white-color !important;
+}
+
+.accordion-body-faq{
+    width: 60vw;
+    background-color: black;
+    color: $white-color;
+    font-size:18px;
+    font-family: 'DINPro light';
+}
+
+
