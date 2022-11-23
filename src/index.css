@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -367,6 +369,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1812,13 +1820,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2839,6 +2858,8 @@ footer p a {
 
 #sect-giochi .carousel-inner {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -2847,13 +2868,16 @@ footer p a {
 #sect-giochi #div-size-saints,
 #sect-giochi #div-size-genshin,
 #sect-giochi #div-size-guildwars {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   width: 100%;
 }
 
 #sect-giochi #img-GFNThursday {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   max-width: 90%;
 }
 
@@ -3119,31 +3143,36 @@ footer p a {
 
 #img-guildwars {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
 }
 
 #img-legobrawls {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
 }
 
 #img-saintsrow {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
 }
 
 #img-genshin {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
 }
 
 #img-guildwars {
   height: 580px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100vw;
 }
 
@@ -3217,7 +3246,8 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   pointer-events: none;
 }
 
@@ -3242,7 +3272,8 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .handle {
@@ -3273,6 +3304,8 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
+  left: 0;
+  right: 0;
   padding: 0 90px;
   height: 250px;
   background: linear-gradient(rgba(0, 0, 0, 0.915) 40%, rgba(0, 0, 0, 0.586) 60%, rgba(0, 0, 0, 0.449) 90%, rgba(0, 0, 0, 0) 100%);
@@ -3293,50 +3326,6 @@ img {
   color: #76B900;
 }
 
-@media all and (max-width: 1400px) {
-  .content {
-    margin-top: 0;
-    left: 0;
-  }
-  .content .text-header {
-    top: 560px !important;
-    background: transparent !important;
-  }
-  .content .text-header p {
-    margin: 0;
-  }
-  .content .text-content {
-    margin-bottom: 170px !important;
-  }
-}
-@media all and (max-width: 992px) {
-  .content {
-    margin-top: 0;
-    left: 0;
-  }
-  .content .text-header {
-    top: 400px !important;
-    background: transparent !important;
-  }
-  .content .text-header p {
-    margin: 0;
-  }
-  .content .text-content {
-    margin-bottom: 320px !important;
-  }
-}
-@media all and (max-width: 768px) {
-  .content .text-header {
-    top: 300px !important;
-    background: transparent !important;
-  }
-  .content .text-header p {
-    display: none !important;
-  }
-  .content .text-content {
-    margin-bottom: 400px !important;
-  }
-}
 .text-split {
   display: flex;
   flex-direction: column;
@@ -3357,6 +3346,17 @@ img {
     margin-top: 70px;
   }
 }
+@media all and (max-width: 540px) {
+  .text-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.733) 40%, rgba(0, 0, 0, 0.308) 60%, rgba(0, 0, 0, 0.185) 90%, rgba(0, 0, 0, 0) 100%);
+  }
+  .text-header h2 {
+    margin-bottom: 130px;
+  }
+  .text-header p {
+    display: none;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -3373,6 +3373,4 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
