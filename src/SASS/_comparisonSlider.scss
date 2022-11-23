@@ -62,6 +62,8 @@ img {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
+	left: 0;
+	right: 0;
 	padding: 0 90px;
 	height: 250px;
 	background: linear-gradient(rgba(0, 0, 0, 0.915) 40%,rgba(0, 0, 0, 0.586) 60%, rgba(0, 0, 0, 0.449) 90%, rgba(0, 0, 0, 0) 100%,  );
@@ -82,70 +84,6 @@ img {
 	}
 }
 
-// .content {
-// 	position: relative;
-// 	width: 1780px;
-// 	// left: 120px;
-// 	// height: 1070px;
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: flex-end;
-// 	padding: 90px 0;
-// 	margin-top: 140px;
-// }
-
-@media all and (max-width: 1400px) {
-	.content {
-		margin-top: 0;
-		left: 0;
-		.text-header {
-			top: 560px !important;
-			background: transparent !important;
-			p {
-				margin: 0;
-			}
-		}
-		.text-content {
-			margin-bottom: 170px !important;
-		}
-	}
-}
-
-@media all and (max-width: 992px) {
-	.content {
-		margin-top: 0;
-		left: 0;
-		.text-header {
-			top: 400px !important;
-			background: transparent !important;
-			p {
-				margin: 0;
-			}
-		}
-		.text-content {
-			margin-bottom: 320px !important;
-		}
-	}
-}
-
-@media all and (max-width: 768px) {
-	.content {
-		// margin-top: 0;
-		// left: 0;
-		.text-header {
-			top: 300px !important;
-			background: transparent !important;
-			p {
-				display: none !important;
-			}
-		}
-		.text-content {
-			margin-bottom: 400px !important;
-		}
-	}
-}
-
-
 .text-split {
 	display: flex;
 	flex-direction: column;
@@ -164,5 +102,17 @@ img {
 @media all and (max-width: 1200px) {
 	.text-split {
 		margin-top: 70px;
+	}
+}
+
+@media all and (max-width: 540px) {
+	.text-header{
+		background: linear-gradient(rgba(0, 0, 0, 0.733) 40%,rgba(0, 0, 0, 0.308) 60%, rgba(0, 0, 0, 0.185) 90%, rgba(0, 0, 0, 0) 100%,  );
+		h2{
+			margin-bottom: 130px;
+		}
+		p{
+			display: none;
+		}
 	}
 }
