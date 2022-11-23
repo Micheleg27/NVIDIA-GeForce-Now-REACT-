@@ -111,7 +111,7 @@
   }
   #div-bar-games #search-bar-games {
     margin: auto;
-    width: 70%;
+    width: 75%;
     height: 50px;
     background-color: black;
     border: 1px solid gray;
@@ -303,16 +303,6 @@
     font-size: 24px;
   }
 
-  #div-bar-games #search-bar-games {
-    margin: auto;
-    width: 40%;
-    height: 50px;
-    background-color: black;
-    border: 1px solid gray;
-    font-size: 34px;
-    padding: 35px;
-    color: white;
-  }
 
   @media screen and (max-width: 560px) {
     .h3-sect-giochi {
@@ -339,7 +329,6 @@
       font-size: 26px;
       color: white;
       position: absolute;
-      left: 340px;
       top: 200px;
       z-index: 2147483647;
     }
@@ -348,7 +337,6 @@
       font-size: 20px;
       color: white;
       position: absolute;
-      left: 340px;
       top: 260px;
       z-index: 2147483647;
     }
@@ -479,7 +467,6 @@
       font-size: 26px;
       color: white;
       position: absolute;
-      left: 300px;
       top: 200px;
       z-index: 2147483647;
     }
@@ -488,7 +475,6 @@
       font-size: 20px;
       color: white;
       position: absolute;
-      left: 300px;
       top: 260px;
       z-index: 2147483647;
     }
@@ -620,7 +606,6 @@
       font-size: 26px;
       color: white;
       position: absolute;
-      left: 300px;
       top: 200px;
       z-index: 2147483647;
     }
@@ -629,7 +614,6 @@
       font-size: 20px;
       color: white;
       position: absolute;
-      left: 300px;
       top: 260px;
       z-index: 2147483647;
     }
@@ -768,7 +752,6 @@
       font-size: 34px;
       color: white;
       position: absolute;
-      left: 240px;
       top: 200px;
       z-index: 2147483647;
     }
@@ -777,7 +760,6 @@
       font-size: 28px;
       color: white;
       position: absolute;
-      left: 240px;
       top: 260px;
       z-index: 2147483647;
     }
@@ -894,7 +876,6 @@
       font-size: 40px;
       color: white;
       position: absolute;
-      left: 130px;
       top: 200px;
       z-index: 2147483647;
     }
@@ -903,7 +884,6 @@
       font-size: 32px;
       color: white;
       position: absolute;
-      left: 130px;
       top: 260px;
       z-index: 2147483647;
     }
