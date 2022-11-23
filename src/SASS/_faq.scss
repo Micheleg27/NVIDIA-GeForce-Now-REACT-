@@ -6,12 +6,12 @@
 
 .accordion{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    padding: 0px 50px;
     margin-top: 75px;
     margin-bottom: 15px;
     width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .accordion-button{
