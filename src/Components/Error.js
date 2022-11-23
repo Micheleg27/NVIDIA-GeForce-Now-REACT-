@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './BasicComponents/Button';
 
+
 export function Error() {
     const navigate = useNavigate();
     return (

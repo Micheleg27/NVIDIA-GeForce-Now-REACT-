@@ -7,6 +7,16 @@
     margin-bottom: 50px;
 }
 
+.container-title-header-giochi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width:80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 200px;
+}
+
 .title-color-white{
     color: white;
 }
@@ -20,6 +30,11 @@
     font-family: "Geforce bold";
     text-align: center;
 }
+.title-header-one-giochi{
+    font-size: 38px;
+    font-family: "Geforce bold";
+    text-align: center;
+}
 
 .title-header-two{
     font-size: 18px;
@@ -29,4 +44,15 @@
     text-align: center;
     justify-content: center;
     margin-top: 15px;
-}  
+}
+
+.title-header-two-giochi{
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 100;
+    font-family: 'Geforce light';
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    width:75vw;
+}

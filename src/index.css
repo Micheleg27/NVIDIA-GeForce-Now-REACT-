@@ -2031,6 +2031,15 @@ footer p a {
   margin-bottom: 50px;
 }
 
+.container-title-header-giochi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0px 200px;
+}
+
 .title-color-white {
   color: white;
 }
@@ -2045,6 +2054,12 @@ footer p a {
   text-align: center;
 }
 
+.title-header-one-giochi {
+  font-size: 38px;
+  font-family: "Geforce bold";
+  text-align: center;
+}
+
 .title-header-two {
   font-size: 18px;
   line-height: 1.3;
@@ -2053,6 +2068,17 @@ footer p a {
   text-align: center;
   justify-content: center;
   margin-top: 15px;
+}
+
+.title-header-two-giochi {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 100;
+  font-family: "Geforce light";
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 75vw;
 }
 
 .error-logo-container {
@@ -3014,8 +3040,8 @@ footer p a {
 
 .h3-sect-giochi {
   font-family: "Geforce light";
-  font-size: 40px;
-  color: #76D900;
+  font-size: 46px;
+  color: #ffffff;
   position: absolute;
   left: 100px;
   top: 200px;
@@ -3024,8 +3050,8 @@ footer p a {
 
 .span-sect-giochi {
   font-family: "Geforce light";
-  font-size: 32px;
-  color: #76D900;
+  font-size: 38px;
+  color: #ffffff;
   position: absolute;
   left: 100px;
   top: 260px;
@@ -3034,8 +3060,8 @@ footer p a {
 
 #h3-sect-gfn {
   font-family: "Geforce light";
-  font-size: 40px;
-  color: #76D900;
+  font-size: 46px;
+  color: #ffffff;
   position: absolute;
   top: 200px;
   z-index: 2147483647;
@@ -3043,8 +3069,8 @@ footer p a {
 
 #span-sect-gfn {
   font-family: "Geforce light";
-  font-size: 32px;
-  color: #76D900;
+  font-size: 38px;
+  color: #ffffff;
   position: absolute;
   top: 260px;
   z-index: 2147483647;
@@ -3052,8 +3078,8 @@ footer p a {
 
 #h3-sect-genshin {
   font-family: "Geforce light";
-  font-size: 40px;
-  color: #76D900;
+  font-size: 46px;
+  color: #ffffff;
   position: absolute;
   left: 70px;
   top: 200px;
@@ -3062,8 +3088,8 @@ footer p a {
 
 #span-sect-genshin {
   font-family: "Geforce light";
-  font-size: 32px;
-  color: #76D900;
+  font-size: 38px;
+  color: #ffffff;
   position: absolute;
   left: 70px;
   top: 260px;
@@ -3072,8 +3098,8 @@ footer p a {
 
 #h3-sect-guildwars {
   font-family: "Geforce light";
-  font-size: 40px;
-  color: #76D900;
+  font-size: 46px;
+  color: #ffffff;
   position: absolute;
   left: 70px;
   top: 200px;
@@ -3083,8 +3109,8 @@ footer p a {
 
 #span-sect-guildwars {
   font-family: "Geforce light";
-  font-size: 32px;
-  color: #76D900;
+  font-size: 38px;
+  color: #ffffff;
   position: absolute;
   left: 70px;
   top: 320px;
@@ -3170,6 +3196,11 @@ h5 {
 .container-list .lista-nuovi-giochi {
   display: flex;
   flex-direction: column;
+  line-height: 50px;
+  margin-top: 50px;
+}
+.container-list .lista-nuovi-giochi ::marker {
+  color: black;
 }
 .container-list .lista-nuovi-giochi .li-lista-giochi {
   font-size: 22px;

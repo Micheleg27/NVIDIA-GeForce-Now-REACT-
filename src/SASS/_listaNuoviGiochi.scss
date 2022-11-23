@@ -7,6 +7,12 @@
     .lista-nuovi-giochi {
         display: flex;
         flex-direction: column;
+        line-height: 50px;
+        margin-top: 50px;
+
+        ::marker{
+            color: black;
+        }
 
         .li-lista-giochi {
             font-size: 22px;

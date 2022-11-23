@@ -8,6 +8,7 @@ import { CarouselGiochi } from "../Components/GiochiComponents/CarouselGiochi";
 import GreenBannerNav from "../Components/GreenBannerNav";
 import ListaNuoviGiochi from "../Components/GiochiComponents/ListaNuoviGiochi";
 import { AccordionGiochi } from "../Components/GiochiComponents/AccordionGiochi";
+import { TitleGiochi } from "../Components/GiochiComponents/TitleGiochi";
 
 export function Giochi() {
   return (
@@ -17,7 +18,7 @@ export function Giochi() {
       <NavNera />
       <CarouselGiochi />
       <Title h1title={"I tuoi giochi. Dove vuoi."} />
-      <Title h1title={"Nuovi giochi aggiunti ogni GFN Thursday"} h3title={"GeForce NOW si connette ai game store digitali per PC e ti consente di trasmettere in streaming i giochi del tuo catalogo. Per ogni evento GFN Thursday - il giorno dedicato alle novità, tra giochi, funzionalità e notizie - nuovi giochi vengono aggiunti al nostro catalogo*."} />
+      <TitleGiochi h4title={"Nuovi giochi aggiunti ogni GFN Thursday"} h6title={"GeForce NOW si connette ai game store digitali per PC e ti consente di trasmettere in streaming i giochi del tuo catalogo. Per ogni evento GFN Thursday - il giorno dedicato alle novità, tra giochi, funzionalità e notizie - nuovi giochi vengono aggiunti al nostro catalogo*."} />
       <ListaNuoviGiochi />
       <AccordionGiochi />
       <FooterNero />
