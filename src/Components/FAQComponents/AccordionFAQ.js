@@ -1,5 +1,5 @@
- import {AccordionItem} from "../Components/BasicComponents/AccordionItem"
- import {AccordionElement} from "../Components/BasicComponents/AccordionElement"
+ import AccordionItem from '../Components/BasicComponents/AccordionItem.js'
+ import AccordionElement from '../Components/BasicComponents/AccordionElement.js'
 
 function AccordionFAQ(){
     return(

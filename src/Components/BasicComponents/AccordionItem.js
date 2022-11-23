@@ -1,10 +1,10 @@
 import { Accordion } from "react-bootstrap";
 
-export function AccordionItem({accordionKey ,accordionHeader, accordionBody}){
+export default function AccordionItem({accordionKey ,accordionHeader, accordionBody}){
 
     return(
             <Accordion.Item eventKey={accordionKey} className="accordion-item bg-black">
-                
+
                 <Accordion.Header className="accordion-header">
                     {accordionHeader}
                 </Accordion.Header>
