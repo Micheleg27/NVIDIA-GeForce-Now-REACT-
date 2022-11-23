@@ -25,7 +25,7 @@ export function SupportoCardContainer() {
 					/>
 
 					<SupportoCard
-						link={'https://www.nvidia.com/it-it/geforce-now/faq/'}
+						link={'/FAQ'}
 						img={'https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-faqs.svg'}
 						title={'FAQ'}
 						paragraph={'Trova le risposte alle domande più frequenti su GeForce NOW.'}

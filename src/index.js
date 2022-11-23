@@ -10,6 +10,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Scarica from './pages/Scarica';
 import Abbonamento from './pages/Abbonamento';
+import FAQ from './pages/FAQ';
 import SupportoTecnico from './pages/SupportoTecnico';
 import { Supporto } from './pages/Supporto';
 import { Giochi } from './pages/Giochi';
@@ -28,6 +29,7 @@ root.render(
 				<Route path="/LogAbb" element={<LogAbb />}/>
 				<Route path='/Scarica' element={<Scarica />} />
 				<Route path='/Abbonamento' element={<Abbonamento />} />
+				<Route path='/FAQ' element={<FAQ />} />
 				<Route path='/SupportoTecnico' element={<SupportoTecnico />} />
 				<Route path='/Supporto' element={<Supporto />}/>
 				<Route path='/Giochi' element={<Giochi />}/>
