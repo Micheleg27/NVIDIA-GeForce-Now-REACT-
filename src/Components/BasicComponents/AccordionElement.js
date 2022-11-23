@@ -3,7 +3,7 @@ import { Accordion } from "react-bootstrap";
 export function AccordionElement({children}){
 
     return(
-        <Accordion className="accordion accordion-flush">
+        <Accordion className="total-accordion" title={"ciao"}>
             {children}
         </Accordion>
     )

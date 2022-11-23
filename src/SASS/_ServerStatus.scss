@@ -67,6 +67,28 @@
         }
     }
 
-
 }
+
+.li-server {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px !important;
+    font-family: 'DINPro light' !important;
+    width: 70% !important;
+    .p-status {
+        color: $primary-color !important;
+        
+    }
+}
+
+.accordion-button {
+    background-color: $primary-color !important;
+    width: 70% !important;
+} 
+
+// .accordion-body {
+//         width: 70% !important;
+
+// }
 

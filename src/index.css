@@ -2774,6 +2774,23 @@ footer p a {
   color: #666666;
 }
 
+.li-server {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px !important;
+  font-family: "DINPro light" !important;
+  width: 70% !important;
+}
+.li-server .p-status {
+  color: #76B900 !important;
+}
+
+.accordion-button {
+  background-color: #76B900 !important;
+  width: 70% !important;
+}
+
 * {
   padding: 0;
   margin: 0;
