@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,12 +367,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1820,24 +1812,13 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2858,8 +2839,6 @@ footer p a {
 
 #sect-giochi .carousel-inner {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -2868,16 +2847,13 @@ footer p a {
 #sect-giochi #div-size-saints,
 #sect-giochi #div-size-genshin,
 #sect-giochi #div-size-guildwars {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   width: 100%;
 }
 
 #sect-giochi #img-GFNThursday {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 90%;
 }
 
@@ -3143,36 +3119,31 @@ footer p a {
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-legobrawls {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-saintsrow {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-genshin {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
@@ -3216,6 +3187,685 @@ h5 {
   color: white;
 }
 
+@media screen and (max-width: 560px) {
+  .h3-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 250px;
+  }
+  .span-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 300px;
+    z-index: 2147483647;
+  }
+  #h3-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 340px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 340px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    z-index: 2147483647;
+    width: 250px;
+  }
+  #h3-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 300px;
+  }
+  #span-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    z-index: 2147483647;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-legobrawls {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-saintsrow {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-genshin {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #sliders-giochi {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .d-block .w-100 {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-inner2 {
+    width: 900px;
+    height: 900px;
+  }
+  .carousel-caption {
+    position: relative;
+    top: 400px;
+    left: -100px;
+  }
+  h5 {
+    color: #76B900;
+    font-size: 23px;
+  }
+  .div-accordion {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .div-accordion .h3-alphabetic-list {
+    color: white;
+  }
+  .div-accordion-last {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 560px) and (max-width: 760px) {
+  .h3-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 350px;
+  }
+  .span-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 300px;
+    z-index: 2147483647;
+  }
+  #h3-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 260px;
+    z-index: 2147483647;
+    width: 250px;
+  }
+  #h3-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 340px;
+  }
+  #span-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 290px;
+    z-index: 2147483647;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-legobrawls {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-saintsrow {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-genshin {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #sliders-giochi {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .d-block .w-100 {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-inner2 {
+    width: 900px;
+    height: 900px;
+  }
+  .carousel-caption {
+    position: relative;
+    top: 450px;
+    left: 0px;
+  }
+  h5 {
+    color: #76B900;
+    font-size: 23px;
+  }
+  .div-accordion {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .div-accordion .h3-alphabetic-list {
+    color: white;
+  }
+  .div-accordion-last {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 761px) and (max-width: 990px) {
+  .h3-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 350px;
+  }
+  .span-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 300px;
+    z-index: 2147483647;
+  }
+  #h3-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 260px;
+    z-index: 2147483647;
+    width: 250px;
+  }
+  #h3-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 340px;
+  }
+  #span-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 290px;
+    z-index: 2147483647;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-legobrawls {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-saintsrow {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-genshin {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #sliders-giochi {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .d-block .w-100 {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-inner2 {
+    width: 900px;
+    height: 900px;
+  }
+  .carousel-caption {
+    position: relative;
+    top: 450px;
+    left: 0px;
+  }
+  h5 {
+    color: #76B900;
+    font-size: 23px;
+  }
+  .h1-size {
+    font-size: 18px;
+    font-family: "Geforce bold";
+  }
+  .h2-size {
+    font-size: 36px;
+    font-family: "Geforce bold";
+  }
+  .div-accordion {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .div-accordion .h3-alphabetic-list {
+    color: white;
+  }
+  .div-accordion-last {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1440px) {
+  .h3-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 300px;
+  }
+  .span-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    z-index: 2147483647;
+  }
+  #h3-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    left: 240px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 240px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 260px;
+    z-index: 2147483647;
+    width: 300px;
+  }
+  #h3-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 34px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 420px;
+    margin-bottom: 300px;
+  }
+  #span-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    z-index: 2147483647;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-legobrawls {
+    height: 650px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-saintsrow {
+    height: 650px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-genshin {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #sliders-giochi {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .d-block .w-100 {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-inner2 {
+    width: 900px;
+    height: 900px;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    width: 500px;
+    height: 500px;
+  }
+  h5 {
+    color: #76B900;
+    font-size: 23px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .h3-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  .span-sect-giochi {
+    font-family: "Geforce light";
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-gfn {
+    font-family: "Geforce light";
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 200px;
+    z-index: 2147483647;
+  }
+  #span-sect-genshin {
+    font-family: "Geforce light";
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 260px;
+    z-index: 2147483647;
+  }
+  #h3-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 200px;
+    z-index: 2147483647;
+    width: 510px;
+  }
+  #span-sect-guildwars {
+    font-family: "Geforce light";
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 320px;
+    z-index: 2147483647;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-legobrawls {
+    height: 750px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-saintsrow {
+    height: 820px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-genshin {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #img-guildwars {
+    height: 580px;
+    object-fit: cover;
+    width: 100vw;
+  }
+  #sliders-giochi {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+  }
+  .d-block .w-100 {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-inner2 {
+    width: 900px;
+    height: 900px;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 250px;
+    left: 475px;
+    width: 500px;
+    height: 500px;
+  }
+  h5 {
+    color: #76B900;
+    font-size: 23px;
+  }
+}
 .container-list {
   color: white;
   width: 100%;
@@ -3246,8 +3896,7 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   pointer-events: none;
 }
 
@@ -3272,8 +3921,7 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .handle {
@@ -3373,4 +4021,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
