@@ -109,8 +109,6 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -369,12 +367,6 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
-  color: white;
-}
-.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1820,24 +1812,13 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  -webkit-animation: scroll 80s linear infinite;
-          animation: scroll 80s linear infinite;
+  animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  -webkit-animation: scroll 70s linear infinite;
-          animation: scroll 70s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  -webkit-animation: scroll 60s linear infinite;
-          animation: scroll 60s linear infinite;
-}
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-5120px);
-  }
+  animation: scroll 60s linear infinite;
 }
 @keyframes scroll {
   0% {
@@ -2719,20 +2700,23 @@ footer p a {
 .section-support .container-support {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 1400px;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 .section-support .container-support #container-due {
-  width: 100%;
+  width: 1400px;
+  margin-bottom: 50px;
 }
 .section-support .container-support .container-support-card {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 40%;
-  width: 100%;
+  width: 1400px;
+  gap: 50px;
+  margin-bottom: 50px;
 }
 
 .supporto-container {
@@ -2744,13 +2728,14 @@ footer p a {
   gap: 25px;
 }
 .supporto-container .supporto-img {
-  width: 80px;
+  width: 100px;
 }
 .supporto-container .supporto-title {
   color: #76B900;
   font-weight: 800;
   font-size: 30px;
   font-family: "Geforce bold";
+  margin-top: 20px;
 }
 .supporto-container .div-supporto-paragraph {
   display: flex;
@@ -2759,13 +2744,13 @@ footer p a {
   color: white;
   font-size: 19px;
   font-family: "Geforce light";
-  width: 25vw;
+  width: 23vw;
 }
 .supporto-container .div-supporto-paragraph .supporto-paragraph2 {
   color: white;
   font-size: 19px;
   font-family: "Geforce light";
-  width: 21vw;
+  width: 15vw;
 }
 
 @media all and (max-width: 1400px) {
@@ -2816,6 +2801,8 @@ footer p a {
     justify-content: space-between;
     height: 50%;
     width: 100%;
+    gap: 50px;
+    margin-bottom: 50px;
   }
   #container-due {
     width: 100%;
@@ -2831,8 +2818,6 @@ footer p a {
 
 #sect-giochi .carousel-inner {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 
@@ -2841,16 +2826,13 @@ footer p a {
 #sect-giochi #div-size-saints,
 #sect-giochi #div-size-genshin,
 #sect-giochi #div-size-guildwars {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   width: 100%;
 }
 
 #sect-giochi #img-GFNThursday {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 90%;
 }
 
@@ -3116,36 +3098,31 @@ footer p a {
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-legobrawls {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-saintsrow {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-genshin {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
 #img-guildwars {
   height: 580px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100vw;
 }
 
@@ -3214,8 +3191,7 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
   pointer-events: none;
 }
 
@@ -3240,8 +3216,7 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .handle {
@@ -3372,4 +3347,6 @@ body {
 a {
   text-decoration: none !important;
   color: white !important;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
