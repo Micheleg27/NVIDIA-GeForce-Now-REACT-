@@ -1,33 +1,35 @@
 import { BiUserCircle } from "react-icons/bi";
 import { BsCart3 } from "react-icons/bs";
-import { flash, slideOutLeft, rotateInUpLeft } from "react-animations";
-import styled, { keyframes } from "styled-components";
+// import { flash, slideOutLeft, rotateInUpLeft } from "react-animations";
+// import styled, { keyframes } from "styled-components";
 import useShow from "./BasicComponents/useShow";
 import { useEffect } from "react";
 
 export default function NavBianca() {
-  const Flash = styled.li`
-    animation: 0.5s ${keyframes`${flash}`};
-  `;
-  const Flash2 = styled.li`
-    animation: 1s ${keyframes`${flash}`};
-  `;
-  const Flash3 = styled.li`
-    animation: 1.5s ${keyframes`${flash}`};
-  `;
-  const Flash4 = styled.li`
-    animation: 2s ${keyframes`${flash}`};
-  `;
 
-  const SlideLeft = styled.div`
-  animation: 3s ${keyframes`${slideOutLeft}`};
-  `;
+  // const Flash = styled.li`
+  //   animation: 0.5s ${keyframes`${flash}`};
+  // `;
+  // const Flash2 = styled.li`
+  //   animation: 1s ${keyframes`${flash}`};
+  // `;
+  // const Flash3 = styled.li`
+  //   animation: 1.5s ${keyframes`${flash}`};
+  // `;
+  // const Flash4 = styled.li`
+  //   animation: 2s ${keyframes`${flash}`};
+  // `;
 
-  const RotateIn = styled.div`
-  animation: 1s ${keyframes`${rotateInUpLeft}`};
-  `;
+  // const SlideLeft = styled.div`
+  // animation: 3s ${keyframes`${slideOutLeft}`};
+  // `;
+
+  // const RotateIn = styled.div`
+  // animation: 1s ${keyframes`${rotateInUpLeft}`};
+  // `;
 
   const { show, setShow } = useShow();
+  
 
   useEffect(() => {
     setInterval(() => {
@@ -147,8 +149,8 @@ export default function NavBianca() {
                 </div> */}
 
                 {show && 
-                <SlideLeft>
-                  <RotateIn >
+                // <SlideLeft>
+                //   <RotateIn >
                   <div class="carel-right" onclick="showmenu()">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -163,8 +165,8 @@ export default function NavBianca() {
                     />
                   </svg>
                 </div>
-                </RotateIn>
-                </SlideLeft>
+                // </RotateIn>
+                // </SlideLeft>
                 } 
 
                 {/* <span onclick="showmenu()" class="text-menù">

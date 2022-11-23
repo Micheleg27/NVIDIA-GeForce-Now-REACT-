@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -367,6 +369,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1814,13 +1822,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2774,45 +2793,21 @@ footer p a {
   color: #666666;
 }
 
-.accordion-server {
-  width: 50%;
-}
-.accordion-server .accordion-server-item {
-  width: 60%;
-}
-
-.container-server-accordion {
-  display: flex;
-  justify-content: center;
-}
-.container-server-accordion .accordion-server {
-  width: 85vw;
-}
-.container-server-accordion .accordion-server .accordion-server-item {
-  margin-left: auto;
-  margin-right: auto;
+.li-server {
   color: white;
-}
-.container-server-accordion .accordion-server .accordion-server-item .accordion-server-header .accordion-button {
-  background-color: black;
-  color: white;
-  height: 9vh;
-}
-.container-server-accordion .accordion-server .accordion-server-item .accordion-server-header .accordion-button .container-paragraph {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 10px;
+  font-size: 20px !important;
+  font-family: "DINPro light" !important;
+  width: 70% !important;
 }
-.container-server-accordion .accordion-server .accordion-server-item .accordion-server-header .accordion-button .container-paragraph .servername-paragraph {
-  color: white;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "DINPro light";
+.li-server .p-status {
+  color: #76B900 !important;
 }
-.container-server-accordion .accordion-server .accordion-server-item .accordion-server-collapse .accordion-server-body {
-  background-color: black;
-  width: 100%;
+
+.accordion-button {
+  background-color: #76B900 !important;
+  width: 70% !important;
 }
 
 * {
@@ -2881,6 +2876,4 @@ a {
 .separator-col {
   border: 5px solid yellow;
   cursor: col-resize;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

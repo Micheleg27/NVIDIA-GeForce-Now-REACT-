@@ -68,63 +68,28 @@
     }
 }
 
-.accordion-server{
-    width: 50%;
-
-    .accordion-server-item{
-        width: 60%;
-    }
-}
 
 
-// Accordion
-
-.container-server-accordion{
+.li-server {
+    color: white;
     display: flex;
-    justify-content: center;
-    .accordion-server{
-        width: 85vw;
+    justify-content: space-between;
+    font-size: 20px !important;
+    font-family: 'DINPro light' !important;
+    width: 70% !important;
+    .p-status {
+        color: $primary-color !important;
 
-
-    .accordion-server-item{
-        margin-left: auto;
-        margin-right: auto;
-        color:white;
-        .accordion-server-header{
-            .accordion-button{
-                background-color: black;
-                color:white;
-                height: 9vh;
-
-                .container-paragraph{
-                    display: flex;
-                    justify-content: space-between;
-                    width: 100%;
-                    padding: 10px;
-
-                    .servername-paragraph{
-                        color:white;
-                        font-size: 24px;
-                        font-weight: 500;
-                        font-family: "DINPro light";
-                    }
-
-                    .serverstatus-paragraph{
-
-                    }
-                }
-            }
-
-        }
-
-        .accordion-server-collapse{
-
-            .accordion-server-body{
-                background-color: black;
-                width: 100%;
-            }
-        }
     }
 }
 
+.accordion-button {
+    background-color: $primary-color !important;
+    width: 70% !important;
 }
+
+// .accordion-body {
+//         width: 70% !important;
+
+// }
+
