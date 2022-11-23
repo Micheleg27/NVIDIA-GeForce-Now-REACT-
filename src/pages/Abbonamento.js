@@ -9,8 +9,8 @@ import GreenBannerNav from "../Components/GreenBannerNav";
 import NavBianca from "../Components/NavBianca";
 import { NavNera } from "../Components/NavNera";
 import NavTrasparente from "../Components/NavTrasparente";
-import ResizerApp from "../Components/ResizerComponent/ResizerApp";
-
+import ComparisonSlider from '../Components/ResizerComponent/ComparisonSlider';
+import { topImage, bottomImage } from "../Components/ResizerComponent/immages";
 
 function Abbonamento() {
     return ( 
@@ -23,7 +23,7 @@ function Abbonamento() {
             <NuovaGenerazione />
             <VantaggiPerAbbonati />
             <CarteRegalo />
-            {/* <ResizerApp /> */}
+            <ComparisonSlider topImage={topImage} bottomImage={bottomImage} />
             <FooterNero />
             <FooterBianco />
         </React.Fragment>
