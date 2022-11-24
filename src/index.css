@@ -2793,7 +2793,7 @@ footer p a {
   color: #666666;
 }
 
-.li-server {
+.server-element {
   color: white;
   display: flex;
   justify-content: space-between;
@@ -2801,12 +2801,12 @@ footer p a {
   font-family: "DINPro light" !important;
   width: 70% !important;
 }
-.li-server .p-status {
+.server-element .p-status {
   color: #76B900 !important;
 }
 
 .accordion-button {
-  background-color: #76B900 !important;
+  background-color: black !important;
   width: 70% !important;
 }
 
