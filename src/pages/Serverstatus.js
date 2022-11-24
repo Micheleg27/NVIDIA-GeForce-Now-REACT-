@@ -1,5 +1,4 @@
 import React from "react";
-import { Accordion } from "../Components/ServerStatusComponents/Accordion";
 import { IssueSection } from "../Components/ServerStatusComponents/IssueSection";
 import { NavServer } from "../Components/ServerStatusComponents/NavServer";
 import { TitleServer } from "../Components/ServerStatusComponents/TitleServer";
