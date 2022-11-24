@@ -1,4 +1,5 @@
 import { Accordion } from "react-bootstrap";
+import { ServerElement } from "./ServerElement";
 
 export function AccordionItem({accordionKey ,accordionHeader, accordionBody}){
 
@@ -7,7 +8,7 @@ export function AccordionItem({accordionKey ,accordionHeader, accordionBody}){
                 
                 <Accordion.Header>
                     {/* <Accordion.Button></Accordion.Button> */}
-                    {accordionHeader}
+                    <ServerElement name={accordionHeader.server} status={accordionHeader.status || 'Operational'}/>
                 </Accordion.Header>
 
                 <Accordion.Body className="accordion-body">
