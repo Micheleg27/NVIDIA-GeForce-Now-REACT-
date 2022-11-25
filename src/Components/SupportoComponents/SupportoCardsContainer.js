@@ -34,7 +34,7 @@ export function SupportoCardContainer() {
 
 				<div className="container-support-card" id="container-due">
 					<SupportoCard2
-						link={'https://www.nvidia.com/it-it/geforce-now/system-reqs/'}
+						link="/RequisitiDiSistema"
 						img={
 							'https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-sys-req.svg'
 						}

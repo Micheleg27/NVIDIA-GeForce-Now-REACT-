@@ -13,6 +13,7 @@ import Abbonamento from './pages/Abbonamento';
 import SupportoTecnico from './pages/SupportoTecnico';
 import { Supporto } from './pages/Supporto';
 import { Giochi } from './pages/Giochi';
+import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sistema/RequisitiPage';
 
 // import $ from 'jquery'
 // import Popper from 'popper.js'
@@ -28,8 +29,9 @@ root.render(
 				<Route path="/LogAbb" element={<LogAbb />}/>
 				<Route path='/Scarica' element={<Scarica />} />
 				<Route path='/Abbonamento' element={<Abbonamento />} />
-				<Route path='/SupportoTecnico' element={<SupportoTecnico />} />
 				<Route path='/Supporto' element={<Supporto />}/>
+				<Route path='/SupportoTecnico' element={<SupportoTecnico />} />
+				<Route path='/RequisitiDiSistema' element={<RequisitiPage />} />
 				<Route path='/Giochi' element={<Giochi />}/>
 			</Routes>
 		</Router>
