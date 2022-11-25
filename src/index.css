@@ -2848,6 +2848,10 @@ footer p a {
   color: #ffffff;
 }
 
+.img-sect-giochi-query {
+  display: none;
+}
+
 .container-sect-nuovigiochi {
   margin: auto;
   width: 80%;
@@ -2933,6 +2937,9 @@ footer p a {
   .catalog .accordion .accordion-item .accordion-collapse .div-accordion {
     flex-direction: column;
   }
+  .catalog .accordion .accordion-item .accordion-collapse .div-accordion section {
+    margin-top: 20px;
+  }
   .catalog .accordion .accordion-item .accordion-collapse .div-accordion-last {
     flex-direction: column;
   }
@@ -2945,6 +2952,7 @@ footer p a {
 }
 @media screen and (max-width: 560px) {
   .container-text-giochi {
+    top: 10%;
     line-height: 10px;
   }
   .container-text-giochi .h3-sect-giochi {
@@ -2952,6 +2960,16 @@ footer p a {
   }
   .container-text-giochi .span-sect-giochi {
     font-size: 10px;
+  }
+  .img-sect-giochi {
+    display: none;
+  }
+  .img-sect-giochi-query {
+    display: block;
+  }
+  .img-sect-giochi-query1 {
+    height: 237px;
+    object-fit: cover;
   }
   .container-sect-nuovigiochi {
     width: 90%;

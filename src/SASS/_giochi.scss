@@ -18,6 +18,9 @@
     color: $white-color;
   }
 }
+.img-sect-giochi-query{
+  display:none;
+}
 //NUOVI GIOCHI
 .container-sect-nuovigiochi {
   margin: auto;
@@ -129,6 +132,9 @@
         .accordion-collapse {
           .div-accordion {
             flex-direction: column;
+            section{
+              margin-top:20px;
+            }
           }
 
           .div-accordion-last {
@@ -157,6 +163,7 @@
 
   //CAROUSEL
   .container-text-giochi {
+    top: 10%;
     line-height: 10px;
 
     .h3-sect-giochi {
@@ -166,6 +173,16 @@
     .span-sect-giochi {
       font-size: 10px;
     }
+  }
+  .img-sect-giochi{
+    display:none;
+  }
+  .img-sect-giochi-query{
+    display:block;
+  }
+  .img-sect-giochi-query1{
+    height: 237px;
+    object-fit: cover;
   }
   //NUOVI GIOCHI
   .container-sect-nuovigiochi{

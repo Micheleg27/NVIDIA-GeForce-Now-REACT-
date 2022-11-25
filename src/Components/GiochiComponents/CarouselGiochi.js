@@ -67,7 +67,12 @@ export function CarouselGiochi() {
             <img
               src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/gfn-thursday-11-17-samsung-4k-c2s3-2560-d@2x.jpg"
               alt=""
-              id="img-GFNThursday"
+              className="img-sect-giochi"
+            />
+            <img
+              src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/gfn-thursday-11-17-samsung-4k-c2s3-767-p@2x.jpg"
+              alt=""
+              className="img-sect-giochi-query"
             />
           </div>
 
@@ -83,7 +88,12 @@ export function CarouselGiochi() {
             <img
               src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-rumbleverse-s2-c2s3-2560-d.jpg"
               alt=""
-              id="img-genshin"
+              className="img-sect-giochi"
+            />
+            <img
+              src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-rumbleverse-s2-c2s3-767-p@2x.jpg"
+              alt=""
+              className="img-sect-giochi-query"
             />
           </div>
 
@@ -98,7 +108,12 @@ export function CarouselGiochi() {
             <img
               src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-dying-light-2-dlc-c2s3-2560-d.jpg"
               alt=""
-              id="img-guildwars"
+              className="img-sect-giochi"
+            />
+            <img
+              src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-dying-light-2-dlc-c2s3-767-p@2x.jpg"
+              alt=""
+              className="img-sect-giochi-query"
             />
           </div>
 
@@ -114,7 +129,12 @@ export function CarouselGiochi() {
             <img
               src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-the-chant-c2s3-2560-d.jpg"
               alt=""
-              id="img-legobrawls"
+              className="img-sect-giochi"
+            />
+            <img
+              src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-the-chant-c2s3-2560-d.jpg"
+              alt=""
+              className="img-sect-giochi-query1"
             />
           </div>
 
@@ -130,7 +150,12 @@ export function CarouselGiochi() {
             <img
               src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-apex-legends-s15-c2s3-2560-d.jpg"
               alt=""
-              id="img-saintsrow"
+              className="img-sect-giochi"
+            />
+            <img
+              src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/games/geforce-now-apex-legends-s15-c2s3-2560-d.jpg"
+              alt=""
+              className="img-sect-giochi-query1"
             />
           </div>
         </div>
