@@ -4,8 +4,8 @@ import GreenBannerNav from "../../GreenBannerNav"
 import { NavNera } from "../../NavNera"
 import NavBianca from "../../NavBianca"
 import { Sottomenu } from "./Sottomenu"
-import { Copertina } from "./Copertina"
 import SottoNav from "./SottoNav"
+import HeaderScarica from "../../ScaricaComponents/HeaderScarica"
 
 export function RequisitiPage(){
     return(
@@ -14,7 +14,7 @@ export function RequisitiPage(){
             <GreenBannerNav />
             <NavNera />
             <SottoNav />
-            <Copertina />
+            <HeaderScarica titleHeader={'Requisiti di sistema'}/>
             <Sottomenu />
             <FooterNero />
             <FooterBianco />

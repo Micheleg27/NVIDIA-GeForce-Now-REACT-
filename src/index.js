@@ -33,6 +33,7 @@ root.render(
 				<Route path='/SupportoTecnico' element={<SupportoTecnico />} />
 				<Route path='/RequisitiDiSistema' element={<RequisitiPage />} />
 				<Route path='/Giochi' element={<Giochi />}/>
+				<Route path='/:id' element/>
 			</Routes>
 		</Router>
 	</React.StrictMode>
