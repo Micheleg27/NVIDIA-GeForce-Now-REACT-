@@ -21,6 +21,9 @@
 .img-sect-giochi-query{
   display:none;
 }
+.img-sect-giochi-query1{
+  display:none;
+}
 //NUOVI GIOCHI
 .container-sect-nuovigiochi {
   margin: auto;
@@ -181,7 +184,8 @@
     display:block;
   }
   .img-sect-giochi-query1{
-    height: 237px;
+    display:block;
+    height: 215px;
     object-fit: cover;
   }
   //NUOVI GIOCHI

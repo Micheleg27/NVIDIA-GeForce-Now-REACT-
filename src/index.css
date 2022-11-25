@@ -2852,6 +2852,10 @@ footer p a {
   display: none;
 }
 
+.img-sect-giochi-query1 {
+  display: none;
+}
+
 .container-sect-nuovigiochi {
   margin: auto;
   width: 80%;
@@ -2968,7 +2972,8 @@ footer p a {
     display: block;
   }
   .img-sect-giochi-query1 {
-    height: 237px;
+    display: block;
+    height: 215px;
     object-fit: cover;
   }
   .container-sect-nuovigiochi {
