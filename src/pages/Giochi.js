@@ -16,9 +16,11 @@ export function Giochi() {
       <GreenBannerNav />
       <NavNera />
       <CarouselGiochi />
-      <Title h1title={"I tuoi giochi. Dove vuoi."} />
-      <Title h1title={"Nuovi giochi aggiunti ogni GFN Thursday"} h3title={"GeForce NOW si connette ai game store digitali per PC e ti consente di trasmettere in streaming i giochi del tuo catalogo. Per ogni evento GFN Thursday - il giorno dedicato alle novità, tra giochi, funzionalità e notizie - nuovi giochi vengono aggiunti al nostro catalogo*."} />
-      <ListaNuoviGiochi />
+      <div className="container-sect-nuovigiochi">
+        <Title h1title={"I tuoi giochi. Dove vuoi."} />
+        <Title h1title={"Nuovi giochi aggiunti ogni GFN Thursday"} h3title={"GeForce NOW si connette ai game store digitali per PC e ti consente di trasmettere in streaming i giochi del tuo catalogo. Per ogni evento GFN Thursday - il giorno dedicato alle novità, tra giochi, funzionalità e notizie - nuovi giochi vengono aggiunti al nostro catalogo*."} />
+        <ListaNuoviGiochi />
+      </div>
       <AccordionGiochi />
       <FooterNero />
       <FooterBianco />
