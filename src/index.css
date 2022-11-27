@@ -2956,7 +2956,6 @@ footer p a {
   flex-direction: column;
   justify-content: center;
 }
-
 .catalog .check {
   color: white;
   letter-spacing: 5px;
@@ -2966,13 +2965,11 @@ footer p a {
   font-size: 42px;
   font-family: "Geforce bold";
 }
-
 .catalog .accordion .accordion-item {
   background-color: black;
   justify-content: center;
 }
-
-.catalog .accordion .accordion-item .accordion-button {
+.catalog .accordion-button {
   background-color: black;
   box-shadow: none;
   color: white;
@@ -3343,8 +3340,7 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-
-.accordion {
+.container-accordion .accordion {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
@@ -3353,17 +3349,16 @@ img {
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px white solid;
+  font-family: "DINPro light";
 }
-
-.accordion-button {
+.container-accordion .accordion-button {
   font-size: 26px !important;
   font-family: "DINPro light";
   width: 60vw !important;
   background-color: black !important;
-  color: #ffffff !important;
+  color: #76B900 !important;
 }
-
-.accordion-body-faq {
+.container-accordion .accordion-body-faq {
   width: 60vw;
   background-color: black;
   color: #ffffff;
@@ -3371,34 +3366,45 @@ img {
   font-family: "DINPro light";
 }
 
-@media screen and (max-width: 560px) and (max-width: 760px) {
-  .accordion {
+@media screen and (max-width: 260px) and (max-width: 760px) {
+  .container-accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-accordion .accordion {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     margin-bottom: 75px;
-    width: 90% vw;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px white solid;
+    font-family: "DINPro light";
   }
-  .accordion-button {
+  .container-accordion .accordion-button {
     font-size: 18px !important;
     font-family: "DINPro light";
     width: 90vw !important;
     background-color: black !important;
-    color: #ffffff !important;
+    color: #76B900 !important;
   }
-  .accordion-body-faq {
-    width: 90vw;
+  .container-accordion .accordion-body-faq {
+    width: 100% !important;
     background-color: black;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 16px !important;
     font-family: "DINPro light";
   }
 }
 @media screen and (min-width: 761px) and (max-width: 990px) {
-  .accordion {
+  .container-accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-accordion .accordion {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -3407,24 +3413,30 @@ img {
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px white solid;
+    font-family: "DINPro light";
   }
-  .accordion-button {
-    font-size: 20px !important;
+  .container-accordion .accordion-button {
+    font-size: 18px !important;
     font-family: "DINPro light";
     width: 90vw !important;
     background-color: black !important;
-    color: #ffffff !important;
+    color: #76B900 !important;
   }
-  .accordion-body-faq {
+  .container-accordion .accordion-body-faq {
     width: 90vw;
     background-color: black;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px !important;
     font-family: "DINPro light";
   }
 }
 @media screen and (max-width: 991px) {
-  .accordion {
+  .container-accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-accordion .accordion {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -3433,19 +3445,20 @@ img {
     margin-right: auto;
     margin-left: auto;
     border-bottom: 1px white solid;
+    font-family: "DINPro light";
   }
-  .accordion-button {
-    font-size: 23px !important;
+  .container-accordion .accordion-button {
+    font-size: 18px !important;
     font-family: "DINPro light";
     width: 90vw !important;
     background-color: black !important;
-    color: #ffffff !important;
+    color: #76B900 !important;
   }
-  .accordion-body-faq {
+  .container-accordion .accordion-body-faq {
     width: 90vw;
     background-color: black;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 14px;
     font-family: "DINPro light";
   }
 }

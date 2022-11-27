@@ -130,27 +130,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    .check {
+      color: white;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      text-align: center;
+      padding-bottom: 60px;
+      font-size: 42px;
+      font-family: "Geforce bold";
+    }
+
+    .accordion .accordion-item {
+      background-color: black;
+      justify-content: center;
+    }
+
+    .accordion-button {
+      background-color: black;
+      box-shadow: none;
+      color: white;
+      font-size: 32px;
+      border: 1.5px solid #76b900;
+    } 
   }
-  .catalog .check {
-    color: white;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 60px;
-    font-size: 42px;
-    font-family: "Geforce bold";
-  }
-  .catalog .accordion .accordion-item {
-    background-color: black;
-    justify-content: center;
-  }
-  .catalog .accordion .accordion-item .accordion-button {
-    background-color: black;
-    box-shadow: none;
-    color: white;
-    font-size: 32px;
-    border: 1.5px solid #76b900;
-  }
+
+
   .catalog .accordion .accordion-item .collapsed {
     border: 1.5px solid #333;
     border-radius: 0px !important;

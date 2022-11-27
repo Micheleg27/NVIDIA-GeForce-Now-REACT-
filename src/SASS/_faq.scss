@@ -2,80 +2,138 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
-.accordion{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 75px;
-    width: 60vw;
-    margin-right: auto;
-    margin-left: auto;
-    border-bottom: 1px white solid;
-}
-
-
-.accordion-button{
-    font-size:26px !important;
-    font-family: 'DINPro light';
-    width: 60vw !important;
-    background-color: black !important;
-    color: $white-color !important;
-}
-
-.accordion-body-faq{
-    width: 60vw;
-    background-color: black;
-    color: $white-color;
-    font-size:20px;
-    font-family: 'DINPro light';
-}
-
-@media screen and (max-width: 560px) and (max-width: 760px){
     .accordion{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
         margin-bottom: 75px;
-        width: 90%vw;
+        width: 60vw;
         margin-right: auto;
         margin-left: auto;
         border-bottom: 1px white solid;
+        font-family: 'DINPro light';
     }
+
+    .accordion-button{
+        font-size:26px !important;
+        font-family: 'DINPro light';
+        width: 60vw !important;
+        background-color: black !important;
+        color: $primary-color !important;
+    }
+
+    .accordion-body-faq{
+        width: 60vw;
+        background-color: black;
+        color: $white-color;
+        font-size:20px;
+        font-family: 'DINPro light';
+    }
+}
+
+
+@media screen and (max-width: 260px) and (max-width: 760px){
+
+    .container-accordion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .accordion{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-bottom: 75px;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px white solid;
+            font-family: 'DINPro light';
+        }
+
+        .accordion-button{
+            font-size:18px !important;
+            font-family: 'DINPro light';
+            width: 90vw !important;
+            background-color: black !important;
+            color: $primary-color !important;
+        }
+
+        .accordion-body-faq{
+            width: 100% !important;
+            background-color: black;
+            color: $white-color;
+            font-size:16px !important;
+            font-family: 'DINPro light';
+        }
+    }
+
+}
+@media screen and  (min-width: 761px) and (max-width: 990px){
+
+
+    .container-accordion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .accordion{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            margin-bottom: 75px;
+            width: 90vw;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 1px white solid;
+            font-family: 'DINPro light';
+        }
+
+        .accordion-button{
+            font-size:18px !important;
+            font-family: 'DINPro light';
+            width: 90vw !important;
+            background-color: black !important;
+            color: $primary-color !important;
+        }
+        .accordion-body-faq{
+            width: 90vw;
+            background-color: black;
+            color: $white-color;
+            font-size:16px !important;
+            font-family: 'DINPro light';
+        }
+    }
+}
+
+@media screen and  (max-width: 991px){
+
+
+    .container-accordion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 75px;
+        width: 90vw;
+        margin-right: auto;
+        margin-left: auto;
+        border-bottom: 1px white solid;
+        font-family: 'DINPro light';
+
+    }
+
     .accordion-button{
         font-size:18px !important;
         font-family: 'DINPro light';
         width: 90vw !important;
         background-color: black !important;
-        color: $white-color !important;
-    }
-    .accordion-body-faq{
-        width: 90vw;
-        background-color: black;
-        color: $white-color;
-        font-size:12px;
-        font-family: 'DINPro light';
-    }
-
-}
-@media screen and  (min-width: 761px) and (max-width: 990px){
-    .accordion{
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        margin-bottom: 75px;
-        width: 90vw;
-        margin-right: auto;
-        margin-left: auto;
-        border-bottom: 1px white solid;
-    }
-    .accordion-button{
-        font-size:20px !important;
-        font-family: 'DINPro light';
-        width: 90vw !important;
-        background-color: black !important;
-        color: $white-color !important;
+        color: $primary-color !important;
     }
     .accordion-body-faq{
         width: 90vw;
@@ -84,34 +142,5 @@
         font-size:14px;
         font-family: 'DINPro light';
     }
-
 }
-@media screen and  (max-width: 991px){
-    .accordion{
-        display: flex;
-        flex-direction: column;
-        margin-top: 50px;
-        margin-bottom: 75px;
-        width: 90vw;
-        margin-right: auto;
-        margin-left: auto;
-        border-bottom: 1px white solid;
-    }
-    .accordion-button{
-        font-size:23px !important;
-        font-family: 'DINPro light';
-        width: 90vw !important;
-        background-color: black !important;
-        color: $white-color !important;
-    }
-    .accordion-body-faq{
-        width: 90vw;
-        background-color: black;
-        color: $white-color;
-        font-size:17px;
-        font-family: 'DINPro light';
-    }
-
 }
-
-
