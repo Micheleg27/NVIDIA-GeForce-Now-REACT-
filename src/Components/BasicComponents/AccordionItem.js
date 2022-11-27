@@ -5,7 +5,7 @@ export default function AccordionItem({accordionKey ,accordionHeader, accordionB
     return(
             <Accordion.Item eventKey={accordionKey} className="accordion-item bg-black">
 
-                <Accordion.Header className="accordion-header">
+                <Accordion.Header className="accordion-header accordion-header-faq">
                     {accordionHeader}
                 </Accordion.Header>
 
