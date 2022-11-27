@@ -1,5 +1,5 @@
-import { HeaderOne } from "./BasicComponents/HeaderOne"
-import { HeaderTwo } from "./BasicComponents/HeaderTwo"
+import { HeaderOne } from "../BasicComponents/HeaderOne";
+import { HeaderTwo } from "../BasicComponents/HeaderTwo";
 
 export function TitleGiochi({h4title, h6title, titlecolors}){
 

@@ -1,9 +1,9 @@
 import { Accordion } from "react-bootstrap";
 
-export function AccordionElement({children}){
+export default function AccordionElement({children}){
 
     return(
-        <Accordion className="accordion accordion-flush">
+        <Accordion className="accordion accordion-flush accordion-faq">
             {children}
         </Accordion>
     )
