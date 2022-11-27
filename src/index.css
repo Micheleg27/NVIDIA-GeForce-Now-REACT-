@@ -2973,6 +2973,11 @@ footer p a {
 .container-list .lista-nuovi-giochi {
   display: flex;
   flex-direction: column;
+  line-height: 50px;
+  margin-top: 50px;
+}
+.container-list .lista-nuovi-giochi ::marker {
+  color: black;
 }
 .container-list .lista-nuovi-giochi .li-lista-giochi {
   font-size: 22px;
