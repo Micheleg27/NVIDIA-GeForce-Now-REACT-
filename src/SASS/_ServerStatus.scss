@@ -69,6 +69,12 @@
 
 }
 
+.accordion-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
 .server-element {
     color: white;
     display: flex;
@@ -84,11 +90,10 @@
 
 .accordion-button {
     background-color: black !important;
-    width: 70% !important;
+    // width: 70% !important;
 } 
 
-// .accordion-body {
-//         width: 70% !important;
-
-// }
+.accordion-body {
+        width: 90% !important;
+}
 
