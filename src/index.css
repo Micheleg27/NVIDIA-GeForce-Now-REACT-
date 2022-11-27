@@ -2774,32 +2774,121 @@ footer p a {
   color: #666666;
 }
 
-.accordion-container {
+.accordion-server {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-
-.server-element {
+.accordion-server .accordion-title {
+  border: 1px solid white;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accordion-server .server-element {
   color: white;
   display: flex;
   justify-content: space-between;
   font-size: 20px !important;
   font-family: "DINPro light" !important;
-  width: 70% !important;
+  width: 95% !important;
+  align-items: center;
+  text-align: center;
 }
-.server-element .p-status {
+.accordion-server .server-element .p-status {
   color: #76B900 !important;
+  display: flex;
+  align-items: center;
 }
-
-.accordion-button {
+.accordion-server .server-element .p-server {
+  display: flex;
+  align-items: center;
+}
+.accordion-server .accordion-button {
   background-color: black !important;
+  width: 60vw !important;
+}
+.accordion-server .accordion-body {
+  width: 60vw !important;
 }
 
-.accordion-body {
-  width: 90% !important;
+@media all and (max-width: 1440px) {
+  #a-issue-server {
+    font-size: 26px !important;
+  }
+  .p2-issue-server {
+    margin: 0;
+  }
+  .p1-issue-server {
+    margin: 0;
+  }
 }
-
+@media all and (max-width: 1024px) {
+  #a-issue-server {
+    font-size: 17px !important;
+  }
+  .p2-issue-server {
+    font-size: 10px !important;
+    margin: 0;
+  }
+  .p1-issue-server {
+    font-size: 14px !important;
+    margin: 0;
+  }
+  .container-issue-server {
+    width: 60vw !important;
+  }
+  .server-element {
+    text-align: center;
+  }
+  .server-element .p-status {
+    font-size: 15px !important;
+  }
+  .server-element .p-server {
+    font-size: 15px !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .container-issue-server #a-issue-server {
+    font-size: 14px !important;
+  }
+  .container-issue-server .p2-issue-server {
+    margin: 0;
+  }
+  .container-issue-server .p1-issue-server {
+    margin: 0;
+  }
+}
+@media all and (max-width: 425px) {
+  .container-issue-server {
+    width: 90% !important;
+  }
+  .container-issue-server #a-issue-server {
+    font-size: 14px !important;
+  }
+  .container-issue-server .p2-issue-server {
+    margin: 0;
+  }
+  .container-issue-server .p1-issue-server {
+    margin: 0;
+  }
+  .accordion-server {
+    width: 100%;
+  }
+  .accordion-server .accordion-button {
+    width: 95% !important;
+  }
+  .accordion-server .accordion-body {
+    width: 100% !important;
+  }
+  .accordion-server .p-status {
+    font-size: 10px !important;
+  }
+  .accordion-server .p-server {
+    font-size: 10px !important;
+  }
+}
 * {
   padding: 0;
   margin: 0;
