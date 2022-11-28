@@ -1,4 +1,4 @@
-import AccordionElement from '../BasicComponents/AccordionElement.js'
+import { AccordionElement } from '../BasicComponents/AccordionElement.js'
 import AccordionItem from '../BasicComponents/AccordionItem.js'
  import { Title } from '../Title.js'
 

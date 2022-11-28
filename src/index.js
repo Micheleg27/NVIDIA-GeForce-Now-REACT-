@@ -15,6 +15,7 @@ import SupportoTecnico from './pages/SupportoTecnico';
 import { Supporto } from './pages/Supporto';
 import { Giochi } from './pages/Giochi';
 import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sistema/RequisitiPage';
+import { ServerStatus } from './pages/Serverstatus';
 
 // import $ from 'jquery'
 // import Popper from 'popper.js'
@@ -35,6 +36,7 @@ root.render(
 				<Route path='/Supporto' element={<Supporto />}/>
 				<Route path='/RequisitiDiSistema' element={<RequisitiPage />} />
 				<Route path='/Giochi' element={<Giochi />}/>
+				<Route path='/ServerStatus' element={<ServerStatus />} />
 			</Routes>
 		</Router>
 	</React.StrictMode>

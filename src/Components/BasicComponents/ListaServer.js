@@ -1,4 +1,4 @@
-import { ServerElement } from "./ServerElement";
+import { ServerElement } from "../ServerStatusComponents/ServerElement";
 
 export default function ListaServer({lista}) {
     return(
@@ -10,5 +10,5 @@ export default function ListaServer({lista}) {
 			))}
 		</ul>
 	);
-    
+
 }

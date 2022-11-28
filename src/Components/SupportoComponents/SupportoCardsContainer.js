@@ -7,7 +7,7 @@ export function SupportoCardContainer() {
 			<div className="container-support">
 				<div className="container-support-card">
 					<SupportoCard
-						link={'https://status.geforcenow.com/'}
+						link={'/ServerStatus'}
 						img={
 							'https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-server.svg'
 						}

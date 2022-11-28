@@ -1,34 +1,11 @@
 import { BiUserCircle } from 'react-icons/bi';
 import { BsCart3 } from 'react-icons/bs';
-// import { flash } from "react-animations";
-// import styled, { keyframes } from "styled-components";
-import { useEffect } from 'react';
 import { Prodotti } from './ulNavBianca.js/Prodotti';
 import Settori from './ulNavBianca.js/Settori';
 import Soluzioni from './ulNavBianca.js/Soluzioni';
 import PerTe from './ulNavBianca.js/PerTe';
 
 export default function NavBianca() {
-	// const Flash = styled.ul`
-	//   animation: 0.5s ${keyframes`${flash}`};
-	// `;
-	// const Flash2 = styled.ul`
-	//   animation: 1s ${keyframes`${flash}`};
-	// `;
-	// const Flash3 = styled.ul`
-	//   animation: 1.5s ${keyframes`${flash}`};
-	// `;
-	// const Flash4 = styled.ul`
-	//   animation: 2s ${keyframes`${flash}`};
-	// `;
-
-	// const { show, setShow } = useShow();
-
-	// useEffect(() => {
-	//   setInterval(() => {
-	//     setShow(true);
-	//   }, 2000);
-	// }, []);
 
 	return (
 		<div className="bg-light">
@@ -122,7 +99,7 @@ export default function NavBianca() {
                   </svg>
                 </div> */}
 
-								<div class="carel-right" onclick="showmenu()">
+								{/* <div class="carel-right" onclick="showmenu()">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="black"
@@ -135,7 +112,7 @@ export default function NavBianca() {
 											d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
 										/>
 									</svg>
-								</div>
+								</div> */}
 
 								{/* <span onclick="showmenu()" class="text-menù">
                   Menù

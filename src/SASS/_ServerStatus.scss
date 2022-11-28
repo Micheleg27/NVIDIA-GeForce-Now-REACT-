@@ -72,6 +72,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
 
     .accordion-title {
         border: 1px solid white;
@@ -215,6 +216,7 @@
 
     .accordion-server {
         width: 100% ;
+        margin-bottom: 50px;
 
         .accordion-button {
            width: 100% !important;
