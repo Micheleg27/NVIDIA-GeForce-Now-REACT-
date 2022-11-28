@@ -6,6 +6,8 @@ import NavBianca from "../../NavBianca"
 import { Sottomenu } from "./Sottomenu"
 import SottoNav from "./SottoNav"
 import HeaderScarica from "../../ScaricaComponents/HeaderScarica"
+import { MacOs } from "./Componenti-sottomenu"
+import { Route, Routes } from "react-router-dom"
 
 export function RequisitiPage(){
     return(

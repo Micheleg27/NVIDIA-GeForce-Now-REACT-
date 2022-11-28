@@ -14,6 +14,7 @@ import SupportoTecnico from './pages/SupportoTecnico';
 import { Supporto } from './pages/Supporto';
 import { Giochi } from './pages/Giochi';
 import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sistema/RequisitiPage';
+import { MacOs } from './Components/SupportoComponents/Requisiti-di-Sistema/Componenti-sottomenu';
 
 // import $ from 'jquery'
 // import Popper from 'popper.js'
@@ -29,11 +30,10 @@ root.render(
 				<Route path="/LogAbb" element={<LogAbb />}/>
 				<Route path='/Scarica' element={<Scarica />} />
 				<Route path='/Abbonamento' element={<Abbonamento />} />
-				<Route path='/Supporto' element={<Supporto />}/>
+				<Route path='Supporto' element={<Supporto />}/>
 				<Route path='/SupportoTecnico' element={<SupportoTecnico />} />
-				<Route path='/RequisitiDiSistema' element={<RequisitiPage />} />
+				<Route path='/RequisitiDiSistema/*' element={<RequisitiPage />} />
 				<Route path='/Giochi' element={<Giochi />}/>
-				<Route path='/:id' element/>
 			</Routes>
 		</Router>
 	</React.StrictMode>
