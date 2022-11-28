@@ -72,27 +72,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-}
-
-.server-element {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px !important;
-    font-family: 'DINPro light' !important;
-    width: 70% !important;
-    .p-status {
-        color: $primary-color !important;
-
-    }
-}
-
-.accordion-button {
-    background-color: black !important;
-    // width: 70% !important;
-}
-=======
 
     .accordion-title {
         border: 1px solid white;
@@ -122,17 +101,17 @@
             align-items: center;
         }
     }
-    
+
     .accordion-button {
         background-color: black !important;
         width: 60vw !important;
-    } 
-    
+    }
+
     .accordion-body {
             width: 60vw !important;
     }
 
-} 
+}
 
 
 @media all and (max-width: 1440px){
@@ -150,7 +129,6 @@
     }
 }
 
->>>>>>> 82f46516e93d5a71320fdeba6794a25da3d810cc
 
 @media all and (max-width: 1024px){
 
@@ -177,15 +155,15 @@
         text-align: center;
 
         .p-status {
-            font-size: 15px !important;            
+            font-size: 15px !important;
         }
 
         .p-server {
-            font-size: 15px !important;            
+            font-size: 15px !important;
         }
     }
 
-    
+
 }
 
 @media all and (max-width: 768px){
@@ -196,18 +174,18 @@
         #a-issue-server{
             font-size: 14px !important;
         }
-    
+
         .p2-issue-server{
             margin: 0;
         }
-    
+
         .p1-issue-server{
             margin: 0;
         }
     }
 
 
-    
+
 }
 
 @media all and (max-width: 426px){
@@ -217,18 +195,18 @@
 
         .header-issue-server{
             padding: 4px auto;
-    
+
             #a-issue-server{
                 font-size: 11px !important;
                 padding: 0;
             }
         }
-    
+
         .p2-issue-server{
             font-size: 11px !important;
             margin: 0;
         }
-    
+
         .p1-issue-server{
             font-size: 10px !important;
             margin: 0;
@@ -240,18 +218,18 @@
 
         .accordion-button {
            width: 100% !important;
-        } 
-        
+        }
+
         .accordion-body {
             width: 100% !important;
         }
 
         .p-status {
-            font-size: 10px !important;            
+            font-size: 10px !important;
         }
 
         .p-server {
-            font-size: 10px !important;            
+            font-size: 10px !important;
         }
     }
 
