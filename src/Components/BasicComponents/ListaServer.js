@@ -2,7 +2,7 @@ import { ServerElement } from "./ServerElement";
 
 export default function ListaServer({lista}) {
     return(
-        <ul>
+        <ul className="lista-server">
 			{lista.map((item) => (
 				<li className="li-server" key={item.id}>
 					<ServerElement name={item.server} status={item.status || 'Operational'}/>

@@ -14,10 +14,13 @@ export function ServerStatus() {
             <NavServer />
             <TitleServer />
             <IssueSection />
-            <div className='accordion-container'>
+            <div className='accordion-server'>
                 <AccordionElement>
-                    <ServerElement name={'NVIDIA Global Services'} />
-                    <AccordionItem accordionKey={'1'} accordionHeader={{ server: 'US Central', status: "man" }} accordionBody={<ListaServer lista={[{ server: 'NP-DAL-02' }, { server: 'NP-DAL-03' }, { server: 'NP-DAL-04 [RTX 3080]', status: 'Under Maintenance' }]} />} />
+                    <div className='accordion-title'>
+                        <ServerElement name={'NVIDIA Global Services'} />
+                    </div>
+
+                    <AccordionItem accordionKey={'1'} accordionHeader={{ server: 'US Central', status: "Operational" }} accordionBody={<ListaServer lista={[{ server: 'NP-DAL-02' }, { server: 'NP-DAL-03' }, { server: 'NP-DAL-04 [RTX 3080]', status: 'Under Maintenance' }]} />} />
                     <AccordionItem accordionKey={'2'} accordionHeader={{ server: 'US East [RTX 3080 Ready] ' }} accordionBody={<ListaServer lista={[{ server: 'NP-ASH-03' }, { server: 'NP-ASH-03' }]} />} />
                     <AccordionItem accordionKey={'3'} accordionHeader={{ server: 'US South [RTX 3080 Ready] ' }} accordionBody={<ListaServer lista={[{ server: 'NP-ATL-01' }, { server: 'NP-ATL-02' }, { server: 'NP-ATL-03 [RTX 3080]' }]} />} />
                     <AccordionItem accordionKey={'4'} accordionHeader={{ server: 'US West [RTX 3080 Ready] ' }} accordionBody={<ListaServer lista={[{ server: 'NP-SJC6-02' }, { server: 'NP-SJC6-04 [RTX 3080]' }]} />} />
