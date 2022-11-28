@@ -1,0 +1,22 @@
+.section-rs-supporto{
+    ul{
+        padding-left:0;
+    }
+    .li-style {
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 20px;
+        width: 80vw;
+        overflow-x:scroll;
+       
+    }
+}
+.stileh4{
+    color:$primary-color;
+    margin-top:20px;
+}
+@media screen and (max-width:500px){
+    .title-size{
+        font-size:30px!important;
+    }
+}
