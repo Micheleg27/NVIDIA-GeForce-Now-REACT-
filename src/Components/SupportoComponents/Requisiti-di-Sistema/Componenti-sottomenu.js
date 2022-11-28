@@ -1,25 +1,25 @@
 export function MacOs(){
     return(
         <div className="text-light container">
-            <h4>Mac OS</h4>
+            <h4 className="stileh4">Mac OS</h4>
             <p>Il MacOS deve essere in versione 10.11 o superiore. </p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>GeForce NOW richiede almeno 40 Mbps per lo streaming fino a 3840x2160 a 60 FPS e almeno 35 Mbps per 2560x1440 a 120 FPS sulla maggior parte degli iMacs o 2560x1600 a 120 FPS sulla maggior parte dei MacBook. Si consiglia inoltre una connessione Ethernet cablata o un router wireless a 5 GHz. Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
             <p>Nota: gli abbonamenti a GeForce NOW RTX 3080 non sono disponibili in tutti i data center. Per ulteriori dettagli, consulta la disponibilità regionale online.</p>
             <p>Se il MacBook o notebook non è dotato di porta Ethernet, potrebbe essere necessario l'uso di un adattatore Ethernet. Consulta questo articolo della Knowledge Base per un elenco di adattatori testati.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.
                 Si consiglia l'uso di un mouse di gioco USB per PC e Mac. Gli utenti di Mac devono procurarsi un mouse di gioco 
                 dedicato perché Apple Magic Mouse non è dotato di rotella e pulsanti sinistra/destra dedicati, in genere necessari 
                 per i giochi. Logitech e Razer offrono varie alternative.
             </p>
-            <h4>TENERE SOTTO CONTROLLO</h4>
+            <h4 className="stileh4">TENERE SOTTO CONTROLLO</h4>
             <p>La maggior parte dei monitor funziona correttamente per tutti i tipi di abbonamenti.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>Gli abbonati a RTX 3080 possono usufruire di risoluzioni fino a 3840x2160, 2560x1440 e 2560x1600. Lo streaming a 120 FPS richiede un monitor che supporti almeno 120 Hz, come NVIDIA G-Sync o un MacBook Pro 14" o 16" con refresh rate ProMotion 120 Hz. È necessario connettersi al monitor utilizzando un connettore HDMI, Mini DisplayPort, Thunderbolt 1/2/3, USB-C o USB 4. Il sistema potrebbe richiedere un adattatore o un cavo aggiuntivo per il collegamento al monitor. Qualsiasi adattatore utilizzato deve supportare DisplayPort 1.2 o HDMI 2.0. Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>Tutti i controller Microsoft Xbox Wireless collegati con Bluetooth o cavo USB</li>
                 <li>Microsoft Xbox 360 collegato con cavo USB</li>
@@ -31,7 +31,7 @@ export function MacOs(){
                 <li>SteelSeries Nimbus/Nimbus+</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>REQUISITI HARDWARE MAC</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE MAC</h4>
             <p>Qualsiasi sistema Mac introdotto dal 2009 in poi, fino a 1080p a 60 FPS in streaming.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>MacOS versione 10.13.2 o successiva. I modelli specifici includono MacBook Pro 2016 e versioni successive, MacBook 2016 e versioni successive, 
@@ -44,20 +44,20 @@ export function MacOs(){
 export function PcWindows(){
     return(
         <div className="text-light container">
-            <h4>PC Windows</h4>
+            <h4 className="stileh4">PC Windows</h4>
             <p>È necessaria una versione a 64 bit di Windows 7, o successiva. Si consiglia di utilizzare l'ultima versione dell'aggiornamento Windows 10 Anniversary.  Le versioni di Windows a 32 bit non sono supportate. </p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>GeForce NOW richiede almeno 40 Mbps per lo streaming fino a 3840x2160 a 60 FPS e almeno 35 Mbps per lo streaming a 2560x1440/2560x1600 a 120 FPS. Si consiglia inoltre una connessione Ethernet cablata o un router wireless a 5 GHz. Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
             <p>Nota: gli abbonamenti a GeForce NOW RTX 3080 non sono disponibili in tutti i data center. Per ulteriori dettagli, consulta la disponibilità regionale online.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.Si consiglia l'uso di un mouse USB gaming per PC e Mac. Logitech e Razer offrono varie alternative.</p>
-            <h4>TENERE SOTTO CONTROLLO</h4>
+            <h4 className="stileh4">TENERE SOTTO CONTROLLO</h4>
             <p>La maggior parte dei monitor funziona correttamente per tutti i tipi di abbonamenti.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>Gli abbonati a RTX 3080 possono usufruire di risoluzioni fino a 3840x2160, 2560x1440 e 2560x1600. Lo streaming a 120 FPS richiede un monitor che supporti almeno 120 Hz, come NVIDIA G-Sync. È necessario connettersi al monitor tramite USB-C con DisplayPort/Thunderbolt, HDMI, DisplayPort o Mini DisplayPort. Il sistema potrebbe richiedere un adattatore o un cavo aggiuntivo per il collegamento al monitor. Qualsiasi adattatore utilizzato deve supportare DisplayPort 1.2 o HDMI 1.4 per 1080p oppure HDMI 2.0 per 1440p. Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>NVIDIA SHIELD Controller connesso con cavo USB o wireless</li>
                 <li>Tutti i controller Microsoft Xbox Wireless con Adattatore Wireless Xbox , Bluetooth o USB</li>
@@ -74,7 +74,7 @@ export function PcWindows(){
                 <li>MOGA XP5-A Plus</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>REQUISITI HARDWARE MAC</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE MAC</h4>
             <p>Qualsiasi sistema Mac introdotto dal 2009 in poi, fino a 1080p a 60 FPS in streaming.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <ul>
@@ -94,14 +94,14 @@ export function PcWindows(){
 export function ChromeS(){
     return(
         <div className="text-light container">
-            <h4>REQUISITI HARDWARE</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE</h4>
             <p>GeForce NOW funziona con la maggior parte dei Chromebook con 4 GB di RAM o più. In caso di episodi di saltellamento dell'immagine segui questi consigli contenuti nell'articolo della Knowledge Base.</p>
-            <h4>Navigatore</h4>
+            <h4 className="stileh4">Navigatore</h4>
             <p>Browser Chrome 77.xo successivo.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.</p>
             <p>Si consiglia l'uso di un mouse di gioco USB per PC e Mac. Logitech e Razer offrono varie alternative.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>Tutti i controller Microsoft Xbox Wireless collegati con Bluetooth o cavo USB</li>
                 <li>Microsoft Xbox 360 wireless con adattatore USB</li>
@@ -112,7 +112,7 @@ export function ChromeS(){
                     <li>Nota: il nano-ricevitore deve essere connesso a una porta USB con sufficiente alimentazione, ad esempio un USB hub.</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>Nota: lo streaming a 1440p e 120 FPS, disponibile con un abbonamento GeForce NOW RTX 3080, non è al momento disponibile sui browser. È necessario utilizzare le app per PC o MacOS.</p>
         </div>
@@ -121,22 +121,22 @@ export function ChromeS(){
 export function Scudo(){
     return(
         <div className="text-light container">
-            <h4>SCUDO</h4>
+            <h4 className="stileh4">SCUDO</h4>
             <p>TV SCUDO NVIDIA</p>
-            <h4>REQUISITI TV</h4>
+            <h4 className="stileh4">REQUISITI TV</h4>
             <p>Qualsiasi TV con HDMI funziona correttamente per la maggior parte degli abbonamenti.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>TV 4K TV con HDR (HDMI 2.0a o successivo). Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>GeForce NOW richiede almeno 40 mbps per lo streaming fino a 4K a 60 FPS. Si consiglia inoltre una connessione Ethernet cablata o un router wireless a 5 GHz.</p>
             <p>Nota: gli abbonamenti GeForce NOW RTX 3080 non saranno disponibili in tutti i data center al momento del lancio. Per ulteriori dettagli, consulta la disponibilità regionale online.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.
                 Si consiglia l'uso di un mouse di gioco USB per PC e Mac. Logitech e Razer offrono varie alternative.
             </p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>NVIDIA SHIELD Controller connesso con cavo USB o wireless</li>
                 <li>Tutti i controller Microsoft Xbox Wireless con Bluetooth o cavo USB</li>
@@ -148,7 +148,7 @@ export function Scudo(){
                     <li>Nota: il nano-ricevitore deve essere connesso a una porta USB con sufficiente alimentazione, ad esempio un USB hub.</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>SUPPORTO AUDIO</h4>
+            <h4 className="stileh4">SUPPORTO AUDIO</h4>
             <p>Stereo a 2 canali supportato con gli abbonamenti gratuiti. Gli abbonamenti Priority supportano Stereo e Surround 5.1. Gli abbonamenti GEFORCE NOW RTX 3080 possono supportare Stereo a 2 canali, Surround 5.1 e Surround 7.1.</p>
         </div>
     )
@@ -156,12 +156,12 @@ export function Scudo(){
 export function Navigatore(){
     return(
         <div className="text-light container">
-            <h4>Navigatore</h4>
+            <h4 className="stileh4">Navigatore</h4>
             <p>Browser Chrome 77.x o versione successiva per MacOS, Windows o Chrome OS. Supporto beta per browser Edge 91.xx o versione successiva per Windows.</p>
-           <h4>MOUSE E TASTIERE</h4>
+           <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.</p>
             <p>Si consiglia l'uso di un mouse di gioco USB per PC e Mac. Logitech e Razer offrono varie alternative.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>NVIDIA SHIELD Controller (solo Windows) con cavo USB o wireless</li>
                 <li>Tutti i controller Microsoft Xbox Wireless collegati con Bluetooth o cavo USB</li>
@@ -173,10 +173,10 @@ export function Navigatore(){
                     <li>Nota: il nano-ricevitore deve essere connesso a una porta USB con sufficiente alimentazione, ad esempio un USB hub.</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>Nota: lo streaming in 4K a 1440p e 120 FPS, disponibile con un abbonamento GeForce NOW RTX 3080, non è al momento disponibile sui browser. È necessario utilizzare le app per PC o MacOS.</p>
-            <h4>REQUISITI HARDWARE</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE</h4>
             <p><b>Chromebook</b></p>
             <p>GeForce NOW funziona con la maggior parte dei Chromebook con 4 GB di RAM o più. In caso di episodi di saltellamento dell'immagine segui questi consigli contenuti nell'articolo della Knowledge Base.</p>
             <p><b>MacOS</b></p>
@@ -189,19 +189,19 @@ export function Navigatore(){
 export function Androide(){
     return(
         <div className="text-light container">
-            <h4>REQUISITI HARDWARE</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE</h4>
             <p>Telefono o tablet Android con 1 GB di memoria disponibile, Android 5.0 (L) o superiore e supporto per OpenGL ES2.0 o superiore.</p>
             <p>CONSIGLIATO PER L'ABBONAMENTO A GEFORCE NOW RTX 3080</p>
             <p>Lo streaming a 120 FPS richiede un telefono che supporti 120 Hz. NVIDIA ha un elenco approvato di modelli di telefoni che attualmente supportano lo streaming a 120 FPS. L'elenco viene aggiornato periodicamente. Per ulteriori informazioni, leggi questo articolo della Knowledge base.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             
-            <h4>Navigatore</h4>
+            <h4 className="stileh4">Navigatore</h4>
             <p>Browser Chrome 77.xo successivo.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>La maggior parte delle tastiere integrate o USB funziona correttamente.</p>
             <p>Si consiglia l'uso di un mouse di gioco USB per PC e Mac. Logitech e Razer offrono varie alternative.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>NVIDIA SHIELD Controller connesso con cavo USB o wireless</li>
                 <li>Tutti i controller Microsoft Xbox Wireless con Bluetooth o cavo USB</li>
@@ -228,14 +228,14 @@ export function Androide(){
 export function SafariIOS(){
     return(
         <div className="text-light container">
-            <h4>iPHONE e iPAD</h4>
+            <h4 className="stileh4">iPHONE e iPAD</h4>
             <p>iPhone con iOS 14.3 o superiore.  iPad con iPadOS 14.3 o superiore.  Puoi trovare l'elenco di dispositivi compatibili sul sito di Apple.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
-            <h4>MOUSE E TASTIERE</h4>
+            <h4 className="stileh4">MOUSE E TASTIERE</h4>
             <p>È possibile utilizzare una tastiera o un mouse solo per esplorare i menu di gioco o per digitare nomi utente e password. Tastiera e mouse non sono consigliati per il gioco a causa delle limitazioni di Safari, inoltre molti potrebbero non funzionare correttamente.</p>
             <p> Dovrai utilizzare un gamepad per giocare sul iPhone o iPad.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>Tutti i controller Microsoft Xbox Wireless con Bluetooth</li>
                 <li>Sony PS5 DualSense tramite Bluetooth</li>
@@ -256,14 +256,14 @@ export function SafariIOS(){
 export function TelevisoreAndroid(){
     return(
         <div className="text-light container">
-            <h4>REQUISITI HARDWARE</h4>
+            <h4 className="stileh4">REQUISITI HARDWARE</h4>
             <p>Una TV Android con Android 5.0 (L) o superiore e supporto per OpenGL ES2.0 o superiore. Chromecast con Google TV, 2021.</p>
-            <h4>REQUISITI TV</h4>
+            <h4 className="stileh4">REQUISITI TV</h4>
             <p>Qualsiasi TV con HDMI.</p>
-            <h4>REQUISITI INTERNET</h4>
+            <h4 className="stileh4">REQUISITI INTERNET</h4>
             <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
             <p>Nota: Lo streaming in 4K, disponibile con un abbonamento GeForce NOW RTX 3080, non è disponibile su Android TV.</p>
-            <h4>GAMEPADS</h4>
+            <h4 className="stileh4">GAMEPADS</h4>
             <ul>
                 <li>NVIDIA SHIELD Controller connesso con cavo USB o wireless</li>
                 <li>Tutti i controller Microsoft Xbox Wireless con Bluetooth o cavo USB</li>
@@ -275,7 +275,7 @@ export function TelevisoreAndroid(){
                     <li>Nota: il nano-ricevitore deve essere connesso a una porta USB con sufficiente alimentazione, ad esempio un USB hub.</li>
             </ul>
             <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-            <h4>SUPPORTO AUDIO</h4>
+            <h4 className="stileh4">SUPPORTO AUDIO</h4>
             <p>Stereo a 2 canali supportato con gli abbonamenti gratuiti. Gli abbonamenti Priority supportano Stereo e Surround 5.1. Gli abbonamenti GEFORCE NOW RTX 3080 possono supportare Stereo a 2 canali, Surround 5.1 e Surround 7.1.</p>
         </div>
     )
@@ -283,18 +283,18 @@ export function TelevisoreAndroid(){
 export function SmartTV(){
     return(
         <div className="text-light container">
-        <h4>REQUISITI TV</h4>
+        <h4 className="stileh4">REQUISITI TV</h4>
         <ul>
             <li>Alcune TV LG 2021/2022 con il firmware webOS più recente e gli ultimi aggiornamenti del browser LG TV.</li>
             <li>TV Samsung 2022.  Contatta Samsung per verificare se la tua TV è un modello 2022.</li>
         </ul>
-        <h4>REQUISITI INTERNET</h4>
+        <h4 className="stileh4">REQUISITI INTERNET</h4>
         <p>GeForce NOW richiede almeno 15 Mbps per 720p a 60 FPS e 25 Mbps per 1080p a 60 FPS. È anche richiesta una latenza inferiore a 80 ms da un data center NVIDIA. Tuttavia, per un'esperienza ottimale, si consigliano meno di 40 ms. Leggi questo articolo della Knowledge Base su come testare la rete.</p>
         <p>Si consiglia inoltre una connessione Ethernet cablata o un router wireless a 5 GHz.  Il Wi-Fi a 2,4 GHz non è consigliato per l'utilizzo di GeForce NOW.</p>
         <p>Nota: le caratteristiche dell'abbonamento GeForce NOW RTX 3080 come 120 FPS, 4K, streaming HDR e audio surround 5.1 e 7.1 non sono al momento disponibili sulle TV.</p>
-        <h4>MOUSE E TASTIERE</h4>
+        <h4 className="stileh4">MOUSE E TASTIERE</h4>
         <p>È possibile utilizzare solo una tastiera e un mouse fisici per navigare nell'app.  È necessario utilizzare un gamepad supportato per giocare su TV.</p>
-        <h4>GAMEPADS</h4>
+        <h4 className="stileh4">GAMEPADS</h4>
         <p>È necessario utilizzare un gamepad supportato per giocare. È possibile utilizzare solo una tastiera e un mouse fisici per navigare nell'app.</p>
         <ul>
             <li>NVIDIA SHIELD Controller connesso con cavo USB o wireless</li>
@@ -307,7 +307,7 @@ export function SmartTV(){
                 <li>Nota: il nano-ricevitore deve essere connesso a una porta USB con sufficiente alimentazione, ad esempio un USB hub.</li>
         </ul>
         <p>Ulteriori gamepad potrebbero funzionare con GeForce NOW. Alcuni richiedono driver aggiuntivi e/o aggiornamenti software per funzionare correttamente.</p>
-        <h4>SUPPORTO AUDIO</h4>
+        <h4 className="stileh4">SUPPORTO AUDIO</h4>
         <p>L'audio stereo a 2 canali è supportato sulle TV.</p>
         <p>Nota: il surround 5.1 e 7.1, disponibile con un abbonamento GeForce NOW RTX 3080, non è disponibile su TV.</p>
     </div>

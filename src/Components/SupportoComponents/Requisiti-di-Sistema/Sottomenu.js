@@ -4,17 +4,17 @@ import { Androide, ChromeS, MacOs, Navigatore, PcWindows, SafariIOS, Scudo, Smar
 export function Sottomenu() {
     return (
         <div>
-            <div className="section-rs-supporto d-flex justify-content-center" >
-                <ul className="d-flex align-items-center justify-content-between text-light li-style">
-                    <li className=""><Link to="macos">MAC OS</Link></li>
-                    <li className=""><Link to="pcwindows">PC Windows</Link></li>
-                    <li className=""><Link to="oschrome">Sistema operativo ChromeS</Link></li>
+            <div className="section-rs-supporto d-flex justify-content-center">
+                <ul className="d-flex align-items-center justify-content-between gap-3 text-light mt-5 li-style">
+                    <li className=""><Link to="macos">MACOS</Link></li>
+                    <li className=""><Link to="pcwindows">PCWindows</Link></li>
+                    <li className=""><Link to="oschrome">SistemaoperativoChromeS</Link></li>
                     <li className=""><Link to="scudo">SCUDO</Link></li>
                     <li className=""><Link to="navigatore">Navigatore</Link></li>
                     <li className=""><Link to="androide">Androide</Link></li>
-                    <li className=""><Link to="safariios">Safari iOS</Link></li>
-                    <li className=""><Link to="teleandroid">Televisore Android</Link></li>
-                    <li className=""><Link to="smarttv">Smart TV</Link></li>
+                    <li className=""><Link to="safariios">SafariiOS</Link></li>
+                    <li className=""><Link to="teleandroid">TelevisoreAndroid</Link></li>
+                    <li className=""><Link to="smarttv">SmartTV</Link></li>
                 </ul>
             </div>
             <Routes>
