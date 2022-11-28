@@ -2860,24 +2860,30 @@ footer p a {
     margin: 0;
   }
 }
-@media all and (max-width: 425px) {
+@media all and (max-width: 426px) {
   .container-issue-server {
     width: 90% !important;
   }
-  .container-issue-server #a-issue-server {
-    font-size: 14px !important;
+  .container-issue-server .header-issue-server {
+    padding: 4px auto;
+  }
+  .container-issue-server .header-issue-server #a-issue-server {
+    font-size: 11px !important;
+    padding: 0;
   }
   .container-issue-server .p2-issue-server {
+    font-size: 11px !important;
     margin: 0;
   }
   .container-issue-server .p1-issue-server {
+    font-size: 10px !important;
     margin: 0;
   }
   .accordion-server {
     width: 100%;
   }
   .accordion-server .accordion-button {
-    width: 95% !important;
+    width: 100% !important;
   }
   .accordion-server .accordion-body {
     width: 100% !important;
@@ -2887,6 +2893,14 @@ footer p a {
   }
   .accordion-server .p-server {
     font-size: 10px !important;
+  }
+  .lista-server {
+    padding: 0;
+  }
+}
+@media all and (max-width: 321px) {
+  .header-issue-server {
+    padding: 4px 2px !important;
   }
 }
 * {
