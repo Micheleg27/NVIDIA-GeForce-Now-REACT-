@@ -3155,7 +3155,7 @@ img {
   font-family: "DINPro light";
 }
 
-@media screen and (max-width: 260px) and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .container-accordion {
     display: flex;
     flex-direction: column;
@@ -3187,7 +3187,7 @@ img {
     font-family: "DINPro light";
   }
 }
-@media screen and (min-width: 761px) and (max-width: 990px) {
+@media screen and (max-width: 1024px) {
   .container-accordion {
     display: flex;
     flex-direction: column;
@@ -3219,7 +3219,7 @@ img {
     font-family: "DINPro light";
   }
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1440px) {
   .container-accordion {
     display: flex;
     flex-direction: column;
