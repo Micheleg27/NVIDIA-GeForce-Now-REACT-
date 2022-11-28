@@ -12,7 +12,6 @@ import { FollowSocial } from '../Components/FollowSocial';
 import GreenBannerNav from '../Components/GreenBannerNav';
 import { FooterNero } from '../Components/FooterNero';
 import { SoloGeforce } from '../Components/SoloGeforce';
-import { MicroCard } from '../Components/BasicComponents/MicroCard';
 import Citazioni from '../Components/Citazioni';
 import CaroselloHome from '../Components/CaroselloHome';
 import { TuttiGiocano } from '../Components/TuttiGiocano';
@@ -23,11 +22,12 @@ import { NuoviGiochi } from '../Components/NuoviGiochi';
 import CardAbbonamento from '../Components/CardAbbonamento';
 
 
+
 function Home() {
 	return (
 		<React.Fragment>
 			{/* <Lingua /> */}
-			{/* <Alert /> */}
+			<Alert />
 			<NavBianca />
 			<GreenBannerNav />
 			<NavNera />
@@ -43,7 +43,7 @@ function Home() {
 			<CardAbbonamento />
 			<GetIn />
 			<Joystick />
-			<FollowSocial /> 
+			<FollowSocial />
 			<SystemRequired />
 			<FooterNero />
 			<FooterBianco />

@@ -1,0 +1,246 @@
+.nav-server{
+    width: 100vw;
+    height: 82px;
+    background-color: white;
+
+    .div-logo-server{
+        height: 100%;
+        width: 10%;
+        display: flex;
+        padding: 15px 110px;
+
+        #svg-server{
+            width:150px;
+            height: 44px;
+        }
+        }
+}
+
+.title-server{
+    font-size: 60px;
+    color: #76B900;
+    text-align: center;
+    font-family: "Geforce light";
+    margin: 100px auto;
+}
+
+.container-server{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-issue-server{
+        width: 50vw;
+        height: 33vh;
+        border: black 4px solid;
+    }
+
+    .header-issue-server{
+        width: 100%;
+        height: 20%;
+        background-color: #333;
+        padding: 10px 20px;
+
+        #a-issue-server{
+            font-size: 30px;
+            font-family: 'DINPro light';
+            padding: 30px auto;
+        }
+    }
+
+    .paragraph-issue-server{
+        border: white 1px solid;
+        border-top:none;
+        height: 50%;
+        padding: 20px 20px;
+
+        .p1-issue-server{
+            font-size: 20px;
+            font-family: 'DINPro light';
+            color:white;
+        }
+
+        .p2-issue-server{
+            font-size: 20px;
+            font-family: 'DINPro light';
+            color: #666666;
+        }
+    }
+}
+
+.accordion-server {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .accordion-title {
+        border: 1px solid white;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .server-element {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px !important;
+        font-family: 'DINPro light' !important;
+        width: 95% !important;
+        align-items: center;
+        text-align: center;
+
+        .p-status {
+            color: $primary-color !important;
+            display: flex;
+            align-items: center;
+        }
+
+        .p-server {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .accordion-button {
+        background-color: black !important;
+        width: 60vw !important;
+    }
+
+    .accordion-body {
+            width: 60vw !important;
+    }
+
+}
+
+
+@media all and (max-width: 1440px){
+
+    #a-issue-server{
+        font-size: 26px !important;
+    }
+
+    .p2-issue-server{
+        margin: 0;
+    }
+
+    .p1-issue-server{
+        margin: 0;
+    }
+}
+
+
+@media all and (max-width: 1024px){
+
+    #a-issue-server{
+        font-size: 17px !important;
+    }
+
+    .p2-issue-server{
+        font-size: 10px !important;
+        margin: 0;
+    }
+
+    .p1-issue-server{
+        font-size: 14px !important;
+        margin: 0;
+    }
+
+    .container-issue-server{
+        width: 60vw !important;
+
+    }
+
+    .server-element {
+        text-align: center;
+
+        .p-status {
+            font-size: 15px !important;
+        }
+
+        .p-server {
+            font-size: 15px !important;
+        }
+    }
+
+
+}
+
+@media all and (max-width: 768px){
+
+    .container-issue-server{
+        // width: 90% !important;
+
+        #a-issue-server{
+            font-size: 14px !important;
+        }
+
+        .p2-issue-server{
+            margin: 0;
+        }
+
+        .p1-issue-server{
+            margin: 0;
+        }
+    }
+
+
+
+}
+
+@media all and (max-width: 426px){
+
+    .container-issue-server{
+        width: 90% !important;
+
+        .header-issue-server{
+            padding: 4px auto;
+
+            #a-issue-server{
+                font-size: 11px !important;
+                padding: 0;
+            }
+        }
+
+        .p2-issue-server{
+            font-size: 11px !important;
+            margin: 0;
+        }
+
+        .p1-issue-server{
+            font-size: 10px !important;
+            margin: 0;
+        }
+    }
+
+    .accordion-server {
+        width: 100% ;
+
+        .accordion-button {
+           width: 100% !important;
+        }
+
+        .accordion-body {
+            width: 100% !important;
+        }
+
+        .p-status {
+            font-size: 10px !important;
+        }
+
+        .p-server {
+            font-size: 10px !important;
+        }
+    }
+
+    .lista-server {
+        padding: 0;
+    }
+}
+
+
+@media all and (max-width: 321px){
+    .header-issue-server{
+        padding: 4px 2px !important;
+    }
+}
