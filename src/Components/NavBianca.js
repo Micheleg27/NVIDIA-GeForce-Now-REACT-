@@ -4,9 +4,10 @@ import { Prodotti } from './ulNavBianca.js/Prodotti';
 import Settori from './ulNavBianca.js/Settori';
 import Soluzioni from './ulNavBianca.js/Soluzioni';
 import PerTe from './ulNavBianca.js/PerTe';
+import Hard from './ulNavBianca.js/Hard';
+import Soft from './ulNavBianca.js/Soft';
 
 export default function NavBianca() {
-
 	return (
 		<div className="bg-light">
 			<nav className="navbar navbar-expand-lg navcolor">
@@ -85,86 +86,983 @@ export default function NavBianca() {
 										</a>
 									</li>
 								</ul>
-								{/* <div class="accordion accordion-flush" id="accordionFlushExample">
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingOne">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+								<div className="accordion accordion-flush" id="accordionFlushExample" style={{width:'100%'}}>
+									<div>
+										<h2 className="accordion-header" id="flush-headingOne">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#flush-collapseOne"
+												aria-expanded="false"
+												aria-controls="flush-collapseOne"
+											>
 												Prodotti
 											</button>
 										</h2>
-										<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-											<div class="accordion-body"><Prodotti /></div>
+										<div
+											id="flush-collapseOne"
+											className="accordion-collapse collapse"
+											aria-labelledby="flush-headingOne"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div className="accordion-body">
+												<div>
+													<h2 className="accordion-header" id="flush-headingFive">
+														<button
+															className="accordion-button collapsed"
+															type="button"
+															data-bs-toggle="collapse"
+															data-bs-target="#flush-collapseFive"
+															aria-expanded="false"
+															aria-controls="flush-collapseFive"
+														>
+															Prodotti
+														</button>
+													</h2>
+													<div
+														id="flush-collapseFive"
+														className="accordion-collapse collapse"
+														aria-labelledby="flush-headingFive"
+														data-bs-parent="#accordionFlushExample"
+													>
+														<div className="accordion-body">
+															<ul
+																style={{
+																	display: 'flex',
+																	flexDirection: 'column',
+																	gap: '10px',
+																	listStyleType: 'none',
+																	justifyContent: 'center',
+																	backgroundColor: 'whitesmoke'
+																}}
+															>
+																<li>
+																	<span>Giochi e intrattenimento</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Schede grafiche GeForce
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Laptop Gaming
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Monitor G-SYNC
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				SHIELD
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Laptop e Workstation</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Laptop Gaming
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Workstation desktop NVIDIA
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA RTX nei laptop professionali
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				DGX Station
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Workstation per la scienza dei dati
+																				NVIDIA RTx
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Laptop Studio
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Cloud e data center</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Panoramica
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Grace CPU
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Sistemi DGX
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA OVX
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Piattaforma EGX
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Piattaforma HGX
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				DRIVE Costellation
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Rete</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Panoramica
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				DPU
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Ethernet
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				InfiniBand
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>GPUs</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				GeForce
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA RTX / Quadro
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Data Center
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Titan RTX
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Embedded System</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Jetson
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				DRIVE AGX
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Clara
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div>
+													<h2 className="accordion-header" id="flush-headingSix">
+														<button
+															className="accordion-button collapsed"
+															type="button"
+															data-bs-toggle="collapse"
+															data-bs-target="#flush-collapseSix"
+															aria-expanded="false"
+															aria-controls="flush-collapseSix"
+														>
+															Soft
+														</button>
+													</h2>
+													<div
+														id="flush-collapseSix"
+														className="accordion-collapse collapse"
+														aria-labelledby="flush-headingSix"
+														data-bs-parent="#accordionFlushExample"
+													>
+														<div className="accordion-body">
+															<ul
+																style={{
+																	display: 'flex',
+																	flexDirection:'column',
+																	gap: '10px',
+																	listStyleType: 'none',
+																	justifyContent: 'center',
+																	backgroundColor:'whitesmoke'
+																}}
+															>
+																<li>
+																	<span>Frameworks Applicativi</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Collaborazione 3D - Omniverse
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Settore automobilistico - DRIVE
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Streaming video cloud-IA - Maxine
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				IA vocale - Riva
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Analisi dei dati - RAPIDS
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Sanità - Clara
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Calcolo aad alte prestazioni (HPC)
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Analisi video intelligente - Metropolis
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Sistemi recommender - Merlin
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Robotica - Isaac
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Telecomunicazioni - Aerial
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>App e strumenti</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				cATALOGO NCG
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA NGC
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Collaborazione 3D - Omniverse
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Data Center
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Monitoraggio coìon GPU
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA RTX Experience
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA RTX DesktopMAnager
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				RTX Accelereted Creative Apps
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				VIdeoconferenze
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				NVIDIA Woekbench
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Giochi e intrattenimento</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				GeForce NOW
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				GeForce Experience
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				App NVIDIA Broadcast
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				(Omniverse) Machinima
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+																<li>
+																	<span>Infrastruttura</span>
+																	<hr />
+																	<ul style={{ listStyleType: 'none' }}>
+																		<li>
+																			<a id="a" href="#">
+																				Al Enterprice Suite
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Supporto cloud nativo
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Gestione cluster
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Gestione distribuzione Edge
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Servizio di inferenza
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Accelerazione IO
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Rete
+																			</a>
+																		</li>
+																		<li>
+																			<a id="a" href="#">
+																				Virtual GPU
+																			</a>
+																		</li>
+																	</ul>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingTwo">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-											<Soluzioni />
+									<div>
+										<h2 className="accordion-header" id="flush-headingTwo">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#flush-collapseTwo"
+												aria-expanded="false"
+												aria-controls="flush-collapseTwo"
+											>
+												Soluzioni
 											</button>
 										</h2>
-										<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+										<div
+											id="flush-collapseTwo"
+											className="accordion-collapse collapse"
+											aria-labelledby="flush-headingTwo"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div className="accordion-body">
+												<ul
+													style={{
+														display: 'flex',
+														flexDirection: 'column',
+														backgroundColor: 'whitesmoke',
+														gap: '10px',
+														listStyleType: 'none',
+														justifyContent: 'center'
+													}}
+												>
+													<li style={{ padding: '25px' }}>
+														<h6>AI and Data Science</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Analisi dei dati
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Machine Learning
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Teaining su Deep Learning
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Inferenza su deep learing
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	IA conversazione
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li style={{ padding: '25px' }}>
+														<h6>Data center e cloud computing</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Computing accelerato per l'IT aziendale
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	NVIDIA LaunchPad
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Cloud Computing
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Co-localizzazione
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Edge Computing
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Rete
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	In sede
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Virtualizzazione
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	MLOps
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li style={{ padding: '25px' }}>
+														<h6>Design e visualizzazione</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Realtà aumenteta e virtuale
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Multi-Display
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Rendering
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Collaborazione 3D
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Virtualizzazione della grafica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Simulazione ingegneristica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Trasmissione
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li style={{ padding: '25px' }}>
+														<h6>Edge Computing</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	IA su 5G
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Intelligent Video Analytics
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Industrial
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Robotics
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Edge Deployment Management
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Edge Solutions
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li style={{ padding: '25px' }}>
+														<h6>Calcolo ad alte prestazioni</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	HPC e IA
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Simulazione e modellazione
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	visualizzazione scientifica
+																</a>
+															</li>
+														</ul>
+													</li>
+													<li style={{ padding: '25px' }}>
+														<h6>Self-Driving Cars</h6>
+														<hr />
+														<ul style={{ listStyleType: 'none' }}>
+															<li>
+																<a id="a" href="#">
+																	Panoramica
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Chauffeur
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Concierge
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Training
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Mappatura HD
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Simulazione
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Robotaxi
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	Autotrasporto
+																</a>
+															</li>
+															<li>
+																<a id="a" href="#">
+																	ADAS
+																</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h2 class="accordion-header" id="flush-headingThree">
-											<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-												<Settori />
+									<div>
+										<h2 className="accordion-header" id="flush-headingThree">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#flush-collapseThree"
+												aria-expanded="false"
+												aria-controls="flush-collapseThree"
+											>
+												Settori
 											</button>
 										</h2>
-										<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-											<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+										<div
+											id="flush-collapseThree"
+											className="accordion-collapse collapse"
+											aria-labelledby="flush-headingThree"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div classNameName="accordion-body" style={{ backgroundColor: 'whitesmoke' }}>
+												<div>
+													<h6>Settori</h6>
+													<div>
+														<hr />
+													</div>
+												</div>
+												<div
+													style={{ display: 'flex', flexDirection: 'column', width: '328px' }}
+												>
+													<ul style={{ listStyleType: 'none', padding: '25px' }}>
+														<li>
+															<a id="a" href="#">
+																Panoramica
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Architettura, ingegneria, <br /> edilizia e procedure{' '}
+																<br /> operative
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Internet per consumatori
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Cybersecurity
+															</a>
+														</li>
+													</ul>
+													<ul style={{ listStyleType: 'none', padding: '25px' }}>
+														<li>
+															<a id="a" href="#">
+																Energia
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Servizi finanziari
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Sanità e bioscienze
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Istituzioni accademoche
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Sviluppo di giochi
+															</a>
+														</li>
+													</ul>
+													<ul style={{ listStyleType: 'none', padding: '25px' }}>
+														<li>
+															<a id="a" href="#">
+																Produzione industriale
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Media e intrsttenimento
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Pubblica amministrazione
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Ristoranti
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Vendite al dettaglio
+															</a>
+														</li>
+													</ul>
+													<ul style={{ listStyleType: 'none', padding: '25px' }}>
+														<li>
+															<a id="a" href="#">
+																Robotica
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Smart city
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Supercomputing
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Settore delle <br /> Telecomunicazioni
+															</a>
+														</li>
+														<li>
+															<a id="a" href="#">
+																Trasporti
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
 										</div>
 									</div>
-								</div> */}
-
-								{/* <div onclick="showMenu()" class="x-close-menù">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-x"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                  </svg>
-                </div> */}
-
-								{/* <div class="carel-right" onclick="showmenu()">
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										fill="black"
-										class="bi bi-chevron-right"
-										viewBox="0 0 16 16"
-										id="menu-arrow"
-									>
-										<path
-											fill-rule="evenodd"
-											d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-										/>
-									</svg>
-								</div> */}
-
-								{/* <span onclick="showmenu()" class="text-menù">
-                  Menù
-                </span> */}
+									<div>
+										<h2 className="accordion-header" id="flush-headingFour">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#flush-collapseFour"
+												aria-expanded="false"
+												aria-controls="flush-collapseFour"
+											>
+												Per Te
+											</button>
+										</h2>
+										<div
+											id="flush-collapseFour"
+											className="accordion-collapse collapse"
+											aria-labelledby="flush-headingFour"
+											data-bs-parent="#accordionFlushExample"
+										>
+											<div classNameName="accordion-body" style={{ backgroundColor: 'whitesmoke' }}>
+												<ul
+													style={{
+														display: 'flex',
+														flexDirection: 'column',
+														gap: '40px',
+														listStyleType: 'none',
+														justifyContent: 'center',
+														width: '328px'
+													}}
+												>
+													<li>
+														<a id="a" href="#">
+															Creativi/Designer
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Esperti di dati
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Sviluppatori
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Giocatori
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Professionisti
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Ricercatori
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Roboticists
+														</a>
+													</li>
+													<li>
+														<a id="a" href="#">
+															Startups
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 
-							<div class="d-flex">
-								<ul class="navbar-nav justify-content-end">
+							<div className="d-flex">
+								<ul className="navbar-nav justify-content-end">
 									<li>
-										<a id="a" class="nav-link" href="https://www.nvidia.com/it-it/shop/">
+										<a id="a" className="nav-link" href="https://www.nvidia.com/it-it/shop/">
 											Acquista
 										</a>
 									</li>
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" className="nav-link" href="">
 											Driver
 										</a>
 									</li>
 									<li>
-										<a id="a" class="nav-link" href="">
+										<a id="a" className="nav-link" href="">
 											Assistenza
 										</a>
 									</li>
@@ -181,21 +1079,21 @@ export default function NavBianca() {
 							width="22"
 							height="22"
 							fill="currentColor"
-							class="bi bi-search"
+							className="bi bi-search"
 							viewBox="0 0 16 16"
 						>
 							<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
 						</svg>
 
-						<div class="dropstart">
-							<div class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<div className="dropstart">
+							<div className=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
 								<BsCart3 size="25px" style={{ cursor: 'pointer' }} />
 							</div>
 							<ul className="dropdown-menu cart">
 								<div className="triangle" />
 								<li className="cart-content">
 									<h2>CART</h2>
-									<button type="button" class="btn-close" aria-label="Close" />
+									<button type="button" className="btn-close" aria-label="Close" />
 								</li>
 								<li className="cart-text">
 									<p>Il carrello è vuoto.</p>

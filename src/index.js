@@ -18,9 +18,6 @@ import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sist
 import { ServerStatus } from './pages/Serverstatus';
 import { MacOs } from './Components/SupportoComponents/Requisiti-di-Sistema/Componenti-sottomenu';
 
-// import $ from 'jquery'
-// import Popper from 'popper.js'
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
