@@ -65,7 +65,7 @@ export default function NavBianca() {
 					>
 						<div className="offcanvas-body">
 							<div className="d-flex align-items-center">
-								<ul className="ul-left-nav navbar-nav flex-grow-1 pe-3 d-flex align-items-center">
+								<ul className="ul-left-nav navbar-nav flex-grow-1 pe-3 d-flex align-items-center ad-none">
 									<li className="nav-item">
 										<Prodotti />
 									</li>
@@ -87,45 +87,47 @@ export default function NavBianca() {
 									</li>
 								</ul>
 
-								<div className="accordion accordion-flush" id="accordionFlushExample" style={{width:'100%'}}>
+								<div
+									className="accordion d-xl-none d-lg-none"
+									id="accordionPanelsStayOpenExample"
+									style={{ width: '100%' }}
+								>
 									<div>
-										<h2 className="accordion-header" id="flush-headingOne">
+										<h2 className="accordion-header" id="panelsStayOpen-headingOne">
 											<button
-												className="accordion-button collapsed"
+												class="accordion-button collapsed"
 												type="button"
 												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseOne"
-												aria-expanded="false"
-												aria-controls="flush-collapseOne"
+												data-bs-target="#panelsStayOpen-collapseOne"
+												aria-expanded="true"
+												aria-controls="panelsStayOpen-collapseOne"
 											>
 												Prodotti
 											</button>
 										</h2>
 										<div
-											id="flush-collapseOne"
-											className="accordion-collapse collapse"
-											aria-labelledby="flush-headingOne"
-											data-bs-parent="#accordionFlushExample"
+											id="panelsStayOpen-collapseOne"
+											class="accordion-collapse collapse"
+											aria-labelledby="panelsStayOpen-headingOne"
 										>
 											<div className="accordion-body">
 												<div>
 													<h2 className="accordion-header" id="flush-headingFive">
 														<button
-															className="accordion-button collapsed"
+															class="accordion-button collapsed"
 															type="button"
 															data-bs-toggle="collapse"
-															data-bs-target="#flush-collapseFive"
-															aria-expanded="false"
-															aria-controls="flush-collapseFive"
+															data-bs-target="#panelsStayOpen-collapseFive"
+															aria-expanded="true"
+															aria-controls="panelsStayOpen-collapseFive"
 														>
-															Prodotti
+															Hard
 														</button>
 													</h2>
 													<div
-														id="flush-collapseFive"
-														className="accordion-collapse collapse"
-														aria-labelledby="flush-headingFive"
-														data-bs-parent="#accordionFlushExample"
+														id="panelsStayOpen-collapseFive"
+														class="accordion-collapse collapse"
+														aria-labelledby="panelsStayOpen-headingFive"
 													>
 														<div className="accordion-body">
 															<ul
@@ -322,31 +324,30 @@ export default function NavBianca() {
 												<div>
 													<h2 className="accordion-header" id="flush-headingSix">
 														<button
-															className="accordion-button collapsed"
+															class="accordion-button collapsed"
 															type="button"
 															data-bs-toggle="collapse"
-															data-bs-target="#flush-collapseSix"
-															aria-expanded="false"
-															aria-controls="flush-collapseSix"
+															data-bs-target="#panelsStayOpen-collapseSix"
+															aria-expanded="true"
+															aria-controls="panelsStayOpen-collapseSix"
 														>
 															Soft
 														</button>
 													</h2>
 													<div
-														id="flush-collapseSix"
-														className="accordion-collapse collapse"
-														aria-labelledby="flush-headingSix"
-														data-bs-parent="#accordionFlushExample"
+														id="panelsStayOpen-collapseSix"
+														class="accordion-collapse collapse"
+														aria-labelledby="panelsStayOpen-headingSix"
 													>
 														<div className="accordion-body">
 															<ul
 																style={{
 																	display: 'flex',
-																	flexDirection:'column',
+																	flexDirection: 'column',
 																	gap: '10px',
 																	listStyleType: 'none',
 																	justifyContent: 'center',
-																	backgroundColor:'whitesmoke'
+																	backgroundColor: 'whitesmoke'
 																}}
 															>
 																<li>
@@ -546,23 +547,22 @@ export default function NavBianca() {
 										</div>
 									</div>
 									<div>
-										<h2 className="accordion-header" id="flush-headingTwo">
+										<h2 className="accordion-header" id="panelsStayOpen-headingTwo">
 											<button
-												className="accordion-button collapsed"
+												class="accordion-button collapsed"
 												type="button"
 												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseTwo"
+												data-bs-target="#panelsStayOpen-collapseTwo"
 												aria-expanded="false"
-												aria-controls="flush-collapseTwo"
+												aria-controls="panelsStayOpen-collapseTwo"
 											>
 												Soluzioni
 											</button>
 										</h2>
 										<div
-											id="flush-collapseTwo"
-											className="accordion-collapse collapse"
-											aria-labelledby="flush-headingTwo"
-											data-bs-parent="#accordionFlushExample"
+											id="panelsStayOpen-collapseTwo"
+											class="accordion-collapse collapse"
+											aria-labelledby="panelsStayOpen-headingTwo"
 										>
 											<div className="accordion-body">
 												<ul
@@ -836,25 +836,27 @@ export default function NavBianca() {
 										</div>
 									</div>
 									<div>
-										<h2 className="accordion-header" id="flush-headingThree">
+										<h2 className="accordion-header" id="panelsStayOpen-headingThree">
 											<button
-												className="accordion-button collapsed"
+												class="accordion-button collapsed"
 												type="button"
 												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseThree"
+												data-bs-target="#panelsStayOpen-collapseThree"
 												aria-expanded="false"
-												aria-controls="flush-collapseThree"
+												aria-controls="panelsStayOpen-collapseThree"
 											>
 												Settori
 											</button>
 										</h2>
 										<div
-											id="flush-collapseThree"
-											className="accordion-collapse collapse"
-											aria-labelledby="flush-headingThree"
-											data-bs-parent="#accordionFlushExample"
+											id="panelsStayOpen-collapseThree"
+											class="accordion-collapse collapse"
+											aria-labelledby="panelsStayOpen-headingThree"
 										>
-											<div classNameName="accordion-body" style={{ backgroundColor: 'whitesmoke' }}>
+											<div
+												classNameName="accordion-body"
+												style={{ backgroundColor: 'whitesmoke' }}
+											>
 												<div>
 													<h6>Settori</h6>
 													<div>
@@ -973,25 +975,27 @@ export default function NavBianca() {
 										</div>
 									</div>
 									<div>
-										<h2 className="accordion-header" id="flush-headingFour">
+										<h2 className="accordion-header" id="panelsStayOpen-headingFour">
 											<button
-												className="accordion-button collapsed"
+												class="accordion-button collapsed"
 												type="button"
 												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseFour"
+												data-bs-target="#panelsStayOpen-collapseFour"
 												aria-expanded="false"
-												aria-controls="flush-collapseFour"
+												aria-controls="panelsStayOpen-collapseFour"
 											>
 												Per Te
 											</button>
 										</h2>
 										<div
-											id="flush-collapseFour"
-											className="accordion-collapse collapse"
-											aria-labelledby="flush-headingFour"
-											data-bs-parent="#accordionFlushExample"
+											id="panelsStayOpen-collapseFour"
+											class="accordion-collapse collapse"
+											aria-labelledby="panelsStayOpen-headingFour"
 										>
-											<div classNameName="accordion-body" style={{ backgroundColor: 'whitesmoke' }}>
+											<div
+												classNameName="accordion-body"
+												style={{ backgroundColor: 'whitesmoke' }}
+											>
 												<ul
 													style={{
 														display: 'flex',
@@ -1086,7 +1090,12 @@ export default function NavBianca() {
 						</svg>
 
 						<div className="dropstart">
-							<div className=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div
+								className=" dropdown-toggle"
+								type="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
 								<BsCart3 size="25px" style={{ cursor: 'pointer' }} />
 							</div>
 							<ul className="dropdown-menu cart">

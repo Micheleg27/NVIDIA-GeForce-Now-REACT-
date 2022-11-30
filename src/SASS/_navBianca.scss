@@ -2,15 +2,14 @@
 	background-color: white !important;
 }
 
-.offcanvas-body {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	/* top: 50px; */
-}
-
 .offcanvas.offcanvas-start {
 	top: 60px !important;
+	.offcanvas-body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		
+	}
 }
 
 .navbar-toggler {
@@ -74,14 +73,18 @@
 }
 
 
+
 @media all and (max-width: 995px) {
 	.offcanvas-body {
 		display: flex;
 		flex-direction: column;
-		justify-content: initial;
-		align-items: initial;
+		justify-content: start !important;
+		align-items: flex-start !important;
 		.ul-left-nav{
 			align-items: flex-start !important;
+		}
+		.ad-none{
+			display: none !important;
 		}
 	}
 
