@@ -17,7 +17,8 @@ import { Giochi } from './pages/Giochi';
 import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sistema/RequisitiPage';
 import { ServerStatus } from './pages/Serverstatus';
 import { MacOs } from './Components/SupportoComponents/Requisiti-di-Sistema/Componenti-sottomenu';
-import RegisterLogin from './Components/RegisterLogin/RegisterLogin';
+import Register from './Components/RegisterLogin/Register';
+import Login from './Components/RegisterLogin/Login'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +29,9 @@ root.render(
 				<Route path="/thanks" element={<ThanksForRegister />} />
 				<Route path="*" element={<Error/>} />
 				<Route path="/LogAbb" element={<LogAbb />}/>
-				<Route path='/Scarica' element={<RegisterLogin />} />
+				<Route path='/Scarica' element={<Scarica />} />
+				<Route path='/register' element={<Register />} />
+				<Route path='/login' element={<Login />} />
 				<Route path='/Abbonamento' element={<Abbonamento />} />
 				<Route path='/FAQ' element={<FAQ />} />
 				<Route path='/Supporto' element={<Supporto />}/>

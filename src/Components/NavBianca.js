@@ -6,6 +6,8 @@ import Soluzioni from './ulNavBianca.js/Soluzioni';
 import PerTe from './ulNavBianca.js/PerTe';
 import Hard from './ulNavBianca.js/Hard';
 import Soft from './ulNavBianca.js/Soft';
+import { Link } from 'react-router-dom';
+import Register from './RegisterLogin/Register';
 
 export default function NavBianca() {
 	return (
@@ -1110,9 +1112,9 @@ export default function NavBianca() {
 							</ul>
 						</div>
 
-						<a href="https://www.nvidia.com/it-it/account/edit-profile/">
+						<Link to='/Register'>
 							<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</nav>
