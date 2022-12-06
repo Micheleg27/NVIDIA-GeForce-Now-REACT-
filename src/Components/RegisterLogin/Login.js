@@ -1,11 +1,11 @@
-// import { useState } from "react";
-
 function Login() {
-	// const [ password, setPassword ] = useState('');
-	// const [ email, setEmail ] = useState('');
-
 	return (
 		<div>
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+				<h3>Error !</h3>
+				<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" />
+			</div>
+
 			<form
 				action="/login"
 				method="POST"
@@ -21,22 +21,6 @@ function Login() {
 				</div>
 				<button type="submit">Login</button>
 			</form>
-			{/* <input
-				placeholder="Email"
-				type="email"
-				onChange={(e) => {
-					setEmail(e.target.value);
-				}}
-			/>
-			<input
-				placeholder="Password"
-				type="password"
-				onChange={(e) => {
-					setPassword(e.target.value);
-				}}
-			/>
-
-			<button>login</button> */}
 		</div>
 	);
 }
