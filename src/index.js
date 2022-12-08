@@ -16,7 +16,6 @@ import { Supporto } from './pages/Supporto';
 import { Giochi } from './pages/Giochi';
 import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sistema/RequisitiPage';
 import { ServerStatus } from './pages/Serverstatus';
-import { MacOs } from './Components/SupportoComponents/Requisiti-di-Sistema/Componenti-sottomenu';
 import Register from './Components/RegisterLogin/Register';
 import Login from './Components/RegisterLogin/Login'
 
