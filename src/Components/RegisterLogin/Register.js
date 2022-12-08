@@ -5,30 +5,6 @@ import { Button } from "../BasicComponents/Button";
 function Register() {
 	return (
 		<div className="d-flex flex-column align-items-center justify-content-center register-container">
-
-			{/* <div className="alert alert-warning alert-dismissible fade show" role="alert">
-				<h3>Error !</h3>
-				<button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close" />
-			</div> */}
-
-			{/* <form
-				action="/register"
-				method="POST"
-				classNameName="text-light"
-				style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}
-			>
-				<h1>Register</h1>
-				<div>
-					<input type="text" id="username" name="username" placeholder="Username" />
-				</div>
-				<div>
-					<input type="email" id="email" name="email" placeholder="Email" />
-				</div>
-				<div>
-					<input type="password" id="password" name="password" placeholder="Password" />
-				</div>
-				<button type="submit">register</button>
-			</form> */}
 			<div className="d-flex flex-column align-items-center justify-content-center form-button-container">
 				<h2 className="text-light">Il Tuo Account NVIDIA</h2>
 				<p className="text-light mb-5">Inserisci la tua email per creare un account.</p>
@@ -68,10 +44,10 @@ function Register() {
 					</div>
 				</form>
 				<div className="text-light text-center mt-5 mb-3">Procedendo, accetto i
-						<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </Link> 
-						e <br/>
-						<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </Link>
-					</div>
+					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </Link>
+					e <br />
+					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </Link>
+				</div>
 				<div className="mt-4">
 					<Button
 						type="submit"
@@ -79,7 +55,7 @@ function Register() {
 						Continua
 					</Button>
 				</div>
-				
+
 			</div>
 			<div>
 				<div>

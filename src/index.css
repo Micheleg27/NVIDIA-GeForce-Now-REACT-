@@ -3501,8 +3501,7 @@ img {
   src: url(./fonts/DINPro-Regular.ttf);
 }
 .register-container {
-  background-color: #1a1a1a;
-  width: 100vw;
+  width: 100%;
   padding: 100px;
 }
 .register-container .form-button-container {
@@ -3516,7 +3515,7 @@ img {
   text-align: center;
 }
 .register-container .form-button-container form {
-  width: 50%;
+  width: 70%;
 }
 .register-container .form-button-container form input {
   background-color: #1a1a1a;
@@ -3547,6 +3546,10 @@ img {
 .register-container .ad-block-tow span {
   color: #666;
   font-size: 12px;
+}
+
+.register-sfondo {
+  background-color: #1a1a1a !important;
 }
 
 @media all and (max-width: 991px) {
