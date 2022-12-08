@@ -1,5 +1,5 @@
 import List from './List';
-import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX, InformazioniSullAzienda, Seguici, NotizieEdEventi  } from './Data';
+import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX, InformazioniSullAzienda, Seguici, NotizieEdEventi, Product  } from './Data';
 
 export const ListFooter = () => {
 	return (
@@ -68,4 +68,3 @@ export const ListFooter_S_T = () => {
 		</div>
 	);
 };
-

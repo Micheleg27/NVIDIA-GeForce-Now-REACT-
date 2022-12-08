@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -367,6 +369,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1815,13 +1823,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2978,7 +2997,8 @@ footer p a {
   .img-sect-giochi-query1 {
     display: block;
     height: 215px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container-sect-nuovigiochi {
     width: 90%;
@@ -3018,7 +3038,8 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   pointer-events: none;
 }
 
@@ -3043,7 +3064,8 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .handle {
@@ -3501,7 +3523,8 @@ img {
   src: url(./fonts/DINPro-Regular.ttf);
 }
 .register-container {
-  width: 100%;
+  background-color: #1a1a1a;
+  height: 100vh;
   padding: 100px;
 }
 .register-container .form-button-container {
@@ -3548,10 +3571,6 @@ img {
   font-size: 12px;
 }
 
-.register-sfondo {
-  background-color: #1a1a1a !important;
-}
-
 @media all and (max-width: 991px) {
   .register-container .ad-block-one {
     flex-direction: column;
@@ -3593,6 +3612,44 @@ img {
     justify-content: center;
   }
 }
+.amazon-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 250px;
+  padding: 20px;
+}
+
+.cards:hover {
+  box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.image_box img {
+  width: 200px;
+  height: 200px;
+}
+
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.details p:nth-child(3) {
+  font-weight: bolx;
+  color: grey;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -3610,13 +3667,13 @@ body ::-webkit-scrollbar {
   height: 0.1em;
 }
 body ::-webkit-scrollbar-thumb {
-  background-color: #76B900;
+  background-color: #76b900;
 }
 body ::-webkit-scrollbar-thumb:hover {
-  background-color: #76D900;
+  background-color: #76d900;
 }
 body ::-webkit-scrollbar-thumb:active {
-  background-color: #6AA700;
+  background-color: #6aa700;
 }
 
 a {
@@ -3672,6 +3729,4 @@ a {
 .separator-col {
   border: 5px solid yellow;
   cursor: col-resize;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

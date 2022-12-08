@@ -46,70 +46,69 @@
 @import './SASS/ServerStatus';
 @import './SASS/sottomenu';
 @import './SASS/Register-Login';
+@import './SASS/Product';
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
 
 body {
 	background-color: $black-color !important;
 	font-family: "Geforce light";
 	list-style-type: none;
 	text-decoration: none;
-	::-webkit-scrollbar{
-		width:0.1em;
-		height:0.1em;
+	::-webkit-scrollbar {
+		width: 0.1em;
+		height: 0.1em;
 		// margin-right: 10px;
 	}
-	::-webkit-scrollbar-thumb{
-		background-color: #76B900;
+	::-webkit-scrollbar-thumb {
+		background-color: #76b900;
 	}
-	::-webkit-scrollbar-thumb:hover{
-		background-color: #76D900;
+	::-webkit-scrollbar-thumb:hover {
+		background-color: #76d900;
 	}
-	::-webkit-scrollbar-thumb:active{
-		background-color:#6AA700;
+	::-webkit-scrollbar-thumb:active {
+		background-color: #6aa700;
 	}
 }
 
-a{
+a {
 	text-decoration: none !important;
 	color: white !important;
 }
-
 
 .App {
 	font-family: "Segoe UI", sans-serif;
 	font-size: 1.2rem;
 	text-align: center;
-  }
+}
 
-  .split-pane-col {
+.split-pane-col {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-  }
+}
 
-  .split-pane-row {
+.split-pane-row {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
-  }
+}
 
 //   .split-pane-top,
 //   .split-pane-bottom,
-  .split-pane-right,
-  .split-pane-left {
+.split-pane-right,
+.split-pane-left {
 	flex: 1;
 	overflow: hidden;
-  }
+}
 
-  .split-pane-left {
+.split-pane-left {
 	background-position: top left;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
@@ -120,9 +119,9 @@ a{
 	// top: 0;
 	width: 50%;
 	background-image: url(../src/Source/assets_abbonamento/2077-RTXON.jpg);
-  }
+}
 
-  .split-pane-right {
+.split-pane-right {
 	// background-color: #fff;
 	// background-image: linear-gradient(
 	// 	90deg,
@@ -142,71 +141,9 @@ a{
 	// position: absolute;
 	// top: 0;
 	width: 50%;
-  }
+}
 
-//   .split-pane-top,
-//   .split-pane-bottom {
-// 	background-color: #ccc;
-// 	text-align: left;
-// 	padding: 2%;
-//   }
-
-  .separator-col {
+.separator-col {
 	border: 5px solid yellow;
 	cursor: col-resize;
-  }
-
-//   .separator-row {
-// 	border: 5px solid yellow;
-// 	cursor: row-resize;
-//   }
-
-//   ul {
-// 	margin-left: -2%;
-//   }
-
-//   ul li {
-// 	margin: 1rem;
-// 	list-style-type: square;
-//   }
-
-//   ul a {
-// 	text-decoration: none;
-// 	color: darkblue;
-// 	font-size: large;
-//   }
-
-//   ul a:hover {
-// 	color: black;
-//   }
-
-//   blockquote {
-// 	border-left: 10px solid #ccc;
-// 	margin: 5.5em 0 0 0;
-// 	quotes: "\201C""\201D""\2018""\2019";
-// 	padding: 2rem 0 1rem;
-//   }
-
-//   blockquote:before {
-// 	color: #ccc;
-// 	content: open-quote;
-// 	font-size: 4em;
-// 	line-height: 0.1em;
-// 	margin-right: 0.25em;
-// 	vertical-align: -0.4em;
-//   }
-
-//   blockquote p {
-// 	display: inline;
-//   }
-
-//   .quote {
-// 	max-width: 60%;
-// 	text-align: right;
-// 	margin: auto;
-// 	font-style: italic;
-//   }
-
-//   .quote span {
-// 	font-weight: bold;
-//   }
+}

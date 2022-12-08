@@ -4,10 +4,9 @@ import { Prodotti } from './ulNavBianca.js/Prodotti';
 import Settori from './ulNavBianca.js/Settori';
 import Soluzioni from './ulNavBianca.js/Soluzioni';
 import PerTe from './ulNavBianca.js/PerTe';
-import Hard from './ulNavBianca.js/Hard';
-import Soft from './ulNavBianca.js/Soft';
 import { Link } from 'react-router-dom';
-import Register from './RegisterLogin/Register';
+import Cart from './CartComponents/Cart';
+
 
 export default function NavBianca() {
 	return (
@@ -1058,9 +1057,9 @@ export default function NavBianca() {
 							<div className="d-flex">
 								<ul className="navbar-nav justify-content-end">
 									<li>
-										<a id="a" className="nav-link" href="https://www.nvidia.com/it-it/shop/">
+										<Link id="a" className="nav-link" to="/Acquista">
 											Acquista
-										</a>
+										</Link>
 									</li>
 									<li>
 										<a id="a" className="nav-link" href="">
@@ -1107,7 +1106,7 @@ export default function NavBianca() {
 									<button type="button" className="btn-close" aria-label="Close" />
 								</li>
 								<li className="cart-text">
-									<p>Il carrello è vuoto.</p>
+									{/* <Cart /> */}
 								</li>
 							</ul>
 						</div>

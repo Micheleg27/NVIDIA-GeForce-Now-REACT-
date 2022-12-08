@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Log() {
 	const [ username, setUsername ] = useState('');
@@ -23,7 +24,11 @@ function Log() {
 			<div className="ad-container-one">
 				<div className="ad-container">
 					<div className="d-flex justify-content-center">
-						<img className="ad-logo-Nvidia" src="https://login.nvgs.nvidia.com/NVIDIA-Logo.dark.33f4916f178880192ae7.svg" alt="nvidia-logo" />
+						<img
+							className="ad-logo-Nvidia"
+							src="https://login.nvgs.nvidia.com/NVIDIA-Logo.dark.33f4916f178880192ae7.svg"
+							alt="nvidia-logo"
+						/>
 					</div>
 					<div className="ad-text-content">
 						<h2 className="text-light text-center fs-4">Il tuo account NVIDIA</h2>
@@ -37,7 +42,7 @@ function Log() {
 								onChange={(e) => setUsername(e.target.value)}
 							/>
 							<button className="btn" onClick={handleStorage}>
-								Invia
+								<Link to="/">Invia</Link>
 							</button>
 						</div>
 						<div className="ad-link">
@@ -56,7 +61,7 @@ function Log() {
 				</div>
 			</div>
 
-			<footer style={{width:'100%'}}>
+			<footer style={{ width: '100%' }}>
 				<div>
 					<div className="container ad-block-one">
 						<select>

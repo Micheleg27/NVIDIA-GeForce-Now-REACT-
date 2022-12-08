@@ -18,6 +18,7 @@ import { RequisitiPage } from './Components/SupportoComponents/Requisiti-di-Sist
 import { ServerStatus } from './pages/Serverstatus';
 import Register from './Components/RegisterLogin/Register';
 import Login from './Components/RegisterLogin/Login'
+import Amazon from './Components/CartComponents/Amazon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,6 +39,7 @@ root.render(
 				<Route path='/RequisitiDiSistema/*' element={<RequisitiPage />} />
 				<Route path='/Giochi' element={<Giochi />}/>
 				<Route path='/ServerStatus' element={<ServerStatus />} />
+				<Route path='/Acquista' element={<Amazon />}/>
 			</Routes>
 		</Router>
 	</React.StrictMode>
