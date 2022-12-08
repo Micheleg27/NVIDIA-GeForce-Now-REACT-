@@ -3613,12 +3613,12 @@ img {
   }
 }
 .amazon-container {
-  width: 80%;
+  width: 75%;
   margin: auto;
-  margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  background-color: white;
 }
 
 .cards {
