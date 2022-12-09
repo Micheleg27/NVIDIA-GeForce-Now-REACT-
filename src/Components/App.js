@@ -41,19 +41,19 @@ export function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/thanks" element={<ThanksForRegister />} />
 				<Route path="*" element={<Error />} />
-				<Route path="/LogAbb" element={<LogAbb />} />
-				<Route path="/Scarica" element={<Scarica />} />
+				<Route path="/logAbb" element={<LogAbb />} />
+				<Route path="/scarica" element={<Scarica />} />
 				<Route path="/register" element={<Register />} />
 				<Route path="/login" element={<Login />} />
-				<Route path="/Abbonamento" element={<Abbonamento />} />
-				<Route path="/FAQ" element={<FAQ />} />
-				<Route path="/Supporto" element={<Supporto />} />
-				<Route path="/SupportoTecnico" element={<SupportoTecnico />} />
-				<Route path="/RequisitiDiSistema/*" element={<RequisitiPage />} />
-				<Route path="/Giochi" element={<Giochi />} />
-				<Route path="/ServerStatus" element={<ServerStatus />} />
-				<Route path="/Acquista" element={<Amazon handleClick={handleClick} />} />
-				<Route path="/Carrello" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange} />} />
+				<Route path="/abbonamento" element={<Abbonamento />} />
+				<Route path="/faq" element={<FAQ />} />
+				<Route path="/supporto" element={<Supporto />} />
+				<Route path="/supportoTecnico" element={<SupportoTecnico />} />
+				<Route path="/requisitiDiSistema/*" element={<RequisitiPage />} />
+				<Route path="/giochi" element={<Giochi />} />
+				<Route path="/serverStatus" element={<ServerStatus />} />
+				<Route path="/acquista" element={<Amazon handleClick={handleClick} />} />
+				<Route path="/carrello" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange} />} />
 			</Routes>
 		</Router>
 	);

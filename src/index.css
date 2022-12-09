@@ -109,6 +109,8 @@
   .rpFortniteSection .rpContentContainer {
     background-color: white;
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -367,6 +369,12 @@
   background-color: #2b2b2b;
   border: none;
   outline: none;
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage ::-moz-placeholder {
+  color: white;
+}
+.ad-container-one .ad-container .ad-wf-content .ad-storage :-ms-input-placeholder {
   color: white;
 }
 .ad-container-one .ad-container .ad-wf-content .ad-storage ::placeholder {
@@ -1815,13 +1823,24 @@
   width: 100%;
 }
 .mgSliderContainer .mgAnimation1 {
-  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+          animation: scroll 80s linear infinite;
 }
 .mgSliderContainer .mgAnimation2 {
-  animation: scroll 70s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+          animation: scroll 70s linear infinite;
 }
 .mgSliderContainer .mgAnimation3 {
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 60s linear infinite;
+          animation: scroll 60s linear infinite;
+}
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5120px);
+  }
 }
 @keyframes scroll {
   0% {
@@ -2978,7 +2997,8 @@ footer p a {
   .img-sect-giochi-query1 {
     display: block;
     height: 215px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container-sect-nuovigiochi {
     width: 90%;
@@ -3018,7 +3038,8 @@ img {
   vertical-align: middle;
   -moz-user-select: none;
   -webkit-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   pointer-events: none;
 }
 
@@ -3043,7 +3064,8 @@ img {
 
 .comparison-item.top img {
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .handle {
@@ -3784,6 +3806,4 @@ a {
 .separator-col {
   border: 5px solid yellow;
   cursor: col-resize;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

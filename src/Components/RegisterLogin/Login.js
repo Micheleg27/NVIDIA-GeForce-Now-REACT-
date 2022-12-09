@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Button } from "../BasicComponents/Button";
 
 function Login() {
@@ -8,14 +7,14 @@ function Login() {
 				<h2 className="text-light">Il Tuo Account NVIDIA</h2>
 				<p className="text-light mb-5">Inserisci la tua email per creare un account.</p>
 				<form className="text-light was-validated"
-					action="/register"
+					action="/login"
 					method="POST"
 					novalidate>
 					<div>
-						<label for="validationCustom01" className="form-label">Username</label>
-						<input type="text" className="form-control" id="validationCustom01" placeholder="Username" required />
+						<label for="validationCustom03" className="form-label">E-mail</label>
+						<input type="email" className="form-control" id="validationCustom03" placeholder="E-mail" required />
 						<div className="invalid-feedback">
-							Username is required!
+							E-mail is required!
 						</div>
 					</div>
 					<div >
@@ -36,9 +35,9 @@ function Login() {
 					</div>
 				</form>
 				<div className="text-light text-center mt-5 mb-3">Procedendo, accetto i
-					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </Link>
+					<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </a>
 					e <br />
-					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </Link>
+					<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </a>
 				</div>
 				<div className="mt-4">
 					<Button

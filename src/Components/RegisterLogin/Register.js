@@ -44,9 +44,9 @@ function Register() {
 					</div>
 				</form>
 				<div className="text-light text-center mt-5 mb-3">Procedendo, accetto i
-					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </Link>
+					<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/"> Termini d'uso dell'account NVIDIA </a>
 					e <br />
-					<Link id="ad-a-green" to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </Link>
+					<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/"> Informativa sulla privacy </a>
 				</div>
 				<div className="mt-4">
 					<Button
