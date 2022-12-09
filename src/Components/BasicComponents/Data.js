@@ -153,42 +153,42 @@ export const Product = [
 	{
 		id: 1,
 		title: 'TITAN',
-		price: 89,
+		price: 4300,
 		img: 'https://www.nvidia.com/content/dam/en-zz/Solutions/titan/titan-rtx/RTXTitan_Front.png',
 		amount: 1
 	},
 	{
 		id: 2,
 		title: 'GEFORCE',
-		price: 98,
-		img: 'https://www.nvidia.com/content/dam/en-zz/Solutions/shop/geforce-rtx-30-series-graphics-cards-297x154.jpg',
+		price: 2700,
+		img: "../../Source/assets_Prodotti/RTX_4090.png",
 		amount: 1
 	},
 	{
 		id: 3,
 		title: 'SHIELD',
 		price: 143,
-		img: 'https://www.nvidia.com/content/dam/en-zz/Solutions/shop/shield-tv-shop-188x154.jpg',
+		img: "../../Source/assets_Prodotti/TelecomandoNvidia.png",
 		amount: 1
 	},
 	{
 		id: 4,
 		title: 'NVIDIA JETSON',
-		price: 57,
+		price: 150,
 		img: 'https://www.nvidia.com/content/dam/en-zz/Solutions/shop/nvidia-shop-jetson-nano-297x100.png',
 		amount: 1
 	},
 	{
 		id: 5,
 		title: 'QUADRO',
-		price: 149,
-		img: 'https://www.nvidia.com/content/dam/en-zz/Solutions/shop/nvidia-consumer-store-portal-quadro-297-um.jpg',
+		price: 6000,
+		img: "../../Source/assets_Prodotti/Quadro.png",
 		amount: 1
 	},
 	{
 		id: 6,
 		title: 'NVIDIA GPU CLOUD',
-		price: 135,
+		price: 550,
 		img: 'https://www.nvidia.com/content/dam/en-zz/cs/homepage/gpu-cloud-img-01.png',
 		amount: 1
 	}

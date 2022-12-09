@@ -7,7 +7,6 @@ import PerTe from './ulNavBianca.js/PerTe';
 import { Link } from 'react-router-dom';
 import Cart from './CartComponents/Cart';
 
-
 export default function NavBianca() {
 	return (
 		<div className="bg-light">
@@ -1090,28 +1089,10 @@ export default function NavBianca() {
 							<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
 						</svg>
 
-						{/* <div className="dropstart">
-							<div
-								className=" dropdown-toggle"
-								type="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								<BsCart3 size="25px" style={{ cursor: 'pointer' }} />
-							</div>
-							<ul className="dropdown-menu cart">
-								<div className="triangle" />
-								<li className="cart-content">
-									<h2>CART</h2>
-									<button type="button" className="btn-close" aria-label="Close" />
-								</li>
-								<li className="cart-text">
-									<Cart />
-								</li>
-							</ul>
-						</div> */}
-						<Link to='/Carrello'><BsCart3 size="25px" style={{ cursor: 'pointer', color:'black' }}/></Link>
-						<Link to='/Register'>
+						<Link to="/Carrello">
+							<BsCart3 size="25px" style={{ cursor: 'pointer', color: 'black' }} />
+						</Link>
+						<Link to="/Register">
 							<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
 						</Link>
 					</div>

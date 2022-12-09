@@ -1,6 +1,8 @@
+import {Button}  from '../BasicComponents/Button';
 import React, { useState, useEffect } from 'react';
 
-const Cart = ({ cart, setCart, handleChange}) => {
+
+const Cart = ({ cart, setCart, handleChange }) => {
 	const [ price, setPrice ] = useState(0);
 
 	const handleRemove = (id) => {
@@ -20,27 +22,27 @@ const Cart = ({ cart, setCart, handleChange}) => {
 	});
 
 	return (
-		<article>
+		<article className='text-light'>
 			{cart.map((item) => (
-				<div key={item.id}>
-					<div>
+				<div className="cart_box" key={item.id}>
+					<div className="cart_img">
 						<img src={item.img} alt="" />
 						<p>{item.title}</p>
 					</div>
 					<div>
-						<button onClick={() => handleChange(item, 1)}>+</button>
-						<button>{item.amount}</button>
-						<button onClick={() => handleChange(item, -1)}>-</button>
+						<Button onClick={() => handleChange(item, 1)}>+</Button>
+						<div className='count'>{item.amount}</div>
+						<Button onClick={() => handleChange(item, -1)}>-</Button>
 					</div>
 					<div>
-						<span>{item.price}</span>
-						<button onClick={() => handleRemove(item.id)}>Remove</button>
+						<div >{item.price}</div>
+						<Button onClick={() => handleRemove(item.id)}>Rimuovi</Button>
 					</div>
 				</div>
 			))}
-			<div>
-				<span>Total Price of your Cart</span>
-				<span>Rs - {price}</span>
+			<div className="total">
+				<span>Totale Carrello :</span>
+				<span>€ {price}</span>
 			</div>
 		</article>
 	);

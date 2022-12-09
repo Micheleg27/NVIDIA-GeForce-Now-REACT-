@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Product } from '../BasicComponents/Data';
 import SchedaProdotto from './SchedaProdotto';
 import NavBianca from '../NavBianca';
 import FooterBianco from '../FooterBianco';
 
-function Amazon({handleClick}) {
-	
-
+function Amazon({ handleClick }) {
 	return (
 		<React.Fragment>
 			<NavBianca />

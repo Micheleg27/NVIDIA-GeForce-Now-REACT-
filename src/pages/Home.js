@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Alert from '../Components/Alert';
 import Lingua from '../Components/Lingua';
 import Fortnite from '../Components/Fortnite';
 import Joystick from '../Components/Joystick';
-import {NavNera} from '../Components/NavNera';
+import { NavNera } from '../Components/NavNera';
 import { NewGeneration } from '../Components/NewGeneration';
 import { GetIn } from '../Components/GetIn';
-import  SystemRequired  from '../Components/SystemRequired';
+import SystemRequired from '../Components/SystemRequired';
 import FooterBianco from '../Components/FooterBianco';
 import { FollowSocial } from '../Components/FollowSocial';
 import GreenBannerNav from '../Components/GreenBannerNav';
@@ -20,16 +20,9 @@ import { OltreMille } from '../Components/OltreMille';
 import NavBianca from '../Components/NavBianca';
 import { NuoviGiochi } from '../Components/NuoviGiochi';
 import CardAbbonamento from '../Components/CardAbbonamento';
-import Amazon from '../Components/CartComponents/Amazon';
-import Cart from '../Components/CartComponents/Cart';
-import { Route, Routes } from 'react-router-dom';
-
-
 
 function Home() {
-	
 	return (
-			
 		<React.Fragment>
 			{/* <Lingua /> */}
 			{/* <Alert /> */}
@@ -40,7 +33,7 @@ function Home() {
 			<NewGeneration />
 			<OltreMille />
 			<Fortnite />
-			<NuoviGiochi/>
+			<NuoviGiochi />
 			<CloudGaming />
 			<TuttiGiocano />
 			<SoloGeforce />

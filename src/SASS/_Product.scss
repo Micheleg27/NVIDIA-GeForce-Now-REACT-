@@ -1,13 +1,14 @@
 // PAGE ACQUISTA
 
 .amazon-container {
-	width: 75%;
+	width: 55%;
+	height: 100vh;
 	margin: auto;
-	// margin-top: 5%;
+	text-align: center;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
-    background-color: white;
+	// background-color: white;
 }
 
 .cards {
@@ -26,8 +27,8 @@
 // }
 
 .image_box img {
-	width: 200px;
-	height: 200px;
+	width: 110%;
+	height: 110%;
 }
 
 .details p:nth-child(1) {
@@ -44,3 +45,65 @@
 
 // CARRELLO
 
+article {
+	width: 60%;
+	margin: auto;
+}
+
+.cart_box img {
+	width: 40%;
+	height: 40%;
+}
+.cart_img {
+	display: flex;
+	width: 50%;
+}
+
+.cart_img p {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.cart_box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+	border-bottom: 2px solid $primary-color;
+	padding-bottom: 5px;
+}
+
+article div:nth-child(2) .count {
+	background-color: #333;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.cart_box div:nth-child(3) div {
+	background-color: #333;
+	color: white;
+	padding: 5px 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.total {
+	display: flex;
+	justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+	margin-top: 30px;
+	font-size: 1.5rem;
+	color:  $primary-color;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+	margin-top: 30px;
+	font-size: 1.5rem;
+	color: white;
+	font-weight: bold;
+}
