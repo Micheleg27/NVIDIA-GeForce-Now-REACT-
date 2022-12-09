@@ -4,13 +4,8 @@ import SchedaProdotto from './SchedaProdotto';
 import NavBianca from '../NavBianca';
 import FooterBianco from '../FooterBianco';
 
-function Amazon() {
-	const [ cart, setCart ] = useState([]);
-
-	const handleClick = (item) => {
-		if (cart.indexOf(item) !== -1) return;
-		setCart([ ...cart, item ]);
-	};
+function Amazon({handleClick}) {
+	
 
 	return (
 		<React.Fragment>

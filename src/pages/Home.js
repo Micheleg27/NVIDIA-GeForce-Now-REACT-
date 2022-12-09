@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Alert from '../Components/Alert';
 import Lingua from '../Components/Lingua';
 import Fortnite from '../Components/Fortnite';
@@ -20,11 +20,16 @@ import { OltreMille } from '../Components/OltreMille';
 import NavBianca from '../Components/NavBianca';
 import { NuoviGiochi } from '../Components/NuoviGiochi';
 import CardAbbonamento from '../Components/CardAbbonamento';
+import Amazon from '../Components/CartComponents/Amazon';
+import Cart from '../Components/CartComponents/Cart';
+import { Route, Routes } from 'react-router-dom';
 
 
 
 function Home() {
+	
 	return (
+			
 		<React.Fragment>
 			{/* <Lingua /> */}
 			{/* <Alert /> */}

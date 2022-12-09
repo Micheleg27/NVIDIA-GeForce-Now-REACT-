@@ -1,16 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const Cart = ({ cart, setCart}) => {
+const Cart = ({ cart, setCart, handleChange}) => {
 	const [ price, setPrice ] = useState(0);
-
-	const handleChange = (item, d) => {
-		const ind = cart.indexOf(item);
-		const arr = cart;
-		arr[ind].amount += d;
-
-		if (arr[ind].amount === 0) arr[ind].amount = 1;
-		setCart([ ...arr ]);
-	};
 
 	const handleRemove = (id) => {
 		const arr = cart.filter((item) => item.id !== id);
