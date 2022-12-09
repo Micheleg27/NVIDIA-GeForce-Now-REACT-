@@ -8,9 +8,11 @@ function Amazon({ handleClick }) {
 	return (
 		<React.Fragment>
 			<NavBianca />
-			<section className="amazon-container">
-				{Product.map((item) => <SchedaProdotto key={item.id} item={item} handleClick={handleClick} />)}
-			</section>
+			<div className='container'>
+				<section className="amazon-container text-center">
+					{Product.map((item) => <SchedaProdotto key={item.id} item={item} handleClick={handleClick} />)}
+				</section>
+			</div>
 			<FooterBianco />
 		</React.Fragment>
 	);

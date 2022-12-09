@@ -1,46 +1,48 @@
 // PAGE ACQUISTA
 
 .amazon-container {
-	width: 55%;
+	width: 100%;
 	height: 100vh;
 	margin: auto;
 	text-align: center;
+	align-items: center;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
-	// background-color: white;
+	gap: 20px;
+
+	.cards:hover {
+		box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+		cursor: pointer;
+	}
+
+	.cards {
+		.image_box img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.details p:nth-child(1) {
+			font-weight: bold;
+		}
+
+		.details p:nth-child(2) {
+			color: grey;
+			font-size: 0.8rem;
+		}
+
+		.details p:nth-child(3) {
+			font-weight: bold;
+			color: grey;
+		}
+	}
 }
 
-.cards {
-	width: 250px;
-	padding: 20px;
-}
-
-.cards:hover {
-	box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
-	cursor: pointer;
-}
-
-// .image_box img {
-// 	width: 150px;
-// 	height: 200px;
-// }
-
-.image_box img {
-	width: 110%;
-	height: 110%;
-}
-
-.details p:nth-child(1) {
-	font-weight: bold;
-}
-.details p:nth-child(2) {
-	color: grey;
-	font-size: 0.8rem;
-}
-.details p:nth-child(3) {
-	font-weight: bolx;
-	color: grey;
+@media all and (max-width:638px) {
+	.amazon-container {
+		grid-template-columns: repeat(1, 1fr);
+		height: 100% !important;
+	}
 }
 
 // CARRELLO
@@ -48,62 +50,99 @@
 article {
 	width: 60%;
 	margin: auto;
+	.cart_box {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 20px;
+		border-bottom: 2px solid $primary-color;
+		padding-bottom: 5px;
+		.cart_img {
+			display: flex;
+			width: 50%;
+			gap:50px;
+			img {
+				width: 40%;
+				height: 40%;
+			}
+		}
+		.count {
+			background-color: #333;
+			color: white;
+			padding: 5px 10px;
+			text-align: center;
+		}
+		div:nth-child(3) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			div {
+				background-color: #333;
+				color: white;
+				padding: 5px 10px;
+				margin-bottom: 10px;
+				text-align: center;
+			}
+		}
+	}
+	.total {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		margin: 50px 0;
+		span:nth-child(1) {
+			font-size: 1.5rem;
+			color: $primary-color;
+			font-weight: bold;
+			letter-spacing: 2px;
+		}
+		span:nth-child(2) {
+			font-size: 1.5rem;
+			color: white;
+			font-weight: bold;
+		}
+	}
 }
 
-.cart_box img {
-	width: 40%;
-	height: 40%;
-}
-.cart_img {
-	display: flex;
-	width: 50%;
+@media all and (max-width:638px) {
+	article {
+		.cart_box {
+			flex-direction: column;;
+			div:nth-child(2) {
+				display: flex;
+			}
+			.cart_img {
+				flex-direction: column-reverse;
+				align-items: center;
+				img {
+					width: 100%;
+					height: 100%;
+					margin-bottom: 20px;
+				}
+				p{
+					text-align: center;
+				}
+			}
+			div:nth-child(3) {
+
+			}
+		}
+	}
 }
 
-.cart_img p {
-	font-weight: bold;
-	margin-left: 10px;
-}
 
-.cart_box {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 20px;
-	border-bottom: 2px solid $primary-color;
-	padding-bottom: 5px;
-}
 
-article div:nth-child(2) .count {
-	background-color: #333;
-	color: white;
-	padding: 5px 10px;
-	text-align: center;
-}
 
-.cart_box div:nth-child(3) div {
-	background-color: #333;
-	color: white;
-	padding: 5px 10px;
-	margin: 10px;
-	text-align: center;
-}
 
-.total {
-	display: flex;
-	justify-content: space-between;
-}
 
-.total span:nth-child(1) {
-	margin-top: 30px;
-	font-size: 1.5rem;
-	color:  $primary-color;
-	font-weight: bold;
-	letter-spacing: 2px;
-}
 
-.total span:nth-child(2) {
-	margin-top: 30px;
-	font-size: 1.5rem;
-	color: white;
-	font-weight: bold;
-}
+
+
+
+
+
+
+
+
+

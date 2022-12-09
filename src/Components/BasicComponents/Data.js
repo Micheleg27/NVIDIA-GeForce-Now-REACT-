@@ -1,3 +1,6 @@
+import RTX4090 from '../../Source/assets_Prodotti/RTX_4090.png'
+import telecomando from '../../Source/assets_Prodotti/TelecomandoNvidia.png'
+import quadro from '../../Source/assets_Prodotti/Quadro.png'
 // Footer Nero
 
 export const INFORMAZIONI = [
@@ -161,14 +164,14 @@ export const Product = [
 		id: 2,
 		title: 'GEFORCE',
 		price: 2700,
-		img: "../../Source/assets_Prodotti/RTX_4090.png",
+		img: RTX4090,
 		amount: 1
 	},
 	{
 		id: 3,
 		title: 'SHIELD',
 		price: 143,
-		img: "../../Source/assets_Prodotti/TelecomandoNvidia.png",
+		img: telecomando,
 		amount: 1
 	},
 	{
@@ -182,7 +185,7 @@ export const Product = [
 		id: 5,
 		title: 'QUADRO',
 		price: 6000,
-		img: "../../Source/assets_Prodotti/Quadro.png",
+		img: quadro,
 		amount: 1
 	},
 	{
