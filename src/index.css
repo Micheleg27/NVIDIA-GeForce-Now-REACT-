@@ -3547,6 +3547,7 @@ img {
   background-color: #1a1a1a;
   color: white;
   border-radius: 0;
+  border: none;
 }
 .register-container .form-button-container #ad-a-green {
   color: #76B900 !important;

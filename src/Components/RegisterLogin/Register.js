@@ -6,74 +6,17 @@ function Register() {
 			<div className="d-flex flex-column align-items-center justify-content-center form-button-container">
 				<h2 className="text-light">Il Tuo Account NVIDIA</h2>
 				<p className="text-light mb-5">Inserisci la tua email per creare un account.</p>
-				<form className="text-light was-validated" 
-				    action="/register" 
-					method="POST" 
-					novalidate>
-					<div>
-						<label for="validationCustom01" className="form-label">
-							Username
-						</label>
-						<input
-							type="text"
-							className="form-control"
-							id="validationCustom01"
-							placeholder="Username"
-							required
-						/>
-						<div className="invalid-feedback">Username is required!</div>
+				<form action="/register" method="POST">
+					<div className='mb-3'>
+						<input type="text" id="username" name="username" placeholder="Username" required />
 					</div>
-
-					<div>
-						<label for="validationCustom03" className="form-label">
-							E-mail
-						</label>
-						<input
-							type="email"
-							className="form-control"
-							id="validationCustom03"
-							placeholder="E-mail"
-							required
-						/>
-						<div className="invalid-feedback">E-mail is required!</div>
+					<div className='mb-3'>
+						<input type="email" id="email" name="email" placeholder="Email" required />
 					</div>
-
-					<div>
-						<label for="validationCustom02" className="form-label">
-							Password
-						</label>
-						<input
-							type="password"
-							className="form-control"
-							id="validationCustom02"
-							placeholder="Password"
-							required
-						/>
-						<div className="invalid-feedback">Password needs minimum 8 characters!</div>
+					<div className='mb-5'>
+						<input type="password" id="password" name="password" placeholder="Password" required />
 					</div>
-
-					<div>
-						<div className="form-check">
-							<input className="form-check-input" type="checkbox" value="" />
-							<label className="form-check-label">Rimani connesso</label>
-						</div>
-					</div>
-
-					<div className="text-light text-center mt-5 mb-3">
-						Procedendo, accetto i
-						<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/nv-accounts/">
-							Termini d'uso dell'account NVIDIA
-						</a>
-						e <br />
-						<a id="ad-a-green" href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/">
-							Informativa sulla privacy
-						</a>
-					</div>
-					<div className="mt-4">
-						<Button type="submit" buttonSize="BTN--medium">
-							Continua
-						</Button>
-					</div>
+					<Button type="submit"  buttonSize='BTN--medium'>Login</Button>
 				</form>
 			</div>
 
