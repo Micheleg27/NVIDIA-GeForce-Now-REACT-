@@ -14,7 +14,6 @@ const app = express();
 // app.use(express.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(bodyParser.json());
 
 const port = process.env.PORT || 5000;
 
@@ -45,7 +44,7 @@ app.post(
 );
 
 // app.get('/login', (req, res) => {
-//   res.send('GET request to the homepage')
+// 	res.redirect('http://localhost:3000');
 // })
 
 app.post(
