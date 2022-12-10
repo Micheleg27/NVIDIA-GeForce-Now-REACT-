@@ -6,7 +6,10 @@ function Login() {
 			<div className="d-flex flex-column align-items-center justify-content-center form-button-container">
 				<h2 className="text-light">Il Tuo Account NVIDIA</h2>
 				<p className="text-light mb-5">Inserisci la tua email per creare un account.</p>
-				<form className="text-light was-validated" action="/login" method="POST" novalidate>
+				<form className="text-light was-validated" 
+				    action="/login" 
+					method="POST" 
+					novalidate>
 					<div>
 						<label for="validationCustom03" className="form-label">
 							E-mail

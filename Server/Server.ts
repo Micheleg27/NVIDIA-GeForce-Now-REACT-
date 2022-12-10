@@ -43,9 +43,18 @@ app.post(
 	}
 );
 
-// app.get('/login', (req, res) => {
-// 	res.redirect('http://localhost:3000');
-// })
+// app.get('/login', async(req: Request, res: Response) => {
+//     const response = await prisma.user.findMany({
+// 		where: {
+// 			email: req.body.email
+// 		}
+// 	});
+
+//     await prisma.$disconnect();
+//     res.send(JSON.stringify(response));
+// 	// res.render('Login.js');
+// });
+
 
 app.post(
 	'/login',

@@ -3538,6 +3538,9 @@ img {
   text-align: center;
 }
 .register-container .form-button-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 70%;
 }
 .register-container .form-button-container form input {
