@@ -15,7 +15,7 @@ function CarteRegalo() {
                         </p>
                         <p>Attiva l'abbonamento o regala il potente PC gaming a una persona speciale.</p>
                     </div>
-                    <Button buttonSize="BTN--medium">
+                    <Button buttonSize="BTN--large">
                         <a id="ad-link-btn" href="#">
                             SCOPRI DI PIù
                         </a>

@@ -24,8 +24,8 @@ import CardAbbonamento from '../Components/CardAbbonamento';
 function Home() {
 	return (
 		<React.Fragment>
-			{/* <Lingua /> */}
-			{/* <Alert /> */}
+			<Lingua />
+			<Alert />
 			<NavBianca />
 			<GreenBannerNav />
 			<NavNera />

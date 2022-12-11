@@ -153,10 +153,11 @@
     margin: 0;
   }
 }
-.alert-warning {
+.dimensione .alert-warning {
   box-shadow: 0 0 4px #888;
   position: fixed;
   margin: auto;
+  top: 0;
   z-index: 2147483647;
   width: 400px;
   height: 170px;
@@ -164,22 +165,22 @@
   border: none;
   border-radius: 0 !important;
 }
-.alert-warning .ad-alert-content {
+.dimensione .alert-warning .ad-alert-content {
   gap: 15px;
 }
-.alert-warning .ad-alert-content h3 {
+.dimensione .alert-warning .ad-alert-content h3 {
   font-family: "Geforce bold";
   font-size: 16px;
 }
-.alert-warning .ad-alert-content p {
+.dimensione .alert-warning .ad-alert-content p {
   font-family: "Geforce light";
   font-size: 14px;
 }
-.alert-warning .btn-alert-container {
+.dimensione .alert-warning .btn-alert-container {
   display: flex;
   justify-content: flex-end;
 }
-.alert-warning .btn-alert-container .ad-btn-alert-one {
+.dimensione .alert-warning .btn-alert-container .ad-btn-alert-one {
   width: 78px;
   height: 40px;
   margin-right: 10px;
@@ -187,7 +188,7 @@
   background-color: white;
   color: #76B900;
 }
-.alert-warning .btn-alert-container .ad-btn-alert-two {
+.dimensione .alert-warning .btn-alert-container .ad-btn-alert-two {
   width: 58px;
   height: 40px;
   border: none;
@@ -250,32 +251,36 @@
     width: 95%;
   }
 }
-.container-country-region {
+.dimensione {
+  width: 100vw;
+  z-index: 2147483647;
+}
+.dimensione .container-country-region {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 740px;
+  width: 50%;
   height: auto;
   box-shadow: 0 0 4px #888;
   position: fixed;
-  left: 710px;
-  top: 172px;
+  top: 180px;
   z-index: 2147483647;
   background-color: white;
   border: none;
   border-radius: 0;
+  padding: 20px;
 }
-.container-country-region .header-container-lingua {
+.dimensione .container-country-region .header-container-lingua {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
 }
-.container-country-region .header-container-lingua p {
+.dimensione .container-country-region .header-container-lingua p {
   text-align: center;
   font-weight: bold;
 }
-.container-country-region .header-container-lingua .button-region {
+.dimensione .container-country-region .header-container-lingua .button-region {
   width: 80px;
   height: 50px;
   padding: 13px 15px 8px;
@@ -285,17 +290,22 @@
   color: white;
   border: none;
 }
-.container-country-region .list-region {
+.dimensione .container-country-region .list-region {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.container-country-region a {
+.dimensione .container-country-region a {
   margin: 10px;
   color: rgb(118, 185, 0) !important;
   text-decoration: none;
   font-family: "Geforce bold";
 }
 
+@media all and (max-width: 638px) {
+  .dimensione .container-country-region {
+    width: 90%;
+  }
+}
 @font-face {
   font-family: "Geforce bold";
   src: url(./fonts/Geforce\ Bold.ttf);
@@ -3630,6 +3640,11 @@ img {
 .amazon-container .cards:hover {
   box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
   cursor: pointer;
+}
+.amazon-container .cards .image_box {
+  height: 200px;
+  display: flex;
+  align-items: center;
 }
 .amazon-container .cards .image_box img {
   width: 100%;

@@ -1,6 +1,6 @@
-import {Button}  from '../BasicComponents/Button';
+import { Button } from '../BasicComponents/Button';
 import React, { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 
 const Cart = ({ cart, setCart, handleChange }) => {
 	const [ price, setPrice ] = useState(0);
@@ -22,7 +22,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
 	});
 
 	return (
-		<article className='text-light'>
+		<article className="text-light">
 			{cart.map((item) => (
 				<div className="cart_box" key={item.id}>
 					<div className="cart_img">
@@ -31,11 +31,11 @@ const Cart = ({ cart, setCart, handleChange }) => {
 					</div>
 					<div>
 						<Button onClick={() => handleChange(item, 1)}>+</Button>
-						<div className='count'>{item.amount}</div>
+						<div className="count">{item.amount}</div>
 						<Button onClick={() => handleChange(item, -1)}>-</Button>
 					</div>
 					<div>
-						<div >{item.price}</div>
+						<div>{item.price}</div>
 						<Button onClick={() => handleRemove(item.id)}>Rimuovi</Button>
 					</div>
 				</div>
@@ -43,6 +43,12 @@ const Cart = ({ cart, setCart, handleChange }) => {
 			<div className="total">
 				<span>Totale Carrello :</span>
 				<span>€ {price}</span>
+			</div>
+			<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+				<Button buttonSize="BTN--medium">
+					<Link to="/">Home</Link>
+				</Button>
+				<Button buttonSize="BTN--medium">checkout</Button>
 			</div>
 		</article>
 	);

@@ -34,7 +34,7 @@ function NuovaGenerazione() {
 							del cloud gaming.
 						</p>
 					</div>
-					<Button buttonSize="BTN--medium">
+					<Button buttonSize="BTN--large">
 						<a id="ad-link-btn" href="#">
 							REGISTRATI OGGI
 						</a>

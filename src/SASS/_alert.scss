@@ -1,49 +1,50 @@
-.alert-warning {
-	box-shadow: 0 0 4px #888;
-	position: fixed;
-	margin: auto;
-	// left: 800px;
-	// bottom: 300px;
-	z-index: 2147483647;
-	width: 400px;
-	height: 170px;
-	background-color: white !important;
-	border: none;
-	border-radius: 0 !important;
-
-	.ad-alert-content {
-		gap: 15px;
-
-		h3 {
-			font-family: "Geforce bold";
-			font-size: 16px;
+.dimensione{
+	.alert-warning {
+		box-shadow: 0 0 4px #888;
+		position: fixed;
+		margin: auto;
+		top: 0;
+		z-index: 2147483647;
+		width: 400px;
+		height: 170px;
+		background-color: white !important;
+		border: none;
+		border-radius: 0 !important;
+	
+		.ad-alert-content {
+			gap: 15px;
+	
+			h3 {
+				font-family: "Geforce bold";
+				font-size: 16px;
+			}
+	
+			p {
+				font-family: "Geforce light";
+				font-size: 14px;
+			}
 		}
-
-		p {
-			font-family: "Geforce light";
-			font-size: 14px;
-		}
-	}
-
-	.btn-alert-container {
-		display: flex;
-		justify-content: flex-end;
-
-		.ad-btn-alert-one {
-			width: 78px;
-			height: 40px;
-			margin-right: 10px;
-			border: none;
-			background-color: white;
-			color: $primary-color;
-		}
-
-		.ad-btn-alert-two {
-			width: 58px;
-			height: 40px;
-			border: none;
-			background-color: $primary-color;
-			color: white;
+	
+		.btn-alert-container {
+			display: flex;
+			justify-content: flex-end;
+	
+			.ad-btn-alert-one {
+				width: 78px;
+				height: 40px;
+				margin-right: 10px;
+				border: none;
+				background-color: white;
+				color: $primary-color;
+			}
+	
+			.ad-btn-alert-two {
+				width: 58px;
+				height: 40px;
+				border: none;
+				background-color: $primary-color;
+				color: white;
+			}
 		}
 	}
 }

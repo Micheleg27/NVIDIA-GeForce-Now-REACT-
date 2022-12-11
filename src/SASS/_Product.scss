@@ -17,9 +17,14 @@
 	}
 
 	.cards {
-		.image_box img {
-			width: 100%;
-			margin-bottom: 10px;
+		.image_box {
+			height: 200px;
+			display: flex;
+			align-items: center;
+			img {
+				width: 100%;
+				margin-bottom: 10px;
+			}
 		}
 
 		.details p:nth-child(1) {
@@ -38,7 +43,7 @@
 	}
 }
 
-@media all and (max-width:638px) {
+@media all and (max-width: 638px) {
 	.amazon-container {
 		grid-template-columns: repeat(1, 1fr);
 		height: 100% !important;
@@ -60,7 +65,7 @@ article {
 		.cart_img {
 			display: flex;
 			width: 50%;
-			gap:50px;
+			gap: 50px;
 			img {
 				width: 40%;
 				height: 40%;
@@ -89,7 +94,7 @@ article {
 	.total {
 		display: flex;
 		justify-content: space-between;
-		align-items:center;
+		align-items: center;
 		margin: 50px 0;
 		span:nth-child(1) {
 			font-size: 1.5rem;
@@ -105,10 +110,10 @@ article {
 	}
 }
 
-@media all and (max-width:638px) {
+@media all and (max-width: 638px) {
 	article {
 		.cart_box {
-			flex-direction: column;;
+			flex-direction: column;
 			div:nth-child(2) {
 				display: flex;
 			}
@@ -120,29 +125,12 @@ article {
 					height: 100%;
 					margin-bottom: 20px;
 				}
-				p{
+				p {
 					text-align: center;
 				}
 			}
 			div:nth-child(3) {
-
 			}
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

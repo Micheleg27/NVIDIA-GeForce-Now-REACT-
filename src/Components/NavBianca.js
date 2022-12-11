@@ -1054,7 +1054,7 @@ export default function NavBianca() {
 							</div>
 
 							<div className="d-flex">
-								<ul className="navbar-nav justify-content-end">
+								<ul className="navbar-nav justify-content-end ms-3">
 									<li>
 										<Link id="a" className="nav-link" to="/Acquista">
 											Acquista

@@ -5,7 +5,7 @@ export function NavSupportoTecnico() {
 		<div>
 			<nav className="navbar navbar-dark navbar-expand-lg">
 				<div className="container-fluid">
-					<Link className="navbar-brand" to="">
+					<Link className="navbar-brand" to="/supporto">
 						Supporto
 					</Link>
 					<div

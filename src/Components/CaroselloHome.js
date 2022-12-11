@@ -29,7 +29,7 @@ function CaroselloHome() {
 					<div class="carousel-item active">
 						<div id="fortnite-banner" />
 						<div class="sv-text position-absolute">
-							<h3>Fornite: Pronti Per La Battaglia</h3>
+							<h3>Fortnite: Pronti Per La Battaglia</h3>
 							<span>Prestazioni GeForce Reali</span>
 							<div style={{marginTop:'20px'}}>
 							<Button type="button" buttonSize="BTN--medium" buttonStyle="btn--primary--green" >
