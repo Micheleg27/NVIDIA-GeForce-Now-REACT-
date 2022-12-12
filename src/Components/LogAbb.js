@@ -46,16 +46,16 @@ function Log() {
 							</button>
 						</div>
 						<div className="ad-link">
-							<a id="ad-a-green" href="#" target="_blank">
+							<Link id="ad-a-green" to="#" target="_blank">
 								Gestisci account
-							</a>
-							<a
+							</Link>
+							<Link
 								id="ad-a-green"
-								href="https://login.nvgs.nvidia.com/v1/login/identifier?key=eyJhbGciOiJIUzI1NiJ9.eyJzZSI6Ild5b2MiLCJ0b2tlbklkIjoiMTAwNzI5MDU5NDI1NjIyNDI1NiIsIm90IjoiMTAwNzI5MDYwODMzMzA5OTAwOCIsImV4cCI6MTY2MDMxMzU5NSwiaWF0IjoxNjYwMjI3MTk1LCJqdGkiOiI0MWNjNWE1Ny04NTA0LTQ2NWItODU5My1iNmYyOWU5N2YxZWIifQ.7PoP_uL6PVCwFrpX-hfhwkQot3eQRZv_f2RuKhFZbt4&client_id=310670192232366513&prompt=default&context=reset&theme=Noir&preferred_nvidia=true&locale=it-IT"
+								to="https://login.nvgs.nvidia.com/v1/login/identifier?key=eyJhbGciOiJIUzI1NiJ9.eyJzZSI6Ild5b2MiLCJ0b2tlbklkIjoiMTAwNzI5MDU5NDI1NjIyNDI1NiIsIm90IjoiMTAwNzI5MDYwODMzMzA5OTAwOCIsImV4cCI6MTY2MDMxMzU5NSwiaWF0IjoxNjYwMjI3MTk1LCJqdGkiOiI0MWNjNWE1Ny04NTA0LTQ2NWItODU5My1iNmYyOWU5N2YxZWIifQ.7PoP_uL6PVCwFrpX-hfhwkQot3eQRZv_f2RuKhFZbt4&client_id=310670192232366513&prompt=default&context=reset&theme=Noir&preferred_nvidia=true&locale=it-IT"
 								target="_self"
 							>
 								Usa un altro account
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -72,15 +72,15 @@ function Log() {
 							<option value="4">Deutsch</option>
 						</select>
 						<div id="ad-footer-link">
-							<a id="a-white" href="#">
+							<Link id="a-white" to="#">
 								Informativa sulla privacy
-							</a>
-							<a id="a-white" href="#">
+							</Link>
+							<Link id="a-white" to="#">
 								Informazioni legali
-							</a>
-							<a id="a-white" href="#">
+							</Link>
+							<Link id="a-white" to="#">
 								Contatti
-							</a>
+							</Link>
 						</div>
 					</div>
 					<div className="container text-end ad-block-tow">

@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 export function IssueSection() {
   return (
     <div className='container-server'>
       <div className="container-issue-server">
         <div className="header-issue-server">
-          <a
-            href="https://status.geforcenow.com/incidents/9kxrwmjjp4j6"
+          <Link
+            to="https://status.geforcenow.com/incidents/9kxrwmjjp4j6"
             id="a-issue-server"
           >
             Black Desert Online - There is an issue with this version
-          </a>
+          </Link>
         </div>
 
         <div className="paragraph-issue-server">

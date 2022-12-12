@@ -5,13 +5,13 @@ import { PriorityCard } from './BasicComponents/ListContainer';
 import { RTXCard } from './BasicComponents/ListContainer';
 import { Priority } from './Priority';
 import { RTX } from './RTX';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function CardAbbonamento() {
 	const navigate = useNavigate();
 	return (
 		<section className="container">
-			<h2 className="text-light">SCEGLI UN PIANO ABBONAMENTO</h2>
+			<h2 className="text-light" id="">SCEGLI UN PIANO ABBONAMENTO</h2>
 			<div className="row g-3">
 				<div className="col-12 col-md-6 col-lg-4">
 					<div className="card">
@@ -76,7 +76,7 @@ function CardAbbonamento() {
 				<p>
 					*La prestazioni dipendono dal tipo di dispositivo, dalle impostazioni, dalla qualità della rete e
 					non solo. Visita la pagina dei
-					<a href="#">Requisiti di sistema</a> per ulteriori dettagli.
+					<Link to="#">Requisiti di sistema</Link> per ulteriori dettagli.
 				</p>
 				<p>
 					La fatturazione per GeForce NOW inizia immediatamente dopo l'iscrizione a qualsiasi piano di
@@ -96,8 +96,8 @@ function CardAbbonamento() {
 					all'uso di una GeForce RTX 3080 di livello consumer. Consulta i dettagli sui requisiti di sistema
 					per la compatibilità specifica del dispositivo. Il servizio GeForce NOW non è disponibile in tutte
 					le aree geografiche. Consulta i
-					<a href="#">Termini di utilizzo di GeForce NOW</a> e i
-					<a href="#">Termini di abbonamento a GeForce NOW</a> per ulteriori dettagli.
+					<Link to="#">Termini di utilizzo di GeForce NOW</Link> e i
+					<Link to="#">Termini di abbonamento a GeForce NOW</Link> per ulteriori dettagli.
 				</p>
 			</footer>
 		</section>

@@ -5,12 +5,11 @@
 .register-container {
     background-color: $grey-color;
     height: 100vh;
-    padding: 100px;
 
     .form-button-container {
-        padding: 70px;
+        width:50%;
         background-color: #2b2b2b;
-
+        padding:70px 0;
         h2 {
             text-align: center;
         }
@@ -30,6 +29,7 @@
                 color: white;
                 border-radius: 0;
                 border: none;
+                padding:10px;
             }
         }
 
@@ -99,8 +99,8 @@
         padding: 20px;
 
         .form-button-container {
-            padding: 40px;
-
+            padding: 40px 0;
+            width:90%;
             form {
                 width: 85%;
             }

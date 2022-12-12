@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button } from '../BasicComponents/Button';
 
 function PortaItuoiGiochi() {
@@ -13,9 +14,9 @@ function PortaItuoiGiochi() {
 					</p>
 				</div>
 				<Button type="button" buttonSize="BTN--medium">
-					<a id="ad-link-btn" href="#">
+					<Link id="ad-link-btn" to="#">
 						Scopri di Più
-					</a>
+					</Link>
 				</Button>
 			</div>
 			<img

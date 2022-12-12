@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function FooterBianco() {
 	return (
@@ -15,42 +16,42 @@ export default function FooterBianco() {
 					</svg>
 
 					<div className="ad-global-footer-region">
-						<a id="a" href="https://www.nvidia.com/en-us/geforce-now/location-selector/" target="_self">
+						<Link id="a" to="https://www.nvidia.com/en-us/geforce-now/location-selector/" target="_self">
 							<span className="ad-global-footer__region__label">IT - ITALIA</span>
-						</a>
+						</Link>
 					</div>
 				</div>
 
 				<ul className="list-unstyled list-inline ul-align">
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/">
+						<Link id="a" to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/">
 							Privacy Notice <span id="ad-span">|</span>
-						</a>
+						</Link>
 					</li>
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/about-nvidia/privacy-center/">
+						<Link id="a" to="https://www.nvidia.com/it-it/about-nvidia/privacy-center/">
 							Gestisci la privacy <span id="ad-span">|</span>
-						</a>
+						</Link>
 					</li>
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/about-nvidia/legal-info/">
+						<Link id="a" to="https://www.nvidia.com/it-it/about-nvidia/legal-info/">
 							Legali <span id="ad-span">|</span>
-						</a>
+						</Link>
 					</li>
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/about-nvidia/accessibility/">
+						<Link id="a" to="https://www.nvidia.com/it-it/about-nvidia/accessibility/">
 							Accessibilità <span id="ad-span">|</span>
-						</a>
+						</Link>
 					</li>
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/security/">
+						<Link id="a" to="https://www.nvidia.com/it-it/security/">
 							Sicurezza dei prodotti <span id="ad-span">|</span>
-						</a>
+						</Link>
 					</li>
 					<li className="list-inline-item">
-						<a id="a" href="https://www.nvidia.com/it-it/contact/">
+						<Link id="a" to="https://www.nvidia.com/it-it/contact/">
 							Contatti
-						</a>
+						</Link>
 					</li>
 				</ul>
 

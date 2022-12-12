@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import useShow from '../BasicComponents/useShow';
 import Hard from './Hard';
 import Soft from './Soft';
@@ -7,9 +8,9 @@ export function Prodotti() {
 
 	return (
 		<div style={{ cursor: 'pointer' }}>
-			<a id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
+			<Link id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
 				Prodotti
-			</a>
+			</Link>
 
 			{show && (
 				<div className='d-flex' style={{

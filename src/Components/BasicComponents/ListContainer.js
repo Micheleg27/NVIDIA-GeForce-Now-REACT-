@@ -1,5 +1,5 @@
 import List from './List';
-import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX, InformazioniSullAzienda, Seguici, NotizieEdEventi, Product  } from './Data';
+import { INFORMAZIONI, RISORSE, SUPPORTO, LISTA_F_B, FREE, PRIORITY, RTX, InformazioniSullAzienda, Seguici, NotizieEdEventi } from './Data';
 
 export const ListFooter = () => {
 	return (
@@ -51,7 +51,7 @@ export const RTXCard = () => {
 	);
 };
 
-export const ListFooter_S_T = () => {
+export const ListFooterST = () => {
 	return (
 		<div>
 			<div className='row text-md-left'>

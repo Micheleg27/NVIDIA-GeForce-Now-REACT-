@@ -1,5 +1,3 @@
-import { Title } from "../Title";
-
 function VantaggiPerAbbonati() {
 	return (
 		<section className="vantaggi-abbonamenti text-light"> 

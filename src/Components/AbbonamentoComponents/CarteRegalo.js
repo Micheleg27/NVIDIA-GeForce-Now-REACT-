@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button } from '../BasicComponents/Button';
 
 function CarteRegalo() {
@@ -6,7 +7,7 @@ function CarteRegalo() {
             <div className="card sfondo-carta d-flex justify-content-center align-items-end text-light contenitore-query">
                 <img src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-now/memberships/gfn-giftcard-nv-gf-wmfg-1024-t@2x.jpg" className="carte-regalo-img" alt="..." />
                 <div className="card-img-overlay carte-regalo-testo d-flex flex-column justify-content-center">
-                    <h2>CARTE ABBONAMENTO REGALO</h2>
+                    <h2 className="titolo-bold">CARTE ABBONAMENTO REGALO</h2>
                     <div className="text-p">
                         <p>
                             Sblocca il PC gaming ad alte prestazioni su tutti i tuoi dispositivi con GeForce NOW. Gioca con
@@ -16,9 +17,9 @@ function CarteRegalo() {
                         <p>Attiva l'abbonamento o regala il potente PC gaming a una persona speciale.</p>
                     </div>
                     <Button buttonSize="BTN--large">
-                        <a id="ad-link-btn" href="#">
+                        <Link id="ad-link-btn" to="#">
                             SCOPRI DI PIù
-                        </a>
+                        </Link>
                     </Button>
                 </div>
             </div>

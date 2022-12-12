@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import useShow from '../BasicComponents/useShow';
 
 function Soluzioni() {
 	const { show, setShow } = useShow(false);
 	return (
 		<div style={{cursor:'pointer'}}>
-			<a id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
+			<Link id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
 				Soluzioni
-			</a>
+			</Link>
 			{show && (
 				<div
 					style={{
@@ -23,22 +24,22 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Analisi dei dati</a>
+								<Link id='a' to="#">Analisi dei dati</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Machine Learning</a>
+								<Link id='a' to="#">Machine Learning</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Teaining su Deep Learning</a>
+								<Link id='a' to="#">Teaining su Deep Learning</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Inferenza su deep learing</a>
+								<Link id='a' to="#">Inferenza su deep learing</Link>
 							</li>
 							<li>
-								<a id='a' href="#">IA conversazione</a>
+								<Link id='a' to="#">IA conversazione</Link>
 							</li>
 						</ul>
 					</li>
@@ -47,34 +48,34 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Computing accelerato per l'IT aziendale</a>
+								<Link id='a' to="#">Computing accelerato per l'IT aziendale</Link>
 							</li>
 							<li>
-								<a id='a' href="#">NVIDIA LaunchPad</a>
+								<Link id='a' to="#">NVIDIA LaunchPad</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Cloud Computing</a>
+								<Link id='a' to="#">Cloud Computing</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Co-localizzazione</a>
+								<Link id='a' to="#">Co-localizzazione</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Edge Computing</a>
+								<Link id='a' to="#">Edge Computing</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Rete</a>
+								<Link id='a' to="#">Rete</Link>
 							</li>
 							<li>
-								<a id='a' href="#">In sede</a>
+								<Link id='a' to="#">In sede</Link>
 							</li>
 							<li>
-								<a id='a'href="#">Virtualizzazione</a>
+								<Link id='a'to="#">Virtualizzazione</Link>
 							</li>
 							<li>
-								<a id='a' href="#">MLOps</a>
+								<Link id='a' to="#">MLOps</Link>
 							</li>
 						</ul>
 					</li>
@@ -83,28 +84,28 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Realtà aumenteta e virtuale</a>
+								<Link id='a' to="#">Realtà aumenteta e virtuale</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Multi-Display</a>
+								<Link id='a' to="#">Multi-Display</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Rendering</a>
+								<Link id='a' to="#">Rendering</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Collaborazione 3D</a>
+								<Link id='a' to="#">Collaborazione 3D</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Virtualizzazione della grafica</a>
+								<Link id='a' to="#">Virtualizzazione della grafica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Simulazione ingegneristica</a>
+								<Link id='a' to="#">Simulazione ingegneristica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Trasmissione</a>
+								<Link id='a' to="#">Trasmissione</Link>
 							</li>
 						</ul>
 					</li>
@@ -113,25 +114,25 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">IA su 5G</a>
+								<Link id='a' to="#">IA su 5G</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Intelligent Video Analytics</a>
+								<Link id='a' to="#">Intelligent Video Analytics</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Industrial</a>
+								<Link id='a' to="#">Industrial</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Robotics</a>
+								<Link id='a' to="#">Robotics</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Edge Deployment Management</a>
+								<Link id='a' to="#">Edge Deployment Management</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Edge Solutions</a>
+								<Link id='a' to="#">Edge Solutions</Link>
 							</li>
 						</ul>
 					</li>
@@ -140,16 +141,16 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">HPC e IA</a>
+								<Link id='a' to="#">HPC e IA</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Simulazione e modellazione</a>
+								<Link id='a' to="#">Simulazione e modellazione</Link>
 							</li>
 							<li>
-								<a id='a' href="#">visualizzazione scientifica</a>
+								<Link id='a' to="#">visualizzazione scientifica</Link>
 							</li>
 						</ul>
 					</li>
@@ -158,31 +159,31 @@ function Soluzioni() {
 						<hr />
 						<ul style={{listStyleType:'none'}}>
 							<li>
-								<a id='a' href="#">Panoramica</a>
+								<Link id='a' to="#">Panoramica</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Chauffeur</a>
+								<Link id='a' to="#">Chauffeur</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Concierge</a>
+								<Link id='a' to="#">Concierge</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Training</a>
+								<Link id='a' to="#">Training</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Mappatura HD</a>
+								<Link id='a' to="#">Mappatura HD</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Simulazione</a>
+								<Link id='a' to="#">Simulazione</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Robotaxi</a>
+								<Link id='a' to="#">Robotaxi</Link>
 							</li>
 							<li>
-								<a id='a' href="#">Autotrasporto</a>
+								<Link id='a' to="#">Autotrasporto</Link>
 							</li>
 							<li>
-								<a id='a' href="#">ADAS</a>
+								<Link id='a' to="#">ADAS</Link>
 							</li>
 						</ul>
 					</li>

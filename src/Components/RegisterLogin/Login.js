@@ -1,6 +1,7 @@
 import { Button } from '../BasicComponents/Button';
 import NavBianca from '../NavBianca'
 import {NavNeraCart} from '../CartComponents/NavNeraCart'
+import { Link } from 'react-router-dom';
 
 function Login() {
 	return (
@@ -35,15 +36,15 @@ function Login() {
 								<option value="4">Deutsch</option>
 							</select>
 							<div id="ad-footer-link">
-								<a id="a-white" href="#">
+								<Link id="a-white" to="#">
 									Informativa sulla privacy
-								</a>
-								<a id="a-white" href="#">
+								</Link>
+								<Link id="a-white" to="#">
 									Informazioni legali
-								</a>
-								<a id="a-white" href="#">
+								</Link>
+								<Link id="a-white" to="#">
 									Contatti
-								</a>
+								</Link>
 							</div>
 						</div>
 						<div className="text-end ad-block-tow mt-3">

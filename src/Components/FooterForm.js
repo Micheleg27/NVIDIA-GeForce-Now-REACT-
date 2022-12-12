@@ -1,6 +1,6 @@
 import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useShow from './BasicComponents/useShow';
 import '../SASS/button.css';
 
@@ -42,9 +42,9 @@ function FooterForm() {
 									<div className="invalid-feedback">l'indirizzo Email è obbligatorio.</div>
 								</div>
 								<div className="ad-a-btn">
-									<a href="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/" target="_blank">
+									<Link to="https://www.nvidia.com/it-it/about-nvidia/privacy-policy/" target="_blank">
 										Informativa sulla privacy NVIDIA
-									</a>
+									</Link>
 									<Button
 										type="submit"
 										buttonSize="BTN--medium"

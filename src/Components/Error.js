@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from './BasicComponents/Button';
 
 
 export function Error() {
@@ -16,7 +15,7 @@ export function Error() {
                     />
                 </div>
                 <div className="background-error">
-                    <img src="https://miro.medium.com/max/720/1*hFwwQAW45673VGKrMPE2qQ.png" />
+                    <img src="https://miro.medium.com/max/720/1*hFwwQAW45673VGKrMPE2qQ.png" alt="immagine"/>
                     <button
                         className="error-button"
                         // buttonSize="BTN--large"

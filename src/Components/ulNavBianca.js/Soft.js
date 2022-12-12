@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import useShow from '../BasicComponents/useShow';
 
 function Soft() {
 	const { show, setShow } = useShow(false);
 	return (
 		<div>
-			<a id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
+			<Link id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
 				Soft
-			</a>
+			</Link>
 			{show && (
 				<div style={{
                     position: 'absolute',
@@ -21,37 +22,37 @@ function Soft() {
 							<hr />
 							<ul style={{listStyleType:'none'}}>
 								<li>
-									<a id='a' href="#">Collaborazione 3D - Omniverse</a>
+									<Link id='a' to="#">Collaborazione 3D - Omniverse</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Settore automobilistico - DRIVE</a>
+									<Link id='a' to="#">Settore automobilistico - DRIVE</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Streaming video cloud-IA - Maxine</a>
+									<Link id='a' to="#">Streaming video cloud-IA - Maxine</Link>
 								</li>
 								<li>
-									<a id='a' href="#">IA vocale - Riva</a>
+									<Link id='a' to="#">IA vocale - Riva</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Analisi dei dati - RAPIDS</a>
+									<Link id='a' to="#">Analisi dei dati - RAPIDS</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Sanità - Clara</a>
+									<Link id='a' to="#">Sanità - Clara</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Calcolo aad alte prestazioni (HPC)</a>
+									<Link id='a' to="#">Calcolo aad alte prestazioni (HPC)</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Analisi video intelligente - Metropolis</a>
+									<Link id='a' to="#">Analisi video intelligente - Metropolis</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Sistemi recommender - Merlin</a>
+									<Link id='a' to="#">Sistemi recommender - Merlin</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Robotica - Isaac</a>
+									<Link id='a' to="#">Robotica - Isaac</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Telecomunicazioni - Aerial</a>
+									<Link id='a' to="#">Telecomunicazioni - Aerial</Link>
 								</li>
 							</ul>
 						</li>
@@ -60,34 +61,34 @@ function Soft() {
 							<hr />
 							<ul style={{listStyleType:'none'}}>
 								<li>
-									<a id='a' href="#">cATALOGO NCG</a>
+									<Link id='a' to="#">cATALOGO NCG</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA NGC</a>
+									<Link id='a' to="#">NVIDIA NGC</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Collaborazione 3D - Omniverse</a>
+									<Link id='a' to="#">Collaborazione 3D - Omniverse</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Data Center</a>
+									<Link id='a' to="#">Data Center</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Monitoraggio coìon GPU</a>
+									<Link id='a' to="#">Monitoraggio coìon GPU</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA RTX Experience</a>
+									<Link id='a' to="#">NVIDIA RTX Experience</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA RTX DesktopMAnager</a>
+									<Link id='a' to="#">NVIDIA RTX DesktopMAnager</Link>
 								</li>
 								<li>
-									<a id='a' href="#">RTX Accelereted Creative Apps</a>
+									<Link id='a' to="#">RTX Accelereted Creative Apps</Link>
 								</li>
 								<li>
-									<a id='a' href="#">VIdeoconferenze</a>
+									<Link id='a' to="#">VIdeoconferenze</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA Woekbench</a>
+									<Link id='a' to="#">NVIDIA Woekbench</Link>
 								</li>
 							</ul>
 						</li>
@@ -96,16 +97,16 @@ function Soft() {
 							<hr />
 							<ul style={{listStyleType:'none'}}>
 								<li>
-									<a id='a' href="#">GeForce NOW</a>
+									<Link id='a' to="#">GeForce NOW</Link>
 								</li>
 								<li>
-									<a id='a' href="#">GeForce Experience</a>
+									<Link id='a' to="#">GeForce Experience</Link>
 								</li>
 								<li>
-									<a id='a' href="#">App NVIDIA Broadcast</a>
+									<Link id='a' to="#">App NVIDIA Broadcast</Link>
 								</li>
 								<li>
-									<a id='a' href="#">(Omniverse) Machinima</a>
+									<Link id='a' to="#">(Omniverse) Machinima</Link>
 								</li>
 							</ul>
 						</li>
@@ -114,28 +115,28 @@ function Soft() {
 							<hr />
 							<ul style={{listStyleType:'none'}}>
 								<li>
-									<a id='a' href="#">Al Enterprice Suite</a>
+									<Link id='a' to="#">Al Enterprice Suite</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Supporto cloud nativo</a>
+									<Link id='a' to="#">Supporto cloud nativo</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Gestione cluster</a>
+									<Link id='a' to="#">Gestione cluster</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Gestione distribuzione Edge</a>
+									<Link id='a' to="#">Gestione distribuzione Edge</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Servizio di inferenza</a>
+									<Link id='a' to="#">Servizio di inferenza</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Accelerazione IO</a>
+									<Link id='a' to="#">Accelerazione IO</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Rete</a>
+									<Link id='a' to="#">Rete</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Virtual GPU</a>
+									<Link id='a' to="#">Virtual GPU</Link>
 								</li>
 							</ul>
 						</li>

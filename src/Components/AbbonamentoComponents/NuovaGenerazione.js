@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../BasicComponents/Button";
 
 function NuovaGenerazione() {
@@ -15,8 +16,8 @@ function NuovaGenerazione() {
 					alt=""
 				/>
 				<div className="card-img-overlay overlay-right carte-rtx-testo d-flex flex-column justify-content-center">
-					<h2>NUOVA GENERAZIONE DI PC GAMING</h2>
-					<h3>LA POTENZA DI classNameE GEFORCE RTX™ 3080 IN STREAMING DAL CLOUD</h3>
+					<h2 className="titolo-bold">NUOVA GENERAZIONE DI PC GAMING</h2>
+					<h3 className="titolo-bold">LA POTENZA DI classNameE GEFORCE RTX™ 3080 IN STREAMING DAL CLOUD</h3>
 					<div className="text-p">
 						<p>
 							Cerchi le massime prestazioni possibili per la tua esperienza di cloud gaming? Ti presentiamo il
@@ -35,9 +36,9 @@ function NuovaGenerazione() {
 						</p>
 					</div>
 					<Button buttonSize="BTN--large">
-						<a id="ad-link-btn" href="#">
+						<Link id="ad-link-btn" to="#">
 							REGISTRATI OGGI
-						</a>
+						</Link>
 					</Button>
 				</div>
 			</div>

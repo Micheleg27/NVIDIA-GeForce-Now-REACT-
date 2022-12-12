@@ -1,4 +1,4 @@
-import CardAbbonamento from "../CardAbbonamento";
+import { Link } from "react-router-dom";
 
 const List = ({ Links, title }) => {
 	
@@ -7,9 +7,9 @@ const List = ({ Links, title }) => {
 			<h4 className="text-light">{title}</h4>
 			{Links.map((link) => (
 				<li className="styletype" key={link.id}>
-					<a href={link.link}>
-					<img id='img-none' style={{width: '20px'}} src={link.img} /> {link.id}
-					</a>
+					<Link to={link.link}>
+					<img id='img-none' style={{width: '20px'}} src={link.img} alt='immagine'/> {link.id}
+					</Link>
 				</li>
 			))}
 		</ul>

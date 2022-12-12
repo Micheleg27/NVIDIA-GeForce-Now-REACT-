@@ -96,8 +96,8 @@ const ComparisonSlider = ({ topImage, bottomImage }) => {
 
 	return (
 		<React.Fragment>
-			<div class="text-header text-light">
-				<h2>Vedi il Ray-Tracing in Azione</h2>
+			<div className="text-header text-light">
+				<h2 style={{fontFamily:'Geforce bold'}}>Vedi il Ray-Tracing in Azione</h2>
 				<p>
 					Il ray-tracing è il Santo Graal della grafica per giochi, in grado di simulare il comportamento
 					fisico della luce per generare rendering in tempo reale e in qualità cinematografica anche nei
@@ -121,10 +121,10 @@ const ComparisonSlider = ({ topImage, bottomImage }) => {
 				</div>
 			</div>
 			<div class="text-content text-light">
-				<div class="">
+				<div style={{fontFamily:'Geforce bold'}}>
 					RTX <span id="span-grey">OFF</span>
 				</div>
-				<div class="">
+				<div style={{fontFamily:'Geforce bold'}}>
 					RTX <span id="span-green">ON</span>
 				</div>
 			</div>

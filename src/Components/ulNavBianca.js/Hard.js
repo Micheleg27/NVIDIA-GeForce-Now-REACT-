@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import useShow from '../BasicComponents/useShow';
 
 function Hard() {
 	const { show, setShow } = useShow(false);
 	return (
 		<div>
-			<a id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
+			<Link id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
 				Hard
-			</a>
+			</Link>
 			{show && (
 				<div
 					style={{
@@ -30,16 +31,16 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a id='a' href="#">Schede grafiche GeForce</a>
+									<Link id='a' to="#">Schede grafiche GeForce</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Laptop Gaming</a>
+									<Link id='a' to="#">Laptop Gaming</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Monitor G-SYNC</a>
+									<Link id='a' to="#">Monitor G-SYNC</Link>
 								</li>
 								<li>
-									<a id='a'href="#">SHIELD</a>
+									<Link id='a'to="#">SHIELD</Link>
 								</li>
 							</ul>
 						</li>
@@ -48,22 +49,22 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a  id='a' href="#">Laptop Gaming</a>
+									<Link  id='a' to="#">Laptop Gaming</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Workstation desktop NVIDIA</a>
+									<Link id='a' to="#">Workstation desktop NVIDIA</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA RTX nei laptop professionali</a>
+									<Link id='a' to="#">NVIDIA RTX nei laptop professionali</Link>
 								</li>
 								<li>
-									<a id='a' href="#">DGX Station</a>
+									<Link id='a' to="#">DGX Station</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Workstation per la scienza dei dati NVIDIA RTx</a>
+									<Link id='a' to="#">Workstation per la scienza dei dati NVIDIA RTx</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Laptop Studio</a>
+									<Link id='a' to="#">Laptop Studio</Link>
 								</li>
 							</ul>
 						</li>
@@ -72,25 +73,25 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a id='a' href="#">Panoramica</a>
+									<Link id='a' to="#">Panoramica</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Grace CPU</a>
+									<Link id='a' to="#">Grace CPU</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Sistemi DGX</a>
+									<Link id='a' to="#">Sistemi DGX</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA OVX</a>
+									<Link id='a' to="#">NVIDIA OVX</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Piattaforma EGX</a>
+									<Link id='a' to="#">Piattaforma EGX</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Piattaforma HGX</a>
+									<Link id='a' to="#">Piattaforma HGX</Link>
 								</li>
 								<li>
-									<a id='a' href="#">DRIVE Costellation</a>
+									<Link id='a' to="#">DRIVE Costellation</Link>
 								</li>
 							</ul>
 						</li>
@@ -99,16 +100,16 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a id='a' href="#">Panoramica</a>
+									<Link id='a' to="#">Panoramica</Link>
 								</li>
 								<li>
-									<a id='a' href="#">DPU</a>
+									<Link id='a' to="#">DPU</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Ethernet</a>
+									<Link id='a' to="#">Ethernet</Link>
 								</li>
 								<li>
-									<a id='a' href="#">InfiniBand</a>
+									<Link id='a' to="#">InfiniBand</Link>
 								</li>
 							</ul>
 						</li>
@@ -117,16 +118,16 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a id='a' href="#">GeForce</a>
+									<Link id='a' to="#">GeForce</Link>
 								</li>
 								<li>
-									<a id='a' href="#">NVIDIA RTX / Quadro</a>
+									<Link id='a' to="#">NVIDIA RTX / Quadro</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Data Center</a>
+									<Link id='a' to="#">Data Center</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Titan RTX</a>
+									<Link id='a' to="#">Titan RTX</Link>
 								</li>
 							</ul>
 						</li>
@@ -135,13 +136,13 @@ function Hard() {
 							<hr />
 							<ul style={{listStyleType: 'none'}}>
 								<li>
-									<a id='a' href="#">Jetson</a>
+									<Link id='a' to="#">Jetson</Link>
 								</li>
 								<li>
-									<a id='a' href="#">DRIVE AGX</a>
+									<Link id='a' to="#">DRIVE AGX</Link>
 								</li>
 								<li>
-									<a id='a' href="#">Clara</a>
+									<Link id='a' to="#">Clara</Link>
 								</li>
 							</ul>
 						</li>

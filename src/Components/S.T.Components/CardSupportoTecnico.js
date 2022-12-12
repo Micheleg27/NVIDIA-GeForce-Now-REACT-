@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function CardSupportoTecnico() {
 	return (
 		<div className="d-flex justify-content-center bg-light" style={{gap:'30px', flexWrap:'wrap'}}>
@@ -12,9 +14,9 @@ function CardSupportoTecnico() {
 							NOW NVIDIA SHIELD <br />
 							Kit Jetson
 						</p>
-						<a href="#" className="text-success">
+						<Link to="#" className="text-success">
 							ESPLORA LE OPZIONI DI SUPPORTO &gt;
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -28,13 +30,13 @@ function CardSupportoTecnico() {
 							Virtual GPU (vGPU) <br />
 							NVIDIA Networking
 						</p>
-						<a href="#" className="text-success">
+						<Link to="#" className="text-success">
 							ESPLORA LE OPZIONI DI SUPPORTO &gt;
-						</a>
+						</Link>
                         <br/>
-						<a href="#" className="text-success">
+						<Link to="#" className="text-success">
 							INVIA UNA RICHIESTA DI SUPPORTO &gt;
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

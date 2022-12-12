@@ -5,7 +5,6 @@ import Settori from './ulNavBianca.js/Settori';
 import Soluzioni from './ulNavBianca.js/Soluzioni';
 import PerTe from './ulNavBianca.js/PerTe';
 import { Link } from 'react-router-dom';
-import Cart from './CartComponents/Cart';
 
 export default function NavBianca() {
 	return (
@@ -75,15 +74,15 @@ export default function NavBianca() {
 									</li>
 
 									<li className="nav-item">
-										<a id="a" className="nav-link" href="#">
+										<Link id="a" className="nav-link" to="#">
 											<Settori />
-										</a>
+										</Link>
 									</li>
 
 									<li>
-										<a id="a" className="nav-link" href="#">
+										<Link id="a" className="nav-link" to="#">
 											<PerTe />
-										</a>
+										</Link>
 									</li>
 								</ul>
 
@@ -145,24 +144,24 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Schede grafiche GeForce
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Laptop Gaming
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Monitor G-SYNC
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				SHIELD
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -171,35 +170,35 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Laptop Gaming
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Workstation desktop NVIDIA
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA RTX nei laptop professionali
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				DGX Station
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Workstation per la scienza dei dati
 																				NVIDIA RTx
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Laptop Studio
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -208,39 +207,39 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Panoramica
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Grace CPU
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Sistemi DGX
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA OVX
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Piattaforma EGX
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Piattaforma HGX
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				DRIVE Costellation
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -249,24 +248,24 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Panoramica
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				DPU
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Ethernet
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				InfiniBand
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -275,24 +274,24 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				GeForce
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA RTX / Quadro
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Data Center
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Titan RTX
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -301,19 +300,19 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Jetson
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				DRIVE AGX
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Clara
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -355,59 +354,59 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Collaborazione 3D - Omniverse
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Settore automobilistico - DRIVE
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Streaming video cloud-IA - Maxine
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				IA vocale - Riva
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Analisi dei dati - RAPIDS
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Sanità - Clara
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Calcolo aad alte prestazioni (HPC)
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Analisi video intelligente - Metropolis
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Sistemi recommender - Merlin
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Robotica - Isaac
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Telecomunicazioni - Aerial
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -416,54 +415,54 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				cATALOGO NCG
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA NGC
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Collaborazione 3D - Omniverse
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Data Center
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Monitoraggio coìon GPU
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA RTX Experience
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA RTX DesktopMAnager
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				RTX Accelereted Creative Apps
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				VIdeoconferenze
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				NVIDIA Woekbench
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -472,24 +471,24 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				GeForce NOW
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				GeForce Experience
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				App NVIDIA Broadcast
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				(Omniverse) Machinima
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -498,44 +497,44 @@ export default function NavBianca() {
 																	<hr />
 																	<ul style={{ listStyleType: 'none' }}>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Al Enterprice Suite
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Supporto cloud nativo
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Gestione cluster
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Gestione distribuzione Edge
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Servizio di inferenza
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Accelerazione IO
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Rete
-																			</a>
+																			</Link>
 																		</li>
 																		<li>
-																			<a id="a" href="#">
+																			<Link id="a" to="#">
 																				Virtual GPU
-																			</a>
+																			</Link>
 																		</li>
 																	</ul>
 																</li>
@@ -580,34 +579,34 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Analisi dei dati
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Machine Learning
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Teaining su Deep Learning
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Inferenza su deep learing
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	IA conversazione
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -616,54 +615,54 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Computing accelerato per l'IT aziendale
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	NVIDIA LaunchPad
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Cloud Computing
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Co-localizzazione
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Edge Computing
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Rete
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	In sede
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Virtualizzazione
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	MLOps
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -672,44 +671,44 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Realtà aumenteta e virtuale
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Multi-Display
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Rendering
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Collaborazione 3D
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Virtualizzazione della grafica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Simulazione ingegneristica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Trasmissione
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -718,39 +717,39 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	IA su 5G
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Intelligent Video Analytics
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Industrial
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Robotics
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Edge Deployment Management
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Edge Solutions
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -759,24 +758,24 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	HPC e IA
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Simulazione e modellazione
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	visualizzazione scientifica
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -785,49 +784,49 @@ export default function NavBianca() {
 														<hr />
 														<ul style={{ listStyleType: 'none' }}>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Panoramica
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Chauffeur
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Concierge
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Training
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Mappatura HD
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Simulazione
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Robotaxi
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	Autotrasporto
-																</a>
+																</Link>
 															</li>
 															<li>
-																<a id="a" href="#">
+																<Link id="a" to="#">
 																	ADAS
-																</a>
+																</Link>
 															</li>
 														</ul>
 													</li>
@@ -868,106 +867,106 @@ export default function NavBianca() {
 												>
 													<ul style={{ listStyleType: 'none', padding: '25px' }}>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Panoramica
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Architettura, ingegneria, <br /> edilizia e procedure{' '}
 																<br /> operative
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Internet per consumatori
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Cybersecurity
-															</a>
+															</Link>
 														</li>
 													</ul>
 													<ul style={{ listStyleType: 'none', padding: '25px' }}>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Energia
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Servizi finanziari
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Sanità e bioscienze
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Istituzioni accademoche
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Sviluppo di giochi
-															</a>
+															</Link>
 														</li>
 													</ul>
 													<ul style={{ listStyleType: 'none', padding: '25px' }}>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Produzione industriale
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Media e intrsttenimento
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Pubblica amministrazione
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Ristoranti
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Vendite al dettaglio
-															</a>
+															</Link>
 														</li>
 													</ul>
 													<ul style={{ listStyleType: 'none', padding: '25px' }}>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Robotica
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Smart city
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Supercomputing
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Settore delle <br /> Telecomunicazioni
-															</a>
+															</Link>
 														</li>
 														<li>
-															<a id="a" href="#">
+															<Link id="a" to="#">
 																Trasporti
-															</a>
+															</Link>
 														</li>
 													</ul>
 												</div>
@@ -1007,44 +1006,44 @@ export default function NavBianca() {
 													}}
 												>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Creativi/Designer
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Esperti di dati
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Sviluppatori
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Giocatori
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Professionisti
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Ricercatori
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Roboticists
-														</a>
+														</Link>
 													</li>
 													<li>
-														<a id="a" href="#">
+														<Link id="a" to="#">
 															Startups
-														</a>
+														</Link>
 													</li>
 												</ul>
 											</div>
@@ -1056,19 +1055,19 @@ export default function NavBianca() {
 							<div className="d-flex">
 								<ul className="navbar-nav justify-content-end ms-3">
 									<li>
-										<Link id="a" className="nav-link" to="/Acquista">
+										<Link id="a" className="nav-link" to="/acquista">
 											Acquista
 										</Link>
 									</li>
 									<li>
-										<a id="a" className="nav-link" href="">
+										<Link id="a" className="nav-link" to="">
 											Driver
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a id="a" className="nav-link" href="">
+										<Link id="a" className="nav-link" to="">
 											Assistenza
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -1089,10 +1088,10 @@ export default function NavBianca() {
 							<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
 						</svg>
 
-						<Link to="/Carrello">
+						<Link to="/carrello">
 							<BsCart3 size="25px" style={{ cursor: 'pointer', color: 'black' }} />
 						</Link>
-						<Link to="/Register">
+						<Link to="/register">
 							<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
 						</Link>
 					</div>

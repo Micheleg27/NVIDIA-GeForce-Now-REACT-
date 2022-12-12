@@ -1,15 +1,16 @@
 import { TfiFacebook } from 'react-icons/tfi';
 import { FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export function SocialIcons() {
 	return (
 		<div className="mg-container-socialIcons">
-			<a href="https://www.facebook.com/NVIDIAGeforceNow" target="_blank">
+			<Link to="https://www.facebook.com/NVIDIAGeforceNow">
 				<TfiFacebook size="40px" color="grey" />
-			</a>
-			<a href="https://twitter.com/NvidiaGFN" target="_blank">
+			</Link>
+			<Link to="https://twitter.com/NvidiaGFN">
 				<FaTwitter size="40px" color="grey" />
-			</a>
+			</Link>
 		</div>
 	);
 }

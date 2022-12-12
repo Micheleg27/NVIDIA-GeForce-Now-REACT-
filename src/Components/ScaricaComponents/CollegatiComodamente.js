@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Button } from '../BasicComponents/Button';
 
 function CollegatiComodamente() {
@@ -19,18 +20,18 @@ function CollegatiComodamente() {
 					</p>
 				</div>
 				<Button buttonSize="BTN--medium">
-					<a id="ad-link-btn" href="#">
+					<Link id="ad-link-btn" to="#">
 						Scopri di Più
-					</a>
+					</Link>
 				</Button>
 			</div>
 {/* 			
 			<span class="da-solo">
 				Per ulteriori informazioni sui dispositivi e browser supportati e sulle versioni iOS e iPadOS richieste,
 				visita la pagina
-				<a id="a-solo" href="#">
+				<Link id="a-solo" to="#">
 					Requisiti di sistema.
-				</a>
+				</Link>
 			</span> */}
 		</section>
 	);
