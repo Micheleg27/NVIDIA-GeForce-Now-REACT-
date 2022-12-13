@@ -41,7 +41,7 @@ function Register() {
 							<input type="password" id="password" name="password" placeholder="Password" required />
 						</div>
 						<Button type="submit" buttonSize="BTN--medium">
-							Login
+							register
 						</Button>
 					</form>
 				</div>
