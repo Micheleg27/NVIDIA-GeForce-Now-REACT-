@@ -43,19 +43,6 @@ app.post(
 	}
 );
 
-// app.get('/login', async(req: Request, res: Response) => {
-//     const response = await prisma.user.findMany({
-// 		where: {
-// 			email: req.body.email
-// 		}
-// 	});
-
-//     await prisma.$disconnect();
-//     res.send(JSON.stringify(response));
-// 	// res.render('Login.js');
-// });
-
-
 app.post(
 	'/login',
 	[ check('email').isEmail().normalizeEmail(), check('password').isLength({ min: 8, max: 16 }) ],
@@ -63,7 +50,7 @@ app.post(
 		const errors = validationResult(req);
 
 		if (!errors.isEmpty()) {
-			return res.redirect('/login');
+			return res.redirect('/login')
 		}
 
 		const response = await prisma.user.findFirst({
