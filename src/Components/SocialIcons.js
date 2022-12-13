@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 export function SocialIcons() {
 	return (
 		<div className="mg-container-socialIcons">
-			<Link to="https://www.facebook.com/NVIDIAGeforceNow">
+			<a href="https://www.facebook.com/NVIDIAGeforceNow" target='_blank' rel='noreferrer'>
 				<TfiFacebook size="40px" color="grey" />
-			</Link>
-			<Link to="https://twitter.com/NvidiaGFN">
+			</a>
+			<a href="https://twitter.com/NvidiaGFN" target='_blank' rel='noreferrer'>
 				<FaTwitter size="40px" color="grey" />
-			</Link>
+			</a>
 		</div>
 	);
 }
