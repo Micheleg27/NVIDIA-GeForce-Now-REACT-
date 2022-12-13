@@ -1091,9 +1091,25 @@ export default function NavBianca() {
 						<Link to="/carrello">
 							<BsCart3 size="25px" style={{ cursor: 'pointer', color: 'black' }} />
 						</Link>
-						<Link to="/register">
-							<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
-						</Link>
+
+						<div class="dropstart">
+							<Link class="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<BiUserCircle size="25px" style={{ cursor: 'pointer', color: 'black' }} />
+							</Link>
+
+							<ul class="dropdown-menu ">
+								<li>
+									<Link class="dropdown-item text-dark" to="/register">
+										Registrati
+									</Link>
+								</li>
+								<li>
+									<Link class="dropdown-item text-dark" to="/login">
+										Login
+									</Link>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</nav>

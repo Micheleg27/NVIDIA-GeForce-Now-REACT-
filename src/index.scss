@@ -59,6 +59,8 @@ body {
 	font-family: "Geforce light" !important;
 	list-style-type: none;
 	text-decoration: none;
+	padding-right: 0 !important;
+	overflow-y: scroll !important;
 	::-webkit-scrollbar {
 		width: 0.1em;
 		height: 0.1em;

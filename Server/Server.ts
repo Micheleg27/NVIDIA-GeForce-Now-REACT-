@@ -7,7 +7,7 @@ import bodyParser from 'body-parser';
 import bcrypt from 'bcrypt';
 const { check, validationResult } = require('express-validator');
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient();	
 
 const app = express();
 
