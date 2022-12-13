@@ -6,10 +6,16 @@ export function Priority() {
 	return (
 		<div>
 			<div className="ad-price-option">
-				<div className="tablinks ad-1mese ad-1mese-P" onClick={() => setShow(!show)}>
+				<div className="tablinks ad-1mese ad-1mese-P" onClick={() => setShow(!show)}
+				style={{
+					backgroundColor: show ? "gray" : "#76B900",
+				  }}>
 					1 mese
 				</div>
-				<div className="tablinks ad-6mesi ad-6mesi-P" onClick={() => setShow(!show)}>
+				<div className="tablinks ad-6mesi ad-6mesi-P" onClick={() => setShow(!show)}
+				style={{
+					backgroundColor: show ? "#76B900" : "gray",
+				  }}>
 					6 mesi
 				</div>
 			</div>
