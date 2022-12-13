@@ -1,6 +1,7 @@
 import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 import useShow from './BasicComponents/useShow';
+import { Link } from 'react-router-dom';
 
 function Lingua() {
 	const { show, setShow } = useShow(false);
@@ -27,34 +28,34 @@ function Lingua() {
 						</p>
 
 						<div className="list-region">
-							<a href="/es-la/geforce-now/">AMÉRICA LATINA</a>
-							<a href="/es-ar/geforce-now/">ARGENTINA</a>
-							<a href="/en-au/geforce-now/">AUSTRALIA</a>
-							<a href="/pt-br/geforce-now/">BRASIL</a>
-							<a href="/cs-cz/geforce-now/">ČESKÁ REPUBLIKA</a>
-							<a href="/es-cl/geforce-now/">CHILE</a>
-							<a href="/da-dk/geforce-now/">DANMARK</a>
-							<a href="/de-de/geforce-now/">DEUTSCHLAND</a>
-							<a href="/es-es/geforce-now/">ESPAÑA</a>
-							<a href="/fr-fr/geforce-now/">FRANCE</a>
-							<a href="/nl-nl/geforce-now/">NEDERLAND</a>
-							<a href="/nb-no/geforce-now/">NORGE</a>
-							<a href="/de-at/geforce-now/">ÖSTERREICH</a>
-							<a href="/es-py/geforce-now/">PARAGUAY</a>
-							<a href="/ru-ru/geforce-now/">РОССИЯ</a>
-							<a href="/pl-pl/geforce-now/">POLSKA</a>
-							<a href="/en-eu/geforce-now/">REST OF EUROPE</a>
-							<a href="/en-sa/geforce-now/">SAUDI ARABIA</a>
-							<a href="/en-sg/geforce-now/">SINGAPORE</a>
-							<a href="/fi-fi/geforce-now/">SUOMI</a>
-							<a href="/sv-se/geforce-now/">SVERIGE</a>
-							<a href="/tr-tr/geforce-now/">TÜRKIYE</a>
-							<a href="/en-gb/geforce-now/">UNITED KINGDOM</a>
-							<a href="/es-uy/geforce-now/">URUGUAY</a>
-							<a href="/ar-sa/geforce-now/">المملكة العربية السعودية</a>
-							<a href="/ko-kr/geforce-now/">대한민국</a>
-							<a href="/zh-tw/geforce-now/">台灣</a>
-							<a href="/ja-jp/geforce-now/">日本</a>
+							<Link to="/es-la/geforce-now/">AMÉRICA LATINA</Link>
+							<Link to="/es-ar/geforce-now/">ARGENTINA</Link>
+							<Link to="/en-au/geforce-now/">AUSTRALIA</Link>
+							<Link to="/pt-br/geforce-now/">BRASIL</Link>
+							<Link to="/cs-cz/geforce-now/">ČESKÁ REPUBLIKA</Link>
+							<Link to="/es-cl/geforce-now/">CHILE</Link>
+							<Link to="/da-dk/geforce-now/">DANMARK</Link>
+							<Link to="/de-de/geforce-now/">DEUTSCHLAND</Link>
+							<Link to="/es-es/geforce-now/">ESPAÑA</Link>
+							<Link to="/fr-fr/geforce-now/">FRANCE</Link>
+							<Link to="/nl-nl/geforce-now/">NEDERLAND</Link>
+							<Link to="/nb-no/geforce-now/">NORGE</Link>
+							<Link to="/de-at/geforce-now/">ÖSTERREICH</Link>
+							<Link to="/es-py/geforce-now/">PARAGUAY</Link>
+							<Link to="/ru-ru/geforce-now/">РОССИЯ</Link>
+							<Link to="/pl-pl/geforce-now/">POLSKA</Link>
+							<Link to="/en-eu/geforce-now/">REST OF EUROPE</Link>
+							<Link to="/en-sa/geforce-now/">SAUDI ARABIA</Link>
+							<Link to="/en-sg/geforce-now/">SINGAPORE</Link>
+							<Link to="/fi-fi/geforce-now/">SUOMI</Link>
+							<Link to="/sv-se/geforce-now/">SVERIGE</Link>
+							<Link to="/tr-tr/geforce-now/">TÜRKIYE</Link>
+							<Link to="/en-gb/geforce-now/">UNITED KINGDOM</Link>
+							<Link to="/es-uy/geforce-now/">URUGUAY</Link>
+							<Link to="/ar-sa/geforce-now/">المملكة العربية السعودية</Link>
+							<Link to="/ko-kr/geforce-now/">대한민국</Link>
+							<Link to="/zh-tw/geforce-now/">台灣</Link>
+							<Link to="/ja-jp/geforce-now/">日本</Link>
 						</div>
 					</div>
 				</div>

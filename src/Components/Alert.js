@@ -1,9 +1,13 @@
 import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
+import useShow from './BasicComponents/useShow';
 
 function Alert() {
+	const {show, setShow} = useShow(false)
 	return (
-		<div className="d-flex justify-content-center align-items-center dimensione">
+		<div>
+		{!show &&(
+			<div className="d-flex justify-content-center align-items-center dimensione">
 			<div className="alert alert-warning alert-dismissible fade show" role="alert">
 				<div className="d-flex ad-alert-content">
 					<div>
@@ -27,11 +31,13 @@ function Alert() {
 					<button type="button" className="ad-btn-alert-one" data-bs-dismiss="alert" aria-label="Close">
 						Not Now
 					</button>
-					<Button type="button" buttonSize="BTN--small" buttonStyle="btn--primary--green">
+					<Button type="button" buttonSize="BTN--small" buttonStyle="btn--primary--green" onClick={()=>setShow(!show)}>
 						Allow
 					</Button>
 				</div>
 			</div>
+		</div>
+		)}
 		</div>
 	);
 }

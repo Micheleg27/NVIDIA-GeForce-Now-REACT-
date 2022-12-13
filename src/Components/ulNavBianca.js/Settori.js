@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import useShow from '../BasicComponents/useShow';
 
 function Settori() {
 	const { show, setShow } = useShow(false);
 	return (
 		<div style={{ cursor: 'pointer' }}>
-			<a id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
+			<Link id="a" className="nav-link active" aria-current="page" onClick={() => setShow(!show)}>
 				Settori
-			</a>
+			</Link>
 			{show && (
 				<div
 					style={{
@@ -28,71 +29,71 @@ function Settori() {
 							<div style={{ display: 'flex' }}>
 								<ul style={{ listStyleType: 'none', padding: '25px' }}>
 									<li>
-										<a id='a' href="#">Panoramica</a>
+										<Link id='a' to="#">Panoramica</Link>
 									</li>
 									<li>
-										<a id='a' href="#">
+										<Link id='a' to="#">
 											Architettura, ingegneria, <br /> edilizia e procedure <br /> operative
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Internet per consumatori</a>
+										<Link id='a' to="#">Internet per consumatori</Link>
 									</li>
 									<li>
-										<a id='a'href="#">Cybersecurity</a>
-									</li>
-								</ul>
-								<ul style={{ listStyleType: 'none', padding: '25px' }}>
-									<li>
-										<a id='a' href="#">Energia</a>
-									</li>
-									<li>
-										<a id='a'  href="#">Servizi finanziari</a>
-									</li>
-									<li>
-										<a id='a' href="#">Sanità e bioscienze</a>
-									</li>
-									<li>
-										<a id='a' href="#">Istituzioni accademoche</a>
-									</li>
-									<li>
-										<a id='a' href="#">Sviluppo di giochi</a>
+										<Link id='a'to="#">Cybersecurity</Link>
 									</li>
 								</ul>
 								<ul style={{ listStyleType: 'none', padding: '25px' }}>
 									<li>
-										<a id='a' href="#">Produzione industriale</a>
+										<Link id='a' to="#">Energia</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Media e intrsttenimento</a>
+										<Link id='a'  to="#">Servizi finanziari</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Pubblica amministrazione</a>
+										<Link id='a' to="#">Sanità e bioscienze</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Ristoranti</a>
+										<Link id='a' to="#">Istituzioni accademoche</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Vendite al dettaglio</a>
+										<Link id='a' to="#">Sviluppo di giochi</Link>
 									</li>
 								</ul>
 								<ul style={{ listStyleType: 'none', padding: '25px' }}>
 									<li>
-										<a id='a' href="#">Robotica</a>
+										<Link id='a' to="#">Produzione industriale</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Smart city</a>
+										<Link id='a' to="#">Media e intrsttenimento</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Supercomputing</a>
+										<Link id='a' to="#">Pubblica amministrazione</Link>
 									</li>
 									<li>
-										<a id='a' href="#">
+										<Link id='a' to="#">Ristoranti</Link>
+									</li>
+									<li>
+										<Link id='a' to="#">Vendite al dettaglio</Link>
+									</li>
+								</ul>
+								<ul style={{ listStyleType: 'none', padding: '25px' }}>
+									<li>
+										<Link id='a' to="#">Robotica</Link>
+									</li>
+									<li>
+										<Link id='a' to="#">Smart city</Link>
+									</li>
+									<li>
+										<Link id='a' to="#">Supercomputing</Link>
+									</li>
+									<li>
+										<Link id='a' to="#">
 											Settore delle <br /> Telecomunicazioni
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a id='a' href="#">Trasporti</a>
+										<Link id='a' to="#">Trasporti</Link>
 									</li>
 								</ul>
 							</div>

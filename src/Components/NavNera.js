@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 
 export function NavNera() {
@@ -20,22 +19,22 @@ export function NavNera() {
 						<div className="offcanvas-body">
 							<ul className="navbar-nav justify-content-start flex-grow-1 pe-3">
 								<li className="nav-item">
-									<Link className="nav-link active" aria-current="page" to="/Abbonamento">
+									<Link className="nav-link active" aria-current="page" to="/abbonamento">
 										abbonamento
 									</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to="/Scarica">
+									<Link className="nav-link" to="/scarica">
 										scarica
 									</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to="/Giochi">
+									<Link className="nav-link" to="/giochi">
 										giochi
 									</Link>
 								</li>
 								<li className="nav-item">
-									<Link className="nav-link" to="/Supporto">
+									<Link className="nav-link" to="/supporto">
 										supporto
 									</Link>
 								</li>

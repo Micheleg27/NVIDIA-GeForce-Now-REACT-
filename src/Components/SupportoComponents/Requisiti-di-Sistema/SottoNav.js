@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function SottoNav() {
 	return (
 		<nav class="navbar navbar-expand-lg">
 			<div class="container-md">
-				<a class="navbar-brand text-light">
+				<Link class="navbar-brand text-light" to='/supporto'>
 					Requisiti di Sistema
-				</a>
+				</Link>
 			</div>
 		</nav>
 	);

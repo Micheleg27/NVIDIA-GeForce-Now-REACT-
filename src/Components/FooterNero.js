@@ -3,6 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { TfiFacebook } from 'react-icons/tfi';
 import { FaTwitter } from 'react-icons/fa';
 import FooterForm from './FooterForm';
+import { Link } from 'react-router-dom';
 
 export function FooterNero() {
 	return (
@@ -28,15 +29,15 @@ export function FooterNero() {
 
 				<div className="ad-social">
 					<div className="ad-facebook">
-						<a href="https://www.facebook.com/NVIDIAGeforceNow" target="_blank">
+						<Link to="https://www.facebook.com/NVIDIAGeforceNow">
 							<TfiFacebook size="40px" color="#333" />
-						</a>
+						</Link>
 					</div>
 
 					<div className="ad-twitter">
-						<a href="https://twitter.com/NvidiaGFN" target="_blank">
+						<Link to="https://twitter.com/NvidiaGFN">
 							<FaTwitter size="40px" color="#333" />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

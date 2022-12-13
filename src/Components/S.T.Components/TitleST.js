@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Title_S_T() {
+function TitleST() {
 	return (
 		<div style={{textAlign:'center', height:'227px', paddingTop:'50px' }} className='d-flex flex-column align-items-center bg-light'>
 			<h1 style={{color:'#76B900'}}>Supporto da NVIDIA</h1>
@@ -13,4 +13,4 @@ function Title_S_T() {
 	);
 }
 
-export default Title_S_T;
+export default TitleST;

@@ -34,7 +34,7 @@ export function SupportoCardContainer() {
 
 				<div className="container-support-card" id="container-due">
 					<SupportoCard2
-						link="/RequisitiDiSistema"
+						link="/requisitidisistema/macos"
 						img={
 							'https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/icon-sys-req.svg'
 						}

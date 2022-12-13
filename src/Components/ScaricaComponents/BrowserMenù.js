@@ -4,7 +4,7 @@ function BrowserMenù() {
 	return (
 		<section className="sv-browser">
 			<div className="sv-browser-text text-light">
-				<h2>Esperienza con il browser</h2>
+				<h2 style={{fontFamily:'Geforce bold'}}>Esperienza con il browser</h2>
 				<h3>Gioca senza download</h3>
 			</div>
 
@@ -26,7 +26,7 @@ function BrowserMenù() {
 				</div>
 
 				<div className="cl-img-container">
-					<div style={{display:'flex' ,alignItems: 'center', flexDirection:'column'}}>
+					<div style={{display:'flex', alignItems: 'center', flexDirection:'column'}}>
 						<img
 							className="sv-img-icon"
 							src="https://www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/overview/geforce-now-icon-safari-browser-190x80.svg"

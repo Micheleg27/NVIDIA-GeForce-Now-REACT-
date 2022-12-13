@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 function NavTrasparente() {
 	return (
-		<nav class="navbar navbar-expand-lg">
-			<div class="container-md">
-				<a class="navbar-brand text-light">
+		<nav className="navbar navbar-expand-lg">
+			<div className="container-md">
+				<Link className="navbar-brand text-light" to="#">
 					Download
-				</a>
+				</Link>
 			</div>
 		</nav>
 	);

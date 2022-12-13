@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SystemRequired() {
 	return (
@@ -24,13 +25,12 @@ function SystemRequired() {
 								style={{ width: '80px' }}
 							/>
 							<div className="row">
-								<a
+								<Link
 									id="a-due"
-									href="https://www.nvidia.com/it-it/geforce-now/system-reqs/"
-									target="_blank"
+									to="https://www.nvidia.com/it-it/geforce-now/system-reqs/"
 								>
 									Scopri Di Più
-								</a>
+								</Link>
 								<br />
 								<h3 className="text-light">Requisiti di Sistema</h3>
 							</div>
@@ -54,9 +54,9 @@ function SystemRequired() {
 								style={{ width: '80px' }}
 							/>
 							<div className="row">
-								<a id="a-due" href="https://www.nvidia.com/it-it/geforce-now/faq/">
+								<Link id="a-due" to="https://www.nvidia.com/it-it/geforce-now/faq/">
 									Scopri Di Più
-								</a>
+								</Link>
 								<br />
 								<h3 className="text-light">FAQ</h3>
 							</div>
@@ -80,9 +80,9 @@ function SystemRequired() {
 								style={{ width: '80px' }}
 							/>
 							<div className="row">
-								<a id="a-due" href="https://status.geforcenow.com/" target="_blank">
+								<Link id="a-due" to="https://status.geforcenow.com/">
 									Scopri Di Più
-								</a>
+								</Link>
 								<br />
 								<h3 className="text-light">Stato Dei Server</h3>
 							</div>

@@ -4,8 +4,8 @@ import '../SASS/button.css';
 function CaroselloHome() {
 	return (
 		<section>
-			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
+			<div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+				<div className="carousel-indicators">
 					<button
 						id="button"
 						type="button"
@@ -25,10 +25,10 @@ function CaroselloHome() {
 						aria-label="Slide 2"
 					/>
 				</div>
-				<div class="carousel-inner" id="carousel-id-new">
-					<div class="carousel-item active">
+				<div className="carousel-inner" id="carousel-id-new">
+					<div className="carousel-item active">
 						<div id="fortnite-banner" />
-						<div class="sv-text position-absolute">
+						<div className="sv-text position-absolute">
 							<h3>Fortnite: Pronti Per La Battaglia</h3>
 							<span>Prestazioni GeForce Reali</span>
 							<div style={{marginTop:'20px'}}>
@@ -38,7 +38,7 @@ function CaroselloHome() {
 							</div>
 						</div>
 					</div>
-					<div class="carousel-item">
+					<div className="carousel-item">
 						<div id="video-header">
 							<video id="video-dimension" autoPlay loop muted>
 								<source
@@ -51,7 +51,7 @@ function CaroselloHome() {
 								/>
 							</video>
 						</div>
-						<div class="sv-text position-absolute">
+						<div className="sv-text position-absolute">
 							<h3>Il futuro è ora</h3>
 							<span>Potenza Classe GeForce RTX 3080</span>
 							<div  style={{marginTop:'20px'}}>

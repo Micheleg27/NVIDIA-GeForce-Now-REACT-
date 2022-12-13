@@ -3,6 +3,7 @@ import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
 import bannerJoystick from '../Source/M.G.Src/bannerJoystick.jpeg';
 import { Title } from './Title';
+import { Link } from 'react-router-dom';
 
 function Joystick() {
 	return (
@@ -16,9 +17,9 @@ function Joystick() {
 						<Title titlecolor='title-color-white' h1title={'PORTA LA TUA ESPERIENZA DI CLOUD GAMING SU UN ALTRO LIVELLO'} h3title={'Abbiamo collaborato con i migliori produttori per offrirti una raccolta di gamepad, tastiere, mouse e router perfetti per completare la tua esperienza con GeForce NOW.'}/>
 
 						<Button type="button" buttonSize="BTN--large" buttonStyle="BTN--primary--green">
-							<a href="https://www.nvidia.com/it-it/geforce-now/games/" target="_blank">
+							<Link to="https://www.nvidia.com/it-it/geforce-now/games/">
 								Raccomandati da GeForce Now
-							</a>
+							</Link>
 						</Button>
 					</div>
 				</div>
