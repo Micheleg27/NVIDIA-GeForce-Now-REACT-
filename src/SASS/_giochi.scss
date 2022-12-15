@@ -1,236 +1,228 @@
 //CAROUSEL
 .container-text-giochi {
-  position: absolute;
-  top: 20%;
-  left: 10%;
-  z-index: 18;
-  width: 35%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	z-index: 18;
+	width: 35%;
 
-  .h3-sect-giochi {
-    font-family: "Geforce light";
-    font-size: 30px;
-    color: $white-color;
-  }
+	.h3-sect-giochi {
+		font-family: "Geforce light";
+		font-size: 30px;
+		color: $white-color;
+	}
 
-  .span-sect-giochi {
-    font-family: "Geforce light";
-    font-size: 20px;
-    color: $white-color;
-  }
+	.span-sect-giochi {
+		font-family: "Geforce light";
+		font-size: 20px;
+		color: $white-color;
+	}
 }
-.img-sect-giochi-query{
-  display:none;
+.img-sect-giochi-query {
+	display: none;
 }
-.img-sect-giochi-query1{
-  display:none;
+.img-sect-giochi-query1 {
+	display: none;
 }
 //NUOVI GIOCHI
 .container-sect-nuovigiochi {
-  margin: auto;
-  width:80%;
-  .container-list{
-    .lista-nuovi-giochi{
-      padding-left:0;
-    }
-  }
+	margin: auto;
+	width: 80%;
+	.container-list {
+		.lista-nuovi-giochi {
+			padding-left: 0;
+		}
+	}
 }
 
 //ACCORDION
 .catalog {
-  padding: 15px;
-  margin: auto;
-  max-width: 1440px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+	padding: 15px;
+	margin: auto;
+	max-width: 1440px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 
-  .check {
-    color: white;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 60px;
-    font-size: 42px;
-    font-family: "Geforce bold";
-  }
+	.check {
+		color: white;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 60px;
+		font-size: 42px;
+		font-family: "Geforce bold";
+	}
 
-  #div-bar-games {
-    width: 100%;
-    display: flex;
+	#div-bar-games {
+		width: 100%;
+		display: flex;
 
-    #search-bar-games {
-      margin: auto;
-      width: 75%;
-      height: 50px;
-      background-color: black;
-      border: 1px solid gray;
-      font-size: 34px;
-      padding: 35px;
-      color: white;
+		#search-bar-games {
+			margin: auto;
+			width: 75%;
+			height: 50px;
+			background-color: black;
+			border: 1px solid gray;
+			font-size: 34px;
+			padding: 35px;
+			color: white;
+		}
+		.searchIcon {
+			height: 60px;
+			width: 50px;
+			display: grid;
+			place-items: center;
+			position: absolute;
+			top: 5px;
+			right: 15%;
+		}
+		input:focus {
+			outline: none;
+		}
+		.searchIcon svg {
+			font-size: 35px;
+		}
+	}
+	.dataResult {
+		width: 75%;
+		height: 200px;
+		background-color: transparent;
+		border: 1px solid gray;
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+		overflow: hidden;
+		overflow-y: auto;
+		margin: auto;
+		.dataItem {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			color: $primary-color;
+		}
+	}
+	.dataResult::-webkit-scrollbar {
+		display: none;
+	}
 
-    }
-    .searchIcon {
-      height: 60px;
-      width: 50px;
-      display: grid;
-      place-items: center;
-    }
-    
-    input:focus {
-      outline: none;
-    }
-    .searchIcon svg {
-      font-size: 35px;
-    }
-  }
-  .dataResult {
-    width: 73%;
-    height: 200px;
-    background-color: transparent;
-    border: 1px solid gray;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    overflow: hidden;
-    overflow-y: auto;
-    margin:auto;
-    .dataItem {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      color: $primary-color;
-    }
-  }
-  .dataResult::-webkit-scrollbar {
-    display: none;
-  }
+	.accordion {
+		.accordion-item {
+			background-color: black;
 
-  .accordion {
-    .accordion-item {
-      background-color: black;
+			.accordion-button {
+				background-color: black;
+				box-shadow: none;
+				color: white;
+				font-size: 32px;
+				border: 1.5px solid #76b900;
+			}
 
-      .accordion-button {
-        background-color: black;
-        box-shadow: none;
-        color: white;
-        font-size: 32px;
-        border: 1.5px solid #76b900;
-      }
+			.collapsed {
+				border: 1.5px solid #333;
+				border-radius: 0px !important;
+			}
 
-      .collapsed {
-        border: 1.5px solid #333;
-        border-radius: 0px !important;
-      }
+			.accordion-collapse {
+				background-color: black;
+				color: #afafaf;
 
-      .accordion-collapse {
-        background-color: black;
-        color: #afafaf;
+				.div-accordion {
+					margin-top: 10px;
+					display: flex;
+					justify-content: space-between;
+					font-size: 20px;
 
-        .div-accordion {
-          margin-top: 10px;
-          display: flex;
-          justify-content: space-between;
-          font-size: 20px;
+					.h3-alphabetic-list {
+						color: white;
+					}
 
-          .h3-alphabetic-list {
-            color: white;
-          }
+					section {
+						padding: 0 20px;
+					}
+				}
 
-          section {
-            padding: 0 20px;
-          }
-        }
+				.div-accordion-last {
+					font-size: 20px;
+					display: flex;
+					justify-content: flex-start;
 
-        .div-accordion-last {
-          font-size: 20px;
-          display: flex;
-          justify-content: flex-start;
-
-          section {
-            padding: 0 20px;
-          }
-        }
-      }
-    }
-  }
+					section {
+						padding: 0 20px;
+					}
+				}
+			}
+		}
+	}
 }
-
-
-
 
 @media screen and (max-width: 990px) {
+	//ACCORDION
+	.catalog {
+		.accordion {
+			.accordion-item {
+				background-color: black;
 
-  //ACCORDION
-  .catalog {
-    .accordion {
-      .accordion-item {
-        background-color: black;
+				.accordion-collapse {
+					.div-accordion {
+						flex-direction: column;
+						section {
+							margin-top: 20px;
+						}
+					}
 
-        .accordion-collapse {
-          .div-accordion {
-            flex-direction: column;
-            section{
-              margin-top:20px;
-            }
-          }
+					.div-accordion-last {
+						flex-direction: column;
+					}
+				}
+			}
+		}
+	}
 
-          .div-accordion-last {
-            flex-direction: column;
-          }
-        }
-      }
-    }
-  }
+	//CAROUSEL
+	.container-text-giochi {
+		.h3-sect-giochi {
+			font-size: 25px;
+		}
 
-  //CAROUSEL
-  .container-text-giochi {
-    .h3-sect-giochi {
-      font-size: 25px;
-    }
-
-    .span-sect-giochi {
-      font-size: 16px;
-    }
-  }
+		.span-sect-giochi {
+			font-size: 16px;
+		}
+	}
 }
 
-
-
 @media screen and (max-width: 560px) {
+	//CAROUSEL
+	.container-text-giochi {
+		top: 10%;
+		line-height: 10px;
 
-  //CAROUSEL
-  .container-text-giochi {
-    top: 10%;
-    line-height: 10px;
+		.h3-sect-giochi {
+			font-size: 15px;
+		}
 
-    .h3-sect-giochi {
-      font-size: 15px;
-    }
-
-    .span-sect-giochi {
-      font-size: 10px;
-    }
-  }
-  .img-sect-giochi{
-    display:none;
-  }
-  .img-sect-giochi-query{
-    display:block;
-  }
-  .img-sect-giochi-query1{
-    display:block;
-    height: 215px;
-    object-fit: cover;
-  }
-  //NUOVI GIOCHI
-  .container-sect-nuovigiochi{
-    width:90%;
-    .container-list{
-      .lista-nuovi-giochi{
-        .li-lista-giochi{
-          font-size: 12px;
-          line-height: 20px;
-        }
-      }
-    }
-  }
-
-
+		.span-sect-giochi {
+			font-size: 10px;
+		}
+	}
+	.img-sect-giochi {
+		display: none;
+	}
+	.img-sect-giochi-query {
+		display: block;
+	}
+	.img-sect-giochi-query1 {
+		display: block;
+		height: 215px;
+		object-fit: cover;
+	}
+	//NUOVI GIOCHI
+	.container-sect-nuovigiochi {
+		width: 90%;
+		.container-list {
+			.lista-nuovi-giochi {
+				.li-lista-giochi {
+					font-size: 12px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
 }
