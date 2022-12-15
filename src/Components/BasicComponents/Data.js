@@ -1,6 +1,6 @@
-import RTX4090 from '../../Source/assets_Prodotti/RTX_4090.png'
-import telecomando from '../../Source/assets_Prodotti/TelecomandoNvidia.png'
-import quadro from '../../Source/assets_Prodotti/Quadro.png'
+import RTX4090 from '../../Source/assets_Prodotti/RTX_4090.png';
+import telecomando from '../../Source/assets_Prodotti/TelecomandoNvidia.png';
+import quadro from '../../Source/assets_Prodotti/Quadro.png';
 // Footer Nero
 
 export const INFORMAZIONI = [
@@ -195,4 +195,134 @@ export const Product = [
 		img: 'https://www.nvidia.com/content/dam/en-zz/cs/homepage/gpu-cloud-img-01.png',
 		amount: 1
 	}
+];
+
+export const games = [
+	{
+		title: 'A-Train: All Aboard! Tourism (Steam)'
+	},
+	{
+		title: 'A-Train PC Classic (Steam)'
+	},
+	{
+		title: 'ABRISS - build to destroy (Steam)'
+	},
+	{
+		title: 'Absolute Drift: Zen Edition (Epic Games Store)'
+	},
+	{
+		title: 'Absolver (Steam)'
+	},
+	{
+		title: 'Backbone (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Backbone: Prologue Bad North: Jotunn Edition (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Bakery Simulator (Steam)'
+	},
+	{
+		title: 'Banners of Ruin (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Cake Bash (Steam)'
+	},
+	{
+		title: 'Caliber (1C Company)'
+	},
+	{
+		title: 'Call of Cthulhu® (Steam)'
+	},
+	{
+		title: 'Cake Bash (Steam)'
+	},
+	{
+		title: 'Caliber (1C Company)'
+	},
+	{
+		title: 'Call of Cthulhu® (Steam)'
+	},
+	{
+		title: 'Earth 2160 (Steam)'
+	},
+	{
+		title: 'EARTH DEFENSE FORCE®: IRON RAIN™ (Steam)'
+	},
+	{
+		title: 'EARTH DEFENSE FORCE 4.1 The Shadow of New Despair (Steam)'
+	},
+	{
+		title: 'F.I.S.T.: Forged In Shadow Torch (Steam)'
+	},
+	{
+		title: 'Fade to Silence (Steam)'
+	},
+	{
+		title: 'The Falconeer (Steam)'
+	},
+	{
+		title: 'Gamedec (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Garfield Kart - Furious Racing (Steam)'
+	},
+	{
+		title: 'Hacknet (Steam)'
+	},
+	{
+		title: 'Hakuoki: Kyoto Winds (Steam)'
+	},
+	{
+		title: 'ICARUS (Steam)'
+	},
+	{
+		title: 'Immortal Life (Steam)'
+	},
+	{
+		title: 'Jurassic World Evolution™ (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Jupiter Hell (Steam)'
+	},
+	{
+		title: 'LARA CROFT AND THE TEMPLE OF OSIRIS™ (Steam)'
+	},
+	{
+		title: 'Labyrinthine Dreams (Steam)'
+	},
+	{
+		title: 'NASCAR 21: Ignition (Steam)'
+	},
+	{
+		title: 'Observation (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Paladins® (Epic Games Store, Steam)'
+	},
+	{
+		title: 'Paint the Town Red (Steam)'
+	},
+	{
+		title: 'Raft (Steam)'
+	},
+	{
+		title: 'R-Type Final 2 (Steam)'
+	},
+	{
+		title: 'Saints Row 2 (Steam)'
+	},
+	{
+		title: 'Tale of Immortal (Steam)'
+	},
+	{
+		title: 'Warface (Mail.ru Group, Steam)'
+	},
+	{
+		title: 'Zero Hour (Steam)'
+	},
+	{
+		title: 'Ziggurat 2 (Steam)'
+	},
+	
 ];

@@ -1,19 +1,28 @@
 import { Button } from './BasicComponents/Button';
 import '../SASS/button.css';
-import useShow from './BasicComponents/useShow';
 import { Link } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 function Lingua() {
-	const { show, setShow } = useShow(false);
+	const [ show, setShow ] = useState(false);
+	const saveToLocalStorage = () => {
+		setShow(false);
+		localStorage.setItem('show-lang', true);
+	};
+
+	useEffect(() => {
+		if (!localStorage.getItem('show-lang')) setShow(true);
+	}, []);
+
 	return (
 		<div>
-			{!show && (
+			{show && (
 				<div className="d-flex justify-content-center align-items-center dimensione">
 					<div className="container-country-region">
 						<div className="header-container-lingua">
 							<p>Are you looking for your local GeForce Now page ?</p>
 							<Button
-								onClick={() => setShow(!show)}
+								onClick={() => saveToLocalStorage()}
 								type="button"
 								buttonSize="BTN--medium"
 								buttonStyle="btn--primary--green"
