@@ -56,7 +56,6 @@
   #div-bar-games {
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
 
     #search-bar-games {
       margin: auto;
@@ -69,6 +68,38 @@
       color: white;
 
     }
+    .searchIcon {
+      height: 60px;
+      width: 50px;
+      display: grid;
+      place-items: center;
+    }
+    
+    input:focus {
+      outline: none;
+    }
+    .searchIcon svg {
+      font-size: 35px;
+    }
+  }
+  .dataResult {
+    width: 73%;
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    margin:auto;
+    .dataItem {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      color: $primary-color;
+    }
+  }
+  .dataResult::-webkit-scrollbar {
+    display: none;
   }
 
   .accordion {
