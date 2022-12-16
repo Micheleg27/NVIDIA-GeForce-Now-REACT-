@@ -4,8 +4,8 @@ import quadro from '../../Source/assets_Prodotti/Quadro.png';
 // Footer Nero
 
 export const INFORMAZIONI = [
-	{ id: 'Abbonamento', link: '#' },
-	{ id: 'Giochi', link: '#' },
+	{ id: 'Abbonamento', link: '/abbonamento' },
+	{ id: 'Giochi', link: '/giochi' },
 	{ id: 'Vanataggi principli della release', link: '#' },
 	{ id: "Condizioni d'uso", link: '#' }
 ];
@@ -13,16 +13,16 @@ export const INFORMAZIONI = [
 export const RISORSE = [
 	{ id: 'Forum', link: '#' },
 	{ id: 'Prodotti consigliati', link: '#' },
-	{ id: 'Guida rapida per PC/Mac', link: '#' },
-	{ id: 'Guida rapida per PC Android', link: '#' }
+	{ id: 'Guida rapida per PC/Mac', link: '/requisitidisistema/macos' },
+	{ id: 'Guida rapida per PC Android', link: '/requisitidisistema/pcwindows' }
 ];
 
 export const SUPPORTO = [
-	{ id: 'Stato del Server', link: '#' },
-	{ id: 'Scarica', link: '#' },
-	{ id: 'FAQ', link: '#' },
-	{ id: 'Requisiti di Sistema', link: '#' },
-	{ id: 'Assistenza tecnica', link: '#' }
+	{ id: 'Stato del Server', link: '/serverStatus' },
+	{ id: 'Scarica', link: '/scarica' },
+	{ id: 'FAQ', link: '/faq' },
+	{ id: 'Requisiti di Sistema', link: '/requisitiDiSistema/*' },
+	{ id: 'Assistenza tecnica', link: '/supportoTecnico' }
 ];
 
 // Footer Bianco

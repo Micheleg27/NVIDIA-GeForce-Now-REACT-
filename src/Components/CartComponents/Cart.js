@@ -1,9 +1,10 @@
 import { Button } from '../BasicComponents/Button';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import CartNav from './CartNav';
 
 const Cart = ({ cart, setCart, handleChange }) => {
-	const [ price, setPrice ] = useState(0);
+	const [price, setPrice] = useState(0);
 
 	const handleRemove = (id) => {
 		const arr = cart.filter((item) => item.id !== id);
@@ -22,35 +23,40 @@ const Cart = ({ cart, setCart, handleChange }) => {
 	});
 
 	return (
-		<article className="text-light">
-			{cart.map((item) => (
-				<div className="cart_box" key={item.id}>
-					<div className="cart_img">
-						<img src={item.img} alt="" />
-						<p>{item.title}</p>
+		<React.Fragment>
+			<CartNav />
+			<article className="text-light">
+				{cart.map((item) => (
+					<div className="cart_box" key={item.id}>
+						<div className="cart_img">
+							<img src={item.img} alt="" />
+							<p>{item.title}</p>
+						</div>
+						<div>
+							<Button onClick={() => handleChange(item, 1)}>+</Button>
+							<div className="count">{item.amount}</div>
+							<Button onClick={() => handleChange(item, -1)}>-</Button>
+						</div>
+						<div>
+							<div>{item.price}</div>
+							<Button onClick={() => handleRemove(item.id)}>Rimuovi</Button>
+						</div>
 					</div>
-					<div>
-						<Button onClick={() => handleChange(item, 1)}>+</Button>
-						<div className="count">{item.amount}</div>
-						<Button onClick={() => handleChange(item, -1)}>-</Button>
-					</div>
-					<div>
-						<div>{item.price}</div>
-						<Button onClick={() => handleRemove(item.id)}>Rimuovi</Button>
-					</div>
+				))}
+				<div className="total">
+					<span>Totale Carrello :</span>
+					<span>€ {price}</span>
 				</div>
-			))}
-			<div className="total">
-				<span>Totale Carrello :</span>
-				<span>€ {price}</span>
-			</div>
-			<div style={{ display: 'flex', justifyContent: 'space-between' }}>
-				<Button buttonSize="BTN--medium">
-					<Link to="/">Home</Link>
-				</Button>
-				<Button buttonSize="BTN--medium">checkout</Button>
-			</div>
-		</article>
+				<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+
+					<Link to="/">
+						<Button buttonSize="BTN--medium">Home</Button>
+					</Link>
+
+					<Button buttonSize="BTN--medium">checkout</Button>
+				</div>
+			</article>
+		</React.Fragment>
 	);
 };
 
