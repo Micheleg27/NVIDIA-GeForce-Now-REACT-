@@ -3,7 +3,8 @@
 
 .register-container {
 	background-color: $grey-color;
-	height: 100vh;
+	padding: 20px 0;
+	// height: 100vh;
 
 	.form-button-container {
 		width: 50%;
@@ -77,6 +78,7 @@
 
 @media all and (max-width: 991px) {
 	.register-container {
+		height: 100vh;
 		.ad-block-one {
 			flex-direction: column;
 			justify-content: center;

@@ -51,28 +51,28 @@ const ComparisonSlider = ({ topImage, bottomImage }) => {
 		[ handleResize ]
 	);
 
-	const onKeyDown = useCallback(
-		(e) => {
-			const { offsetLeft, offsetParent } = handleRef.current;
+	// const onKeyDown = useCallback(
+	// 	(e) => {
+	// 		const { offsetLeft, offsetParent } = handleRef.current;
 
-			if (e.code === 'ArrowLeft') {
-				setPositioning(offsetLeft + offsetParent.offsetLeft - 10);
-			}
+	// 		if (e.code === 'ArrowLeft') {
+	// 			setPositioning(offsetLeft + offsetParent.offsetLeft - 10);
+	// 		}
 
-			if (e.code === 'ArrowRight') {
-				setPositioning(offsetLeft + offsetParent.offsetLeft + 10);
-			}
-		},
-		[ setPositioning ]
-	);
+	// 		if (e.code === 'ArrowRight') {
+	// 			setPositioning(offsetLeft + offsetParent.offsetLeft + 10);
+	// 		}
+	// 	},
+	// 	[ setPositioning ]
+	// );
 
 	// Add keydown event on mount
-	useEffect(
-		() => {
-			window.addEventListener('keydown', onKeyDown);
-		},
-		[ onKeyDown ]
-	);
+	// useEffect(
+	// 	() => {
+	// 		window.addEventListener('keydown', onKeyDown);
+	// 	},
+	// 	[ onKeyDown ]
+	// );
 
 	useEffect(
 		() => {
@@ -88,10 +88,10 @@ const ComparisonSlider = ({ topImage, bottomImage }) => {
 				window.addEventListener('touchmove', handleResize);
 				window.removeEventListener('mouseup', handleResizeEnd);
 				window.removeEventListener('touchend', handleResizeEnd);
-				window.removeEventListener('keyup', onKeyDown);
+				// window.removeEventListener('keyup', onKeyDown);
 			};
 		},
-		[ isResizing, handleResize, handleResizeEnd, onKeyDown ]
+		[ isResizing, handleResize, handleResizeEnd ]
 	);
 
 	return (

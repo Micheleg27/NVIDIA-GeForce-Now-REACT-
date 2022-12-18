@@ -3514,7 +3514,7 @@ img {
 }
 .register-container {
   background-color: #1a1a1a;
-  height: 100vh;
+  padding: 20px 0;
 }
 .register-container .form-button-container {
   width: 50%;
@@ -3572,6 +3572,9 @@ img {
   }
 }
 @media all and (max-width: 991px) {
+  .register-container {
+    height: 100vh;
+  }
   .register-container .ad-block-one {
     flex-direction: column;
     justify-content: center;

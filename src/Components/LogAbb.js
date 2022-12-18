@@ -5,7 +5,7 @@ function Log() {
 	return (
 		<div style={{ backgroundColor: '#1a1a1a' }}>
 			<nav>
-				<div className="div-logo-server">
+				<div className="div-logo-server d-flex justify-content-center">
 					<a href="https://www.nvidia.com" target="_blank" rel="noreferrer">
 						<svg
 							id="svg-server"
@@ -32,7 +32,7 @@ function Log() {
 			</nav>
 			<nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'black' }}>
 				<div class="container-md">
-					<h1 class="navbar-brand text-light">GEFORCE NOW</h1>
+					<Link to='/' class="navbar-brand text-light">GEFORCE NOW</Link>
 				</div>
 			</nav>
 

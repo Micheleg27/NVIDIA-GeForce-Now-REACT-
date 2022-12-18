@@ -9,7 +9,7 @@ export function SearchBar() {
 
 	const getFetch = async () => {
 		const response = await axios.get(
-			`https://api.rawg.io/api/games?key=faf20c72c8ba41e1a0a31ddbca2e4de6&search=${search}`
+			`https://api.rawg.io/api/games?key=faf20c72c8ba41e1a0a31ddbca2e4de6&search=${search}&search_precise=true`
 		);
 		setFetch([ ...response.data.results ]);
 	};
